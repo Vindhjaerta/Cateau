@@ -8,6 +8,9 @@ using UnityEngine.EventSystems;
 
 public class DialogueManager : MonoBehaviour
 {
+
+    //Hej GitHUbTestKommenterarer
+
     public Text nameText;
 
     public Text dialogueText;
