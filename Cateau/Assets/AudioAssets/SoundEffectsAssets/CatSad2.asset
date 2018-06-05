@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b987967f36943f41a549970936957f4, type: 3}
+  m_Name: CatSad2
+  m_EditorClassIdentifier: 
+  soundEffectname: CatSad2
+  audioClip: {fileID: 8300000, guid: 27cf43318e7896740b0624257b6dba62, type: 3}
+  volume: 0.5
+  pitch: 1
+  randomPitch: {x: 0, y: 0}
+  time: 0
+  staticPanAudio: 0
+  staticPanAudioSlider: 0
+  randomPanAudio: 0
+  panDuration: 1
+  clipDonePlaying: 1.6745702
+  priority: 10
+  addToQueue: 1

@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2bc3f2499eaee64f8d9b58193005722, type: 3}
+  m_Name: Game State
+  m_EditorClassIdentifier: 
+  _filename:
+    useConstant: 1
+    constantValue: 
+    variable: {fileID: 0}
+    GUIpresentationIndex: 0
+  scene: BossCatDateThird
+  savepointIndex: 2
+  settings:
+    musicVolume: 0.027124774
+    sfxVolume: 0.4448463
+    ambienceVolume: 1
+    masterVolume: 1
+    resolutionIndex: 0
+    fontSizeIndex: 1
+    typingSpeedIndex: 2
+    brightness: 0
+  activePhotos: 000000000000000000
+  savableStrings: []
+  typingSpeeds:
+  - useConstant: 0
+    constantValue: 0
+    variable: {fileID: 11400000, guid: d33cf0061b4ecd648b7cd348a564ca39, type: 2}
+  - useConstant: 0
+    constantValue: 0
+    variable: {fileID: 11400000, guid: 70a0df9681ffc8c4ca79f962c2bba96c, type: 2}
+  - useConstant: 0
+    constantValue: 0
+    variable: {fileID: 11400000, guid: 44386b8d899ae2041879ba90125d4d9f, type: 2}
+  fontSizes:
+  - {fileID: 11400000, guid: ccb3bd90d60024d48a734c562ffa2fc2, type: 2}
+  - {fileID: 11400000, guid: 639f00e51f9aa0a42ab3a9092ee5d3d7, type: 2}
+  - {fileID: 11400000, guid: 80b06dff980ff0d4f8d28ff792de66b1, type: 2}
+  affinityTags:
+  - useConstant: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: 0a5ec2086e48b4d498ff42e196aee36f, type: 2}
+    GUIpresentationIndex: 2
+  - useConstant: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: a5fbb7784b7c5d241948f494f97280f1, type: 2}
+    GUIpresentationIndex: 2
+  - useConstant: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: e9523caa09b76cb43b35059c34ddb726, type: 2}
+    GUIpresentationIndex: 2
+  affinityValues:
+  - useConstant: 1
+    constantValue: 40
+    variable: {fileID: 11400000, guid: f20f665d954c9f047bd02cf7d6a9103e, type: 2}
+  - useConstant: 1
+    constantValue: 40
+    variable: {fileID: 11400000, guid: 021e80471f7d6544086168d236dc9c9f, type: 2}
+  - useConstant: 1
+    constantValue: 40
+    variable: {fileID: 11400000, guid: 90792b4f67a97e34ebf8b1ff05006f66, type: 2}
+  nameTags:
+  - useConstant: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: 24552b3d7f8f5834bb580d0b0d1d6135, type: 2}
+    GUIpresentationIndex: 2
+  - useConstant: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: 637c1f1f1ea41e84187fc2d84f7a59a9, type: 2}
+    GUIpresentationIndex: 2
+  - useConstant: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: 0a5ec2086e48b4d498ff42e196aee36f, type: 2}
+    GUIpresentationIndex: 2
+  - useConstant: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: a5fbb7784b7c5d241948f494f97280f1, type: 2}
+    GUIpresentationIndex: 2
+  - useConstant: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: e9523caa09b76cb43b35059c34ddb726, type: 2}
+    GUIpresentationIndex: 2
+  - useConstant: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: b27188af52e89084eb58a1f9ca7ba499, type: 2}
+    GUIpresentationIndex: 2
+  - useConstant: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: a060d788c3e9ef342b7ed8d920781104, type: 2}
+    GUIpresentationIndex: 2
+  - useConstant: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: 989032d42364cc340940de591d93f80b, type: 2}
+    GUIpresentationIndex: 2
+  - useConstant: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: f880d1ab4e30158489701feff02b154d, type: 2}
+    GUIpresentationIndex: 2
+  nameValues:
+  - useConstant: 1
+    constantValue: Roselle
+    variable: {fileID: 0}
+    GUIpresentationIndex: 0
+  - useConstant: 1
+    constantValue: Me
+    variable: {fileID: 0}
+    GUIpresentationIndex: 0
+  - useConstant: 1
+    constantValue: Belle
+    variable: {fileID: 0}
+    GUIpresentationIndex: 0
+  - useConstant: 1
+    constantValue: Chub
+    variable: {fileID: 0}
+    GUIpresentationIndex: 0
+  - useConstant: 1
+    constantValue: Donny
+    variable: {fileID: 0}
+    GUIpresentationIndex: 0
+  - useConstant: 1
+    constantValue: Word
+    variable: {fileID: 0}
+    GUIpresentationIndex: 0
+  - useConstant: 1
+    constantValue: Arborist
+    variable: {fileID: 0}
+    GUIpresentationIndex: 0
+  - useConstant: 1
+    constantValue: Owner
+    variable: {fileID: 0}
+    GUIpresentationIndex: 0
+  - useConstant: 1
+    constantValue: Arnaud
+    variable: {fileID: 0}
+    GUIpresentationIndex: 0
+  turnPage: 0
+  imAButton: 0
+  useSavepointContinuePath: 0
+  inMenu: 0
+  autoTurnPage: 0

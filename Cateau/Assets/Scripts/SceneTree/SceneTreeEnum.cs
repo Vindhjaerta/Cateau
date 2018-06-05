@@ -1,0 +1,1 @@
+﻿public enum ESceneTreeType { None = 0, SubScene, Conversation, ConversationWithEffects, Buttons, InputField, CatState, FadeEffect }

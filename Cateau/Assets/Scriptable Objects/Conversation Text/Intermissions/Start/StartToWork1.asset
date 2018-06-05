@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: StartToWork1
+  m_EditorClassIdentifier: Assembly-CSharp::ExtendedStringVariable
+  value: "While it may be true that Paris as an entity is probably the single largest
+    clich\xE9 that the\r European continent has to offer, that doesn't make it any
+    less of a wonderful place to live and\r work in. I can't say that I for one would
+    trade it for any other place. The buildings, the water,\r the trees... A sunset
+    by the Seine is always a sight to behold."

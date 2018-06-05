@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b987967f36943f41a549970936957f4, type: 3}
+  m_Name: FadeOut
+  m_EditorClassIdentifier: 
+  soundEffectname: Fade out
+  audioClip: {fileID: 8300000, guid: 98354f3e86440fe408c0f983467f63a9, type: 3}
+  volume: 1
+  pitch: 1
+  randomPitch: {x: 0, y: 0}
+  time: 0
+  staticPanAudio: 0
+  staticPanAudioSlider: 0
+  randomPanAudio: 0
+  panDuration: 1
+  clipDonePlaying: 0
+  priority: 10
+  addToQueue: 1

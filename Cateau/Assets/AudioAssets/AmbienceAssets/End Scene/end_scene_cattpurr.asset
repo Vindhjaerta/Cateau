@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb0ad3b0d82ca28438b29053fc3e2299, type: 3}
+  m_Name: end_scene_cattpurr
+  m_EditorClassIdentifier: 
+  ambienceSoundname: 
+  audioClip: {fileID: 8300000, guid: 26860766cd598214a9161f7470af7023, type: 3}
+  volume: 1
+  pitch: 1.0413313
+  randomPitch: {x: 1, y: 1.2}
+  readyToPlay: 0
+  randomStartTimer: 1
+  startTimeInterval: {x: 0, y: 50}
+  playSoundRandomInterval: {x: 5, y: 10}
+  time: 2.8676364
+  staticPanAudio: 0
+  staticPanAudioSlider: 0
+  randomPanAudio: 1
+  panDuration: 2
+  clipDonePlaying: 0
+  priority: 2
+  addToQueue: 1

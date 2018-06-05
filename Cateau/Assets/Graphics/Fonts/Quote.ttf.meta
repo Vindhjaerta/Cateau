@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f2dc7eebd7925774e8af7e66d02993ef
+timeCreated: 1518533102
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Quote
+  fontNames:
+  - Quote
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
