@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchScene,ISceneTreeData,ISerializeCat {
+public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchScene,ISceneTreeData,ISerializeCat,IShake {
 
     public GameStateContainer gameStateContainer;
 
@@ -12,7 +12,14 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
 
     private static GameController _instance;
 
-    public bool buttonsClickable; 
+    public bool buttonsClickable;
+
+    private Camera camera;
+    private Vector3 cameraOrig;
+    private Vector3 subOrig;
+    private float shakeMagnitude;
+    private float shakeCounter;
+    private SubScene shakeSubScene;
 
     public static GameController Instance
     {
@@ -40,6 +47,9 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
         {
             _instance = this;
         }
+
+        camera = Camera.main;
+        cameraOrig = camera.gameObject.transform.position;
     }
 
     // Use this for initialization
@@ -199,4 +209,36 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
             LoadCat();
         }
     }
+
+    public void OnShake(float duration, float magnitude)
+    {
+        if (shakeSubScene != null)
+        {
+            shakeSubScene.transform.position = subOrig;
+        }
+        shakeMagnitude = magnitude;
+        shakeCounter += duration;
+        shakeSubScene = GetComponentInChildren<SubScene>();
+        if(shakeSubScene != null)
+        {
+            subOrig = shakeSubScene.transform.position;
+        }
+    }
+
+    public void Update()
+    {
+        if(shakeCounter != 0 && shakeSubScene != null)
+        {
+            shakeSubScene.transform.position = new Vector3(subOrig.x + Random.Range(-1.0f, 1.0f) * shakeMagnitude, subOrig.y + Random.Range(-1.0f, 1.0f) * shakeMagnitude, subOrig.z);
+            camera.transform.position = new Vector3(cameraOrig.x, cameraOrig.y, cameraOrig.y + 5.0f);
+            shakeCounter -= Time.deltaTime;
+            if (shakeCounter <= 0)
+            {
+                shakeCounter = 0;
+                shakeSubScene.transform.position = subOrig;
+                camera.transform.position = cameraOrig;
+            }
+        }
+    }
+
 }
