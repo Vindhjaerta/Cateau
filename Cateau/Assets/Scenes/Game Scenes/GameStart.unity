@@ -6943,7 +6943,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' the smell of baked goods in the morning '
+      constantValue: 'the smell of baked goods in the morning '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
