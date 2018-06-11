@@ -5997,7 +5997,7 @@ Prefab:
         type: 2}
       propertyPath: fadeEffect
       value: 
-      objectReference: {fileID: 11400000, guid: ffcfa9728ba66e74bbc05cdeb9c12661,
+      objectReference: {fileID: 11400000, guid: 029125018d0f8aa47bdfa9b79c744048,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7339e77a19f0c9e45a6c63c6177ea893, type: 2}
@@ -6915,60 +6915,44 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: "While it may be true that Paris as an entity is probably the
-        single largest clich\xE9 that the European continent has to offer, "
+      constantValue: Paris is truly a sight to behold.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'that doesn''t make it any less of a wonderful place to live
-        and work in. '
+      constantValue: "I can\u2019t get used to it "
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: even having lived here for most of my life.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'I can''t say that I for one would trade it for any other place. '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'The buildings, '
+      constantValue: 'The Seine parting the city in two, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'the water, '
+      constantValue: ' the smell of baked goods in the morning '
       variable: {fileID: 0}
-      GUIpresentationIndex: 0
+      GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
-      constantValue: the trees
+      constantValue: and the buildings filled with history.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
-  - text:
-      useConstant: 1
-      constantValue: '... '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: b6ec581386a7ed44a8bc035d54084eed, type: 2}
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: A sunset by the Seine is always a sight to behold.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -7017,7 +7001,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: ', '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
