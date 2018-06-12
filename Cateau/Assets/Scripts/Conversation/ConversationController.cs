@@ -15,7 +15,8 @@ public class ConversationController : MonoBehaviour
     private Text _nameText;
     [SerializeField]
     private Text _dialogueText;
-
+    [SerializeField]
+    private GameObject _doneArrow;
     [SerializeField]
     private FloatReference _standardAutoPageTurnDelay;
 
@@ -27,6 +28,11 @@ public class ConversationController : MonoBehaviour
 
     public PrintText namePrint = null;
     public PrintText dialoguePrint = null;
+
+    [SerializeField]
+    private int _arrowCycleSpeed = 6;
+    private float _arrowCycleCounter;
+    private Image _arrowImage;
 
     public void InitiateDialogue(Sentence name, List<Sentence> sentences)
     {
@@ -68,6 +74,14 @@ public class ConversationController : MonoBehaviour
         if(GameStateContainer.Instance != null)
         {
             autoPageTurn = GameStateContainer.Instance.autoTurnPage;
+        }
+    }
+
+    private void Awake()
+    {
+        if(_doneArrow != null)
+        {
+            _arrowImage = _doneArrow.GetComponent<Image>();
         }
     }
 
@@ -165,6 +179,25 @@ public class ConversationController : MonoBehaviour
             {
                 EndDialogue();
             }
+            Color color;
+            if (!dialoguePrint.pageDone)
+            {
+                color = new Color(1, 1, 1, 0);
+            }
+            else
+            {
+                color = new Color(1, 1, 1, Mathf.Sin(_arrowCycleCounter));
+            }
+            _arrowImage.color = color;
+
+            _arrowCycleCounter += (Time.deltaTime * _arrowCycleSpeed);
+            if (_arrowCycleCounter > 360) _arrowCycleCounter = 0;
+
+        }
+        else
+        {
+            _arrowImage.color = new Color(1, 1, 1, 0);
+            _arrowCycleCounter = 0;
         }
     }
 
