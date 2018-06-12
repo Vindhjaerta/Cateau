@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchScene,ISceneTreeData,ISerializeCat,IShake {
+public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchScene,ISceneTreeData,ISerializeCat,IShake, IPhone {
 
     public GameStateContainer gameStateContainer;
 
@@ -20,6 +20,8 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
     private float shakeMagnitude;
     private float shakeCounter;
     private SubScene shakeSubScene;
+
+    private Phone phone;
 
     public static GameController Instance
     {
@@ -50,6 +52,12 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
 
         camera = Camera.main;
         cameraOrig = camera.gameObject.transform.position;
+
+        phone = GetComponentInChildren<Phone>();
+        if(phone != null)
+        {
+            phone.gameObject.SetActive(false);
+        }
     }
 
     // Use this for initialization
@@ -192,8 +200,18 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
                     }
 
                 }
+                break;
+            case ESceneTreeType.Phone:
+                if (phone != null)
+                {
+                    PhoneData phoneData = (PhoneData)data;
 
-
+                    if (phoneData.clearHistory)
+                    {
+                        phone.ClearMessages();
+                    }
+                    phone.gameObject.SetActive(phoneData.showOnScreen);
+                }
                 break;
         }
     }
@@ -241,4 +259,11 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
         }
     }
 
+    public void OnAddMessage(bool leftMessage)
+    {
+        if (phone != null)
+        {
+            phone.AddMessage(leftMessage);
+        }
+    }
 }

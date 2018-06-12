@@ -152,6 +152,10 @@ public class SceneTreeManager : MonoBehaviour, ISceneTreeData, IButtonData, IDia
                     _cC.InitiateDialogue(new Sentence(name, convertedData1.nameEffects), convertedData1.sentences);
                 }
                 break;
+            case ESceneTreeType.Phone:
+                ExecuteEvents.ExecuteHierarchy<ISceneTreeData>(transform.parent.gameObject, data, (handler, dataField) => handler.OnRecieveSceneTreeData((SceneTreeData)dataField));
+                data.sender.Continue(0);
+                break;
         }
     }
 

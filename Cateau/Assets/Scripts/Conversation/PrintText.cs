@@ -26,7 +26,7 @@ public class PrintText
     private string _wordBuffer;
     private bool _wrapCheck;
     private bool _newSentence;
-
+    private bool _sentenceInit;
 
     public PrintText(Text targetText, List<Sentence> sentences, bool wrapByWord, float standardPrintSpeed, bool autoPageTurn, float standardAutoPageTurnDelay, int maxLines)
     {
@@ -51,6 +51,7 @@ public class PrintText
             _targetText = targetText;
             _targetText.text = "";
             _newSentence = true;
+            _sentenceInit = true;
             _wrapCheck = true;
             _pageDone = false;
             _delayCounter = 0;
@@ -107,7 +108,7 @@ public class PrintText
 
                                 #region Initialize if new sentence
                                 //Initialize if new sentence
-                                if (_newSentence)
+                                if (_newSentence && _sentenceInit)
                                 {
                                     //float prevPrintSpeed = currentPrintSpeed;
                                     _currentPrintSpeed = _standardPrintSpeed;
@@ -117,6 +118,7 @@ public class PrintText
                                         {
                                             _originalSentences[0].effects[i].Initialize(this, _originalSentences[0], _targetText);
                                         }
+                                        _sentenceInit = false;
                                     }
                                 }
                                 #endregion
@@ -303,6 +305,7 @@ public class PrintText
                                         }
                                         _originalSentences.RemoveAt(0);
                                         _newSentence = true;
+                                        _sentenceInit = true;
                                     }
                                     else
                                     {
