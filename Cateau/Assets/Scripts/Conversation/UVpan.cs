@@ -12,7 +12,7 @@ public class UVpan : MonoBehaviour {
 
     // works with most materials. The actual material must be selected in the Inspector.
     public Material texture;
-    public UnityEngine.UI.Image image;
+    public UnityEngine.UI.RawImage image;
 
     // on-off switch
     [SerializeField]

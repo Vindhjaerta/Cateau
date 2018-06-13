@@ -157,8 +157,8 @@ GameObject:
   m_Component:
   - component: {fileID: 224626129178384148}
   - component: {fileID: 222162791323414906}
-  - component: {fileID: 114264961058309164}
   - component: {fileID: 114483115010550530}
+  - component: {fileID: 114406541481739142}
   m_Layer: 5
   m_Name: Scroll
   m_TagString: Untagged
@@ -218,33 +218,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114264961058309164
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1829809898686878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: e70b6aea502f13341bcdea5bdef4c78d, type: 2}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 63142f9a99feb084c83c44b50884e17a, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
 --- !u!114 &114380725322350342
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -272,6 +245,32 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114406541481739142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1829809898686878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: e70b6aea502f13341bcdea5bdef4c78d, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Texture: {fileID: 2800000, guid: c8b0bdcdf927d3c43bfe9afb3ac8ee59, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 3
+    height: 3
 --- !u!114 &114483115010550530
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -283,10 +282,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6cc8f91f1a4e14d8bb6e98eb5cf781, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalScrollSpeed: 0.01
-  verticalScrollSpeed: 0.01
+  horizontalScrollSpeed: 0.02
+  verticalScrollSpeed: 0.02
   texture: {fileID: 2100000, guid: e70b6aea502f13341bcdea5bdef4c78d, type: 2}
-  image: {fileID: 114264961058309164}
+  image: {fileID: 114406541481739142}
   scroll: 1
 --- !u!114 &114711247562673614
 MonoBehaviour:
