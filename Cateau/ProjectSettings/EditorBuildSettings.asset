@@ -53,3 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestEndScene.unity
     guid: ef7cf76bc5f32b34892f25b3a71a1fec
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/TransitionHomeFirst.unity
+    guid: 470fa3f095ddd6147884cb9528322117
+  m_configObjects: {}
