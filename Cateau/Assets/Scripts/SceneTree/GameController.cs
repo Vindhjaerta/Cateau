@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchScene,ISceneTreeData,ISerializeCat,IShake, IPhone {
+public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchScene,ISceneTreeData,ISerializeCat,IShake, IPhone, IEmoji {
 
     public GameStateContainer gameStateContainer;
 
@@ -22,6 +22,7 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
     private SubScene shakeSubScene;
 
     private Phone phone;
+    private EmojiController emoji;
 
     public static GameController Instance
     {
@@ -58,6 +59,8 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
         {
             phone.gameObject.SetActive(false);
         }
+
+        emoji = GetComponentInChildren<EmojiController>();
     }
 
     // Use this for initialization
@@ -213,6 +216,14 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
                     phone.gameObject.SetActive(phoneData.showOnScreen);
                 }
                 break;
+            case ESceneTreeType.Emoji:
+                if(emoji != null)
+                {
+                    EmojiSceneTreeData emojiData = (EmojiSceneTreeData)data;
+
+                    emoji.Spawn(emojiData.emojiType);
+                }
+                break;
         }
     }
 
@@ -264,6 +275,14 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
         if (phone != null)
         {
             phone.AddMessage(leftMessage);
+        }
+    }
+
+    public void OnEmoji(EmojiType emojiType)
+    {
+        if (emoji != null)
+        {
+            emoji.Spawn(emojiType);
         }
     }
 }

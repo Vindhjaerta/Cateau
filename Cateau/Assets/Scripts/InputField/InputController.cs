@@ -65,11 +65,7 @@ public class InputController : MonoBehaviour {
                 string temp = inputObject.text;
                 inputObject.text = "";
                 ExecuteEvents.ExecuteHierarchy<IInputField>(gameObject, null, (handler, data) => handler.OnInputReturn(temp));
-                gameObject.SetActive(false);
-            }
-            else
-            {
-
+                //gameObject.SetActive(false);
             }
         }
         else

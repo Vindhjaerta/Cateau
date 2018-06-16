@@ -4,15 +4,15 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public interface IPhone : IEventSystemHandler
+public interface IEmoji : IEventSystemHandler
 {
-    void OnAddMessage(bool leftMessage);
+    void OnEmoji(EmojiType emojiType);
 }
 
-[CreateAssetMenu(fileName = "PhoneMessage", menuName = "Conversation effects/Phone Message")]
-public class CE_AddPhoneMessage : ConversationEffect
+[CreateAssetMenu(fileName = "Emoji", menuName = "Conversation effects/Emoji")]
+public class CE_Emoji : ConversationEffect
 {
-    public bool userMessage;
+    public EmojiType emojiType;
 
     public override string AlterText(string source)
     {
@@ -36,7 +36,7 @@ public class CE_AddPhoneMessage : ConversationEffect
 
     public override void Initialize(PrintText controller, Sentence source, Text textRef)
     {
-        ExecuteEvents.Execute<IPhone>(GameController.Instance.gameObject, null, (handler, data) => handler.OnAddMessage(!userMessage));
+        ExecuteEvents.Execute<IEmoji>(GameController.Instance.gameObject, null, (handler, data) => handler.OnEmoji(emojiType));
     }
 
     public override void Tick(PrintText controller, Sentence source, Text textRef, float deltatime)
