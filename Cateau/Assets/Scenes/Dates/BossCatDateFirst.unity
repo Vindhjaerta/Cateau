@@ -924,7 +924,7 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -1001,7 +1001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 1190520931}
+  _nextNode: {fileID: 651973258}
   characterNameTag:
     useConstant: 1
     constantValue: 
@@ -4759,7 +4759,7 @@ Prefab:
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -4824,7 +4824,12 @@ Prefab:
         type: 2}
       propertyPath: buttons.Array.data[0].conversationButton.nextNode
       value: 
-      objectReference: {fileID: 651973258}
+      objectReference: {fileID: 245071375}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: _nextNode
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb00d4ec190c2824a91a2e921bc9b3a5, type: 2}
   m_IsPrefabParent: 0
@@ -7192,7 +7197,7 @@ Prefab:
         type: 2}
       propertyPath: _nextNode
       value: 
-      objectReference: {fileID: 245071375}
+      objectReference: {fileID: 1190520931}
     - target: {fileID: 114136244878479132, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
       propertyPath: fadeEffect

@@ -7156,7 +7156,8 @@ MonoBehaviour:
       constantValue: Hey!
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: d61ce9d5dda70d24baa0c790f3043692, type: 2}
 --- !u!1 &1315920402
 GameObject:
   m_ObjectHideFlags: 0
@@ -10539,7 +10540,7 @@ Prefab:
     - target: {fileID: 114389078271331112, guid: bb94bcb0c9ec5c543998eb9dc99d26fc,
         type: 2}
       propertyPath: targetScene
-      value: FatCatDateThird
+      value: TransitionHomeSecond
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bb94bcb0c9ec5c543998eb9dc99d26fc, type: 2}
