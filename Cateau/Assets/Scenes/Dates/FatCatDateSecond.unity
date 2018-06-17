@@ -12216,7 +12216,24 @@ MonoBehaviour:
   containerName: Warning
   _soundEffects:
   - {fileID: 11400000, guid: 912764ad528e2f447ac6da5c7ca60878, type: 2}
---- !u!1001 &1531841186
+--- !u!114 &1531841187 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114711247562673614, guid: 1c66da8f6b17be2438e98e0e81f952f7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1535725648}
+  m_Script: {fileID: 11500000, guid: aecad8c5eac35e64f953f18add976ad1, type: 3}
+--- !u!224 &1531841188 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224528732470064658, guid: 1c66da8f6b17be2438e98e0e81f952f7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1535725648}
+--- !u!114 &1531841189 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114893430450541786, guid: 1c66da8f6b17be2438e98e0e81f952f7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1535725648}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!1001 &1535725648
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -12316,23 +12333,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1c66da8f6b17be2438e98e0e81f952f7, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &1531841187 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114711247562673614, guid: 1c66da8f6b17be2438e98e0e81f952f7,
-    type: 2}
-  m_PrefabInternal: {fileID: 1531841186}
-  m_Script: {fileID: 11500000, guid: aecad8c5eac35e64f953f18add976ad1, type: 3}
---- !u!224 &1531841188 stripped
-RectTransform:
-  m_PrefabParentObject: {fileID: 224528732470064658, guid: 1c66da8f6b17be2438e98e0e81f952f7,
-    type: 2}
-  m_PrefabInternal: {fileID: 1531841186}
---- !u!114 &1531841189 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114893430450541786, guid: 1c66da8f6b17be2438e98e0e81f952f7,
-    type: 2}
-  m_PrefabInternal: {fileID: 1531841186}
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &1548650037
 Prefab:
   m_ObjectHideFlags: 0

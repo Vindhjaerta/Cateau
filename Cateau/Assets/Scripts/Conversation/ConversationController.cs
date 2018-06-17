@@ -34,6 +34,10 @@ public class ConversationController : MonoBehaviour
     private float _arrowCycleCounter;
     private Image _arrowImage;
 
+    [SerializeField]
+    private GameObject arrowObj;
+    private Vector2 arrowSize;
+
     public void InitiateDialogue(Sentence name, List<Sentence> sentences)
     {
         if (_nameText != null && _dialogueText != null && GameStateContainer.Instance.typingSpeeds != null && GameStateContainer.Instance != null)
@@ -82,6 +86,10 @@ public class ConversationController : MonoBehaviour
         if(_doneArrow != null)
         {
             _arrowImage = _doneArrow.GetComponent<Image>();
+        }
+        if(arrowObj != null)
+        {
+            arrowSize = arrowObj.GetComponent<RectTransform>().rect.size;
         }
     }
 
@@ -193,12 +201,19 @@ public class ConversationController : MonoBehaviour
             _arrowCycleCounter += (Time.deltaTime * _arrowCycleSpeed);
             if (_arrowCycleCounter > 360) _arrowCycleCounter = 0;
 
+            if (arrowObj != null)
+            {
+                Vector3 vec = dialoguePrint.GetLastPosition();
+                arrowObj.transform.localPosition = new Vector3( vec.x + arrowSize.x, vec.y + (arrowSize.y / 2), arrowObj.transform.localPosition.z);
+            }
+
         }
         else
         {
             _arrowImage.color = new Color(1, 1, 1, 0);
             _arrowCycleCounter = 0;
         }
+
     }
 
     void FixedUpdate()

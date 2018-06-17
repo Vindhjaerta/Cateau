@@ -39,6 +39,8 @@ public class DialogueManager : MonoBehaviour
     private Timer _nextSentenceTimer;
     private int _lastWordIndex = 0;
 
+    public GameObject lastPos;
+
     public void Awake()
     {
         if (dialogueBox != null)
@@ -121,7 +123,7 @@ public class DialogueManager : MonoBehaviour
                                 }
                             }
                             dialogueText.text = newString;
-                            if (UITextOverflowCheck.IsOverflow(dialogueText))
+                            if (UITextOverflow.IsOverflow(dialogueText))
                             {
                                 dialogueText.text = lastString;
 

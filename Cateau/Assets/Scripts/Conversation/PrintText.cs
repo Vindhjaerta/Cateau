@@ -166,7 +166,7 @@ public class PrintText
                                                     _wrapTestBuffer = _originalSentences[i].ApplyEffects(_originalSentences[i].text.Substring(0, j + 1));
 
                                                     //check overflow
-                                                    if (UITextOverflowCheck.IsOverflow(_targetText))
+                                                    if (UITextOverflow.IsOverflow(_targetText))
                                                     {
                                                         _wrapCheck = false;
                                                         wrapCheckResult = false;
@@ -175,7 +175,7 @@ public class PrintText
 
                                                     //the text fits, now test for newline
                                                     _targetText.text = wrapTestBufferFront + wrapTestBufferBack;
-                                                    float testheight = UITextOverflowCheck.GetHeight(_targetText);
+                                                    float testheight = UITextOverflow.GetHeight(_targetText);
 
                                                     _targetText.text += _wrapTestBuffer;
                                                     newLineBufferCheckCounter++;
@@ -192,7 +192,7 @@ public class PrintText
                                                         }
                                                     }
 
-                                                    if (UITextOverflowCheck.GetHeight(_targetText) > testheight)
+                                                    if (UITextOverflow.GetHeight(_targetText) > testheight)
                                                     {
                                                         if (newLineBufferCheckCounter > 1)
                                                         {
@@ -230,12 +230,12 @@ public class PrintText
                                         }
 
                                         //Save height for future newLine check
-                                        float testheight = UITextOverflowCheck.GetHeight(_targetText);
+                                        float testheight = UITextOverflow.GetHeight(_targetText);
 
                                         _targetText.text += _wrapTestBuffer;
 
                                         //check overflow
-                                        if (UITextOverflowCheck.IsOverflow(_targetText))
+                                        if (UITextOverflow.IsOverflow(_targetText))
                                         {
                                             if (_autoPageTurn) _delayCounter = _standardAutoPageTurnDelay;
                                             _pageDone = true;
@@ -258,7 +258,7 @@ public class PrintText
                                             }
                                         }
 
-                                        if (UITextOverflowCheck.GetHeight(_targetText) > testheight)
+                                        if (UITextOverflow.GetHeight(_targetText) > testheight)
                                         {
                                             newLineResult = true;
                                         }
@@ -528,6 +528,15 @@ public class PrintText
         // Add functionality for sentence breaks, i.e "!?.:" and so on.
         if (letter == ' ') return true;
         return false;
+    }
+
+    public Vector2 GetLastPosition()
+    {
+        if(_targetText != null)
+        {
+            return UITextOverflow.GetLastPosition(_targetText);
+        }
+        return Vector2.zero;
     }
 
 }
