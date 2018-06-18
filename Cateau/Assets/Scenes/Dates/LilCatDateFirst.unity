@@ -214,7 +214,7 @@ Prefab:
         type: 2}
       propertyPath: _nextNode
       value: 
-      objectReference: {fileID: 1055024504}
+      objectReference: {fileID: 293569535}
     - target: {fileID: 114860806786171556, guid: 12f1e8587bc6a5d49b922be53165d295,
         type: 2}
       propertyPath: objectToTeleport
@@ -2094,6 +2094,12 @@ Transform:
   m_PrefabParentObject: {fileID: 4891938942389298, guid: 9a824969a632c4f4986aaaac8bf5e2b3,
     type: 2}
   m_PrefabInternal: {fileID: 241353086}
+--- !u!114 &293569535 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114136244878479132, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+    type: 2}
+  m_PrefabInternal: {fileID: 1960809840}
+  m_Script: {fileID: 11500000, guid: 2b25854fca9f6d6439bf790e28746626, type: 3}
 --- !u!1001 &305923135
 Prefab:
   m_ObjectHideFlags: 0
@@ -6984,6 +6990,47 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224825650366260454, guid: d57b4fd83852e5e409b633a6c320aeca,
     type: 2}
   m_PrefabInternal: {fileID: 1145917168}
+--- !u!1 &1160309332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1160309334}
+  - component: {fileID: 1160309333}
+  m_Layer: 0
+  m_Name: CharacterController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1160309333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160309332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebbaeddfd7d0cd24689edb148fee0f43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animatedCharacter: []
+--- !u!4 &1160309334
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160309332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1225003661
 Prefab:
   m_ObjectHideFlags: 0
@@ -8595,7 +8642,7 @@ Transform:
   m_Children:
   - {fileID: 1913983045}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1647074299
 Prefab:

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 222845005298407704}
   - component: {fileID: 114880068710965704}
   - component: {fileID: 114498516969937190}
+  - component: {fileID: 114685497425184440}
   - component: {fileID: 95377567300655646}
   m_Layer: 0
   m_Name: FatCat
@@ -47,6 +48,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114498516969937190
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -74,6 +76,20 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114685497425184440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1330396794862986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a18d980d60824214f8512d07bf5387d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterIdentifier: {fileID: 11400000, guid: a5fbb7784b7c5d241948f494f97280f1,
+    type: 2}
+  setAnimationLayer: 0
 --- !u!114 &114880068710965704
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -85,21 +101,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6458deac0c365ea4ca258ab7fe3482ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CAT_HAPPY:
-    useConstant: 0
-    constantValue: 
-    variable: {fileID: 11400000, guid: 4bced9e1504b98145a01a977699dd85e, type: 2}
-    GUIpresentationIndex: 2
-  CAT_NEUTRAL:
-    useConstant: 0
-    constantValue: 
-    variable: {fileID: 11400000, guid: 1c61709d112894440ab2e6d23cc8e92c, type: 2}
-    GUIpresentationIndex: 2
-  CAT_SAD:
-    useConstant: 0
-    constantValue: 
-    variable: {fileID: 11400000, guid: f3fb4d8248f1dae4ab9ae4a2e2cde75f, type: 2}
-    GUIpresentationIndex: 2
   _catTagName:
     catName: 
     catTag:
@@ -111,22 +112,6 @@ MonoBehaviour:
     baseAffinity: 30
     currentAffinity: 30
   _blinkInterval: {x: 7, y: 15}
-  _sadCat:
-    reactSprite: {fileID: 21300006, guid: 3b1edec48b15ac44da68864222ba9f8e, type: 3}
-    reactAffinityThreshold: -1
-    moodSprite: {fileID: 21300006, guid: 3b1edec48b15ac44da68864222ba9f8e, type: 3}
-    moodThreshold: 10
-  _neutralCat:
-    reactSprite: {fileID: 21300010, guid: 3b1edec48b15ac44da68864222ba9f8e, type: 3}
-    reactAffinityThreshold: 0
-    moodSprite: {fileID: 21300010, guid: 3b1edec48b15ac44da68864222ba9f8e, type: 3}
-    moodThreshold: 30
-  _happyCat:
-    reactSprite: {fileID: 21300008, guid: 3b1edec48b15ac44da68864222ba9f8e, type: 3}
-    reactAffinityThreshold: 1
-    moodSprite: {fileID: 21300008, guid: 3b1edec48b15ac44da68864222ba9f8e, type: 3}
-    moodThreshold: 50
-  _reactionDuration: 2
 --- !u!222 &222845005298407704
 CanvasRenderer:
   m_ObjectHideFlags: 1

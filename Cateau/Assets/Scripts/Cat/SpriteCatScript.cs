@@ -6,17 +6,6 @@ using UnityEngine.UI;
 public class SpriteCatScript : MonoBehaviour, ICatBehaviour
 {
     [System.Serializable]
-    public class SpriteCatMoods
-    {
-        [HideInInspector]
-        public Sprite reactSprite;
-        [HideInInspector]
-        public int reactAffinityThreshold;
-        [HideInInspector]
-        public Sprite moodSprite;
-        public int moodThreshold;
-    }
-    [System.Serializable]
     public class CatTagName
     {
         public string catName = "";
@@ -30,13 +19,6 @@ public class SpriteCatScript : MonoBehaviour, ICatBehaviour
         public int currentAffinity;
     }
 
-    [SerializeField]
-    private StringReference CAT_HAPPY;
-    [SerializeField]
-    private StringReference CAT_NEUTRAL;
-    [SerializeField]
-    private StringReference CAT_SAD;
-
 
     [SerializeField]
     private CatTagName _catTagName;
@@ -48,20 +30,8 @@ public class SpriteCatScript : MonoBehaviour, ICatBehaviour
     private float _blinkTimer;
     private float blinkAtMoment = 0;
 
-    [SerializeField]
-    private SpriteCatMoods _sadCat;
-    [SerializeField]
-    private SpriteCatMoods _neutralCat;
-    [SerializeField]
-    private SpriteCatMoods _happyCat;
 
     private Animator animator;
-
-    public float _reactionDuration = 3.0f;
-
-    private float _timer;
-
-    private bool _react;
 
     private Image _image;
 
@@ -74,23 +44,6 @@ public class SpriteCatScript : MonoBehaviour, ICatBehaviour
             Debug.LogError("BlinkInterval on: " + gameObject + " doesn't have a value");
         }
         //_affinity.currentAffinity = _affinity.baseAffinity;
-        StartCatMood();
-    }
-
-    private void StartCatMood()
-    {
-        if (_affinity.currentAffinity <= _sadCat.moodThreshold)
-        {
-            //_image.sprite = _sadCat.moodSprite;
-        }
-        else if (_affinity.currentAffinity >= _happyCat.moodThreshold)
-        {
-            //_image.sprite = _happyCat.moodSprite;
-        }
-        else
-        {
-            //_image.sprite = _neutralCat.moodSprite;
-        }
     }
 
 	void Update ()
@@ -98,6 +51,8 @@ public class SpriteCatScript : MonoBehaviour, ICatBehaviour
         _blinkTimer += Time.deltaTime;
 
         animator.SetInteger("affinity", _affinity.currentAffinity);
+        #region OldReactionThings
+        /*
         if (_react)
         {
             _timer += Time.deltaTime;
@@ -123,6 +78,8 @@ public class SpriteCatScript : MonoBehaviour, ICatBehaviour
                 _affinity.currentAffinity = 0;
             }
         }
+        */
+#endregion
         if (_blinkTimer > _blinkInterval.x)
         {
             if(blinkAtMoment != 0)
@@ -144,6 +101,8 @@ public class SpriteCatScript : MonoBehaviour, ICatBehaviour
 
     public void ReceiveAffinityFromButton(ButtonData catReactionData)
     {
+        #region OldReactionThings
+        /*
         _react = true;
         if (catReactionData.react)
         {
@@ -295,12 +254,16 @@ public class SpriteCatScript : MonoBehaviour, ICatBehaviour
         {
             _timer = 0;
         }
+        */
+#endregion
         _affinity.currentAffinity += catReactionData.affinity;
     }
 
     //ReceiveAffinity and react to it
     public void ReceiveAffinity(int reactValue, int affinityValue, bool react)
     {
+        #region OldReactionThings
+        /*
         _react = true;
         if (react)
         {
@@ -333,7 +296,8 @@ public class SpriteCatScript : MonoBehaviour, ICatBehaviour
         else
         {
             _timer = 0;
-        }
+        }*/
+#endregion
         _affinity.currentAffinity = affinityValue;
     }
     public int SendAffinity()
