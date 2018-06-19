@@ -747,6 +747,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 29aa48c7f4f63d746b9c8fda027dd8bd, type: 2}
+    - {fileID: 11400000, guid: 36a1d1a94faeabf4884ecfdb1f8889b6, type: 2}
   - text:
       useConstant: 1
       constantValue: but how should I approach?
@@ -871,6 +872,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 9fda0b05ac5b29f438007549b86f8c65, type: 2}
   - text:
       useConstant: 1
       constantValue: 'rotating its entire torso with eyes blaring with disappointment '
@@ -2670,6 +2672,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 36a1d1a94faeabf4884ecfdb1f8889b6, type: 2}
   - text:
       useConstant: 1
       constantValue: before turning back to the water.
