@@ -686,18 +686,20 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
-      constantValue: "\u201CYep, "
+      constantValue: 'Yep, '
       variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: 763b1881a58186743ab01a3246d1768f, type: 2}
   - text:
       useConstant: 1
-      constantValue: "I rule this place.\u201D"
+      constantValue: I rule this place.
       variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 763b1881a58186743ab01a3246d1768f, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Which, '
@@ -747,7 +749,6 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 29aa48c7f4f63d746b9c8fda027dd8bd, type: 2}
-    - {fileID: 11400000, guid: 36a1d1a94faeabf4884ecfdb1f8889b6, type: 2}
   - text:
       useConstant: 1
       constantValue: but how should I approach?
@@ -1212,6 +1213,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: d488b2d14f695964685115020b826993, type: 2}
   - text:
       useConstant: 1
       constantValue: 'I could easily just take a picture of the cat''s back and call
@@ -1991,6 +1993,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 02242dfaf24966c468f4f928a7242fbe, type: 2}
   - text:
       useConstant: 1
       constantValue: "it\u2019s basking in the sun with closed eyes, "
@@ -2660,11 +2663,12 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
-      constantValue: "\u201CAre you quite finished?\u201D."
+      constantValue: Are you quite finished?.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 763b1881a58186743ab01a3246d1768f, type: 2}
   - text:
       useConstant: 1
       constantValue: 'The cat maintains eye contact for several seconds, '
@@ -2672,7 +2676,6 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
-    - {fileID: 11400000, guid: 36a1d1a94faeabf4884ecfdb1f8889b6, type: 2}
   - text:
       useConstant: 1
       constantValue: before turning back to the water.
@@ -2680,6 +2683,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 36a1d1a94faeabf4884ecfdb1f8889b6, type: 2}
   - text:
       useConstant: 1
       constantValue: I exhale a sigh of relief.
@@ -3106,6 +3110,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 5a9f418d40f29b54ba23363c7bf9436a, type: 2}
   - text:
       useConstant: 1
       constantValue: "and I feel like I\u2019m making a fool of myself as the cat
@@ -4460,7 +4465,6 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
-    - {fileID: 11400000, guid: d488b2d14f695964685115020b826993, type: 2}
   - text:
       useConstant: 1
       constantValue: 'how lucky am I to have a view like this going to work? '
