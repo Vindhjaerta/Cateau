@@ -651,7 +651,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
-      constantValue: maybe a picture of my own would remind her of it?
+      constantValue: maybe a picture of my own would remind her of the good old days?
       variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
       GUIpresentationIndex: 1
     effects:
@@ -2627,6 +2627,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: dc2c6b13245a5524884936e8af70fb0d, type: 2}
   - text:
       useConstant: 1
       constantValue: eyes glaring at me with annoyance.
@@ -4456,6 +4457,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: d488b2d14f695964685115020b826993, type: 2}
   - text:
       useConstant: 1
       constantValue: 'how lucky am I to have a view like this going to work? '
