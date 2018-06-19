@@ -14,4 +14,4 @@ MonoBehaviour:
   characterIdentifier: {fileID: 11400000, guid: e9523caa09b76cb43b35059c34ddb726,
     type: 2}
   characterReaction: angry
-  buppData: {fileID: 11400000, guid: d03b51fb40db238469a85fa1c5c8e5c6, type: 2}
+  buppData: {fileID: 11400000, guid: 45e34a83ecf27934db6635dd2ba17af2, type: 2}
