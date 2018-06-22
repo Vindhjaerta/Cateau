@@ -1077,6 +1077,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 58d714085db6b35438bb8a74eb4df93d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'I instead try to gently shove it away with my foot '
@@ -1938,6 +1939,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: dba929413c7b20e40aebedc0da921a22, type: 2}
   - text:
       useConstant: 1
       constantValue: "In the position I\u2019m sitting it\u2019s difficult to get
@@ -1950,7 +1952,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: and a struggle for a moment.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -1978,7 +1980,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: 'I go through them quickly '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
@@ -2008,7 +2010,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: and start off in the direction of home.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects: []
 --- !u!224 &729369110
 RectTransform:
@@ -2613,6 +2615,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 06e8e40fe5f33c34a957909e5dcacf1e, type: 2}
   - text:
       useConstant: 1
       constantValue: "letting out a meek meow before continuing circling me like the
@@ -2678,6 +2681,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 0539f14007c4a714591c42c29694d84a, type: 2}
   - text:
       useConstant: 1
       constantValue: adhering to the cat's demands before I have to tear myself away
@@ -4077,7 +4081,6 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-    - {fileID: 11400000, guid: dba929413c7b20e40aebedc0da921a22, type: 2}
   - text:
       useConstant: 1
       constantValue: I remove my hand and look at it quizzically.
@@ -4182,50 +4185,22 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'The cat looks at me again, '
+      constantValue: 'The cat jumps down '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'and after a moment or two it rises up and half steps, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'half rolls over the edge of its home down to me, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'pushing its body against my knees, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'walking to my left, '
+      constantValue: 'to stroke its body against my knees, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'then my right, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: over and over.
+      constantValue: persistently asking for more cuddles.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -5372,6 +5347,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 4c11515070b342b4ca849b3cb16fa5fb, type: 2}
   - text:
       useConstant: 1
       constantValue: turning into a ball on the blanket.
@@ -5521,7 +5497,7 @@ MonoBehaviour:
       buttonText: 
       nextNode: {fileID: 0}
     catButton:
-      buttonText: Push away
+      buttonText: Push the cat away
       catReaction: 1
       relativeReaction: 1
       catSoundReaction: 0
@@ -5882,6 +5858,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
   - text:
       useConstant: 1
       constantValue: and the cat looks at me for a second with lazy eyes.
@@ -7025,7 +7002,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-    - {fileID: 11400000, guid: 0539f14007c4a714591c42c29694d84a, type: 2}
+    - {fileID: 11400000, guid: dba929413c7b20e40aebedc0da921a22, type: 2}
   - text:
       useConstant: 1
       constantValue: 'It looks like a smile, '
