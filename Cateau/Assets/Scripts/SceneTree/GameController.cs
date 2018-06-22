@@ -270,11 +270,11 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
         }
     }
 
-    public void OnAddMessage(bool leftMessage)
+    public void OnAddMessage(Sprite sprite)
     {
         if (phone != null)
         {
-            phone.AddMessage(leftMessage);
+            phone.AddMessage(sprite);
         }
     }
 

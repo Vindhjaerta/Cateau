@@ -72,10 +72,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8be3d92d1449a6e4ebb894d6e3f2639f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rightMessage: {fileID: 1448338990386264, guid: 8b3646ba796eb1b46856d9f0854f4d08,
-    type: 2}
-  leftMessage: {fileID: 1466951968319944, guid: 91a165f6f7719ae41aa584a881158324,
-    type: 2}
+  message: {fileID: 1466951968319944, guid: 91a165f6f7719ae41aa584a881158324, type: 2}
   messagesParent: {fileID: 1029245097249776}
   maxMessages: 6
 --- !u!114 &114396587218908744
