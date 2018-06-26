@@ -9,6 +9,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8da41a0a6b174c7488916914e1a274c9, type: 3}
-  m_Name: SmsUser1
+  m_Name: SmsGetSmall
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 30d8c87619495e043992999aa988ae8c, type: 3}
+  sprite: {fileID: 21300000, guid: 39e75155768dda449a72c632a92eff52, type: 3}

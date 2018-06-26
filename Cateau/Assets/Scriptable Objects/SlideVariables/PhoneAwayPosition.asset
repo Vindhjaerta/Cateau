@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8da41a0a6b174c7488916914e1a274c9, type: 3}
-  m_Name: SmsContact4
+  m_Script: {fileID: 11500000, guid: 9eeee68a258203b4fb877beb14fe2d92, type: 3}
+  m_Name: PhoneAwayPosition
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 3670a2f2fae8caf44a4368d73ab8d727, type: 3}
+  value: {x: 670, y: -1200, z: 0}
