@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48ff45b15feca2646aa32ca619f35823, type: 3}
-  m_Name: KittenUpset
+  m_Name: KittenExcited
   m_EditorClassIdentifier: 
   characterIdentifier: {fileID: 11400000, guid: 0a5ec2086e48b4d498ff42e196aee36f,
     type: 2}
