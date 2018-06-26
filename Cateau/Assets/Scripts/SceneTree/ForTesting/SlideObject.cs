@@ -99,7 +99,10 @@ public class SlideObject : SceneTreeObject
                 if (Vector3.Distance(_objectToSlide.localPosition, transform.localPosition) < 0.1f && continueTrue == true)
                 {
                     continueTrue = false;
-                    Continue();
+                    if (waitForPictureToSlide)
+                    {
+                        Continue();
+                    }
                     _objectToSlide.localPosition = transform.localPosition;
                 }
 
