@@ -13,5 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterIdentifier: {fileID: 11400000, guid: 0a5ec2086e48b4d498ff42e196aee36f,
     type: 2}
-  characterReaction: upset
+  characterReaction: excited
   buppData: {fileID: 11400000, guid: d03b51fb40db238469a85fa1c5c8e5c6, type: 2}
