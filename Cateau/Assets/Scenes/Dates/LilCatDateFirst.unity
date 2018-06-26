@@ -3109,6 +3109,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: cfe2c4706dcaad3419d15aab672f7e10, type: 2}
   - text:
       useConstant: 1
       constantValue: 'allowing it plenty of time to notice and get used to the stick, '
@@ -4382,7 +4383,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
-    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
+    - {fileID: 11400000, guid: cfe2c4706dcaad3419d15aab672f7e10, type: 2}
   - text:
       useConstant: 1
       constantValue: but follows it with curious eyes.
@@ -4641,6 +4642,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: cfe2c4706dcaad3419d15aab672f7e10, type: 2}
   - text:
       useConstant: 1
       constantValue: 'looking directly at me, '
