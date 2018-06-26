@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9eeee68a258203b4fb877beb14fe2d92, type: 3}
   m_Name: PhoneAwayPosition
   m_EditorClassIdentifier: 
-  value: {x: 670, y: -1200, z: 0}
+  value: {x: 595, y: -1200, z: 0}
