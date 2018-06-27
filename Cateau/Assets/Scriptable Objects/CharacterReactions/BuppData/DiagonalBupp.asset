@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffec119b219c29a419fc88d1b7b36204, type: 3}
   m_Name: DiagonalBupp
   m_EditorClassIdentifier: 
-  distination: {x: -8, y: -4}
-  duration: 0.03
+  distination: {x: -16, y: -4}
+  duration: 0.05
