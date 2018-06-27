@@ -147,13 +147,13 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
-      constantValue: glass jar.
+      constantValue: glass jar
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
   - text:
       useConstant: 1
-      constantValue: ..
+      constantValue: '...'
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -161,8 +161,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: "What on Earth could a glass jar have that\u2019d be of interest
-        to a cat?"
+      constantValue: 'What on Earth could a glass jar have '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "that\u2019d be of interest to a cat?"
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -229,7 +235,8 @@ MonoBehaviour:
       constantValue: I grab a small bag of cat treats as well.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 5110cac9ee4fb2a4c841f89d1896c76f, type: 2}
 --- !u!114 &40940853 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114262288454663692, guid: 3bd026ad44c69fc4bacdc3a1b91be486,
@@ -930,6 +937,127 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224012277060099172, guid: cfc16196cdc2d4145afcb21e7f39a5f7,
     type: 2}
   m_PrefabInternal: {fileID: 159396907}
+--- !u!1001 &182962780
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1218960973}
+    m_Modifications:
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -399
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -490
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158504545229504, guid: 7339e77a19f0c9e45a6c63c6177ea893, type: 2}
+      propertyPath: m_Name
+      value: FadeOutShort
+      objectReference: {fileID: 0}
+    - target: {fileID: 114136244878479132, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: _nextNode
+      value: 
+      objectReference: {fileID: 891758906}
+    - target: {fileID: 114136244878479132, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: fadeEffect
+      value: 
+      objectReference: {fileID: 11400000, guid: 98c3ff9d47c106f4787e5ab5cc831c0b,
+        type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7339e77a19f0c9e45a6c63c6177ea893, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &182962781 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114136244878479132, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+    type: 2}
+  m_PrefabInternal: {fileID: 182962780}
+  m_Script: {fileID: 11500000, guid: 2b25854fca9f6d6439bf790e28746626, type: 3}
 --- !u!1001 &202568863
 Prefab:
   m_ObjectHideFlags: 0
@@ -1699,8 +1827,14 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: When I reach the bakery I find the cat resting in its makeshift
-        bed yet again.
+      constantValue: 'When I reach the bakery '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: I find the cat resting in its makeshift bed yet again.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -2646,6 +2780,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
+    - {fileID: 11400000, guid: 0539f14007c4a714591c42c29694d84a, type: 2}
   - text:
       useConstant: 1
       constantValue: ' meows.'
@@ -2721,12 +2856,12 @@ Prefab:
     - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1400
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -276
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
         type: 2}
@@ -2981,6 +3116,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
+    - {fileID: 11400000, guid: 0539f14007c4a714591c42c29694d84a, type: 2}
   - text:
       useConstant: 1
       constantValue: ' meows.'
@@ -3030,6 +3166,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 58d714085db6b35438bb8a74eb4df93d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'the characteristic pop drawing '
@@ -3073,6 +3210,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
   - text:
       useConstant: 1
       constantValue: ' strokes its cheek against my hand.'
@@ -3164,6 +3302,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 58d714085db6b35438bb8a74eb4df93d, type: 2}
   - text:
       useConstant: 1
       constantValue: scanning the air for more olives to devour.
@@ -3179,20 +3318,28 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 06e8e40fe5f33c34a957909e5dcacf1e, type: 2}
   - text:
       useConstant: 1
-      constantValue: "it pulls out every trick in the hustler cat\u2019s handbook, "
+      constantValue: "it pulls out every trick in the hustler cat\u2019s handbook."
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: but I have a better idea.
+      constantValue: But I have a better idea
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects: []
+  - text:
+      useConstant: 1
+      constantValue: '...'
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: b6ec581386a7ed44a8bc035d54084eed, type: 2}
   - text:
       useConstant: 1
       constantValue: 'If it enjoys these things so much, '
@@ -3226,7 +3373,8 @@ MonoBehaviour:
       constantValue: 'Now what should I attempt to teach '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
   - text:
       useConstant: 0
       constantValue: 
@@ -3447,6 +3595,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
+    - {fileID: 11400000, guid: 0539f14007c4a714591c42c29694d84a, type: 2}
   - text:
       useConstant: 1
       constantValue: ' responds with a pleased sound, '
@@ -3823,6 +3972,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
   - text:
       useConstant: 1
       constantValue: drawn-out yawn exposing a line of long teeth.
@@ -3994,13 +4144,15 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
   - text:
       useConstant: 1
-      constantValue: "\u201CAfternoon\u201D, "
+      constantValue: 'Afternoon, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 763b1881a58186743ab01a3246d1768f, type: 2}
   - text:
       useConstant: 1
       constantValue: all without moving very much at all in its cozy little nook.
@@ -4617,7 +4769,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
   - text:
       useConstant: 1
-      constantValue: sit pretty.
+      constantValue: ' sit pretty.'
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -4664,6 +4816,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 32d336d2d82d71c47bd274a384ba83c7, type: 2}
   - text:
       useConstant: 1
       constantValue: and I see the urge to jump after it surge through the cat's body.
@@ -4714,6 +4867,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 0539f14007c4a714591c42c29694d84a, type: 2}
   - text:
       useConstant: 1
       constantValue: and I grant the cat a well-earned one.
@@ -4736,20 +4890,23 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: 4c11515070b342b4ca849b3cb16fa5fb, type: 2}
   - text:
       useConstant: 1
-      constantValue: "\u201CAre you kidding me, "
+      constantValue: 'Are you kidding me, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 763b1881a58186743ab01a3246d1768f, type: 2}
   - text:
       useConstant: 1
-      constantValue: "this again?\u201D "
+      constantValue: 'this again? '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: 763b1881a58186743ab01a3246d1768f, type: 2}
   - text:
       useConstant: 1
       constantValue: look.
@@ -4786,6 +4943,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
   - text:
       useConstant: 1
       constantValue: which does seem to work.
@@ -5532,7 +5690,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: '-ish at, '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
@@ -5622,11 +5780,12 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 4c11515070b342b4ca849b3cb16fa5fb, type: 2}
   - text:
       useConstant: 1
       constantValue: 'but '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects: []
   - text:
       useConstant: 0
@@ -5660,18 +5819,19 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'but even I can tell that this is going to be a complete flop, '
+      constantValue: but even I can tell that this is going to be a complete flop.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: so to minimize the scale of said flop I transition over to regular
+      constantValue: So to minimize the scale of said flop I transition over to regular
         petting.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
 --- !u!1001 &815953469
 Prefab:
   m_ObjectHideFlags: 0
@@ -5741,6 +5901,127 @@ Transform:
   m_PrefabParentObject: {fileID: 4368569828342786, guid: ec6085ee96e232045a3f186fba37046b,
     type: 2}
   m_PrefabInternal: {fileID: 815953469}
+--- !u!1001 &837881239
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1218960973}
+    m_Modifications:
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -399
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -490
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158504545229504, guid: 7339e77a19f0c9e45a6c63c6177ea893, type: 2}
+      propertyPath: m_Name
+      value: FadeInShort
+      objectReference: {fileID: 0}
+    - target: {fileID: 114136244878479132, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: _nextNode
+      value: 
+      objectReference: {fileID: 1040181966}
+    - target: {fileID: 114136244878479132, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+        type: 2}
+      propertyPath: fadeEffect
+      value: 
+      objectReference: {fileID: 11400000, guid: 029125018d0f8aa47bdfa9b79c744048,
+        type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7339e77a19f0c9e45a6c63c6177ea893, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &837881240 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114136244878479132, guid: 7339e77a19f0c9e45a6c63c6177ea893,
+    type: 2}
+  m_PrefabInternal: {fileID: 837881239}
+  m_Script: {fileID: 11500000, guid: 2b25854fca9f6d6439bf790e28746626, type: 3}
 --- !u!114 &844232230 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114631811640348040, guid: f30360e6aa6eabc40b26395b40f01452,
@@ -6281,6 +6562,8 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
+    - {fileID: 11400000, guid: dba929413c7b20e40aebedc0da921a22, type: 2}
   - text:
       useConstant: 1
       constantValue: ' meows slyly before I say the code word '
@@ -6294,6 +6577,127 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
+--- !u!1001 &891758905
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1218960973}
+    m_Modifications:
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024397365268550, guid: 201ca8b0ececc1f47af80dc3a90594c5, type: 2}
+      propertyPath: m_Name
+      value: Bakery
+      objectReference: {fileID: 0}
+    - target: {fileID: 114055048234706240, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: _nextNode
+      value: 
+      objectReference: {fileID: 1077873773}
+    - target: {fileID: 114901793126702702, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c26edbf167eee4b43b3071211a8e2af8,
+        type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 201ca8b0ececc1f47af80dc3a90594c5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &891758906 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114055048234706240, guid: 201ca8b0ececc1f47af80dc3a90594c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 891758905}
+  m_Script: {fileID: 11500000, guid: 2c8eafc119bff8844a53cbbd95f853c1, type: 3}
 --- !u!1 &892531049
 GameObject:
   m_ObjectHideFlags: 0
@@ -7044,7 +7448,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: so I feel like the basics are there.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -7083,6 +7487,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 0539f14007c4a714591c42c29694d84a, type: 2}
   - text:
       useConstant: 1
       constantValue: 'I repeat the action and '
@@ -7115,14 +7520,14 @@ MonoBehaviour:
       useConstant: 1
       constantValue: 'catches on to the intricacies of '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
       constantValue: 'tap my hand, '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 763b1881a58186743ab01a3246d1768f, type: 2}
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
@@ -7147,16 +7552,17 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
   - text:
       useConstant: 1
-      constantValue: "whatever\u2019s worth doing is worth doing properly, "
+      constantValue: "whatever\u2019s worth doing is worth doing properly."
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: and high-fives are no exception.
+      constantValue: High-fives are no exception.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -7183,6 +7589,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
+    - {fileID: 11400000, guid: 0539f14007c4a714591c42c29694d84a, type: 2}
   - text:
       useConstant: 1
       constantValue: ' still taps it, '
@@ -7211,6 +7618,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
   - text:
       useConstant: 1
       constantValue: then removing the bounty from sight.
@@ -7247,6 +7655,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 32d336d2d82d71c47bd274a384ba83c7, type: 2}
   - text:
       useConstant: 1
       constantValue: 'We repeat this a number of times, '
@@ -7274,7 +7683,8 @@ MonoBehaviour:
       constantValue: 'I pet '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: dba929413c7b20e40aebedc0da921a22, type: 2}
   - text:
       useConstant: 0
       constantValue: 
@@ -7344,7 +7754,8 @@ MonoBehaviour:
       constantValue: "A cuddle couldn\u2019t do any harm though."
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
 --- !u!114 &1004482872 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114871536152616588, guid: f30360e6aa6eabc40b26395b40f01452,
@@ -7659,7 +8070,7 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -8207,6 +8618,126 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
+--- !u!1001 &1077873772
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1218960973}
+    m_Modifications:
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 1400
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -276
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114860806786171556, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: _nextNode
+      value: 
+      objectReference: {fileID: 837881240}
+    - target: {fileID: 114860806786171556, guid: 12f1e8587bc6a5d49b922be53165d295,
+        type: 2}
+      propertyPath: objectToTeleport
+      value: 
+      objectReference: {fileID: 892531050}
+    - target: {fileID: 1840026085391946, guid: 12f1e8587bc6a5d49b922be53165d295, type: 2}
+      propertyPath: m_Name
+      value: TeleportSceneTreeObject
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 12f1e8587bc6a5d49b922be53165d295, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &1077873773 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114860806786171556, guid: 12f1e8587bc6a5d49b922be53165d295,
+    type: 2}
+  m_PrefabInternal: {fileID: 1077873772}
+  m_Script: {fileID: 11500000, guid: cbea4b148af3d8e43ae9714a44b47823, type: 3}
 --- !u!1001 &1091948057
 Prefab:
   m_ObjectHideFlags: 0
@@ -8865,7 +9396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 1802059426}
+  _nextNode: {fileID: 182962781}
   characterNameTag:
     useConstant: 1
     constantValue: 
@@ -8891,7 +9422,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: ' than I had intended '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
@@ -8917,8 +9448,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' a last pet on the head before saying my goodbyes and escaping
-        into the bakery.'
+      constantValue: ' a last pet on the head before saying my goodbyes '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: ' and escaping into the bakery.'
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -9175,6 +9712,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
+    - {fileID: 11400000, guid: 0539f14007c4a714591c42c29694d84a, type: 2}
   - text:
       useConstant: 1
       constantValue: ' half yawns, '
@@ -9253,6 +9791,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 58d714085db6b35438bb8a74eb4df93d, type: 2}
   - text:
       useConstant: 1
       constantValue: sniffing the food.
@@ -9310,6 +9849,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
   - text:
       useConstant: 1
       constantValue: ' devours the small crustacean '
@@ -9601,6 +10141,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 58d714085db6b35438bb8a74eb4df93d, type: 2}
   - text:
       useConstant: 1
       constantValue: standing up to get a good look at what I'm doing.
@@ -12210,7 +12751,8 @@ MonoBehaviour:
       constantValue: "Even if it doesn\u2019t like them it\u2019ll hardly do any harm."
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 5110cac9ee4fb2a4c841f89d1896c76f, type: 2}
 --- !u!1 &1530542061
 GameObject:
   m_ObjectHideFlags: 0
@@ -12834,7 +13376,8 @@ MonoBehaviour:
       constantValue: I've got something for you.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
 --- !u!1001 &1594842342
 Prefab:
   m_ObjectHideFlags: 0
@@ -13473,34 +14016,39 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'Then thrice, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'a fourth, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'fifth, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: sixth time.
+      constantValue: Then thrice.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: A fourth.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: Fifth.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: And a sixth time.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Oh no, '
@@ -13578,6 +14126,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
   - text:
       useConstant: 1
       constantValue: before things escalate out of control.
@@ -13660,6 +14209,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
+    - {fileID: 11400000, guid: dba929413c7b20e40aebedc0da921a22, type: 2}
   - text:
       useConstant: 1
       constantValue: ' clearly approves, '
@@ -13710,6 +14260,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
+    - {fileID: 11400000, guid: 5110cac9ee4fb2a4c841f89d1896c76f, type: 2}
   - text:
       useConstant: 1
       constantValue: "\u2019s purrs slowly grow more quiet, "
@@ -13911,6 +14462,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
+    - {fileID: 11400000, guid: 06e8e40fe5f33c34a957909e5dcacf1e, type: 2}
   - text:
       useConstant: 1
       constantValue: ' is looking at the treat with those big, '
@@ -13936,7 +14488,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: avoiding it and repeat my code word.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -13947,6 +14499,8 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
       constantValue: ' lets out a subdued meow and I immediately reward it with a
@@ -14099,6 +14653,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
   - text:
       useConstant: 1
       constantValue: it's yours.
@@ -14346,12 +14901,12 @@ Prefab:
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -399
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -490
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
@@ -14381,7 +14936,7 @@ Prefab:
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
@@ -14463,134 +15018,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 859358452}
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
---- !u!1001 &1802059425
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1218960973}
-    m_Modifications:
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: _nextNode
-      value: 
-      objectReference: {fileID: 1040181966}
-    - target: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: _slideSpeed
-      value: 
-      objectReference: {fileID: 11400000, guid: 298ae130b6d581f49a97480610dbaa31,
-        type: 2}
-    - target: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: _endPosition
-      value: 
-      objectReference: {fileID: 11400000, guid: 20ca7f9fe6adc3746b64bd2eea78bd07,
-        type: 2}
-    - target: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
-        type: 2}
-      propertyPath: _objectToSlide
-      value: 
-      objectReference: {fileID: 892531050}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 5ada4156e59ca9445981353c27225e05, type: 2}
-  m_IsPrefabParent: 0
---- !u!114 &1802059426 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
-    type: 2}
-  m_PrefabInternal: {fileID: 1802059425}
-  m_Script: {fileID: 11500000, guid: fa70f2f0a42e742479e7ff77f5d1fc7c, type: 3}
 --- !u!1001 &1807216313
 Prefab:
   m_ObjectHideFlags: 0
@@ -14628,7 +15055,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4827402595149866, guid: bb94bcb0c9ec5c543998eb9dc99d26fc, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 114389078271331112, guid: bb94bcb0c9ec5c543998eb9dc99d26fc,
         type: 2}
@@ -14879,7 +15306,8 @@ MonoBehaviour:
       constantValue: wouldn't hurt my chances.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 5110cac9ee4fb2a4c841f89d1896c76f, type: 2}
 --- !u!1001 &1832454016
 Prefab:
   m_ObjectHideFlags: 0
@@ -15104,6 +15532,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
   - text:
       useConstant: 1
       constantValue: 'lazy sway, '
@@ -15125,6 +15554,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: dba929413c7b20e40aebedc0da921a22, type: 2}
   - text:
       useConstant: 1
       constantValue: petting its head and scratching it a little behind the ear.
