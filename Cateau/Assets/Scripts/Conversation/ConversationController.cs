@@ -65,10 +65,10 @@ public class ConversationController : MonoBehaviour
                     EndDialogue();
                 }
             }
-            else
-            {
-                EndDialogue();
-            }
+            //else
+            //{
+            //    EndDialogue();
+            //}
         }
         else Debug.LogError("Dialogue not set up properly!");
     }

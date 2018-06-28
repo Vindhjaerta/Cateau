@@ -19,6 +19,10 @@ public class SceneTreeManager : MonoBehaviour, ISceneTreeData, IButtonData, IDia
 
     public void ChosenButtonIndex(int index)
     {
+        if(_cC != null)
+        {
+            _cC.Clear();
+        }
         if (_buttonDataList.listOfButtonData[index].buttonFunction == EButtonChoice.catButton)
         {
             ExecuteEvents.ExecuteHierarchy<ICatReactionInfoReciever>(gameObject, null, (x, y) => x.RecieveReactionInfo(_buttonDataList.listOfButtonData[index]));
@@ -91,6 +95,17 @@ public class SceneTreeManager : MonoBehaviour, ISceneTreeData, IButtonData, IDia
                 _sender = data.sender;
                 _buttonDataList = (ButtonDataList)data;
 
+                //Choose-text
+                if (_cC != null)
+                {
+                    if(_buttonBox != null)
+                    {
+                        if(_buttonBox.caption != null)
+                        {
+                            _cC.InitiateDialogue(_buttonBox.caption, null);
+                        }
+                    }
+                }
 
                 for (int i = 0; i < _buttonDataList.listOfButtonData.Count; i++)
                 {

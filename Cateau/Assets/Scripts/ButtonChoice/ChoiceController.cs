@@ -26,6 +26,8 @@ public class ChoiceController : MonoBehaviour, IButtonChoiceReciever
         StartCoroutine(enumerator(nameList));
     }
 
+    public Sentence caption = new Sentence("Choose",null);
+
     IEnumerator enumerator(List<string> nameList)
     {
         yield return new WaitUntil(() =>_doneEmptying);
