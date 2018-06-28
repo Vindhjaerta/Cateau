@@ -15,7 +15,7 @@ public class CE_TextPrintSpeed : ConversationEffect {
 
     public override void Finalize(PrintText controller, Sentence source, Text textRef)
     {
-        controller.delayCounter = lettersPerSecond;
+        controller.currentSentencePrintSpeed = lettersPerSecond;
     }
 
     public override string GetPostTag()
