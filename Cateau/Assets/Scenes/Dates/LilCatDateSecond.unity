@@ -162,6 +162,8 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
+    - {fileID: 11400000, guid: fa639dc10454a5a46bad34a61f55fd45, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
       constantValue: ' struggles against my grip and meows anxiously.'
@@ -220,8 +222,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: I dare extending it from my body and have a good look at the
-        little critter.
+      constantValue: 'I dare extending it from my body '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and have a good look at the little critter.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -233,6 +241,8 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: a8a6682d7d5fad540a54aa1648d4af0a, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 0
       constantValue: 
@@ -278,6 +288,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
   - text:
       useConstant: 1
       constantValue: I stay and look at it for a moment before leaving some treats
@@ -599,7 +610,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: which I decide to be an approval.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -652,6 +663,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
+    - {fileID: 11400000, guid: 67f51728f6194da46914e8a25f37e5b6, type: 2}
   - text:
       useConstant: 1
       constantValue: ' runs away, '
@@ -1484,6 +1496,8 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
+    - {fileID: 11400000, guid: 67f51728f6194da46914e8a25f37e5b6, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
       constantValue: ' meows meekly, '
@@ -2212,6 +2226,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
+    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
   - text:
       useConstant: 1
       constantValue: ' looks up at me with big eyes, '
@@ -2247,6 +2262,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: fa639dc10454a5a46bad34a61f55fd45, type: 2}
   - text:
       useConstant: 1
       constantValue: 'however gentle, '
@@ -2361,6 +2377,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 67f51728f6194da46914e8a25f37e5b6, type: 2}
   - text:
       useConstant: 1
       constantValue: and I place it against my chest to calm it down.
@@ -2741,6 +2758,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: fa639dc10454a5a46bad34a61f55fd45, type: 2}
   - text:
       useConstant: 1
       constantValue: and find it hiding in a doorway.
@@ -2829,6 +2847,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
+    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
   - text:
       useConstant: 1
       constantValue: ' looks at them but hesitates, '
@@ -2859,12 +2878,18 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'After snacking on the nearest tree it looks curiously at my
-        hand, '
+      constantValue: 'After snacking on the nearest treat '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'it looks curiously at my hand, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
       constantValue: stretching its head out.
@@ -2919,7 +2944,8 @@ MonoBehaviour:
       constantValue: 'As '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cfe2c4706dcaad3419d15aab672f7e10, type: 2}
   - text:
       useConstant: 0
       constantValue: 
@@ -3014,6 +3040,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 67f51728f6194da46914e8a25f37e5b6, type: 2}
   - text:
       useConstant: 1
       constantValue: I quickly press it against my chest to stabilize it.
@@ -4315,7 +4342,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I crouch down and thoss a treat carefully so it lands next to
+      constantValue: I crouch down and toss a treat carefully so it lands next to
         the kitten.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
@@ -4328,6 +4355,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
   - text:
       useConstant: 1
       constantValue: "When it\u2019s convinced it wont move again "
@@ -4349,6 +4377,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: cfe2c4706dcaad3419d15aab672f7e10, type: 2}
   - text:
       useConstant: 1
       constantValue: it sniffs around the ground for more.
@@ -4363,6 +4392,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'and the projectile makes '
@@ -4412,6 +4442,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: a8a6682d7d5fad540a54aa1648d4af0a, type: 2}
   - text:
       useConstant: 0
       constantValue: 
@@ -6033,6 +6064,133 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 859358452}
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!1001 &1238757166
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1059249165}
+    m_Modifications:
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _conversationList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
+      propertyPath: m_Name
+      value: LilCatDate
+      objectReference: {fileID: 0}
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _conversationList.Array.data[0]
+      value: I'm surprised to see the kitten sit next to the tree, just like had the
+        other day. It feels a little strange to find a young cat out here all alone
+        so I would like to have a closer look at its collar if I could. The kitten
+        is sitting next to the tree trunk looking at the passersby. It looks healthy,
+        so somebody must be feeding it at least. I really hope that I'm just overthinking
+        it. From our last meeting I know I should be careful when I approach it, no
+        sudden movements or sounds that will scare it. First however, this kitten
+        needs a name according to Roselle law.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _nextNode
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1242017666
 Prefab:
   m_ObjectHideFlags: 0
@@ -7259,12 +7417,12 @@ Prefab:
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -399
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -490
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
@@ -7354,7 +7512,7 @@ Prefab:
         type: 2}
       propertyPath: _nextNode
       value: 
-      objectReference: {fileID: 2085546992}
+      objectReference: {fileID: 1755296959}
     - target: {fileID: 114136244878479132, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
       propertyPath: fadeEffect
@@ -8329,6 +8487,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 6f61e3dc1ed1f22439b4d4310535611b, type: 2}
   - text:
       useConstant: 0
       constantValue: 
@@ -8337,6 +8496,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
       constantValue: ' meows '
@@ -8405,6 +8565,65 @@ MonoBehaviour:
       constantValue: and leave.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
+    effects: []
+--- !u!1 &1755296957 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1238757166}
+--- !u!114 &1755296959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1755296957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af2ddefca2a30ae4688ba22bbeea28c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savepointIndex: 0
+  _nextNode: {fileID: 2085546992}
+  characterNameTag:
+    useConstant: 1
+    constantValue: 
+    variable: {fileID: 0}
+    GUIpresentationIndex: 0
+  nameEffects: []
+  sentences:
+  - text:
+      useConstant: 1
+      constantValue: 'I''m surprised to see the kitten sitting next to the tree, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: just like it had the other day.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: It feels a little strange to find a young cat out here all alone.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'I would like to have a closer look at its collar, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: as it might have a number or an adress on it.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
     effects: []
 --- !u!1 &1768510115
 GameObject:
@@ -8739,12 +8958,12 @@ Prefab:
     - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1400
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -160
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224130475606718058, guid: 12f1e8587bc6a5d49b922be53165d295,
         type: 2}
@@ -9006,7 +9225,7 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -9060,7 +9279,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
       propertyPath: m_Name
-      value: LilCatDate
+      value: LilCatDateSecond
       objectReference: {fileID: 0}
     - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -9115,37 +9334,16 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: 'I''m surprised to see the kitten sitting next to the tree, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: just like it had the other day.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'It feels a little strange to find a young cat out here all alone '
+      constantValue: 'The kitten is sitting next to the tree trunk '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: so I would like to have a closer look at its collar if I could.
+      constantValue: looking at the passersby.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: The kitten is sitting next to the tree trunk looking at the passersby.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -9164,13 +9362,13 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I really hope that I'm just overthinking it.
+      constantValue: I really hope that I'm just overthinking it
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
   - text:
       useConstant: 1
-      constantValue: ..
+      constantValue: '...'
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -9195,7 +9393,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: 'Having made my approach, '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
@@ -9203,7 +9401,8 @@ MonoBehaviour:
       constantValue: I speak to it softly to get its attention.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
 --- !u!1 &1930335421
 GameObject:
   m_ObjectHideFlags: 0
@@ -10055,7 +10254,8 @@ MonoBehaviour:
       constantValue: 'I''ll have to try and redeem myself as '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: fa639dc10454a5a46bad34a61f55fd45, type: 2}
   - text:
       useConstant: 0
       constantValue: 
@@ -10187,7 +10387,7 @@ Prefab:
     - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
         type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
         type: 2}
