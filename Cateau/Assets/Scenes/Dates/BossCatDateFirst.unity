@@ -1592,14 +1592,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 9fda0b05ac5b29f438007549b86f8c65, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'rotating its entire torso with eyes blaring with disappointment '
+      constantValue: 'rotating its entire torso with eyes blazing with disappointment '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: by my brazen disrespect for its personal space.
+      constantValue: at my brazen disrespect for its personal space.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []

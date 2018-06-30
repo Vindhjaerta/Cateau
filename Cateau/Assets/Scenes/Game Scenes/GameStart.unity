@@ -8795,7 +8795,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: But thank you for offering.
+      constantValue: But thank you for the offer.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
