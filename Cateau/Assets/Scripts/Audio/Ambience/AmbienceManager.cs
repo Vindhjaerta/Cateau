@@ -50,7 +50,11 @@ public class AmbienceManager : MonoBehaviour
         foreach (AmbienceSound ambienceSound in _playingAmbienceList)
         {
             ambienceSound.StopPlaying();
+            ambienceSound.Initialize();
         }
+        _playingAmbienceList = null;
+        _ambienceSoundQueue = null;
+        _ambienceContainer = null;
         Start();
     }
 

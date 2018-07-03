@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 [CreateAssetMenu(menuName = "Audio/Ambience")]
 public class AmbienceSound : ScriptableObject
 {
+    public AudioMixerGroup outputAudioMixerGroup;
     public string ambienceSoundname;
     public AudioClip audioClip;
     [Range(0f, 1.0f)]
@@ -106,6 +108,11 @@ public class AmbienceSound : ScriptableObject
         audioSource.Play();
         _ambienceManager._playingAmbienceList.Add(this);
         //Debug.Log("Ambience sound playing: " + name);
+
+        if (outputAudioMixerGroup != null)
+        {
+            _audioSource.outputAudioMixerGroup = outputAudioMixerGroup;
+        }
     }
 
     public void UpdateSound(float time)
@@ -167,6 +174,10 @@ public class AmbienceSound : ScriptableObject
 
     public void StopPlaying()
     {
+        if (outputAudioMixerGroup != null)
+        {
+            _audioSource.outputAudioMixerGroup = null;
+        }
         _audioSource.Stop();
     }
 }

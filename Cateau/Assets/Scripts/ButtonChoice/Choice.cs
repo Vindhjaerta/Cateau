@@ -19,6 +19,9 @@ using UnityEngine.EventSystems;
 
 */
 
+
+
+
 public enum ECatSoundReaction { NoReaction, RelativeReaction, FullReaction};
 public enum EButtonChoice { conversationButton, catButton, stringSaveButton };
 public enum ECatReaction { NoReaction, Negative, Neutral, Positive };
@@ -52,6 +55,8 @@ public class StringSaveButton : System.Object
 [System.Serializable]
 public class ChoiceButton : System.Object
 {
+    public EmojiType emojiType;
+    public string soundContainer;
     public EButtonChoice buttonFunction;
     public ConversationButton conversationButton;
     public CatButton catButton;
@@ -100,6 +105,8 @@ public class ButtonDataList : SceneTreeData
         this.listOfButtonData.Add(buttonData);
     }
 }
+
+
 public class Choice : SceneTreeObject
 {
 
@@ -110,6 +117,23 @@ public class Choice : SceneTreeObject
 
     public override void Continue(int nodeIndex)
     {
+        if (buttons[nodeIndex].emojiType != null)
+        {
+            ExecuteEvents.Execute<IEmoji>(GameController.Instance.gameObject, null, (handler, data) => handler.OnEmoji(buttons[nodeIndex].emojiType));
+        }
+        if (buttons[nodeIndex].soundContainer != null)
+        {
+            if (SoundEffectsManager.Instance != null)
+            {
+                SoundEffectsManager.Instance.PlaySoundFromContainer(buttons[nodeIndex].soundContainer);
+            }
+            else
+            {
+                Debug.Log("SoundeffectsManager wasn't found");
+            }
+        }
+
+
         if (buttons[nodeIndex].buttonFunction == EButtonChoice.conversationButton)
         {
             if (buttons[nodeIndex].conversationButton.nextNode != null)
