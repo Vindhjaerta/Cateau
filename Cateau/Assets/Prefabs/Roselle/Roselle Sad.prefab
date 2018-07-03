@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 222765269260385430}
   - component: {fileID: 114745666664062218}
   - component: {fileID: 114297812569149504}
+  - component: {fileID: 114671825726921828}
   - component: {fileID: 95934513904398354}
   m_Layer: 0
   m_Name: Roselle Sad
@@ -47,6 +48,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114297812569149504
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -59,6 +61,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _blinkInterval: {x: 5, y: 10}
+--- !u!114 &114671825726921828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402337845493468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a18d980d60824214f8512d07bf5387d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterIdentifier: {fileID: 11400000, guid: 24552b3d7f8f5834bb580d0b0d1d6135,
+    type: 2}
+  setAnimationLayer: 0
 --- !u!114 &114745666664062218
 MonoBehaviour:
   m_ObjectHideFlags: 1
