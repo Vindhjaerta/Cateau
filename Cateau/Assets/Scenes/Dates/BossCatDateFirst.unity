@@ -370,19 +370,23 @@ MonoBehaviour:
       constantValue: 'Yeah. '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Don''t. '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
   - text:
       useConstant: 1
       constantValue: Dumb idea.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
 --- !u!1 &74100785
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,7 +441,7 @@ MonoBehaviour:
   savepointIndex: 0
   _nextNode: {fileID: 0}
   buttons:
-  - emojiType: {fileID: 0}
+  - emojiType: {fileID: 11400000, guid: 3a305080157797445bb8fa247f6c5d04, type: 2}
     soundContainer: 
     buttonFunction: 1
     conversationButton:
@@ -454,7 +458,7 @@ MonoBehaviour:
       buttonText: 
       stringToSave: 
       nextNode: {fileID: 0}
-  - emojiType: {fileID: 0}
+  - emojiType: {fileID: 11400000, guid: 1d4ef6fa1eacd09429b5b93b736ba5a1, type: 2}
     soundContainer: 
     buttonFunction: 1
     conversationButton:
@@ -471,7 +475,7 @@ MonoBehaviour:
       buttonText: 
       stringToSave: 
       nextNode: {fileID: 0}
-  - emojiType: {fileID: 0}
+  - emojiType: {fileID: 11400000, guid: 2faff088815feb842a4c3a40e93a911c, type: 2}
     soundContainer: 
     buttonFunction: 1
     conversationButton:
@@ -992,7 +996,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: it probably did by the looks of things.
+      constantValue: 'it probably did '
+      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: by the looks of things.
       variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
       GUIpresentationIndex: 0
     effects:
@@ -1315,20 +1326,22 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
     - {fileID: 11400000, guid: e74021dbe25d00242833e1e173a9eb8e, type: 2}
   - text:
       useConstant: 1
       constantValue: 'but I bet Ro''d like it anyway. '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Once sent, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
       constantValue: it doesn't take long for her to reply.
@@ -1581,6 +1594,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: d61ce9d5dda70d24baa0c790f3043692, type: 2}
   - text:
       useConstant: 1
       constantValue: A perfect throw!
@@ -1596,6 +1610,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
     - {fileID: 11400000, guid: 9fda0b05ac5b29f438007549b86f8c65, type: 2}
+    - {fileID: 11400000, guid: f47101d8fc3019b48a419be7945864e2, type: 2}
   - text:
       useConstant: 1
       constantValue: 'rotating its entire torso with eyes blazing with disappointment '
@@ -2127,7 +2142,9 @@ MonoBehaviour:
       constantValue: Np
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
 --- !u!1 &344399172
 GameObject:
   m_ObjectHideFlags: 0
@@ -2864,7 +2881,9 @@ MonoBehaviour:
       constantValue: What did u do?
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
 --- !u!1 &512198573
 GameObject:
   m_ObjectHideFlags: 0
@@ -3796,19 +3815,32 @@ MonoBehaviour:
       constantValue: 'I think so, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
       constantValue: 'it seems that way, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
-      constantValue: as far as I can tell.
+      constantValue: as far as I can tell
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: .
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
 --- !u!1001 &813050853
 Prefab:
   m_ObjectHideFlags: 0
@@ -4198,9 +4230,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I could just get a quick picture from here and be done with it
+      constantValue: 'I could just get a quick picture from here '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and be done with it
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects: []
   - text:
       useConstant: 1
@@ -4926,10 +4965,17 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 5a9f418d40f29b54ba23363c7bf9436a, type: 2}
   - text:
       useConstant: 1
-      constantValue: "and I feel like I\u2019m making a fool of myself as the cat
-        gets up and starts to leave."
+      constantValue: "and I feel like I\u2019m making a fool of myself "
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: as the cat gets up and starts to leave.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -5765,13 +5811,16 @@ MonoBehaviour:
       constantValue: 'Pretty rough-looking cat. '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 226c05575f8227943ad62522bfcf5d74, type: 2}
   - text:
       useConstant: 1
       constantValue: A stray?
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
 --- !u!1 &992010013
 GameObject:
   m_ObjectHideFlags: 0
@@ -6540,19 +6589,25 @@ MonoBehaviour:
       constantValue: 'Clearly. '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Don''t throw stuff give it space. '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 226c05575f8227943ad62522bfcf5d74, type: 2}
   - text:
       useConstant: 1
       constantValue: Don't provoke it
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
 --- !u!1001 &1077359423
 Prefab:
   m_ObjectHideFlags: 0
@@ -6826,31 +6881,39 @@ MonoBehaviour:
       constantValue: 'Good. '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 226c05575f8227943ad62522bfcf5d74, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Bet it''s a stray. '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Be a careful, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 06455632d653c264482cac448bce4a5e, type: 2}
   - text:
       useConstant: 1
       constantValue: 'they can have a nasty temper. '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
   - text:
       useConstant: 1
       constantValue: Give it space and you should be fine.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
 --- !u!1001 &1105733582
 Prefab:
   m_ObjectHideFlags: 0
@@ -7401,7 +7464,7 @@ MonoBehaviour:
   savepointIndex: 0
   _nextNode: {fileID: 0}
   buttons:
-  - emojiType: {fileID: 0}
+  - emojiType: {fileID: 11400000, guid: 2faff088815feb842a4c3a40e93a911c, type: 2}
     soundContainer: 
     buttonFunction: 1
     conversationButton:
@@ -7418,7 +7481,7 @@ MonoBehaviour:
       buttonText: 
       stringToSave: 
       nextNode: {fileID: 0}
-  - emojiType: {fileID: 0}
+  - emojiType: {fileID: 11400000, guid: 3a305080157797445bb8fa247f6c5d04, type: 2}
     soundContainer: 
     buttonFunction: 1
     conversationButton:
@@ -8532,13 +8595,24 @@ MonoBehaviour:
       constantValue: 'I threw a rock near it to get its attention, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
-      constantValue: it didn't like it that much.
+      constantValue: it didn't like it that much
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: .
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
 --- !u!1 &1335302210
 GameObject:
   m_ObjectHideFlags: 0
@@ -9388,13 +9462,18 @@ MonoBehaviour:
       constantValue: 'Did you get a closer look at it than in the photo? '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 06455632d653c264482cac448bce4a5e, type: 2}
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
       constantValue: Could you see any wounds or such?
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 226c05575f8227943ad62522bfcf5d74, type: 2}
 --- !u!1001 &1506679698
 Prefab:
   m_ObjectHideFlags: 0
@@ -9548,7 +9627,7 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
+    - {fileID: 11400000, guid: e74021dbe25d00242833e1e173a9eb8e, type: 2}
 --- !u!1 &1510753350 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
@@ -10002,7 +10081,9 @@ MonoBehaviour:
       constantValue: Any time.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
 --- !u!1001 &1566864110
 Prefab:
   m_ObjectHideFlags: 0
@@ -10728,13 +10809,32 @@ MonoBehaviour:
       constantValue: 'I did get a better view yeah, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
-      constantValue: and it looked fine to me, just scruffy.
+      constantValue: 'and it looked fine to me, '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects: []
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: just scruffy
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: .
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
 --- !u!1001 &1670102019
 Prefab:
   m_ObjectHideFlags: 0
@@ -11440,7 +11540,7 @@ Prefab:
         type: 2}
       propertyPath: _nextNode
       value: 
-      objectReference: {fileID: 1394762760}
+      objectReference: {fileID: 1151364055}
     - target: {fileID: 114038677412337530, guid: 077ce158e16122e498e230b7658ef861,
         type: 2}
       propertyPath: nodeForLoadContinue
@@ -12951,14 +13051,25 @@ MonoBehaviour:
       useConstant: 1
       constantValue: 'That does seem like a fairly good idea, '
       variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects: []
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
-      constantValue: thanks!
+      constantValue: thanks
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: '!'
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
 --- !u!1001 &2032862518
 Prefab:
   m_ObjectHideFlags: 0
@@ -13408,25 +13519,40 @@ MonoBehaviour:
       constantValue: 'Yeah, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
       constantValue: 'you''re right. '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Thanks for the advice, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
-      constantValue: I'll be more thoughtful next time.
+      constantValue: I'll be more thoughtful next time
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: .
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
 --- !u!1001 &2104245351
 Prefab:
   m_ObjectHideFlags: 0
@@ -13563,13 +13689,23 @@ MonoBehaviour:
       constantValue: 'What should I do instead? '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
-      constantValue: I've got no idea what I'm doing.
+      constantValue: I've got no idea what I'm doing
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: .
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
 --- !u!1001 &2121661391
 Prefab:
   m_ObjectHideFlags: 0
