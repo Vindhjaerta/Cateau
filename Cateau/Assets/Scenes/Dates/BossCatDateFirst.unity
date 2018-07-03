@@ -3840,7 +3840,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
+    - {fileID: 11400000, guid: c848f833b3bdda04a8eb2667af244e3e, type: 2}
 --- !u!1001 &813050853
 Prefab:
   m_ObjectHideFlags: 0
@@ -9464,7 +9464,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
-    - {fileID: 11400000, guid: 06455632d653c264482cac448bce4a5e, type: 2}
+    - {fileID: 11400000, guid: 9cbc2467f0b3b1340b71ba15a19bba93, type: 2}
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
@@ -9627,7 +9627,7 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: e74021dbe25d00242833e1e173a9eb8e, type: 2}
+    - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
 --- !u!1 &1510753350 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
@@ -9678,6 +9678,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
       constantValue: Gotta learn from the best
@@ -10834,7 +10835,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
+    - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
 --- !u!1001 &1670102019
 Prefab:
   m_ObjectHideFlags: 0
