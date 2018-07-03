@@ -437,7 +437,9 @@ MonoBehaviour:
   savepointIndex: 0
   _nextNode: {fileID: 0}
   buttons:
-  - buttonFunction: 1
+  - emojiType: {fileID: 0}
+    soundContainer: 
+    buttonFunction: 1
     conversationButton:
       buttonText: 
       nextNode: {fileID: 0}
@@ -452,7 +454,9 @@ MonoBehaviour:
       buttonText: 
       stringToSave: 
       nextNode: {fileID: 0}
-  - buttonFunction: 1
+  - emojiType: {fileID: 0}
+    soundContainer: 
+    buttonFunction: 1
     conversationButton:
       buttonText: 
       nextNode: {fileID: 0}
@@ -467,7 +471,9 @@ MonoBehaviour:
       buttonText: 
       stringToSave: 
       nextNode: {fileID: 0}
-  - buttonFunction: 1
+  - emojiType: {fileID: 0}
+    soundContainer: 
+    buttonFunction: 1
     conversationButton:
       buttonText: 
       nextNode: {fileID: 0}
@@ -4367,13 +4373,23 @@ MonoBehaviour:
       constantValue: 'Kinda got that vibe yeah, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: I will be!
+      constantValue: I will be
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: '!'
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: c848f833b3bdda04a8eb2667af244e3e, type: 2}
 --- !u!1001 &840811616
 Prefab:
   m_ObjectHideFlags: 0
@@ -4762,31 +4778,39 @@ MonoBehaviour:
       constantValue: 'Hahaha, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 9cbc2467f0b3b1340b71ba15a19bba93, type: 2}
   - text:
       useConstant: 1
       constantValue: 'the best? '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Wouldn''t go that far, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
   - text:
       useConstant: 1
       constantValue: 'but thanks! '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
       constantValue: Did it take long to get to that point?
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 226c05575f8227943ad62522bfcf5d74, type: 2}
 --- !u!224 &859358453 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224464564955523042, guid: f30360e6aa6eabc40b26395b40f01452,
@@ -7377,7 +7401,9 @@ MonoBehaviour:
   savepointIndex: 0
   _nextNode: {fileID: 0}
   buttons:
-  - buttonFunction: 1
+  - emojiType: {fileID: 0}
+    soundContainer: 
+    buttonFunction: 1
     conversationButton:
       buttonText: 
       nextNode: {fileID: 0}
@@ -7392,7 +7418,9 @@ MonoBehaviour:
       buttonText: 
       stringToSave: 
       nextNode: {fileID: 0}
-  - buttonFunction: 1
+  - emojiType: {fileID: 0}
+    soundContainer: 
+    buttonFunction: 1
     conversationButton:
       buttonText: 
       nextNode: {fileID: 0}
@@ -8995,7 +9023,7 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 9cbc2467f0b3b1340b71ba15a19bba93, type: 2}
   - text:
       useConstant: 1
@@ -9004,6 +9032,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
   - text:
       useConstant: 1
       constantValue: Tell me!!!
@@ -9502,14 +9531,24 @@ MonoBehaviour:
       constantValue: 'Not really, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
       constantValue: it didn't seem to mind me being in the vicinity as long as it
-        could keep track of me and I did nothing hasty.
+        could keep track of me and I did nothing hasty
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: .
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
 --- !u!1 &1510753350 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
@@ -9543,26 +9582,38 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'I took a page from your book. '
+      constantValue: I took a page from your book
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: '. '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
       constantValue: Gotta learn from the best
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
       constantValue: '!'
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
+    - {fileID: 11400000, guid: c848f833b3bdda04a8eb2667af244e3e, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
 --- !u!4 &1526631166 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4928767738979478, guid: 9243acefb6144624d8777b1db702a741,
@@ -11389,7 +11440,7 @@ Prefab:
         type: 2}
       propertyPath: _nextNode
       value: 
-      objectReference: {fileID: 1151364055}
+      objectReference: {fileID: 1394762760}
     - target: {fileID: 114038677412337530, guid: 077ce158e16122e498e230b7658ef861,
         type: 2}
       propertyPath: nodeForLoadContinue
@@ -11902,19 +11953,23 @@ MonoBehaviour:
       constantValue: 'Strays are often kinda chill if you don''t bother them. '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 06455632d653c264482cac448bce4a5e, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Be careful though, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
   - text:
       useConstant: 1
       constantValue: they can be unpredictable!
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
 --- !u!1 &1913983044
 GameObject:
   m_ObjectHideFlags: 0
@@ -12406,19 +12461,23 @@ MonoBehaviour:
       constantValue: 'Almost forgot, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 06455632d653c264482cac448bce4a5e, type: 2}
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
   - text:
       useConstant: 1
       constantValue: thanks for the picture!
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
   - text:
       useConstant: 1
       constantValue: I think I'll make that my new home screen on my phone.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
 --- !u!1 &1955411638
 GameObject:
   m_ObjectHideFlags: 0
