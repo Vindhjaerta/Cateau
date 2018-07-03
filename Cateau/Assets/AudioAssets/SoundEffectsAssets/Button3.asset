@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Button3
   m_EditorClassIdentifier: 
   soundEffectname: ButtonClick3
-  audioClip: {fileID: 8300000, guid: da9592c35bada744eac7cb24b8bef339, type: 3}
+  audioClip: {fileID: 8300000, guid: b42535e1736c7a4449a0b97dbef0e5c3, type: 3}
   volume: 0.3
   pitch: 0.9274138
   randomPitch: {x: 0, y: 0}
@@ -21,6 +21,6 @@ MonoBehaviour:
   staticPanAudioSlider: 0
   randomPanAudio: 0
   panDuration: 1
-  clipDonePlaying: 0.5483661
+  clipDonePlaying: 0
   priority: 10
   addToQueue: 1

@@ -11,6 +11,6 @@ public class EmojiController : MonoBehaviour {
     {
         GameObject obj = Instantiate(spawnTemplate, transform);
         Emoji emoji = obj.GetComponent<Emoji>();
-        emoji.Initialize(type.lifeDuration, type.fadeDuration, type.speed, type.sprite);
+        emoji.Initialize(type.lifeDuration, type.fadeDuration, type.speed, type.sprite, type.soundEffectContainerName, type.idle); //Added 2018-07-03 by Jesper (Audio for Emoji, freezeDuration)
     }
 }

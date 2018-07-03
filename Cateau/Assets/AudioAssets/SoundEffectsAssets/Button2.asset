@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Button2
   m_EditorClassIdentifier: 
   soundEffectname: ButtonClick2
-  audioClip: {fileID: 8300000, guid: 2a0b97541148e9747b24d4e4ba939176, type: 3}
+  audioClip: {fileID: 8300000, guid: b42535e1736c7a4449a0b97dbef0e5c3, type: 3}
   volume: 0.3
   pitch: 0.9274138
   randomPitch: {x: 0, y: 0}

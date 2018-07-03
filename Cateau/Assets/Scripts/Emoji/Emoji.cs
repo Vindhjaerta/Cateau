@@ -12,7 +12,11 @@ public class Emoji : MonoBehaviour {
     private Image img;
     private float fadeCounter;
 
-    public void Initialize(float lifeDuration, float fadeDuration, float speed, Sprite sprite)
+
+    // Added by Jesper
+    private float idle;
+
+    public void Initialize(float lifeDuration, float fadeDuration, float speed, Sprite sprite, string soundEffect, float idle)
     {
         this.fadeDuration = fadeDuration;
         this.speed = speed;
@@ -20,11 +24,20 @@ public class Emoji : MonoBehaviour {
         img = GetComponent<Image>();
         img.sprite = sprite;
         this.fadeCounter = fadeDuration;
+
+        //Added 2018-07-03 by Jesper (Audio for Emoji)
+        this.idle = idle;
+        if (soundEffect != null && SoundEffectsManager.Instance != null)
+        {
+            SoundEffectsManager.Instance.PlaySoundFromContainer(soundEffect);
+        }
+
     }
 
     // Update is called once per frame
-    void Update () {
-		if(lifeDuration > 0)
+    void Update ()
+    {
+		if (lifeDuration > 0)
         {
             lifeDuration -= Time.deltaTime;
         }
@@ -43,6 +56,13 @@ public class Emoji : MonoBehaviour {
                 Destroy(gameObject);
             }
         }
-        transform.position = new Vector3(transform.position.x, transform.position.y + Time.deltaTime * speed, transform.position.z);
+        if (idle > 0)
+        {
+            idle -= Time.deltaTime;
+        }
+        else
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y + Time.deltaTime * speed, transform.position.z);
+        }
 	}
 }

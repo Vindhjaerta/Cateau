@@ -9,11 +9,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987967f36943f41a549970936957f4, type: 3}
-  m_Name: Button1
+  m_Name: Emoji
   m_EditorClassIdentifier: 
-  soundEffectname: ButtonClick1
-  audioClip: {fileID: 8300000, guid: da9592c35bada744eac7cb24b8bef339, type: 3}
-  volume: 0.3
+  soundEffectname: ButtonClick2
+  audioClip: {fileID: 8300000, guid: 2a55662ca68d21e419657ef722b27ba2, type: 3}
+  volume: 1
   pitch: 0.9274138
   randomPitch: {x: 0, y: 0}
   time: 0
