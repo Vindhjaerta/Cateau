@@ -11,9 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb0ad3b0d82ca28438b29053fc3e2299, type: 3}
   m_Name: amb_PLACEHOLDER_watercalm
   m_EditorClassIdentifier: 
+  outputAudioMixerGroup: {fileID: 0}
   ambienceSoundname: amb_watercalm
-  audioClip: {fileID: 8300000, guid: 148db3d791d05504c9d193e2bef60801, type: 3}
-  volume: 0.383
+  audioClip: {fileID: 8300000, guid: 48898f0e7f0961944b5fcf974dfb1e41, type: 3}
+  volume: 0.063
   pitch: 1
   randomPitch: {x: 0, y: 0}
   readyToPlay: 0
@@ -25,6 +26,6 @@ MonoBehaviour:
   staticPanAudioSlider: -0.783
   randomPanAudio: 0
   panDuration: 1
-  clipDonePlaying: 5.7800374
+  clipDonePlaying: 40.054615
   priority: 10
   addToQueue: 1

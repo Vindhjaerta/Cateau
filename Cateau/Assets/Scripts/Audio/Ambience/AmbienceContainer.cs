@@ -102,4 +102,11 @@ public class AmbienceContainer : MonoBehaviour
             }
         }
     }
+
+    private void OnDisable()
+    {
+        _sentClipLength = 0;
+        clipHasBeenChosen = false;
+        _ambienceToPlay = null;
+    }
 }
