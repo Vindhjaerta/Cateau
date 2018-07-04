@@ -1286,6 +1286,18 @@ Prefab:
       propertyPath: buttons.Array.data[1].catButton.nextNode
       value: 
       objectReference: {fileID: 1763122271}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[0].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 3a305080157797445bb8fa247f6c5d04,
+        type: 2}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[1].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 1d4ef6fa1eacd09429b5b93b736ba5a1,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb00d4ec190c2824a91a2e921bc9b3a5, type: 2}
   m_IsPrefabParent: 0
@@ -2218,6 +2230,24 @@ Prefab:
       propertyPath: buttons.Array.data[2].catButton.affinity
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[1].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 3a305080157797445bb8fa247f6c5d04,
+        type: 2}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[0].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 1d4ef6fa1eacd09429b5b93b736ba5a1,
+        type: 2}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[2].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 2faff088815feb842a4c3a40e93a911c,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb00d4ec190c2824a91a2e921bc9b3a5, type: 2}
   m_IsPrefabParent: 0
@@ -3569,6 +3599,18 @@ Prefab:
       propertyPath: buttons.Array.data[1].catButton.affinity
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[0].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 1d4ef6fa1eacd09429b5b93b736ba5a1,
+        type: 2}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[1].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 2faff088815feb842a4c3a40e93a911c,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb00d4ec190c2824a91a2e921bc9b3a5, type: 2}
   m_IsPrefabParent: 0
@@ -9452,6 +9494,18 @@ Prefab:
       propertyPath: buttons.Array.data[0].catButton.nextNode
       value: 
       objectReference: {fileID: 1177099785}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[0].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 3a305080157797445bb8fa247f6c5d04,
+        type: 2}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[1].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 1d4ef6fa1eacd09429b5b93b736ba5a1,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb00d4ec190c2824a91a2e921bc9b3a5, type: 2}
   m_IsPrefabParent: 0
@@ -9780,6 +9834,24 @@ Prefab:
       propertyPath: buttons.Array.data[1].catButton.catSoundReaction
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[0].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 1d4ef6fa1eacd09429b5b93b736ba5a1,
+        type: 2}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[1].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 1d4ef6fa1eacd09429b5b93b736ba5a1,
+        type: 2}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[2].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 2faff088815feb842a4c3a40e93a911c,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb00d4ec190c2824a91a2e921bc9b3a5, type: 2}
   m_IsPrefabParent: 0
@@ -10216,6 +10288,29 @@ Prefab:
         type: 2}
       propertyPath: buttons.Array.data[2].catButton.affinity
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[0].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 2faff088815feb842a4c3a40e93a911c,
+        type: 2}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[2].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 3a305080157797445bb8fa247f6c5d04,
+        type: 2}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[1].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 1d4ef6fa1eacd09429b5b93b736ba5a1,
+        type: 2}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[0].catButton.affinity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb00d4ec190c2824a91a2e921bc9b3a5, type: 2}

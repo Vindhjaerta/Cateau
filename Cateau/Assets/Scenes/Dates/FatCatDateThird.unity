@@ -4227,6 +4227,24 @@ Prefab:
       propertyPath: buttons.Array.data[2].catButton.nextNode
       value: 
       objectReference: {fileID: 174128890}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[0].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 2d6031e4baf8c9744a7f2867a6765c36,
+        type: 2}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[1].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 757985ae8550d5f43b802fbc52fb418a,
+        type: 2}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[2].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 4fed410f11ad2344cb269391c0695089,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb00d4ec190c2824a91a2e921bc9b3a5, type: 2}
   m_IsPrefabParent: 0
@@ -10876,6 +10894,24 @@ Prefab:
       propertyPath: buttons.Array.data[2].catButton.nextNode
       value: 
       objectReference: {fileID: 1080937803}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[0].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 4fed410f11ad2344cb269391c0695089,
+        type: 2}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[1].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 757985ae8550d5f43b802fbc52fb418a,
+        type: 2}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[2].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 2d6031e4baf8c9744a7f2867a6765c36,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb00d4ec190c2824a91a2e921bc9b3a5, type: 2}
   m_IsPrefabParent: 0
@@ -13042,6 +13078,18 @@ Prefab:
       propertyPath: buttons.Array.data[0].catButton.nextNode
       value: 
       objectReference: {fileID: 1179198601}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[0].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 4fed410f11ad2344cb269391c0695089,
+        type: 2}
+    - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
+        type: 2}
+      propertyPath: buttons.Array.data[1].emojiType
+      value: 
+      objectReference: {fileID: 11400000, guid: 757985ae8550d5f43b802fbc52fb418a,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb00d4ec190c2824a91a2e921bc9b3a5, type: 2}
   m_IsPrefabParent: 0
