@@ -5710,7 +5710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   savepointIndex: 0
   _nextNode: {fileID: 0}
-  targetScene: LilCatDateFirst
+  targetScene: TransitionHome
 --- !u!4 &994096907
 Transform:
   m_ObjectHideFlags: 0

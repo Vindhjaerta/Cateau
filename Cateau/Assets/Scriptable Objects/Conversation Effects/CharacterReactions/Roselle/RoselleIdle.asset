@@ -14,4 +14,4 @@ MonoBehaviour:
   characterIdentifier: {fileID: 11400000, guid: 24552b3d7f8f5834bb580d0b0d1d6135,
     type: 2}
   characterReaction: idle
-  buppData: {fileID: 11400000, guid: d03b51fb40db238469a85fa1c5c8e5c6, type: 2}
+  buppData: {fileID: 11400000, guid: 0c664173a2fd5e74fb7f70df51a5da41, type: 2}
