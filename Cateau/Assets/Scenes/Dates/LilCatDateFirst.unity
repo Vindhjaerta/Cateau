@@ -486,7 +486,7 @@ Prefab:
         type: 2}
       propertyPath: _nextNode
       value: 
-      objectReference: {fileID: 1518320424}
+      objectReference: {fileID: 1667116891}
     - target: {fileID: 114038677412337530, guid: 077ce158e16122e498e230b7658ef861,
         type: 2}
       propertyPath: nodeForLoadContinue
@@ -3779,7 +3779,7 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -5442,7 +5442,15 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: if I do
+      constantValue: 'if I do. '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "I\u2019ll be home soon"
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -5454,6 +5462,39 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'Oh, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "and I\u2019ll be off a bit earlier than usual tomorrow, "
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "I\u2019ve got some errands to run before work"
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: .
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
 --- !u!1001 &483564593
 Prefab:
@@ -5639,7 +5680,7 @@ Prefab:
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
@@ -9906,9 +9947,17 @@ MonoBehaviour:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
-      constantValue: "but I won\u2019t be staying up all night"
+      constantValue: "but I won\u2019t be staying up all night. "
       variable: {fileID: 0}
       GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "I\u2019ve got some errands to run before work"
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
@@ -9918,7 +9967,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
+    - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
 --- !u!1001 &956268730
 Prefab:
   m_ObjectHideFlags: 0
@@ -14661,7 +14710,15 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: haha
+      constantValue: 'haha. '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "I\u2019ll be home soon"
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -14674,10 +14731,26 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-    - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
+    - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
   - text:
       useConstant: 1
-      constantValue: "I\u2019ll be home soon but I can\u2019t stay long"
+      constantValue: 'Almost forgot, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "I\u2019ll be off a bit earlier than usual tomorrow, "
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "I\u2019ve got some errands to run before work"
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -14689,7 +14762,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: c848f833b3bdda04a8eb2667af244e3e, type: 2}
+    - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
 --- !u!1001 &1600343036
 Prefab:
   m_ObjectHideFlags: 0
@@ -17505,68 +17578,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4928767738979478, guid: 9243acefb6144624d8777b1db702a741,
     type: 2}
   m_PrefabInternal: {fileID: 1991793771}
---- !u!1001 &2003673190
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1518320423}
-    m_Modifications:
-    - target: {fileID: 4518231087065194, guid: 8b25855ff3df7554f8c008ef927c3710, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.8491211
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518231087065194, guid: 8b25855ff3df7554f8c008ef927c3710, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 33.716675
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518231087065194, guid: 8b25855ff3df7554f8c008ef927c3710, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518231087065194, guid: 8b25855ff3df7554f8c008ef927c3710, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518231087065194, guid: 8b25855ff3df7554f8c008ef927c3710, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518231087065194, guid: 8b25855ff3df7554f8c008ef927c3710, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518231087065194, guid: 8b25855ff3df7554f8c008ef927c3710, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518231087065194, guid: 8b25855ff3df7554f8c008ef927c3710, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114281897588654374, guid: 8b25855ff3df7554f8c008ef927c3710,
-        type: 2}
-      propertyPath: _nextNode
-      value: 
-      objectReference: {fileID: 413379173}
-    - target: {fileID: 114281897588654374, guid: 8b25855ff3df7554f8c008ef927c3710,
-        type: 2}
-      propertyPath: audioSwitch
-      value: 
-      objectReference: {fileID: 1789073225}
-    - target: {fileID: 114281897588654374, guid: 8b25855ff3df7554f8c008ef927c3710,
-        type: 2}
-      propertyPath: ambienceContainers.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114281897588654374, guid: 8b25855ff3df7554f8c008ef927c3710,
-        type: 2}
-      propertyPath: ambienceContainers.Array.data[1]
-      value: 
-      objectReference: {fileID: 524803699}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 8b25855ff3df7554f8c008ef927c3710, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1001 &2009116033
 Prefab:
   m_ObjectHideFlags: 0
@@ -18766,7 +18777,23 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
   - text:
       useConstant: 1
-      constantValue: "I\u2019ll be home soon but I won\u2019t be up for long tonight"
+      constantValue: "I\u2019ll be home soon but I won\u2019t be up for long tonight. "
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "Then I\u2019ll be off a bit earlier than usual tomorrow, "
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "I\u2019ve got some errands to run before work"
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -18778,7 +18805,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
+    - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
 --- !u!1001 &2122441918
 Prefab:
   m_ObjectHideFlags: 0
