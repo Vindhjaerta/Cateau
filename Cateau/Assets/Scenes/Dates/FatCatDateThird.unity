@@ -3003,7 +3003,7 @@ MonoBehaviour:
     effects: []
   - text:
       useConstant: 1
-      constantValue: We couldn't be happier that it finds a home it loves.
+      constantValue: We couldn't be happier that it finds a proper home.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -17006,7 +17006,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'It will hang on if '
+      constantValue: 'It will depend on if '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
