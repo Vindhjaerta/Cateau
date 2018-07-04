@@ -1668,6 +1668,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: c1d674d216393ba4e8def63e1cf93fca, type: 2}
   - text:
       useConstant: 1
       constantValue: I'll just read up on it later.
@@ -4547,6 +4548,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: b6ec581386a7ed44a8bc035d54084eed, type: 2}
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: ba678de52152673408ebd2091d71f18f, type: 2}
   - text:
       useConstant: 1
       constantValue: Yeah.
@@ -6286,7 +6288,8 @@ MonoBehaviour:
       constantValue: You'd wind up late in not too long right?
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 9ce1f41e06ee3a54a9eb5412908534ab, type: 2}
 --- !u!224 &1567105339
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7932,7 +7935,8 @@ MonoBehaviour:
       constantValue: Not much.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 4b9bf3353d41b3c4ba0b161b928d122c, type: 2}
 --- !u!1 &1913983044
 GameObject:
   m_ObjectHideFlags: 0
