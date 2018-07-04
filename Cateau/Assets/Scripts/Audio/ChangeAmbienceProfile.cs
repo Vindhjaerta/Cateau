@@ -14,10 +14,12 @@ public class ChangeAmbienceProfile : SceneTreeObject
 
     protected override void Initialize()
     {
-        if (ambienceProfile != null)
+        if (AmbienceManager.Instance != null && ambienceProfile != null)
         {
-            ambienceProfile.gameObject.SetActive(true);
+            AmbienceManager.Instance.StartPlayingAmbienceProfile(ambienceProfile);
         }
+
+        Continue();
     }
 
 }

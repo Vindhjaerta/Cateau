@@ -17,8 +17,11 @@ public class AmbienceManager : MonoBehaviour
     public List<AmbienceSound> _playingAmbienceList = new List<AmbienceSound>();
 
     private List<AmbienceSound> _ambienceSoundQueue = new List<AmbienceSound>();
-
+    //Remove and use profile istead
     private List<AmbienceContainer> _ambienceContainer = new List<AmbienceContainer>();
+
+
+    private List<AmbienceProfile> _ambienceProfile = new List<AmbienceProfile>();
 
     private List<AudioSource> _audioSources = new List<AudioSource>();
 
@@ -52,9 +55,9 @@ public class AmbienceManager : MonoBehaviour
             ambienceSound.StopPlaying();
             ambienceSound.Initialize();
         }
-        _playingAmbienceList = null;
-        _ambienceSoundQueue = null;
-        _ambienceContainer = null;
+        _playingAmbienceList.Clear();
+        _ambienceSoundQueue.Clear();
+        _ambienceContainer.Clear();
         Start();
     }
 
@@ -70,11 +73,20 @@ public class AmbienceManager : MonoBehaviour
             Debug.LogError("No GamestateContainer was found. According to " + gameObject + ". But lets be honest, what does it know right?");
         }
 
+        //Remove this and use profiles instead
         foreach (Transform child in transform)
         {
             if(child.GetComponent<AmbienceContainer>())
             {
                 _ambienceContainer.Add(child.GetComponent<AmbienceContainer>());
+            }
+        }
+
+        foreach (Transform child in transform)
+        {
+            if (child.GetComponent<AmbienceProfile>())
+            {
+                _ambienceProfile.Add(child.GetComponent<AmbienceProfile>());
             }
         }
 
@@ -169,6 +181,19 @@ public class AmbienceManager : MonoBehaviour
         }
         return null;
     }
+
+
+    public void StartPlayingAmbienceProfile(AmbienceProfile ambienceProfile)
+    {
+        foreach (AmbienceProfile profile in _ambienceProfile)
+        {
+            profile.Stop();
+        }
+        Restart();
+        ambienceProfile.Play();
+    }
+
+    //Remove this
 
     //Stop playing a certain block
     public void StopPlayingContainer(string name)

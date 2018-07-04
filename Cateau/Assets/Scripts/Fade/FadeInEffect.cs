@@ -30,7 +30,7 @@ public class FadeInEffect : FadeEffect
         {
             if (fadeSceneTreeObject.playedSoundEffect == true)
             {
-                if (SoundEffectsManager.Instance != null)
+                if (SoundEffectsManager.Instance != null && soundContainerName.Length > 0)
                 {
                     SoundEffectsManager.Instance.PlaySoundFromContainer(soundContainerName);
                     fadeSceneTreeObject.playedSoundEffect = false;
