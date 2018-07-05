@@ -3849,7 +3849,7 @@ Prefab:
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: buttons.Array.data[0].catButton.affinity
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -6955,7 +6955,7 @@ Prefab:
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: buttons.Array.data[0].catButton.affinity
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -7880,7 +7880,7 @@ Prefab:
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: buttons.Array.data[2].catButton.affinity
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -8323,7 +8323,7 @@ Prefab:
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: buttons.Array.data[1].catButton.affinity
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -12842,7 +12842,7 @@ Prefab:
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: buttons.Array.data[2].catButton.affinity
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
