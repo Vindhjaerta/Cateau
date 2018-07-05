@@ -283,7 +283,7 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -401,14 +401,14 @@ MonoBehaviour:
       useConstant: 1
       constantValue: 'I haven''t climbed a tree in ages '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
       constantValue: but I did it some back in the day.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -696,12 +696,12 @@ Prefab:
     - target: {fileID: 224976614605689834, guid: 78df90fa03a6b12409e67954282c1612,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 885
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224976614605689834, guid: 78df90fa03a6b12409e67954282c1612,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 470
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224976614605689834, guid: 78df90fa03a6b12409e67954282c1612,
         type: 2}
@@ -840,7 +840,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 381809788}
+    m_TransformParent: {fileID: 1085971820}
     m_Modifications:
     - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -865,17 +865,17 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -885,7 +885,7 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -939,7 +939,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
       propertyPath: m_Name
-      value: ConversationTreeFail
+      value: ConversationTreeFailSecond
       objectReference: {fileID: 0}
     - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -973,11 +973,6 @@ Prefab:
     - {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
   m_IsPrefabParent: 0
---- !u!224 &101792247 stripped
-RectTransform:
-  m_PrefabParentObject: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-    type: 2}
-  m_PrefabInternal: {fileID: 101792246}
 --- !u!1001 &102302181
 Prefab:
   m_ObjectHideFlags: 0
@@ -1082,7 +1077,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
       propertyPath: m_Name
-      value: ConversationChoiceHastily
+      value: ConversationChoiceNormally
       objectReference: {fileID: 0}
     - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -1291,9 +1286,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' has been up here for a while it might be hungry.'
+      constantValue: ' has been up here for a while '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: it might be hungry.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -1303,12 +1305,19 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cfe2c4706dcaad3419d15aab672f7e10, type: 2}
   - text:
       useConstant: 1
-      constantValue: "and I immediately see how the kitten\u2019s nose twitches as
-        it's sniffing the air."
+      constantValue: "and I immediately see how the kitten\u2019s nose twitches "
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: as it's sniffing the air.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects: []
 --- !u!1 &142408921 stripped
 GameObject:
@@ -1406,7 +1415,7 @@ Prefab:
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -1505,7 +1514,7 @@ Prefab:
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: buttons.Array.data[1].catButton.buttonText
-      value: Climb to it hastily
+      value: Climb to it normally
       objectReference: {fileID: 0}
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -1585,9 +1594,16 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: The man picks up his bag and nods a goodbye.
+      constantValue: 'The man picks up his bag '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and nods a goodbye.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -1661,7 +1677,7 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -2315,7 +2331,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: 'I call '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
@@ -2369,8 +2385,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: Whilst I wait I keep a keen eye on the cat in case the situation
-        should worsen.
+      constantValue: 'Whilst I wait I keep a keen eye on the cat '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: in case the situation should worsen.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -2431,6 +2453,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: fa639dc10454a5a46bad34a61f55fd45, type: 2}
   - text:
       useConstant: 1
       constantValue: 'but the man grabs it and despite its protests, '
@@ -2466,17 +2489,24 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: a8a6682d7d5fad540a54aa1648d4af0a, type: 2}
   - text:
       useConstant: 1
       constantValue: 'opening it, '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: but does not want to stick his fingers in after hearing an angry
-        hissing noise.
+      constantValue: 'but does not want to stick his fingers in '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: after hearing an angry hissing noise.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -2567,14 +2597,14 @@ MonoBehaviour:
       useConstant: 1
       constantValue: 'Well, '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
       constantValue: good job keeping an eye out for it!
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects: []
 --- !u!1001 &276793109
 Prefab:
@@ -2680,7 +2710,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
       propertyPath: m_Name
-      value: ConversationHastily
+      value: ConversationNormally
       objectReference: {fileID: 0}
     - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -2885,9 +2915,16 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: I wave goodbye and watch it getting carried away.
+      constantValue: 'I wave goodbye '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and watch it getting carried away.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -2900,6 +2937,428 @@ MonoBehaviour:
   - text:
       useConstant: 1
       constantValue: before walking home.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects: []
+--- !u!1001 &318363555
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1085971820}
+    m_Modifications:
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _conversationList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
+      propertyPath: m_Name
+      value: ConversationTreeFailThird
+      objectReference: {fileID: 0}
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _conversationList.Array.data[0]
+      value: With the most care in the world I place the bag on the ground and open
+        it up. Before I can react spurts <BELLE> away and disappears into the distance.
+        I try to chase after it but give up after a few steps, realizing that it's
+        futile. However I can't just let it go this time. I haven't been able to reach
+        any owner or seen any signs of this kitten having a home to return to. People
+        must have given it food but that doesn't change that it shouldn't be living
+        on the street. I grab my phone and look up animal shelters in the area immediately.
+        I found one that sounds nice, a no kill shelter with good reviews and I make
+        a call. I reach one of their employees who's willing to try and catch the
+        kitten the same day and I sit down on a bench to wait.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _conversationList.Array.data[1]
+      value: We decide to place the trap next to the tree since it's likely <BELLE>
+        will come back when there is less people there. The tree seems to be somewhere
+        it likes. We wait for hours at a distance before we see <BELLE> return but
+        the call for food makes it enter the trap rather quickly. I make sure <BELLE>
+        has it good and leave it to the shelter to take care of it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _nextNode
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &318363556 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 318363555}
+--- !u!114 &318363557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 318363556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af2ddefca2a30ae4688ba22bbeea28c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savepointIndex: 0
+  _nextNode: {fileID: 870679073}
+  characterNameTag:
+    useConstant: 1
+    constantValue: 
+    variable: {fileID: 0}
+    GUIpresentationIndex: 0
+  nameEffects: []
+  sentences:
+  - text:
+      useConstant: 1
+      constantValue: 'The scent of food makes it enter the trap rather quickly, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: being safely caught.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'I make sure '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects: []
+  - text:
+      useConstant: 0
+      constantValue: 
+      variable: {fileID: 11400000, guid: 0a5ec2086e48b4d498ff42e196aee36f, type: 2}
+      GUIpresentationIndex: 2
+    effects:
+    - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
+    - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: ' is in good hands '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and leave it to the shelter to take care of it.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects: []
+--- !u!1001 &324064626
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 792289911}
+    m_Modifications:
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _conversationList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
+      propertyPath: m_Name
+      value: DateStartDonny
+      objectReference: {fileID: 0}
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _conversationList.Array.data[0]
+      value: As I go out for my sunday walk I keep my eyes very peeled for a certain
+        kitten. Most likely I'll find it in its usual spot, but I don't trust it not
+        to have moved. I spot the tree in the distance and it grows closer as I walk.
+        There is no kitten to be seen. I reach the corner and circle around the tree
+        but I can't see <BELLE>. Maybe it actually got home. If that were to be the
+        case it would be great. A meow crushes my hopes and I look around, still not
+        spotting it. The next meow I can tell comes from above and I look up. <BELLE>
+        looks down on me from a high up branch in the tree. What is it doing up there?
+        It doesn't look very safe. I haven't climbed a tree in what, 8 years or so
+        but I was pretty good at it when young. Except for the first part it looks
+        like a pretty easy climb.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _nextNode
+      value: 
+      objectReference: {fileID: 1564209116}
+    m_RemovedComponents:
+    - {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &324064627 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 324064626}
+--- !u!114 &324064628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 324064627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af2ddefca2a30ae4688ba22bbeea28c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savepointIndex: 0
+  _nextNode: {fileID: 1597649621}
+  characterNameTag:
+    useConstant: 1
+    constantValue: 
+    variable: {fileID: 0}
+    GUIpresentationIndex: 0
+  nameEffects: []
+  sentences:
+  - text:
+      useConstant: 1
+      constantValue: "I\u2019ve bought the new things "
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "and I\u2019m heading out for my sunday stroll."
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'By the look of it this morning '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects: []
+  - text:
+      useConstant: 0
+      constantValue: 
+      variable: {fileID: 11400000, guid: e9523caa09b76cb43b35059c34ddb726, type: 2}
+      GUIpresentationIndex: 2
+    effects:
+    - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
+    - {fileID: 11400000, guid: 966b80852dacb9a49bad5ff86dae8283, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: ' and Roselle are getting along well '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "so I\u2019m not the slightest bit worried over leaving them
+        alone."
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'As I near the pedestrian street, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'I peel my eyes, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: trying to spot a certain kitten.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
@@ -3339,6 +3798,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 9cf4750b1c95fba4bb040ea677dfe2c3, type: 2}
   - text:
       useConstant: 1
       constantValue: the kitten falls asleep.
@@ -3348,9 +3808,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I look at it curiously and stroke it gently over its back.
+      constantValue: 'I look at it curiously '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and stroke it gently over its back.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -3447,8 +3914,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'I''ll continue to look for its owner but if it stays as silent
-        as it has so far, '
+      constantValue: 'I''ll continue to look for its owner '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'but if it stays as silent as it has so far, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -3462,9 +3935,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: With new determination I start to make my way home.
+      constantValue: 'With new determination '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: I start to make my way home.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -3472,7 +3952,8 @@ MonoBehaviour:
       constantValue: 'Not until I''m almost at my apartment building does '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
   - text:
       useConstant: 0
       constantValue: 
@@ -3646,7 +4127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 1883741592}
+  _nextNode: {fileID: 1085971822}
   characterNameTag:
     useConstant: 1
     constantValue: 
@@ -3656,17 +4137,30 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: 'I feed it more treats and making it come a little closer each
-        time, '
+      constantValue: 'I feed it more treats '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'and making it come a little closer each time, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: then grabbing the kitten with both hands to pull it to my lap.
+      constantValue: 'then grabbing the kitten with both hands '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: to pull it to my lap.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -3676,6 +4170,8 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: a8a6682d7d5fad540a54aa1648d4af0a, type: 2}
+    - {fileID: 11400000, guid: f47101d8fc3019b48a419be7945864e2, type: 2}
   - text:
       useConstant: 1
       constantValue: but I manage to secure it against my chest.
@@ -3685,10 +4181,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'I try to offer it the rest of the treats to calm it down but
-        to no avail, '
+      constantValue: 'I try to offer it the rest of the treats to calm it down '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'but to no avail, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
@@ -3722,8 +4224,15 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'It''s difficult to get it into the bag as it shoots out all
-        of its legs and claws, '
+      constantValue: 'It''s difficult to get it into the bag '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 67f51728f6194da46914e8a25f37e5b6, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'as it shoots out all of its legs and claws, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -3744,10 +4253,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: then putting the bag over my back again before making my way
-        down.
+      constantValue: 'then putting the bag over my back again '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: before making my way down.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -3760,8 +4275,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' doesn''t make too much of a fuss but letting the kitten out
-        is on the top of my list.'
+      constantValue: ' doesn''t make too much of a fuss '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: but letting the kitten out is on the top of my list.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -4017,7 +4538,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 101792247}
+    m_TransformParent: {fileID: 1085971820}
     m_Modifications:
     - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -4042,17 +4563,17 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -4062,7 +4583,7 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -4526,7 +5047,7 @@ Prefab:
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
       propertyPath: m_RootOrder
-      value: 16
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
@@ -4635,16 +5156,31 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
+    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' looks away and then back and I see one of its paws twitch.'
+      constantValue: ' looks away and then back '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and I see one of its paws twitch.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I tap more rapidly and the kitten inches forward a little.
+      constantValue: 'I tap more rapidly '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and the kitten inches forward a little.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -4685,7 +5221,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4827402595149866, guid: bb94bcb0c9ec5c543998eb9dc99d26fc, type: 2}
       propertyPath: m_RootOrder
-      value: 17
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 114389078271331112, guid: bb94bcb0c9ec5c543998eb9dc99d26fc,
         type: 2}
@@ -5448,7 +5984,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 101792247}
+    m_TransformParent: {fileID: 1085971820}
     m_Modifications:
     - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -5473,17 +6009,17 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -5493,7 +6029,7 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -5609,6 +6145,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &792289911 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+    type: 2}
+  m_PrefabInternal: {fileID: 797625167}
 --- !u!1 &796102822 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
@@ -5673,9 +6214,17 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'I slowly move to the next foothold and then pause there until '
+      constantValue: 'I slowly move to the next foothold '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'and then pause there until '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects: []
   - text:
       useConstant: 0
@@ -5701,9 +6250,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: "It\u2019s very slowly going and my arms feel a bit tired, "
+      constantValue: "It\u2019s very slowly going "
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'and my arms feel a bit tired, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
@@ -5736,10 +6292,211 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I might be able to lean out to grab it or possibly lure it closer.
+      constantValue: 'I might be able to lean out to grab it '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: or possibly lure it closer.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects: []
+--- !u!1001 &797625167
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 381809788}
+    m_Modifications:
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: catChoices.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: catChoices.Array.data[0].comparators.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: catChoices.Array.data[1].comparators.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960587531830986, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515483350293780, guid: b5df9d0edeb976d4bb3fa26337e11dc3, type: 2}
+      propertyPath: m_Name
+      value: CrossroadDonny
+      objectReference: {fileID: 0}
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: catChoices.Array.data[0].catIdentifier.useConstant
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: catChoices.Array.data[1].catIdentifier.useConstant
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: catChoices.Array.data[0].targetNode
+      value: 
+      objectReference: {fileID: 324064628}
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: catChoices.Array.data[1].targetNode
+      value: 
+      objectReference: {fileID: 1792915479}
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: catChoices.Array.data[0].comparators.Array.data[0].compareValue
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: catChoices.Array.data[1].comparators.Array.data[0].compareValue
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: catChoices.Array.data[0].catIdentifier.GUIpresentationIndex
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: catChoices.Array.data[1].catIdentifier.GUIpresentationIndex
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: catChoices.Array.data[0].catIdentifier.variable
+      value: 
+      objectReference: {fileID: 11400000, guid: e9523caa09b76cb43b35059c34ddb726,
+        type: 2}
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: catChoices.Array.data[1].catIdentifier.variable
+      value: 
+      objectReference: {fileID: 11400000, guid: e9523caa09b76cb43b35059c34ddb726,
+        type: 2}
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: catChoices.Array.data[0].comparators.Array.data[0].comparator
+      value: 
+      objectReference: {fileID: 11400000, guid: a91f14ad7421b2840835737f593ee433,
+        type: 2}
+    - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+        type: 2}
+      propertyPath: catChoices.Array.data[1].comparators.Array.data[0].comparator
+      value: 
+      objectReference: {fileID: 11400000, guid: 5faca9a9f807a6d4f84de4f5ba58bb0e,
+        type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b5df9d0edeb976d4bb3fa26337e11dc3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &797625168 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
+    type: 2}
+  m_PrefabInternal: {fileID: 797625167}
+  m_Script: {fileID: 11500000, guid: b05d2aa8b71fd2c4e8fa4192e7f805ec, type: 3}
 --- !u!1 &803136943 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
@@ -5781,7 +6538,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' in there to avoid further damage to my hands.'
+      constantValue: ' in there '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: to avoid further damage to my hands.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -5795,33 +6559,59 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: With the bag with the kitten secured on my back I make my way
-        down without further struggle.
+      constantValue: 'With the bag with the kitten secured on my back '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: I make my way down without further struggle.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: When I reach the ground I open up the bag and pull the kitten
-        out again.
+      constantValue: 'When I reach the ground I open up the bag '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and pull the kitten out again.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'The dark enclosure had it relax a little '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and it looks very tired more than anything.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: The dark enclosure had it relax a little and it looks very tired
-        more than anything.
+      constantValue: 'Without much resistance '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: Without much resistance I bring it up to my arms.
+      constantValue: I bring it up to my arms.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects: []
 --- !u!1001 &812742419
 Prefab:
@@ -6529,17 +7319,31 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: I hold out another piece and without hesitation it leaps out
-        to steal it.
+      constantValue: 'I hold out another piece '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 6f61e3dc1ed1f22439b4d4310535611b, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and without hesitation it leaps out to steal it.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'I drop some treats on the ground and watch '
+      constantValue: 'I drop some treats on the ground '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'and watch '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects: []
   - text:
       useConstant: 0
@@ -6565,8 +7369,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: The arborist has done what he came to do and leaves with his
-        bag after I thank him.
+      constantValue: 'The arborist has done what he came to do '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and leaves with his bag after I thank him.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -6580,8 +7390,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: When my treat supply has been exhausted I gently pick the kitten
-        up and put it in my arms.
+      constantValue: 'When my treat supply has been exhausted '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: I gently pick the kitten up and put it in my arms.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -6606,6 +7422,138 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
+--- !u!1001 &909598410
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1085971820}
+    m_Modifications:
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: _endPosition
+      value: 
+      objectReference: {fileID: 11400000, guid: 923f73284b9d56145a2a38c089723798,
+        type: 2}
+    - target: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: _slideSpeed
+      value: 
+      objectReference: {fileID: 11400000, guid: 298ae130b6d581f49a97480610dbaa31,
+        type: 2}
+    - target: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: _objectToSlide
+      value: 
+      objectReference: {fileID: 1721341454}
+    - target: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: _nextNode
+      value: 
+      objectReference: {fileID: 318363557}
+    - target: {fileID: 1151683088812894, guid: 5ada4156e59ca9445981353c27225e05, type: 2}
+      propertyPath: m_Name
+      value: SlideAnObjectBack
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5ada4156e59ca9445981353c27225e05, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &909598411 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
+    type: 2}
+  m_PrefabInternal: {fileID: 909598410}
+  m_Script: {fileID: 11500000, guid: fa70f2f0a42e742479e7ff77f5d1fc7c, type: 3}
 --- !u!1001 &922136048
 Prefab:
   m_ObjectHideFlags: 0
@@ -6874,7 +7822,14 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: Claws dig into my hand and I immediately retract it back to safety.
+      constantValue: 'Claws dig into my hand '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and I immediately retract it back to safety.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -6895,9 +7850,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I grab the bag to tip it but the arborist stops me.
+      constantValue: 'I grab the bag to tip it '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: but the arborist stops me.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects: []
 --- !u!1 &939748505 stripped
 GameObject:
@@ -6927,7 +7889,7 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: 'I know of a really good one out in the outskirts of the town, '
+      constantValue: 'I know of a really good one out in the outskirts of town, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -7101,35 +8063,62 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
+    - {fileID: 11400000, guid: a8a6682d7d5fad540a54aa1648d4af0a, type: 2}
+    - {fileID: 11400000, guid: f47101d8fc3019b48a419be7945864e2, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' meows in protest as I lift it up and I bring it to my chest
-        to calm it down.'
+      constantValue: ' meows in protest '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: as I lift it up and I bring it to my chest to calm it down.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: After a little while it settles down and I had only gotten a
-        little bit scratched up.
+      constantValue: 'After a little while it settles down '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and I had only gotten a little bit scratched up.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: Poor thing seems pretty tired and doesn't put up any more of
-        a fight.
+      constantValue: 'Poor thing seems pretty tired '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and doesn't put up any more of a fight.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I thank the arborist and he leaves with his bag.
+      constantValue: 'I thank the arborist '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and he leaves with his bag.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects: []
 --- !u!1001 &951822557
 Prefab:
@@ -7784,7 +8773,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
       propertyPath: m_Name
-      value: ConversationHastilyPlayer
+      value: ConversationNormallyPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -7832,8 +8821,15 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: I reach out with another treat but the kitten disappears into
-        the bag as soon as I get near.
+      constantValue: 'I reach out with another treat '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 67f51728f6194da46914e8a25f37e5b6, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: but the kitten disappears into the bag as soon as I get near.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -7861,15 +8857,28 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I throw another piece into the bag and then one outside.
+      constantValue: 'I throw another piece into the bag '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and then one outside.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I hear the noise of the treat being munched from the bag but
-        no sign of wanting to peek out again.
+      constantValue: 'I hear the noise of the treat being munched from the '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: bag but no sign of wanting to peek out again.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -7898,7 +8907,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: However there is no success in my attempts to get it out of there.
+      constantValue: 'However, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: there is no success in my attempts to get it out of there.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -8638,6 +9654,187 @@ Prefab:
     - {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1085971819
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 381809788}
+    m_Modifications:
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _conversationList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
+      propertyPath: m_Name
+      value: ConversationTreeFail
+      objectReference: {fileID: 0}
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _conversationList.Array.data[0]
+      value: With the most care in the world I place the bag on the ground and open
+        it up. Before I can react spurts <BELLE> away and disappears into the distance.
+        I try to chase after it but give up after a few steps, realizing that it's
+        futile. However I can't just let it go this time. I haven't been able to reach
+        any owner or seen any signs of this kitten having a home to return to. People
+        must have given it food but that doesn't change that it shouldn't be living
+        on the street. I grab my phone and look up animal shelters in the area immediately.
+        I found one that sounds nice, a no kill shelter with good reviews and I make
+        a call. I reach one of their employees who's willing to try and catch the
+        kitten the same day and I sit down on a bench to wait.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _conversationList.Array.data[1]
+      value: We decide to place the trap next to the tree since it's likely <BELLE>
+        will come back when there is less people there. The tree seems to be somewhere
+        it likes. We wait for hours at a distance before we see <BELLE> return but
+        the call for food makes it enter the trap rather quickly. I make sure <BELLE>
+        has it good and leave it to the shelter to take care of it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _nextNode
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
+  m_IsPrefabParent: 0
+--- !u!224 &1085971820 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1085971819}
+--- !u!1 &1085971821 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1085971819}
+--- !u!114 &1085971822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1085971821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af2ddefca2a30ae4688ba22bbeea28c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savepointIndex: 0
+  _nextNode: {fileID: 1576736770}
+  characterNameTag:
+    useConstant: 1
+    constantValue: 
+    variable: {fileID: 0}
+    GUIpresentationIndex: 0
+  nameEffects: []
+  sentences:
+  - text:
+      useConstant: 1
+      constantValue: 'With the most care in the world '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: I place the bag on the ground and open it up.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects: []
 --- !u!1 &1102723766 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
@@ -8838,7 +10035,8 @@ MonoBehaviour:
       constantValue: 'After some more coaxing '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
   - text:
       useConstant: 0
       constantValue: 
@@ -8849,24 +10047,44 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' pokes its head out and looks around with those big eyes.'
+      constantValue: ' pokes its head out '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and looks around with those big eyes.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I knock on the ground and after some hesitation it takes a step
-        out.
+      constantValue: 'I knock on the ground '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and after some hesitation it takes a step out.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I gently pick the kitten up and hide it in my arms.
+      constantValue: 'I gently pick the kitten up '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and hide it in my arms.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -8878,10 +10096,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: When the arborist is sure the kitten is in safe hands he leaves
-        with his bag.
+      constantValue: 'When the arborist is sure the kitten is in safe hands '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: he leaves with his bag.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects: []
 --- !u!1 &1118918602 stripped
 GameObject:
@@ -9422,7 +10646,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I hold up the drawstring top so I can have a better look inside.
+      constantValue: 'I hold up the drawstring top '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: so I can have a better look inside.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -9437,9 +10668,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' is sitting down and stares back up at me.'
+      constantValue: ' is sitting down '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and stares back up at me.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -9449,12 +10687,20 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
+    - {fileID: 11400000, guid: 67f51728f6194da46914e8a25f37e5b6, type: 2}
   - text:
       useConstant: 1
-      constantValue: I hope the time we have spent together amounts to something as
-        I stick my hand in to grab it.
+      constantValue: 'I hope the time we have spent together amounts to something '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: as I stick my hand in to grab it.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects: []
 --- !u!114 &1195764477 stripped
 MonoBehaviour:
@@ -9853,8 +11099,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: grab a branch with one hand and then lean out with my entire
-        body.
+      constantValue: 'grab a branch with one hand '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and then lean out with my entire body.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -9868,7 +11120,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I reach out and manage to touch the kitten's back.
+      constantValue: 'I reach out '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and manage to touch the kitten's back.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -9880,18 +11139,31 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: fa639dc10454a5a46bad34a61f55fd45, type: 2}
   - text:
       useConstant: 1
-      constantValue: I have to lean out even further and find myself a grip around
-        the kitten's body.
+      constantValue: 'I have to lean out even further '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and find myself a grip around the kitten's body.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I pull and move it in a circle until it loses its iron grip around
-        the bark.
+      constantValue: 'I pull and move it in a circle '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: until it loses its iron grip around the bark.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -9904,12 +11176,20 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
+    - {fileID: 11400000, guid: a8a6682d7d5fad540a54aa1648d4af0a, type: 2}
+    - {fileID: 11400000, guid: f47101d8fc3019b48a419be7945864e2, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' meows in protests and squirms in my grip as its lifted through
-        the air.'
+      constantValue: ' meows in protests and squirms in my grip '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: as it's lifted through the air.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -10213,6 +11493,8 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
+    - {fileID: 11400000, guid: 67f51728f6194da46914e8a25f37e5b6, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
       constantValue: ' meows meekly, '
@@ -10275,7 +11557,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: you can do it.
+      constantValue: you can do it!
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
@@ -11022,7 +12304,7 @@ Prefab:
         type: 2}
       propertyPath: _nextNode
       value: 
-      objectReference: {fileID: 1792915479}
+      objectReference: {fileID: 797625168}
     - target: {fileID: 114136244878479132, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
       propertyPath: fadeEffect
@@ -11200,7 +12482,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' and put it in the bag before placing it over my back again.'
+      constantValue: ' and put it in the bag '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: before placing it over my back again.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -11249,7 +12538,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I open up the bag and bring the kitten up in my arms.
+      constantValue: 'I open up the bag '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and bring the kitten up in my arms.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -11365,7 +12661,7 @@ Prefab:
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -11568,7 +12864,7 @@ Prefab:
     - target: {fileID: 224239817643330020, guid: c86fba61e3636e94997275f68ab4cae0,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224239817643330020, guid: c86fba61e3636e94997275f68ab4cae0,
         type: 2}
@@ -12056,7 +13352,7 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -12224,7 +13520,7 @@ Prefab:
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -12303,7 +13599,7 @@ Prefab:
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: buttons.Array.data[0].catButton.affinity
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -12672,15 +13968,29 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' to go as I call out to it.'
+      constantValue: ' to go '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: as I call out to it.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: The kitten watches me with big eyes and its ears twitches like
-        it's being indecisive.
+      constantValue: 'The kitten watches me with big eyes '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cfe2c4706dcaad3419d15aab672f7e10, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and its ears twitches like it's being indecisive.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -12694,9 +14004,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I continue to tap and call out to it again.
+      constantValue: 'I continue to tap '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and call out to it again.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects: []
 --- !u!1 &1493759875
 GameObject:
@@ -12878,12 +14195,12 @@ Prefab:
     - target: {fileID: 224528732470064658, guid: 1c66da8f6b17be2438e98e0e81f952f7,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -250
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224528732470064658, guid: 1c66da8f6b17be2438e98e0e81f952f7,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -330
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224528732470064658, guid: 1c66da8f6b17be2438e98e0e81f952f7,
         type: 2}
@@ -13203,7 +14520,7 @@ Prefab:
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -13347,7 +14664,7 @@ Prefab:
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: buttons.Array.data[2].catButton.affinity
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -13734,6 +15051,143 @@ Prefab:
     - {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1576736769
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1085971820}
+    m_Modifications:
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: _endPosition
+      value: 
+      objectReference: {fileID: 11400000, guid: 71238b86df97462478c3699a0751505f,
+        type: 2}
+    - target: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: _slideSpeed
+      value: 
+      objectReference: {fileID: 11400000, guid: 298ae130b6d581f49a97480610dbaa31,
+        type: 2}
+    - target: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: _objectToSlide
+      value: 
+      objectReference: {fileID: 1721341454}
+    - target: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: _nextNode
+      value: 
+      objectReference: {fileID: 1883741592}
+    - target: {fileID: 1151683088812894, guid: 5ada4156e59ca9445981353c27225e05, type: 2}
+      propertyPath: m_Name
+      value: SlideAnObjectRun
+      objectReference: {fileID: 0}
+    - target: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
+        type: 2}
+      propertyPath: waitForPictureToSlide
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5ada4156e59ca9445981353c27225e05, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &1576736770 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114593172010681218, guid: 5ada4156e59ca9445981353c27225e05,
+    type: 2}
+  m_PrefabInternal: {fileID: 1576736769}
+  m_Script: {fileID: 11500000, guid: fa70f2f0a42e742479e7ff77f5d1fc7c, type: 3}
 --- !u!1 &1580338639 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
@@ -13802,6 +15256,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
+    - {fileID: 11400000, guid: f47101d8fc3019b48a419be7945864e2, type: 2}
   - text:
       useConstant: 1
       constantValue: ' meows again and appears very uneasy, '
@@ -13850,12 +15305,19 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'but if it would come closer by itself '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: but if it would come closer by itself it would probably be safer.
+      constantValue: it would probably be safer.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects: []
 --- !u!1 &1582109198 stripped
 GameObject:
@@ -13987,6 +15449,273 @@ GameObject:
   m_PrefabParentObject: {fileID: 1701463942982844, guid: ca9b884af8951784181bb2cb39be7ca6,
     type: 2}
   m_PrefabInternal: {fileID: 1594842342}
+--- !u!1001 &1597649619
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 381809788}
+    m_Modifications:
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _conversationList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
+      propertyPath: m_Name
+      value: DateStartSecond
+      objectReference: {fileID: 0}
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _conversationList.Array.data[0]
+      value: As I go out for my sunday walk I keep my eyes very peeled for a certain
+        kitten. Most likely I'll find it in its usual spot, but I don't trust it not
+        to have moved. I spot the tree in the distance and it grows closer as I walk.
+        There is no kitten to be seen. I reach the corner and circle around the tree
+        but I can't see <BELLE>. Maybe it actually got home. If that were to be the
+        case it would be great. A meow crushes my hopes and I look around, still not
+        spotting it. The next meow I can tell comes from above and I look up. <BELLE>
+        looks down on me from a high up branch in the tree. What is it doing up there?
+        It doesn't look very safe. I haven't climbed a tree in what, 8 years or so
+        but I was pretty good at it when young. Except for the first part it looks
+        like a pretty easy climb.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
+        type: 2}
+      propertyPath: _nextNode
+      value: 
+      objectReference: {fileID: 1564209116}
+    m_RemovedComponents:
+    - {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1597649620 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1597649619}
+--- !u!114 &1597649621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1597649620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af2ddefca2a30ae4688ba22bbeea28c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savepointIndex: 0
+  _nextNode: {fileID: 2013263845}
+  characterNameTag:
+    useConstant: 1
+    constantValue: 
+    variable: {fileID: 0}
+    GUIpresentationIndex: 0
+  nameEffects: []
+  sentences:
+  - text:
+      useConstant: 1
+      constantValue: 'I''ll most likely find it in its usual spot, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 67f51728f6194da46914e8a25f37e5b6, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: but I don't trust it not to have moved.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'I see the tree in the distance '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and it grows closer as I walk.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "There\u2019s no kitten to be seen."
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'I reach the corner and circle around the tree, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'but I can''t see '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects: []
+  - text:
+      useConstant: 0
+      constantValue: 
+      variable: {fileID: 11400000, guid: 0a5ec2086e48b4d498ff42e196aee36f, type: 2}
+      GUIpresentationIndex: 2
+    effects:
+    - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
+    - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: .
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: Maybe it actually got home.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'If that were to be the case '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: it would be great.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'A meow crushes my hopes and I look around, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: still not spotting it.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'The next meow I can tell comes from above '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and I look up.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects: []
 --- !u!1001 &1601468778
 Prefab:
   m_ObjectHideFlags: 0
@@ -14349,17 +16078,30 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: I tap my thighs and continuously call out to the kitten with
-        a gentle voice.
+      constantValue: 'I tap my thighs '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: continuously call out to the kitten with a gentle voice.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: "I hear it rustle around in its bag so I know it\u2019s listening."
+      constantValue: 'I hear it rustle around in its bag '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "so I know it\u2019s listening."
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects: []
 --- !u!1 &1664721135 stripped
 GameObject:
@@ -14448,9 +16190,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: With a shake of my head I relay this to the arborist.
+      constantValue: 'With a shake of my head '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: I relay this to the arborist.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects: []
 --- !u!1001 &1678452405
 Prefab:
@@ -14709,9 +16458,16 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: Slowly it crawls closer and I continue to encourage it.
+      constantValue: 'Slowly it crawls closer '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and I continue to encourage it.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects: []
 --- !u!1 &1721341453
 GameObject:
@@ -14774,9 +16530,16 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: I walk up and look at the tree fork.
+      constantValue: 'I walk up '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: look at the tree fork.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -14788,10 +16551,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'With a small jump I manage to grab the lower branch and I struggle
-        up, '
+      constantValue: 'With a small jump I manage to grab the lower branch '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'and I struggle up, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
@@ -14803,10 +16572,17 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'I grunt as I try to pull myself up with quite some effort and
-        in no way gracefully, '
+      constantValue: 'I grunt as I try to pull myself up with quite some effort '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: fa639dc10454a5a46bad34a61f55fd45, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'and in no way gracefully, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
@@ -15125,7 +16901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 1883741592}
+  _nextNode: {fileID: 1085971822}
   characterNameTag:
     useConstant: 1
     constantValue: 
@@ -15149,16 +16925,31 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' in as I can''t possibly climb down with it in my arms.'
+      constantValue: ' in, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: as I can't possibly climb down with it in my arms.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'The kitten meows angrily as I tuck it down into the bag, '
+      constantValue: 'The kitten meows angrily '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'as I tuck it down into the bag, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
@@ -15170,8 +16961,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I place the bag over my back before making my descent to the
-        ground.
+      constantValue: 'I place the bag over my back '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: before making my descent to the ground.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -15199,7 +16996,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' out fast before it kills all of my possessions.'
+      constantValue: ' out fast '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: before it kills all of my possessions.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -15230,22 +17034,43 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: "The key to every shut-in\u2019s heart lies in its stomach."
+      constantValue: "The key to every shut-in\u2019s heart "
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: lies in its stomach.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'I grab the treats '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and hold one out near the opening of the bag.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I grab the treats and hold one out near the opening of the bag.
+      constantValue: 'I hear a rustling noise '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'I hear a rustling noise and then spot a small nose sticking
-        out of the opening, '
+      constantValue: 'then spot a small nose sticking out of the opening, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -15266,9 +17091,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I take it closer and drop it inside the bag.
+      constantValue: 'I take it closer '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and drop it inside the bag.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -15586,7 +17418,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 381809788}
+    m_TransformParent: {fileID: 792289911}
     m_Modifications:
     - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -15611,17 +17443,17 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -15631,7 +17463,7 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -15685,7 +17517,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
       propertyPath: m_Name
-      value: DateStart
+      value: DateStartNoDonny
       objectReference: {fileID: 0}
     - target: {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -15728,7 +17560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 2013263845}
+  _nextNode: {fileID: 1597649621}
   characterNameTag:
     useConstant: 1
     constantValue: 
@@ -15738,99 +17570,14 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: As I go out for my Sunday stroll I keep my eyes peeled for a
-        certain kitten.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'I''ll most likely find it in its usual spot, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: but I don't trust it not to have moved.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: I see the tree in the distance and it grows closer as I walk.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: "There\u2019s no kitten to be seen."
+      constantValue: 'As I go out for my Sunday stroll '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'I reach the corner and circle around the tree, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'but I can''t see '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects: []
-  - text:
-      useConstant: 0
-      constantValue: 
-      variable: {fileID: 11400000, guid: 0a5ec2086e48b4d498ff42e196aee36f, type: 2}
-      GUIpresentationIndex: 2
-    effects:
-    - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
-    - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: .
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: Maybe it actually got home.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: If that were to be the case it would be great.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'A meow crushes my hopes and I look around, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: still not spotting it.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: The next meow I can tell comes from above and I look up.
+      constantValue: I keep my eyes peeled for a certain kitten.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -15997,8 +17744,14 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: When it's finally close enough I make sure I sit well before
-        grabbing it with both hands.
+      constantValue: 'When it''s finally close enough '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: I make sure I sit well before grabbing it with both hands.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -16011,21 +17764,35 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
+    - {fileID: 11400000, guid: f47101d8fc3019b48a419be7945864e2, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' meows loudly but doesn''t put up much of a struggle.'
+      constantValue: ' meows loudly '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: but doesn't put up much of a struggle.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'I bring it close to me and pet it reassuringly before reaching
-        for my bag, '
+      constantValue: 'I bring it close to me and pet it reassuringly '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'before reaching for my bag, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
       constantValue: it's probably safer for it to be in there.
@@ -16044,7 +17811,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: we both have to get down as well.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -16230,9 +17997,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: and it would be a shame to do anything risky if it wasn't necessary.
+      constantValue: 'and it would be a shame to do anything risky '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: if it wasn't necessary.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -16244,9 +18018,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I stand next to the trunk and call to the kitten.
+      constantValue: 'I stand next to the trunk '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and call to the kitten.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -16257,13 +18038,21 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' meows back and I see it moving its paws slightly '
+      constantValue: ' meows back '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'and I see it moving its paws slightly '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
       constantValue: but not moving away from its spot high up in the tree.
@@ -16273,9 +18062,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'After trying some more and giving the kitten some time, '
+      constantValue: 'After trying some more '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'and giving the kitten some time, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
@@ -16363,7 +18159,7 @@ Prefab:
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -16467,7 +18263,7 @@ Prefab:
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: buttons.Array.data[0].catButton.affinity
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -16606,7 +18402,7 @@ Prefab:
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -16705,7 +18501,7 @@ Prefab:
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: buttons.Array.data[0].catButton.affinity
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -16808,7 +18604,7 @@ Prefab:
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 224741677698955194, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -16912,7 +18708,7 @@ Prefab:
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
       propertyPath: buttons.Array.data[0].catButton.affinity
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114887039005505540, guid: cb00d4ec190c2824a91a2e921bc9b3a5,
         type: 2}
@@ -17232,7 +19028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 870679073}
+  _nextNode: {fileID: 909598411}
   characterNameTag:
     useConstant: 1
     constantValue: 
@@ -17242,18 +19038,11 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: With the most care in the world I place the bag on the ground
-        and open it up.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
       constantValue: 'Before I can react '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 0
       constantValue: 
@@ -17278,9 +19067,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'I try to chase after it but give up after a few steps, '
+      constantValue: 'I try to chase after it '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'but give up after a few steps, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
@@ -17306,8 +19102,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I haven't been able to reach any owner or seen any signs of this
-        kitten having a home to return to.
+      constantValue: 'I haven''t been able to reach any owner '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: or seen any signs of this kitten having a home to return to.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -17328,8 +19130,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I grab my phone and look up animal shelters in the immediate
-        area.
+      constantValue: 'I grab my phone '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and look up animal shelters in the immediate area.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -17343,22 +19151,35 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: a no kill shelter with good reviews and I make a call.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'I reach one of their employees who''s willing to try and catch
-        the kitten the same day '
+      constantValue: 'a no kill shelter with good reviews '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: and I sit down on a bench to wait.
+      constantValue: and I make a call.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'I reach one of their employees '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: who's willing to try and catch the kitten the same day.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: I sit down on a bench to wait.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -17391,6 +19212,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 6f61e3dc1ed1f22439b4d4310535611b, type: 2}
   - text:
       useConstant: 1
       constantValue: The tree seems to be what it calls home.
@@ -17400,42 +19222,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'We wait for hours at a distance before we see '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects: []
-  - text:
-      useConstant: 0
-      constantValue: 
-      variable: {fileID: 11400000, guid: 0a5ec2086e48b4d498ff42e196aee36f, type: 2}
-      GUIpresentationIndex: 2
-    effects:
-    - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
-    - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: ' return '
+      constantValue: 'We wait for hours at a distance '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'but the scent of food makes it enter the trap rather quickly, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: being safely caught.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'I make sure '
+      constantValue: 'before we see '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
@@ -17449,16 +19243,9 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' is in good hands '
+      constantValue: ' return.'
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: and leave it to the shelter to take care of it.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
     effects: []
 --- !u!1001 &1890007492
 Prefab:
@@ -17724,8 +19511,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: keeping a close eye on the kitten so that I can stop if it finds
-        my advance unsettling.
+      constantValue: 'keeping a close eye on the kitten '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: so that I can stop if it finds my advance unsettling.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -17749,14 +19542,14 @@ MonoBehaviour:
       useConstant: 1
       constantValue: ' is out on pretty thin branches '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
       constantValue: but fortunately it stays put.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -17773,12 +19566,14 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'and I hear '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 0
       constantValue: 
@@ -17803,7 +19598,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: I check the kitten and it waits in what appears to be anticipation.
+      constantValue: 'I check the kitten '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and it waits in what appears to be anticipation.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -17830,6 +19632,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: f47101d8fc3019b48a419be7945864e2, type: 2}
   - text:
       useConstant: 1
       constantValue: 'It remains stationary which is good, '
@@ -18241,6 +20044,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'it eases closer, '
@@ -18309,8 +20113,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'making it come a little closer each time before I grab the kitten
-        with both hands '
+      constantValue: 'making it come a little closer each time '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'before I grab the kitten with both hands '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -18329,6 +20139,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: c83ebbc6382dcd748b9a0f4be15ece5d, type: 2}
   - text:
       useConstant: 1
       constantValue: and it eagerly eats every single one of them.
@@ -18338,9 +20149,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: "It\u2019s hungry and a bit tired but looks otherwise fine."
+      constantValue: "It\u2019s hungry and a bit tired "
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: but looks otherwise fine.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -18359,8 +20177,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: that's probably the best way to carry the kitten as it keeps
-        both of my hands free.
+      constantValue: 'that''s probably the best way to carry the kitten '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: as it keeps both of my hands free.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -18409,7 +20233,7 @@ Prefab:
     - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
         type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224389441486696536, guid: 5ada4156e59ca9445981353c27225e05,
         type: 2}
@@ -18723,13 +20547,13 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: It's a bit sad to see it go though.
+      constantValue: It's a bit sad to see it go though
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
   - text:
       useConstant: 1
-      constantValue: ..
+      constantValue: '...'
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -19039,10 +20863,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: Careful not to scare the kitten any further I climb up on the
-        bin.
+      constantValue: 'Careful not to scare the kitten any further '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: I climb up on the bin.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -19067,6 +20897,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: f47101d8fc3019b48a419be7945864e2, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Someone must have startled it up here '
@@ -19085,7 +20916,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: 'It looks at me '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
@@ -19111,7 +20942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 1883741592}
+  _nextNode: {fileID: 1085971822}
   characterNameTag:
     useConstant: 1
     constantValue: 
@@ -19121,15 +20952,28 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: After more coaxing it's finally close enough to reach.
+      constantValue: 'After more coaxing '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: it's finally close enough to reach.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'I make sure I have a steady seat on my branch before reaching
-        out with both hands to grab '
+      constantValue: 'I make sure I have a steady seat on my branch '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'before reaching out with both hands to grab '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -19155,6 +20999,8 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: a8a6682d7d5fad540a54aa1648d4af0a, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
       constantValue: clearly upset and struggles against my grip.
@@ -19164,9 +21010,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I refuse to let go and secure it in my lap.
+      constantValue: 'I refuse to let go '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and secure it in my lap.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -19200,14 +21053,28 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: With my bag on my back again I begin to climb down.
+      constantValue: 'With my bag on my back again '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: I begin to climb down.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I face no further ordeals and the climb to the ground goes swiftly.
+      constantValue: 'I face no further ordeals '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and the climb to the ground goes swiftly.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
