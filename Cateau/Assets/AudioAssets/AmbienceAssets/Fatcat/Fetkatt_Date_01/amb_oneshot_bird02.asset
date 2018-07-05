@@ -11,6 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb0ad3b0d82ca28438b29053fc3e2299, type: 3}
   m_Name: amb_oneshot_bird02
   m_EditorClassIdentifier: 
+  outputAudioMixerGroup: {fileID: 243640622485282160, guid: 65b87c3755d3cbb4b9c4a5d430c40b7d,
+    type: 2}
   ambienceSoundname: amb_oneshot_fatcat_bird02
   audioClip: {fileID: 8300000, guid: 4eea7efdbd4b9f44196fc51fadb1058d, type: 3}
   volume: 0.5
@@ -20,11 +22,11 @@ MonoBehaviour:
   randomStartTimer: 1
   startTimeInterval: {x: 5, y: 15}
   playSoundRandomInterval: {x: 14, y: 16}
-  time: 10.859074
+  time: 4.151805
   staticPanAudio: 1
   staticPanAudioSlider: 0.5
-  randomPanAudio: 0
-  panDuration: 1
+  randomPanAudio: 1
+  panDuration: 6
   clipDonePlaying: 0
   priority: 2
   addToQueue: 1

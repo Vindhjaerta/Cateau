@@ -11,6 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb0ad3b0d82ca28438b29053fc3e2299, type: 3}
   m_Name: amb_oneshot_bird01
   m_EditorClassIdentifier: 
+  outputAudioMixerGroup: {fileID: 243640622485282160, guid: 65b87c3755d3cbb4b9c4a5d430c40b7d,
+    type: 2}
   ambienceSoundname: amb_oneshot_birds_short_02
   audioClip: {fileID: 8300000, guid: b7e632a7fe8550c4db19a528a77f5064, type: 3}
   volume: 0.5

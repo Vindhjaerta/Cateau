@@ -11,8 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb0ad3b0d82ca28438b29053fc3e2299, type: 3}
   m_Name: amb_oneshot_Roselle_car04
   m_EditorClassIdentifier: 
+  outputAudioMixerGroup: {fileID: 243403979106966168, guid: 1a93b4bff953a4a408df6cda07f65f8d,
+    type: 2}
   ambienceSoundname: amb_oneshot_Roselle_car04
-  audioClip: {fileID: 8300000, guid: d55bcfaa1b3222c43a4217b12ddd35ba, type: 3}
+  audioClip: {fileID: 8300000, guid: 877ec6c98cc70a44ab595eea55067f13, type: 3}
   volume: 0.2
   pitch: 1
   randomPitch: {x: 0, y: 0}
@@ -20,7 +22,7 @@ MonoBehaviour:
   randomStartTimer: 1
   startTimeInterval: {x: 0, y: 50}
   playSoundRandomInterval: {x: 5, y: 50}
-  time: 0.3678957
+  time: 10.5112095
   staticPanAudio: 0
   staticPanAudioSlider: 0
   randomPanAudio: 0
