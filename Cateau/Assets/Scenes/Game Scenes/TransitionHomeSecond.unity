@@ -326,6 +326,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cfcfa620c87edb34bbe73deeb05003d1, type: 2}
   - text:
       useConstant: 1
       constantValue: "I\u2019m met with a surprise."
@@ -337,7 +338,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: 'I look through my pockets for my keys '
       variable: {fileID: 0}
-      GUIpresentationIndex: 0
+      GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
@@ -1472,7 +1473,8 @@ MonoBehaviour:
       constantValue: Oh
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 56d896701106a644490b06d84213726c, type: 2}
   - text:
       useConstant: 1
       constantValue: '...'
@@ -2471,8 +2473,8 @@ Transform:
   m_LocalPosition: {x: -893.3543, y: -558.4788, z: -22.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1100035441}
   - {fileID: 2047551387}
+  - {fileID: 1100035441}
   m_Father: {fileID: 960176497}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
