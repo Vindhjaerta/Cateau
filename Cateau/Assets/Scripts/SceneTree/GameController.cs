@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchScene,ISceneTreeData,ISerializeCat,IShake, IPhone, IEmoji {
+public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchScene,ISceneTreeData,ISerializeCat,IShake, IPhone, IEmoji,IArrow {
 
     public GameStateContainer gameStateContainer;
 
@@ -23,6 +23,7 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
 
     private Phone phone;
     private EmojiController emoji;
+    private ConversationController _cC;
 
     public static GameController Instance
     {
@@ -61,6 +62,9 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
         }
 
         emoji = GetComponentInChildren<EmojiController>();
+
+        _cC = GetComponentInChildren<ConversationController>();
+
     }
 
     // Use this for initialization
@@ -283,6 +287,22 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
         if (emoji != null)
         {
             emoji.Spawn(emojiType);
+        }
+    }
+
+    public void OnAlterArrow(Sprite sprite, bool showWhileTyping)
+    {
+        if(_cC != null)
+        {
+            _cC.alwaysShowArrow = showWhileTyping;
+            if(sprite != null)
+            {
+                _cC.SetArrowSprite(sprite);
+            }
+            else
+            {
+                _cC.ResetArrowSprite();
+            }
         }
     }
 }

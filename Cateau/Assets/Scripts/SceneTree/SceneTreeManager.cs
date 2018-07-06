@@ -16,7 +16,6 @@ public class SceneTreeManager : MonoBehaviour, ISceneTreeData, IButtonData, IDia
 
     private string _targetCharacterTagForInput;
 
-
     public void ChosenButtonIndex(int index)
     {
         if(_cC != null)

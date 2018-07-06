@@ -32,11 +32,13 @@ public class ConversationController : MonoBehaviour
     [SerializeField]
     private int _arrowCycleSpeed = 6;
     private float _arrowCycleCounter;
-    private Image _arrowImage;
 
-    [SerializeField]
-    private GameObject arrowObj;
-    private Vector2 arrowSize;
+    private Sprite _origArrowSprite;
+    private Vector2 _origArrowSize;
+    private Image _arrowImage;
+    private Vector2 _currentArrowSize;
+    [System.NonSerialized]
+    public bool alwaysShowArrow;
 
     public void InitiateDialogue(Sentence name, List<Sentence> sentences)
     {
@@ -86,11 +88,23 @@ public class ConversationController : MonoBehaviour
         if(_doneArrow != null)
         {
             _arrowImage = _doneArrow.GetComponent<Image>();
+            _currentArrowSize = _doneArrow.GetComponent<RectTransform>().rect.size;
+            _origArrowSprite = _arrowImage.sprite;
+            _origArrowSize = _currentArrowSize;
+            
         }
-        if(arrowObj != null)
-        {
-            arrowSize = arrowObj.GetComponent<RectTransform>().rect.size;
-        }
+    }
+
+    public void SetArrowSprite(Sprite newSprite)
+    {
+        _arrowImage.sprite = newSprite;
+        _doneArrow.GetComponent<RectTransform>().sizeDelta = newSprite.rect.size;
+    }
+
+    public void ResetArrowSprite()
+    {
+        _arrowImage.sprite = _origArrowSprite;
+        _doneArrow.GetComponent<RectTransform>().sizeDelta = _origArrowSize;
     }
 
     public void TurnPage()
@@ -187,24 +201,27 @@ public class ConversationController : MonoBehaviour
             {
                 EndDialogue();
             }
-            Color color;
-            if (!dialoguePrint.pageDone)
+
+            if (!dialoguePrint.pageDone && !alwaysShowArrow)
             {
-                color = new Color(1, 1, 1, 0);
+                _arrowImage.color = new Color(1, 1, 1, 0);
+            }
+            else if (!dialoguePrint.pageDone && alwaysShowArrow)
+            {
+                _arrowImage.color = new Color(1, 1, 1, 1);
             }
             else
             {
-                color = new Color(1, 1, 1, Mathf.Sin(_arrowCycleCounter));
+                _arrowImage.color = new Color(1, 1, 1, Mathf.Sin(_arrowCycleCounter));
             }
-            _arrowImage.color = color;
 
             _arrowCycleCounter += (Time.deltaTime * _arrowCycleSpeed);
             if (_arrowCycleCounter > 360) _arrowCycleCounter = 0;
 
-            if (arrowObj != null)
+            if (_doneArrow != null)
             {
-                Vector3 vec = dialoguePrint.GetLastPosition();
-                arrowObj.transform.localPosition = new Vector3( vec.x + arrowSize.x, vec.y + (arrowSize.y / 2), arrowObj.transform.localPosition.z);
+                Vector3 vec = dialoguePrint.GetEndPosition();
+                _doneArrow.transform.localPosition = new Vector3( vec.x + _currentArrowSize.x, vec.y + (_currentArrowSize.y / 2), _doneArrow.transform.localPosition.z);
             }
 
         }
