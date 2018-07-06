@@ -31,7 +31,7 @@ public class AnimatedCharacter : MonoBehaviour
     {
         if (CharacterController.Instance != null)
         {
-            CharacterController.Instance.animatedCharacter.Add(this);
+            CharacterController.Instance.animatedCharacters.Add(this);
         }
         else
         {
@@ -115,6 +115,16 @@ public class AnimatedCharacter : MonoBehaviour
                 currentlyUpdatingReaction = false;
                 _reactionPackages[0].reactionDone = true;
             }
+        }
+    }
+
+
+    public void ChangeAnimationLayer(int animationIndex)
+    {
+        int layerCount = animator.layerCount;
+        if (layerCount - 1 >= animationIndex)
+        {
+            animator.SetLayerWeight(animationIndex, 1f);
         }
     }
 

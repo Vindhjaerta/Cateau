@@ -11,10 +11,17 @@ public class ReactionPackage : System.Object
     public bool reactionDone;
 }
 
+[System.Serializable]
+public class ChangeAnimationLayerData : System.Object
+{
+    public StringVariable characterIdentifier;
+    public int animationIndex;
+}
+
 public class CharacterController : MonoBehaviour
 {
     [HideInInspector]
-    public List<AnimatedCharacter> animatedCharacter;
+    public List<AnimatedCharacter> animatedCharacters;
 
     private static CharacterController _instance;
 
@@ -52,15 +59,32 @@ public class CharacterController : MonoBehaviour
 
     public void DelegateReaction(ReactionPackage reactionPackage)
     {
-        if (animatedCharacter != null && reactionPackage != null)
+        if (animatedCharacters != null && reactionPackage != null)
         {
-            foreach (AnimatedCharacter animatedCharacter in animatedCharacter)
+            foreach (AnimatedCharacter animatedCharacter in animatedCharacters)
             {
                 if (animatedCharacter.characterIdentifier.value == reactionPackage.characterIdentifier.value)
                 {
                     if (animatedCharacter.gameObject.activeSelf == true)
                     {
                         animatedCharacter.ReceiveReaction(reactionPackage);
+                    }
+                }
+            }
+        }
+    }
+
+    public void DelegateAnimationLayerChange(ChangeAnimationLayerData changeAnimationLayerData)
+    {
+        if (animatedCharacters != null)
+        {
+            foreach (AnimatedCharacter animatedCharacter in animatedCharacters)
+            {
+                if (animatedCharacter.characterIdentifier.value == changeAnimationLayerData.characterIdentifier.value)
+                {
+                    if (animatedCharacter.gameObject.activeSelf == true)
+                    {
+                        animatedCharacter.ChangeAnimationLayer(changeAnimationLayerData.animationIndex);
                     }
                 }
             }
