@@ -13,12 +13,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffectname: ButtonClick2
   audioClip: {fileID: 8300000, guid: 2a55662ca68d21e419657ef722b27ba2, type: 3}
-  volume: 1
+  volume: 0.7
   pitch: 0.9274138
   randomPitch: {x: 0, y: 0}
   time: 0
-  staticPanAudio: 0
-  staticPanAudioSlider: 0
+  staticPanAudio: 1
+  staticPanAudioSlider: -0.6
   randomPanAudio: 0
   panDuration: 1
   clipDonePlaying: 0
