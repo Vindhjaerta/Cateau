@@ -361,13 +361,13 @@ Prefab:
         type: 2}
       propertyPath: _ambienceSounds.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 420058fb7375e6743803f11a9f2c9737,
+      objectReference: {fileID: 11400000, guid: 86b325207cb82ad48a3242e1f4d46f58,
         type: 2}
     - target: {fileID: 114484451376278168, guid: 9f94c1ce148c80d478ce0fbf990c65c0,
         type: 2}
       propertyPath: _ambienceSounds.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: ea43e7d3c3e4d714fa5aab507e1c0d13,
+      objectReference: {fileID: 11400000, guid: b5c6b980482548a4c9f3f84c95d99f02,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9f94c1ce148c80d478ce0fbf990c65c0, type: 2}

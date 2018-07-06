@@ -9,24 +9,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb0ad3b0d82ca28438b29053fc3e2299, type: 3}
-  m_Name: amb_loop_crowd
+  m_Name: amb_oneshot_car01
   m_EditorClassIdentifier: 
   outputAudioMixerGroup: {fileID: 243167039401826128, guid: 9b9d74c887fe09c4c8d02314bd0734f8,
     type: 2}
   ambienceSoundname: 
-  audioClip: {fileID: 8300000, guid: 50f3e1c5d91b0834881b538f77b38e41, type: 3}
-  volume: 0.12
+  audioClip: {fileID: 8300000, guid: d55bcfaa1b3222c43a4217b12ddd35ba, type: 3}
+  volume: 0.5
   pitch: 1
-  randomPitch: {x: 0, y: 0}
+  randomPitch: {x: 0, y: 0.2}
   readyToPlay: 0
-  randomStartTimer: 0
-  startTimeInterval: {x: 0, y: 50}
+  randomStartTimer: 1
+  startTimeInterval: {x: 0, y: 5}
   playSoundRandomInterval: {x: 5, y: 10}
-  time: 0
-  staticPanAudio: 1
-  staticPanAudioSlider: -1
-  randomPanAudio: 0
+  time: 1.6589354
+  staticPanAudio: 0
+  staticPanAudioSlider: 0
+  randomPanAudio: 1
   panDuration: 1
-  clipDonePlaying: 23.95451
-  priority: 10
+  clipDonePlaying: 0
+  priority: 2
   addToQueue: 1
