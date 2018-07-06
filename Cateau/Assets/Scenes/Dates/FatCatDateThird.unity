@@ -828,7 +828,7 @@ Prefab:
     - target: {fileID: 114389078271331112, guid: bb94bcb0c9ec5c543998eb9dc99d26fc,
         type: 2}
       propertyPath: targetScene
-      value: BossCatDateThird
+      value: TransitionFatCat
       objectReference: {fileID: 0}
     - target: {fileID: 1451924983145418, guid: bb94bcb0c9ec5c543998eb9dc99d26fc, type: 2}
       propertyPath: m_Name
