@@ -57,8 +57,11 @@ public class AmbienceManager : MonoBehaviour
         }
         _playingAmbienceList.Clear();
         _ambienceSoundQueue.Clear();
+        foreach (AudioSource audiosource in _audioSources)
+        {
+            audiosource.Stop();
+        }
         _ambienceContainer.Clear();
-        Start();
     }
 
     // Use this for initialization
