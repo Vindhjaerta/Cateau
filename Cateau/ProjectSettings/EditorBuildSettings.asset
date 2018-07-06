@@ -65,4 +65,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Scenes/TransitionFatCat.unity
     guid: 186f99d70648af74cbb13c8db42f2733
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/TransitionBossCat.unity
+    guid: 125826a223eb3774ba2d79622dc23dc8
   m_configObjects: {}
