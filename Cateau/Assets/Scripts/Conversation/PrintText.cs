@@ -530,7 +530,7 @@ public class PrintText
         return false;
     }
 
-    public Vector2 GetLastPosition()
+    public Vector2 GetEndPosition()
     {
         if(_targetText != null)
         {

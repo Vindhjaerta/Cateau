@@ -355,7 +355,7 @@ MonoBehaviour:
   autoPageTurn: 0
   autoEndConversation: 1
   _arrowCycleSpeed: 6
-  arrowObj: {fileID: 1467596227896184}
+  alwaysShowArrow: 1
 --- !u!114 &114724862978900946
 MonoBehaviour:
   m_ObjectHideFlags: 1
