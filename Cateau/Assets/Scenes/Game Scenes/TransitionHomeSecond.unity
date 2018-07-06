@@ -587,7 +587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebbaeddfd7d0cd24689edb148fee0f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatedCharacter: []
+  animatedCharacters: []
 --- !u!4 &489839361
 Transform:
   m_ObjectHideFlags: 0
@@ -1154,16 +1154,9 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: 'With that we wish each other a good night '
+      constantValue: With that we separate into our respective rooms.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: before heading to our rooms.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
     effects: []
 --- !u!224 &808535852
 RectTransform:
@@ -3508,9 +3501,16 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: "l\u2019ll have to go looking for them tomorrow."
+      constantValue: "l\u2019ll have to go looking for them "
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: after I've had time to sleep.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
