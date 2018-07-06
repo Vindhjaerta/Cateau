@@ -71,6 +71,10 @@ public class AmbienceSound : ScriptableObject
             startTime = Random.Range(startTimeInterval.x, startTimeInterval.y);
             //Debug.Log(name + " randomstart time: " + startTime);
         }
+        else
+        {
+            startTime = 0;
+        }
     }
 
     public void PrepareToSend(int inPriority)
@@ -113,34 +117,41 @@ public class AmbienceSound : ScriptableObject
         {
             _audioSource.outputAudioMixerGroup = outputAudioMixerGroup;
         }
+        else
+        {
+            _audioSource.outputAudioMixerGroup = null;
+        }
     }
 
     public void UpdateSound(float time)
     {
-        _audioSource.volume = _ambienceManager.maxVolume * volume;
-        clipDonePlaying += Time.deltaTime;
-        if (randomPanAudio)
+        if (_audioSource != null)
         {
-            if (starterPan < 0)
+            _audioSource.volume = _ambienceManager.maxVolume * volume;
+            clipDonePlaying += Time.deltaTime;
+            if (randomPanAudio)
             {
-                _audioSource.panStereo += (60 / (60 * (panDuration)) * time);
+                if (starterPan < 0)
+                {
+                    _audioSource.panStereo += (60 / (60 * (panDuration)) * time);
+                }
+                else
+                {
+                    _audioSource.panStereo -= (60 / (60 * (panDuration)) * time);
+                }
             }
-            else
+            if (staticPanAudio)
             {
-                _audioSource.panStereo -= (60 / (60 * (panDuration)) * time);
+                _audioSource.panStereo = staticPanAudioSlider;
             }
+            if (clipDonePlaying > audioClip.length)
+            {
+                clipDonePlaying = 0;
+                starterPan = 0;
+                _ambienceManager._playingAmbienceList.Remove(this);
+            }
+            this.time = 0;
         }
-        if (staticPanAudio)
-        {
-            _audioSource.panStereo = staticPanAudioSlider;
-        }
-        if (clipDonePlaying > audioClip.length)
-        {
-            clipDonePlaying = 0;
-            starterPan = 0;
-            _ambienceManager._playingAmbienceList.Remove(this);
-        }
-        this.time = 0;
     }
 
     public void UpdateTime(float time)
@@ -174,10 +185,14 @@ public class AmbienceSound : ScriptableObject
 
     public void StopPlaying()
     {
-        if (outputAudioMixerGroup != null)
+        if (_audioSource != null)
         {
-            _audioSource.outputAudioMixerGroup = null;
+            if (_audioSource.outputAudioMixerGroup != null)
+            {
+                _audioSource.outputAudioMixerGroup = null;
+            }
+            _audioSource.Stop();
+            _audioSource = null;
         }
-        _audioSource.Stop();
     }
 }
