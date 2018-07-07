@@ -1627,6 +1627,26 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
+  - text:
+      useConstant: 1
+      constantValue: 'Figuring that''s enough excitement for one day, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'I cut my walk a bit short '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and head home.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects: []
 --- !u!1001 &156471215
 Prefab:
   m_ObjectHideFlags: 0
@@ -3872,24 +3892,32 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: and food to eat or not.
+      constantValue: and food to eat.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'So I make up my mind here and now, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'I''ll take '
+      constantValue: I'll take it home with me.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'We can look for its owner '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "and if we don\u2019t find anyone, "
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 0
       constantValue: 
@@ -3900,80 +3928,9 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' home with me, '
+      constantValue: ' will stay with us.'
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: even if only for a while.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'I''ll continue to look for its owner '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'but if it stays as silent as it has so far, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: it'll stay with us.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'With new determination '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: I start to make my way home.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'Not until I''m almost at my apartment building does '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
-  - text:
-      useConstant: 0
-      constantValue: 
-      variable: {fileID: 11400000, guid: 0a5ec2086e48b4d498ff42e196aee36f, type: 2}
-      GUIpresentationIndex: 2
-    effects:
-    - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
-    - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: ' wake up '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: and it looks around with sleepy eyes.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
     effects: []
 --- !u!1001 &357492692
 Prefab:
@@ -5226,7 +5183,7 @@ Prefab:
     - target: {fileID: 114389078271331112, guid: bb94bcb0c9ec5c543998eb9dc99d26fc,
         type: 2}
       propertyPath: targetScene
-      value: EndScene
+      value: TransitionLilCat
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bb94bcb0c9ec5c543998eb9dc99d26fc, type: 2}
@@ -6131,7 +6088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebbaeddfd7d0cd24689edb148fee0f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatedCharacter: []
+  animatedCharacters: []
 --- !u!4 &787601489
 Transform:
   m_ObjectHideFlags: 0

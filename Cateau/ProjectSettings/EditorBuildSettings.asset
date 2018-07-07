@@ -69,6 +69,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Scenes/TransitionBossCat.unity
     guid: 125826a223eb3774ba2d79622dc23dc8
   - enabled: 1
+    path: Assets/Scenes/Game Scenes/TransitionLilCat.unity
+    guid: 38ce04195dd20414ba1cc12dae0c7478
+  - enabled: 1
     path: Assets/Scenes/Game Scenes/TransitionCake.unity
     guid: a2666ea70ff8783468049eaaf4cf1d1f
   - enabled: 1
