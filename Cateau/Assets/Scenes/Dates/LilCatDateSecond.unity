@@ -3802,7 +3802,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'we need a proper name for you, '
+      constantValue: 'we need a proper name for you too, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -8297,7 +8297,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: It feels a little strange to find a young cat out here all alone.
+      constantValue: It feels a little strange to find such a young cat out here all
+        alone again.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -8311,7 +8312,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: as it might have a number or an adress on it.
+      constantValue: as it might have a number or an address on it.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
