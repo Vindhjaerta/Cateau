@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Crossroad : SceneTreeObject {
 
-    public enum ECrossroad { SaveableString = 0, CatAffinity}
+    public enum ECrossroad { SaveableString = 0, CatAffinity, InSceneCatAffainity}
 
     public ECrossroad type;
 
@@ -45,6 +45,8 @@ public class Crossroad : SceneTreeObject {
     {
         switch (type)
         {
+
+
             case (ECrossroad.CatAffinity):
 
                 for (int i = 0; i < catChoices.Length; i++)
@@ -82,6 +84,35 @@ public class Crossroad : SceneTreeObject {
 
 
                 break;
+            case (ECrossroad.InSceneCatAffainity):
+
+                for (int i = 0; i < catChoices.Length; i++)
+                {
+                    int affinity = 0;
+                    if (GameController.Instance != null)
+                    {
+                        affinity = GameController.Instance.GetCatAffinity(catChoices[i].catIdentifier.value);
+                    }
+                    else
+                    {
+                        Debug.LogWarning("A crossroad couldn't find the GameController: " + gameObject);
+                    }
+
+                    bool result = false;
+                    for (int j = 0; j < catChoices[i].comparators.Length; j++)
+                    {
+                        result = catChoices[i].comparators[j].comparator.Check(affinity, catChoices[i].comparators[j].compareValue);
+                        if (!result) break;
+                    }
+                    if (result)
+                    {
+                        _nextNode = catChoices[i].targetNode;
+                        break;
+                    }
+
+                    Debug.Log("Affinity for: " + catChoices[i].catIdentifier.value + " was: " + affinity);
+                }
+                break;
             case (ECrossroad.SaveableString):
 
 
@@ -103,6 +134,7 @@ public class Crossroad : SceneTreeObject {
                     }
                 }
                 break;
+
         }
         Continue();
     }

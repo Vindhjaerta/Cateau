@@ -96,6 +96,42 @@ class CrossroadEditor : Editor//SceneTreeObjectEditor
                     }
                 }
                 break;
+            case Crossroad.ECrossroad.InSceneCatAffainity:
+                SerializedProperty choiceArraySizeInScene = catChoices.FindPropertyRelative("Array.size");
+                EditorGUILayout.PropertyField(choiceArraySizeInScene, new GUIContent("Choices"));
+
+                EditorGUI.indentLevel++;
+                if (choiceArraySizeInScene.intValue > 0)
+                {
+                    for (int i = 0; i < choiceArraySizeInScene.intValue; i++)
+                    {
+                        EditorGUILayout.PropertyField(catChoices.GetArrayElementAtIndex(i).FindPropertyRelative("catIdentifier"));
+                        EditorGUILayout.PropertyField(catChoices.GetArrayElementAtIndex(i).FindPropertyRelative("targetNode"));
+
+                        SerializedProperty comparators = catChoices.GetArrayElementAtIndex(i).FindPropertyRelative("comparators");
+                        SerializedProperty comparatorArraySize = comparators.FindPropertyRelative("Array.size");
+                        EditorGUILayout.PropertyField(comparatorArraySize, new GUIContent("Comparators"));
+
+                        EditorGUI.indentLevel++;
+                        if (comparatorArraySize.intValue > 0)
+                        {
+                            for (int j = 0; j < comparatorArraySize.intValue; j++)
+                            {
+                                EditorGUILayout.BeginHorizontal();
+                                EditorGUILayout.PropertyField(comparators.GetArrayElementAtIndex(j).FindPropertyRelative("comparator"), new GUIContent(""));
+                                EditorGUILayout.PropertyField(comparators.GetArrayElementAtIndex(j).FindPropertyRelative("compareValue"), new GUIContent(""));
+                                EditorGUILayout.EndHorizontal();
+                            }
+                        }
+                        EditorGUI.indentLevel--;
+                        if (choiceArraySizeInScene.intValue > 1 && i < choiceArraySizeInScene.intValue - 1) EditorGUILayout.LabelField("", GUI.skin.horizontalSlider);
+                        //EditorGUILayout.Space();
+                        //EditorGUILayout.LabelField("");
+
+
+                    }
+                }
+                break;
         }
 
         EditorGUI.indentLevel = indent;

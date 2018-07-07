@@ -116,6 +116,27 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
         }
     }
 
+    public int GetCatAffinity(string catIdentifier)
+    {
+        int affinity = 0;
+        if (_catScript != null)
+        {
+            if (catIdentifier == _catScript.SendTag())
+            {
+                affinity = _catScript.SendAffinity();
+            }
+            else
+            {
+                Debug.LogWarning("The cat you asked to get affinity for isn't  the active on on GameController");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("GameController didn't have a _catScript when it was asked for GetCatAffinity, it returned the vaule " + affinity);
+        }
+        return affinity;
+    }
+
     private void LoadCat()
     {
         if(GameStateContainer.Instance != null)
