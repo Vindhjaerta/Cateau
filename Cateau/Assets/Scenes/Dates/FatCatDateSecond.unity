@@ -7757,8 +7757,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'and while I doubt that my voice command does much as the cat
-        most likely just takes the visual cue, '
+      constantValue: 'and while I doubt that my voice command does much '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'as the cat most likely just takes the visual cue, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -8325,7 +8331,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'business had been going well and they were moving to a new, '
+      constantValue: 'business has been going well and they were moving to a new, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -9772,7 +9778,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: ' and escaping into the bakery.'
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects: []
 --- !u!1001 &1225003661
 Prefab:
