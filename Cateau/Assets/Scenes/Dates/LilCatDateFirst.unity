@@ -3364,6 +3364,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Never spent as much time with cats or other critters as you
@@ -3525,6 +3526,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
       constantValue: 'then stop, '
@@ -4451,6 +4453,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: '?'
@@ -5417,6 +5420,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: Ro
@@ -5450,44 +5454,11 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: "I\u2019ll be home soon"
+      constantValue: "I\u2019ll be home soon too"
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: .
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
-    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'Oh, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: "and I\u2019ll be off a bit earlier than usual tomorrow, "
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: "I\u2019ve got some errands to run before work"
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
       constantValue: .
@@ -5496,6 +5467,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
 --- !u!1001 &483564593
 Prefab:
   m_ObjectHideFlags: 0
@@ -5635,6 +5607,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
 --- !u!1001 &494883439
 Prefab:
   m_ObjectHideFlags: 0
@@ -7239,6 +7212,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 226c05575f8227943ad62522bfcf5d74, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
       constantValue: Just be a bit more thoughtful next time and it should be good.
@@ -7760,6 +7734,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 9cbc2467f0b3b1340b71ba15a19bba93, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
 --- !u!1001 &690681073
 Prefab:
   m_ObjectHideFlags: 0
@@ -9053,6 +9028,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
     - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: .
@@ -9632,6 +9608,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 0687069074cbc0f4685a61eb25c2671f, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
 --- !u!1001 &927593723
 Prefab:
   m_ObjectHideFlags: 0
@@ -9773,6 +9750,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 9cbc2467f0b3b1340b71ba15a19bba93, type: 2}
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
       constantValue: "Sure you can observe, but stand far enough away that you can\u2019t
@@ -9921,6 +9899,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: if I have the opportunity
@@ -9947,17 +9926,9 @@ MonoBehaviour:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
-      constantValue: "but I won\u2019t be staying up all night. "
+      constantValue: see you there
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: "I\u2019ve got some errands to run before work"
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
@@ -9967,7 +9938,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
+    - {fileID: 11400000, guid: c848f833b3bdda04a8eb2667af244e3e, type: 2}
 --- !u!1001 &956268730
 Prefab:
   m_ObjectHideFlags: 0
@@ -11450,6 +11421,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 06455632d653c264482cac448bce4a5e, type: 2}
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
       constantValue: I wish I had a cat like that, reminds me of my first one when
@@ -11923,7 +11895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebbaeddfd7d0cd24689edb148fee0f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatedCharacter: []
+  animatedCharacters: []
 --- !u!4 &1160309334
 Transform:
   m_ObjectHideFlags: 0
@@ -13433,6 +13405,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: .
@@ -14700,6 +14673,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: "it\u2019s easy to understand your obsession, "
@@ -14721,38 +14695,6 @@ MonoBehaviour:
       constantValue: "I\u2019ll be home soon"
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: .
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-    - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'Almost forgot, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: "I\u2019ll be off a bit earlier than usual tomorrow, "
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: "I\u2019ve got some errands to run before work"
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
@@ -15572,6 +15514,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: "It\u2019d been spooked by someone rushing past"
@@ -16850,6 +16793,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 06455632d653c264482cac448bce4a5e, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
 --- !u!114 &1891973073 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114804516959043978, guid: f30360e6aa6eabc40b26395b40f01452,
@@ -17475,6 +17419,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: haha
@@ -17956,6 +17901,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'I moved slowly, '
@@ -18743,6 +18689,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'got it. '
@@ -18761,51 +18708,28 @@ MonoBehaviour:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
   - text:
       useConstant: 1
-      constantValue: I will be
+      constantValue: 'I will be. '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: .
+      constantValue: "I\u2019ll be home soon"
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: '!'
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
     - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: "I\u2019ll be home soon but I won\u2019t be up for long tonight. "
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: "Then I\u2019ll be off a bit earlier than usual tomorrow, "
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: "I\u2019ve got some errands to run before work"
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: .
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
-    - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
 --- !u!1001 &2122441918
 Prefab:
   m_ObjectHideFlags: 0
@@ -18946,6 +18870,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 06455632d653c264482cac448bce4a5e, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
 --- !u!1001 &2146898454
 Prefab:
   m_ObjectHideFlags: 0
