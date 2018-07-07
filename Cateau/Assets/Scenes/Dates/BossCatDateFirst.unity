@@ -435,6 +435,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Don''t. '
@@ -1524,7 +1525,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
     - {fileID: 11400000, guid: 9fda0b05ac5b29f438007549b86f8c65, type: 2}
-    - {fileID: 11400000, guid: f47101d8fc3019b48a419be7945864e2, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
       constantValue: 'rotating its entire torso with eyes blazing with disappointment '
@@ -2107,6 +2108,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
 --- !u!1001 &321837339
 Prefab:
   m_ObjectHideFlags: 0
@@ -2246,6 +2248,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'but I need to hurry up now. '
@@ -3500,6 +3503,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
     - {fileID: 11400000, guid: 02242dfaf24966c468f4f928a7242fbe, type: 2}
+    - {fileID: 11400000, guid: 524215a936f66904cbcce22f3aacce09, type: 2}
   - text:
       useConstant: 1
       constantValue: "it\u2019s basking in the sun with closed eyes, "
@@ -4071,6 +4075,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'it seems that way, '
@@ -4668,6 +4673,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: I will be
@@ -5073,6 +5079,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 9cbc2467f0b3b1340b71ba15a19bba93, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
       constantValue: 'the best? '
@@ -6909,6 +6916,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Don''t throw stuff give it space. '
@@ -7063,6 +7071,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 226c05575f8227943ad62522bfcf5d74, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Bet it''s a stray. '
@@ -8653,6 +8662,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: it didn't like it that much
@@ -9459,6 +9469,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 9cbc2467f0b3b1340b71ba15a19bba93, type: 2}
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
       constantValue: Could you see any wounds or such?
@@ -9606,6 +9617,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: it didn't seem to mind me being in the vicinity as long as it
@@ -9655,6 +9667,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: I took a page from your book
@@ -10078,6 +10091,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
 --- !u!1001 &1566864110
 Prefab:
   m_ObjectHideFlags: 0
@@ -10852,6 +10866,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'and it looked fine to me, '
@@ -12090,6 +12105,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 06455632d653c264482cac448bce4a5e, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Be careful though, '
@@ -12598,6 +12614,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 06455632d653c264482cac448bce4a5e, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
       constantValue: 'thanks for the picture! '
@@ -13151,6 +13168,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'thanks! '
@@ -13633,6 +13651,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'you''re right. '
@@ -13811,6 +13830,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: I've got no idea what I'm doing
