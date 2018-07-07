@@ -6389,7 +6389,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4116515988871874, guid: e8a82b3388a4a4245ba897334fa02c8a, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1727046888671216, guid: e8a82b3388a4a4245ba897334fa02c8a, type: 2}
       propertyPath: m_Name
@@ -10188,7 +10188,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1566864112}
-  - {fileID: 1789073224}
+  - {fileID: 1264766802}
   - {fileID: 241353087}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -12235,13 +12235,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1264766800}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -961.8491, y: -573.7167, z: 10}
+  m_LocalPosition: {x: -893.3543, y: -558.4788, z: -22.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1146624257}
   - {fileID: 562115993}
-  m_Father: {fileID: 1789073224}
-  m_RootOrder: 0
+  m_Father: {fileID: 960176497}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1285486447
 Prefab:
@@ -15934,53 +15934,6 @@ MonoBehaviour:
   _ambienceSounds:
   - {fileID: 11400000, guid: 89f22ff8d2cfc4b42ac6fe7d9c7b649b, type: 2}
   clipHasBeenChosen: 0
---- !u!1 &1789073223
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1789073224}
-  - component: {fileID: 1789073225}
-  m_Layer: 0
-  m_Name: AudioSwitch
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1789073224
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1789073223}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 68.49481, y: 15.237854, z: -32.75}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1264766802}
-  m_Father: {fileID: 960176497}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1789073225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1789073223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1717d6e0a5272c24392c5f2da4f2b595, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ambienceManager: {fileID: 1264766801}
-  ambienceContainer:
-  - {fileID: 0}
-  - {fileID: 524803697}
-  - {fileID: 1784241087}
-  - {fileID: 453013960}
 --- !u!114 &1796691488 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114251971618591436, guid: f30360e6aa6eabc40b26395b40f01452,
