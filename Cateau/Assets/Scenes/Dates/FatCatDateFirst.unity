@@ -778,6 +778,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 06455632d653c264482cac448bce4a5e, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
       constantValue: Aw it looks so cuddly, thanks for sharing that!
@@ -1563,6 +1564,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: '!'
@@ -2248,6 +2250,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
       constantValue: Did you get along well?
@@ -3193,6 +3196,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
     - {fileID: 11400000, guid: ead1e495dfd0b4640bb442d3e7940f3b, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: '. '
@@ -3694,7 +3698,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: Maybe I don't need to create distance.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -4123,6 +4127,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Not bad, '
@@ -4661,6 +4666,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
       constantValue: 'I let '
@@ -4962,7 +4968,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: "to that bed which I\u2019m now longing for."
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -4986,6 +4992,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
       constantValue: 'constantly getting in my way, '
@@ -5106,6 +5113,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
     - {fileID: 11400000, guid: 06e8e40fe5f33c34a957909e5dcacf1e, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
       constantValue: "letting out a meek meow before continuing circling me like the
@@ -5198,7 +5206,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: ' from this cat if she had been there.'
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -5864,6 +5872,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
 --- !u!114 &994096906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6850,6 +6859,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: Had to push it off of me haha
@@ -7367,6 +7377,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Just a sort of insistent nudge, '
@@ -7596,8 +7607,15 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 0539f14007c4a714591c42c29694d84a, type: 2}
   - text:
       useConstant: 1
-      constantValue: I give it a good scratch and see the grin-like face of an excessively
-        happy cat.
+      constantValue: 'I give it a good scratch '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 524215a936f66904cbcce22f3aacce09, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and see the grin-like face of an excessively happy cat.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -7646,6 +7664,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
       constantValue: 'to stroke its body against my knees, '
@@ -8013,6 +8032,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 0687069074cbc0f4685a61eb25c2671f, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
 --- !u!1001 &1358438353
 Prefab:
   m_ObjectHideFlags: 0
@@ -8152,6 +8172,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: 'I managed to nab it in the end! '
@@ -8320,6 +8341,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
       constantValue: I add.
@@ -8784,6 +8806,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: " I won\u2019t"
@@ -9701,6 +9724,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 06455632d653c264482cac448bce4a5e, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
 --- !u!1001 &1621803752
 Prefab:
   m_ObjectHideFlags: 0
@@ -9839,6 +9863,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: .
@@ -9924,6 +9949,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
     - {fileID: 11400000, guid: 4c11515070b342b4ca849b3cb16fa5fb, type: 2}
+    - {fileID: 11400000, guid: f47101d8fc3019b48a419be7945864e2, type: 2}
   - text:
       useConstant: 1
       constantValue: turning into a ball on the blanket.
@@ -9956,7 +9982,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: "but it\u2019s at least recognizable as a cat."
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -9970,14 +9996,14 @@ MonoBehaviour:
       useConstant: 1
       constantValue: I feel a tinge of guilt.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
       constantValue: "I\u2019d have to make amends next time."
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects: []
 --- !u!1001 &1627748415
 Prefab:
@@ -10247,6 +10273,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: .
@@ -10902,6 +10929,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
 --- !u!1001 &1722994263
 Prefab:
   m_ObjectHideFlags: 0
@@ -11260,8 +11288,14 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: "The way in which that paw\u2019s opening and closing makes me
-        think it\u2019s reaching for more attention."
+      constantValue: "The way in which that paw\u2019s opening and closing "
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "makes me think it\u2019s reaching for more attention."
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -11306,7 +11340,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: 'Having been taken hostage by the cat, '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
@@ -11391,7 +11425,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: I should get going and head home.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -11417,8 +11451,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'I doubt I can back away without making it follow since it very
-        persistently wants cuddles, '
+      constantValue: 'I doubt I can back away without making it follow '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'since it very persistently wants cuddles, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -12034,6 +12074,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
       constantValue: "I\u2019ll do that next time it holds me hostage"
@@ -12727,6 +12768,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 9cbc2467f0b3b1340b71ba15a19bba93, type: 2}
+    - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
 --- !u!114 &2034321384 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114524330721459570, guid: f30360e6aa6eabc40b26395b40f01452,
@@ -12914,7 +12956,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: not wishing to pressure it in any way.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -12987,7 +13029,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: lacking any semblance of urgency.
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -13012,6 +13054,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 524215a936f66904cbcce22f3aacce09, type: 2}
   - text:
       useConstant: 1
       constantValue: rubbing up against my legs with a quiet purr.
@@ -13211,6 +13254,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 524215a936f66904cbcce22f3aacce09, type: 2}
   - text:
       useConstant: 1
       constantValue: 'and an outstretched paw closes and opens gently. '
