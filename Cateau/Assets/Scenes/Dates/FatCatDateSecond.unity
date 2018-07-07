@@ -12511,18 +12511,11 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: 'On a new, '
+      constantValue: 'After some well deserved sleep, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'beautiful and hot day '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
       constantValue: I head out to grab that cake.
