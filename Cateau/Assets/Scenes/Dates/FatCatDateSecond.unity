@@ -4229,16 +4229,42 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: "I can\u2019t ever recall seeing any living thing so visibly
-        content with everything."
+      constantValue: "I can\u2019t ever recall seeing any living thing "
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: so visibly content with everything.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: A creature so amazingly relaxed deserves to be distinguished
-        from ordinary cats.
+      constantValue: 'Ro '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: a3489a3cba2911c49a4a66bf865c7e49, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: would absolutely adore this cat.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'As her apprentice '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: I must follow her word and give it a name.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -4588,186 +4614,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b351208f3a2fd3d40b599812d0870a19, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &655570483
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1649575889}
-    m_Modifications:
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
-        type: 2}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
-      propertyPath: m_Name
-      value: ConversationOliveThird
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114751624728528770, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
-  m_ParentPrefab: {fileID: 100100000, guid: 4253a99f4a917364fb752127de91d0f1, type: 2}
-  m_IsPrefabParent: 0
---- !u!1 &655570484 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
-    type: 2}
-  m_PrefabInternal: {fileID: 655570483}
---- !u!114 &655570485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 655570484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af2ddefca2a30ae4688ba22bbeea28c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  savepointIndex: 0
-  _nextNode: {fileID: 1429699654}
-  characterNameTag:
-    useConstant: 1
-    constantValue: 
-    variable: {fileID: 0}
-    GUIpresentationIndex: 0
-  nameEffects: []
-  sentences:
-  - text:
-      useConstant: 1
-      constantValue: Ro
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: a3489a3cba2911c49a4a66bf865c7e49, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: "\u2019d go around giving every cat in the entire nation a nickname
-        if she could, "
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: "but it was never something that I\u2019d cottoned on to in any
-        real respect."
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: "I\u2019d bet she\u2019d find it at least somewhat amusing to
-        see that it\u2019s something what I\u2019ve learned from the "
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects: []
-  - text:
-      useConstant: 1
-      constantValue: 'Grand Cat Communicator '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: a3489a3cba2911c49a4a66bf865c7e49, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'herself, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: rather than it being an exception to the rule.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects: []
 --- !u!1001 &655792061
 Prefab:
   m_ObjectHideFlags: 0
@@ -12659,107 +12505,114 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: 'Before reaching the promised land of cake and pastries, '
+      constantValue: 'On a new, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'beautiful and hot day '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: I head out to grab that cake.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'To be honest, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "I\u2019m more excited at the chance of seeing the cat again "
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'an unexpected thought hits me: '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: 29aa48c7f4f63d746b9c8fda027dd8bd, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'That fat cat behind the bakery is likely rather fond of food, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: perhaps I could get it something?
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: I nip into a shop along the way to pick up some cat treats.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: 'No harm in trying and all that. '
+      constantValue: than to celebrate my co-worker.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'But just as I get to the cash register, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: a second thought hits me.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: "That jar around the cat\u2019s home, "
+      constantValue: 'I should get the cat something, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: "it\u2019d been a food jar."
+      constantValue: it looks like one that would appreciate something edible.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'I take a quick detour to a grocery store '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and I quickly find myself in the small pet isle.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'I have no idea what the cat likes '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'and the picture of the jars littered around its bed '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: pop into my mind.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: "Maybe it wasn\u2019t just rubbish, "
+      constantValue: 'Maybe they had contained something it liked, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "but I can\u2019t quite remember what label it had."
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: What should I buy?
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: but somebody had put it there for the cat to eat?
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: "I can\u2019t seem to recall what they were, "
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: only that it was definitely not some kind of cat food or treats.
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: Maybe I should try something more outside the box?
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
     effects: []
 --- !u!1001 &1429699652
 Prefab:
@@ -12806,7 +12659,7 @@ Prefab:
     - target: {fileID: 224087738236201254, guid: 0e72325c78b733a4088de7af4849c5b7,
         type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 224087738236201254, guid: 0e72325c78b733a4088de7af4849c5b7,
         type: 2}
@@ -14600,7 +14453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 655570485}
+  _nextNode: {fileID: 1429699654}
   characterNameTag:
     useConstant: 0
     constantValue: 
@@ -14626,7 +14479,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I'm sure the two of you are well-acquainted.
+      constantValue: 'She has sent me here '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: with the intention of gifting you a name.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -16420,7 +16280,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: 'The cat raises its head with a slow, '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
     - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
@@ -18062,16 +17922,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'But as you and I were never introduced, '
+      constantValue: 'She also wants me to grant you a name, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: I suppose I might as well give you a nickname for now.
+      constantValue: if that would be ok?
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects: []
 --- !u!1 &2142189502 stripped
 GameObject:
