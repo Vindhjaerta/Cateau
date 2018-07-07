@@ -3755,23 +3755,36 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: "and there is one close up picture of the cat's face that didn\u2019t
-        end up looking like the photo was taken from inside a tumble dryer."
+      constantValue: 'and there is one close up picture of the cat''s face '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "that didn\u2019t end up looking like the photo was taken from
+        inside a tumble dryer."
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'It will have to make do '
+      constantValue: It will have to make do.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'and after a few more cuddles I manage to extricate myself from
-        the situation '
+      constantValue: 'A few more cuddles later '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'I manage to extricate myself from the situation '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -5116,8 +5129,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
-      constantValue: "letting out a meek meow before continuing circling me like the
-        world\u2019s cuddliest shark."
+      constantValue: "letting out a meek meow before continuing to circle me like
+        the world\u2019s cuddliest shark."
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:

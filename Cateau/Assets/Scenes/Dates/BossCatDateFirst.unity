@@ -1476,7 +1476,7 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: "Looking around for some method of getting the cats\u2019 attention, "
+      constantValue: 'Looking around for some method of getting the cat''s attention, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -8470,7 +8470,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: "The cats\u2019 mean glare is the center of the photo, "
+      constantValue: 'The cat''s mean glare is the center of the photo, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
