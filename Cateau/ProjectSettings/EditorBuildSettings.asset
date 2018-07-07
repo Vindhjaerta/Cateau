@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Scenes/TransitionCake.unity
     guid: a2666ea70ff8783468049eaaf4cf1d1f
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/TransitionCall.unity
+    guid: 205df645f1330584f81cf60d3b77e090
   m_configObjects: {}

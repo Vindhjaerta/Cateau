@@ -1111,6 +1111,20 @@ MonoBehaviour:
       constantValue: I had last seen it on.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "My chances of seeing the kitten again aren\u2019t great, "
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: but it isn't like a walk is a waste of time anyway.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
     effects: []
 --- !u!224 &422513534
 RectTransform:
