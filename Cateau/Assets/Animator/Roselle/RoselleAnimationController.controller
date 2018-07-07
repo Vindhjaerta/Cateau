@@ -106,7 +106,28 @@ AnimatorController:
     m_Name: Happy
     m_StateMachine: {fileID: 1107031723679022134}
     m_Mask: {fileID: 0}
-    m_Motions: []
+    m_Motions:
+    - serializedVersion: 2
+      m_State: {fileID: 1102482005154913518}
+      m_Motion: {fileID: 7400000, guid: a6add9bee4fc6fc4eaf15fd713e36c9c, type: 2}
+    - serializedVersion: 2
+      m_State: {fileID: 1102837999362398732}
+      m_Motion: {fileID: 7400000, guid: 7439c90a077ffe04abc6f65115f99a8f, type: 2}
+    - serializedVersion: 2
+      m_State: {fileID: 1102435183109256102}
+      m_Motion: {fileID: 7400000, guid: dc8c2a0011d8c094faa9236361736198, type: 2}
+    - serializedVersion: 2
+      m_State: {fileID: 1102017976708804676}
+      m_Motion: {fileID: 7400000, guid: 1dab037bbf63fb04eb4a5816af3a61ec, type: 2}
+    - serializedVersion: 2
+      m_State: {fileID: 1102584562440016586}
+      m_Motion: {fileID: 7400000, guid: 1dab037bbf63fb04eb4a5816af3a61ec, type: 2}
+    - serializedVersion: 2
+      m_State: {fileID: 1102453564485061134}
+      m_Motion: {fileID: 7400000, guid: 1dab037bbf63fb04eb4a5816af3a61ec, type: 2}
+    - serializedVersion: 2
+      m_State: {fileID: 1102927539701011480}
+      m_Motion: {fileID: 7400000, guid: 1dab037bbf63fb04eb4a5816af3a61ec, type: 2}
     m_Behaviours: []
     m_BlendingMode: 0
     m_SyncedLayerIndex: 0
