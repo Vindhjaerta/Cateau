@@ -2072,7 +2072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 2104903899}
+  _nextNode: {fileID: 1427757098}
   characterNameTag:
     useConstant: 0
     constantValue: 
@@ -2986,7 +2986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 2104903899}
+  _nextNode: {fileID: 1811919520}
   characterNameTag:
     useConstant: 0
     constantValue: 
@@ -3000,7 +3000,8 @@ MonoBehaviour:
       constantValue: Of course!
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
       constantValue: We couldn't be happier that it finds a proper home.
@@ -11304,7 +11305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 1731162675}
+  _nextNode: {fileID: 1728057757}
   characterNameTag:
     useConstant: 0
     constantValue: 
@@ -11339,7 +11340,8 @@ MonoBehaviour:
       constantValue: .
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
       constantValue: That's what I call it by the way.
@@ -13504,7 +13506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 2104903899}
+  _nextNode: {fileID: 635991026}
   characterNameTag:
     useConstant: 0
     constantValue: 
@@ -13656,7 +13658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 0}
+  _nextNode: {fileID: 1772024436}
   characterNameTag:
     useConstant: 1
     constantValue: 
@@ -15076,7 +15078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 1731162675}
+  _nextNode: {fileID: 1920646142}
   characterNameTag:
     useConstant: 0
     constantValue: 
@@ -15999,7 +16001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 0}
+  _nextNode: {fileID: 233181929}
   characterNameTag:
     useConstant: 1
     constantValue: 
@@ -18267,7 +18269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 1731162675}
+  _nextNode: {fileID: 321208489}
   characterNameTag:
     useConstant: 0
     constantValue: 

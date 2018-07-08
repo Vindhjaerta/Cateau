@@ -3349,7 +3349,21 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 966b80852dacb9a49bad5ff86dae8283, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' and Roselle are getting along well '
+      constantValue: ' and '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects: []
+  - text:
+      useConstant: 0
+      constantValue: 
+      variable: {fileID: 11400000, guid: 24552b3d7f8f5834bb580d0b0d1d6135, type: 2}
+      GUIpresentationIndex: 2
+    effects:
+    - {fileID: 11400000, guid: a3489a3cba2911c49a4a66bf865c7e49, type: 2}
+    - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: ' are getting along well '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
