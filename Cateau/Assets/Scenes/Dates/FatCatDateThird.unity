@@ -6636,7 +6636,7 @@ Prefab:
     - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
         type: 2}
       propertyPath: type
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
         type: 2}
@@ -8233,7 +8233,7 @@ Prefab:
     - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
         type: 2}
       propertyPath: type
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
         type: 2}
@@ -9288,7 +9288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebbaeddfd7d0cd24689edb148fee0f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatedCharacter: []
+  animatedCharacters: []
 --- !u!4 &1162976677
 Transform:
   m_ObjectHideFlags: 0
@@ -17416,7 +17416,7 @@ Prefab:
     - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
         type: 2}
       propertyPath: type
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114247218177946954, guid: b5df9d0edeb976d4bb3fa26337e11dc3,
         type: 2}
