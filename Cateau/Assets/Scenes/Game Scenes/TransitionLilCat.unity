@@ -6296,7 +6296,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 5de7bc9817421db4cb1c2fb69f49628d, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'was stuck in a tree, '
+      constantValue: ' was stuck in a tree, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
