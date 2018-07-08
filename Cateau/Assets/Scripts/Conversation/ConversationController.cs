@@ -39,6 +39,7 @@ public class ConversationController : MonoBehaviour
     private Vector2 _currentArrowSize;
     [System.NonSerialized]
     public bool alwaysShowArrow;
+    private Vector2 _offset;
 
     public void InitiateDialogue(Sentence name, List<Sentence> sentences)
     {
@@ -95,16 +96,18 @@ public class ConversationController : MonoBehaviour
         }
     }
 
-    public void SetArrowSprite(Sprite newSprite)
+    public void SetArrowSprite(Sprite newSprite, Vector2 offset)
     {
         _arrowImage.sprite = newSprite;
         _doneArrow.GetComponent<RectTransform>().sizeDelta = newSprite.rect.size;
+        _offset = offset;
     }
 
     public void ResetArrowSprite()
     {
         _arrowImage.sprite = _origArrowSprite;
         _doneArrow.GetComponent<RectTransform>().sizeDelta = _origArrowSize;
+        _offset = Vector2.zero;
     }
 
     public void TurnPage()
@@ -221,7 +224,7 @@ public class ConversationController : MonoBehaviour
             if (_doneArrow != null)
             {
                 Vector3 vec = dialoguePrint.GetEndPosition();
-                _doneArrow.transform.localPosition = new Vector3( vec.x + _currentArrowSize.x, vec.y + (_currentArrowSize.y / 2), _doneArrow.transform.localPosition.z);
+                _doneArrow.transform.localPosition = new Vector3( vec.x + _currentArrowSize.x + _offset.x, vec.y + (_currentArrowSize.y / 2) + _offset.y, _doneArrow.transform.localPosition.z);
             }
 
         }

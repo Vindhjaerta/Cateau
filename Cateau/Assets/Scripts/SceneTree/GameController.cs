@@ -311,14 +311,14 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
         }
     }
 
-    public void OnAlterArrow(Sprite sprite, bool showWhileTyping)
+    public void OnAlterArrow(Sprite sprite, bool showWhileTyping, Vector2 offset)
     {
         if(_cC != null)
         {
             _cC.alwaysShowArrow = showWhileTyping;
             if(sprite != null)
             {
-                _cC.SetArrowSprite(sprite);
+                _cC.SetArrowSprite(sprite, offset);
             }
             else
             {
