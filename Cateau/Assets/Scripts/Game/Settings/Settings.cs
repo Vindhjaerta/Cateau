@@ -19,6 +19,9 @@ public class SettingsContainer
     [Range(0, 1)]
     public float masterVolume = 0.5f;
 
+    [HideInInspector]
+    public float correctMasterVolume = 0.5f;
+
     //System
     public int resolutionIndex;
     public int fontSizeIndex;

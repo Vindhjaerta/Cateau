@@ -124,37 +124,37 @@ public class MusicStemsManager : MonoBehaviour
 
     private void UpdateSoundVolume()
     {
-        if (fadeOut)
-        {
-            float fractionToRemove = Time.deltaTime / fadeOutDuration;
-            maxVolume -= startFadeVolume * fractionToRemove;
-            //Debug.Log("Fraction: " + fractionToRemove);
-            //Debug.Log(maxVolume);
-            if (maxVolume <= 0)
-            {
-                //Debug.Log("FadeOutMusic: False");
-                fadeOut = false;
-            }
-        }
-        else if (fadeIn)
-        {
-            if (GameStateContainer.Instance != null)
-            {
-                if(maxVolume < (GameStateContainer.Instance.settings.musicVolume * GameStateContainer.Instance.settings.masterVolume))
-                {
-                    float fractionToAdd = Time.deltaTime / fadeInDuration;
-                    maxVolume += 1 * fractionToAdd;
-                    //Debug.Log("FractionToAdd: " + fractionToAdd);
-                }
-                else
-                {
-                    //Debug.Log("fadeIn False");
-                    fadeIn = false;
-                    //Debug.Log("MaxVolume was: " + maxVolume);
-                }
-            }
-        }
-        else if (GameStateContainer.Instance != null && !fadeOut && !fadeIn)
+        //if (fadeOut)
+        //{
+        //    float fractionToRemove = Time.deltaTime / fadeOutDuration;
+        //    maxVolume -= startFadeVolume * fractionToRemove;
+        //    //Debug.Log("Fraction: " + fractionToRemove);
+        //    //Debug.Log(maxVolume);
+        //    if (maxVolume <= 0)
+        //    {
+        //        //Debug.Log("FadeOutMusic: False");
+        //        fadeOut = false;
+        //    }
+        //}
+        //else if (fadeIn)
+        //{
+        //    if (GameStateContainer.Instance != null)
+        //    {
+        //        if(maxVolume < (GameStateContainer.Instance.settings.musicVolume * GameStateContainer.Instance.settings.masterVolume))
+        //        {
+        //            float fractionToAdd = Time.deltaTime / fadeInDuration;
+        //            maxVolume += 1 * fractionToAdd;
+        //            //Debug.Log("FractionToAdd: " + fractionToAdd);
+        //        }
+        //        else
+        //        {
+        //            //Debug.Log("fadeIn False");
+        //            fadeIn = false;
+        //            //Debug.Log("MaxVolume was: " + maxVolume);
+        //        }
+        //    }
+        //}
+        if (GameStateContainer.Instance != null)
         {
             maxVolume = (GameStateContainer.Instance.settings.musicVolume * GameStateContainer.Instance.settings.masterVolume);
         }

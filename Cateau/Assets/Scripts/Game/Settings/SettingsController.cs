@@ -98,7 +98,7 @@ public class SettingsController : MonoBehaviour
         {
             if (GameStateContainer.Instance != null)
             {
-                masterVolumeSlider.value = GameStateContainer.Instance.settings.masterVolume;
+                masterVolumeSlider.value = GameStateContainer.Instance.settings.correctMasterVolume;
             }
         }
 
@@ -148,7 +148,7 @@ public class SettingsController : MonoBehaviour
         {
             if (GameStateContainer.Instance != null)
             {
-                GameStateContainer.Instance.settings.masterVolume = masterVolumeSlider.value;
+                GameStateContainer.Instance.settings.correctMasterVolume = masterVolumeSlider.value;
             }
         }
     }

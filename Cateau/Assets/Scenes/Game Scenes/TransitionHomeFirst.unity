@@ -3201,6 +3201,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 960176497}
+  - component: {fileID: 960176498}
   m_Layer: 0
   m_Name: AudioControllers
   m_TagString: Untagged
@@ -3224,6 +3225,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &960176498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 960176496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f11c827961dd3b4eaf203b252669ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseFadeInAudioTime: {fileID: 11400000, guid: f8f541ec13211654b8fe4e134ea0f540,
+    type: 2}
+  baseFadeOutAudioTime: {fileID: 11400000, guid: dfc1c4bd2e5531948a6235fcdeabf075,
+    type: 2}
 --- !u!114 &975771616 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114646570298879204, guid: f30360e6aa6eabc40b26395b40f01452,

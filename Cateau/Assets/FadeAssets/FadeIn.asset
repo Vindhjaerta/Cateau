@@ -16,4 +16,5 @@ MonoBehaviour:
   disappearingTime: 3
   fadeTexture: {fileID: 2800000, guid: f803c35aa900a384d8fe2b14d4257a63, type: 3}
   soundContainerName: 
-  fadeInMusicWithFade: 0
+  fadeInSoundWithFade: 1
+  soundFadeinTime: 3

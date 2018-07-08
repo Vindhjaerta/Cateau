@@ -14,13 +14,20 @@ public class FadeOutEffect : FadeEffect
 
     public string soundContainerName;
 
-    public bool fadeOutMusicWithFade;
+    public bool fadeOutSoundWithFade;
+
+    public float soundFadeoutTime = 1f;
 
     public override void UpdateEffect(FadeSceneTreeObject fadeSceneTreeObject, float deltaTime)
     {
-        if (MusicStemsManager.Instance != null && fadeOutMusicWithFade && !fadeSceneTreeObject.sentFadeOutMusicWithFade)
+        //if (MusicStemsManager.Instance != null && fadeOutMusicWithFade && !fadeSceneTreeObject.sentFadeOutMusicWithFade)
+        //{
+        //    MusicStemsManager.Instance.BeginFadeOut(disappearingTime);
+        //    fadeSceneTreeObject.sentFadeOutMusicWithFade = true;
+        //}
+        if (AudioController.Instance != null && fadeOutSoundWithFade && !fadeSceneTreeObject.sentFadeOutMusicWithFade)
         {
-            MusicStemsManager.Instance.BeginFadeOut(disappearingTime);
+            AudioController.Instance.SceneFadeOutAudio(soundFadeoutTime);
             fadeSceneTreeObject.sentFadeOutMusicWithFade = true;
         }
         if (soundContainerName != null)
