@@ -3960,6 +3960,13 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
+      constantValue: 'more or less anyway, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
       constantValue: "now that it\u2019s getting older."
       variable: {fileID: 0}
       GUIpresentationIndex: 0
@@ -11411,12 +11418,13 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: Bring it home first
+      constantValue: Okay, bring it home first and let me care for it while you do
+        that.
       variable: {fileID: 0}
-      GUIpresentationIndex: 0
+      GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
-    - {fileID: 11400000, guid: 226c05575f8227943ad62522bfcf5d74, type: 2}
+    - {fileID: 11400000, guid: 9cbc2467f0b3b1340b71ba15a19bba93, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
 --- !u!1001 &808151249
 Prefab:
@@ -12051,7 +12059,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: "and it doesn\u2019t look like she finds anything strange."
+      constantValue: "and it doesn\u2019t look like she finds anything of concern."
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -13034,11 +13042,11 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'Knowing she has it under control '
+      constantValue: "Knowing that the little cat\u2019s in very good hands, "
       variable: {fileID: 0}
-      GUIpresentationIndex: 0
+      GUIpresentationIndex: 1
     effects:
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
       constantValue: 'I head out to acquire whatever '
@@ -14137,9 +14145,9 @@ MonoBehaviour:
     - {fileID: 11400000, guid: a3489a3cba2911c49a4a66bf865c7e49, type: 2}
   - text:
       useConstant: 1
-      constantValue: manages to quickly calm it down.
+      constantValue: manages to calm it down in no time at all.
       variable: {fileID: 0}
-      GUIpresentationIndex: 0
+      GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -15362,7 +15370,7 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: Is it fine?
+      constantValue: Is it okay?
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -17530,7 +17538,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: "and carefully strokes the kitten\u2019s cheek."
+      constantValue: "and tenderly strokes the kitten\u2019s cheek."
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -18484,14 +18492,21 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: "It\u2019s being taken to an animal shelter for care, "
+      constantValue: "It\u2019s being taken to an animal shelter, "
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
-      constantValue: a good one I can promise.
+      constantValue: 'a good one '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: so it will be well-cared-for.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
@@ -22073,7 +22088,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'she looked very happy to have '
+      constantValue: 'she seemed happy to have '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
@@ -24939,7 +24954,7 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: "We\u2019ll have to buy her food and some things, "
+      constantValue: "We\u2019ll have to buy her food and some other things, "
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -25145,7 +25160,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 4e398894fa0a05046bf5701fdd6f4824, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'and I had over the kitten, '
+      constantValue: 'and I hand over the kitten, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -25663,7 +25678,7 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: 'I peak inside '
+      constantValue: 'I peek inside '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
@@ -26442,7 +26457,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: not knowing if the kitten was well cared for.
+      constantValue: not knowing if the kitten had anyone looking after it.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -28761,7 +28776,7 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: 'Her attention turn to '
+      constantValue: 'Her attention turns to '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
@@ -28776,7 +28791,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' and she manages to coax it closer for some scrubs.'
+      constantValue: ' and she manages to coax it closer for some scratches.'
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
