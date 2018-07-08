@@ -9,23 +9,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb0ad3b0d82ca28438b29053fc3e2299, type: 3}
-  m_Name: amb_oneshot_footstep02
+  m_Name: amb_oneshot_pan
   m_EditorClassIdentifier: 
-  outputAudioMixerGroup: {fileID: 0}
+  outputAudioMixerGroup: {fileID: 243758865709236730, guid: 61f158e6c9768b54b8baa221c066161e,
+    type: 2}
   ambienceSoundname: 
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 4bb908337c6547540b194d5e53f8b9a4, type: 3}
   volume: 0.5
   pitch: 1
   randomPitch: {x: 0, y: 0}
   readyToPlay: 0
   randomStartTimer: 0
   startTimeInterval: {x: 0, y: 50}
-  playSoundRandomInterval: {x: 5, y: 10}
-  time: 0
+  playSoundRandomInterval: {x: 7, y: 15}
+  time: 3.3705442
   staticPanAudio: 0
   staticPanAudioSlider: 0
   randomPanAudio: 0
   panDuration: 1
   clipDonePlaying: 0
-  priority: 10
+  priority: 2
   addToQueue: 1

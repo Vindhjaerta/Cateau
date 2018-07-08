@@ -9,23 +9,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb0ad3b0d82ca28438b29053fc3e2299, type: 3}
-  m_Name: amb_oneshot_plates02
+  m_Name: amb_loop_bakingmachine
   m_EditorClassIdentifier: 
   outputAudioMixerGroup: {fileID: 0}
   ambienceSoundname: 
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 42c37f808fbea9e4d8d0f88ccd05e55b, type: 3}
   volume: 0.5
   pitch: 1
   randomPitch: {x: 0, y: 0}
   readyToPlay: 0
   randomStartTimer: 0
   startTimeInterval: {x: 0, y: 50}
-  playSoundRandomInterval: {x: 10, y: 35}
+  playSoundRandomInterval: {x: 5, y: 10}
   time: 0
   staticPanAudio: 1
-  staticPanAudioSlider: 0.4
+  staticPanAudioSlider: 0.619
   randomPanAudio: 0
   panDuration: 1
-  clipDonePlaying: 0
+  clipDonePlaying: 2.4485977
   priority: 10
   addToQueue: 1
