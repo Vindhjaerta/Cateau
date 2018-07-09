@@ -43,9 +43,9 @@ public class Menu_Navigation : MonoBehaviour {
 
 
                 GameStateContainer.Instance.useSavepointContinuePath = true;
-                GameStateContainer.Instance.scene = sceneToLoad;
+                //GameStateContainer.Instance.scene = sceneToLoad;
 
-                SceneManager.LoadScene(sceneToLoad);
+                SceneManager.LoadScene(GameStateContainer.Instance.scene);
             }
         }
 
