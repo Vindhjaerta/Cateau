@@ -13648,6 +13648,16 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114685497425184440, guid: 69cf676ba5037224195b595a91c68c74,
+        type: 2}
+      propertyPath: _blinkInterval.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114685497425184440, guid: 69cf676ba5037224195b595a91c68c74,
+        type: 2}
+      propertyPath: _blinkInterval.y
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 69cf676ba5037224195b595a91c68c74, type: 2}
   m_IsPrefabParent: 0

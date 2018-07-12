@@ -25,10 +25,10 @@ public class SpriteCatScript : MonoBehaviour, ICatBehaviour
     [SerializeField]
     private Affinity _affinity;
 
-    [SerializeField]
+    /*[SerializeField]
     private Vector2 _blinkInterval;
     private float _blinkTimer;
-    private float blinkAtMoment = 0;
+    private float blinkAtMoment = 0; */
 
 
     private Animator animator;
@@ -39,17 +39,11 @@ public class SpriteCatScript : MonoBehaviour, ICatBehaviour
     {
         _image = GetComponent<Image>();
         animator = GetComponent<Animator>();
-        if (_blinkInterval == null)
-        {
-            Debug.LogError("BlinkInterval on: " + gameObject + " doesn't have a value");
-        }
         //_affinity.currentAffinity = _affinity.baseAffinity;
     }
 
 	void Update ()
     {
-        _blinkTimer += Time.deltaTime;
-
         animator.SetInteger("affinity", _affinity.currentAffinity);
         #region OldReactionThings
         /*
@@ -80,23 +74,7 @@ public class SpriteCatScript : MonoBehaviour, ICatBehaviour
         }
         */
 #endregion
-        if (_blinkTimer > _blinkInterval.x)
-        {
-            if(blinkAtMoment != 0)
-            {
-                if(_blinkTimer > blinkAtMoment)
-                {
-                    animator.SetTrigger("timeToBlink");
-                    blinkAtMoment = 0;
-                    _blinkTimer = 0;
-                }
-            }
-            else
-            {
-                blinkAtMoment = Random.Range(_blinkInterval.x, _blinkInterval.y);
-                //Debug.Log(blinkAtMoment);
-            }
-        }
+
     }
 
     public void ReceiveAffinityFromButton(ButtonData catReactionData)

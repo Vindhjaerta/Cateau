@@ -21,6 +21,15 @@ public class AnimatedCharacter : MonoBehaviour
 
     private bool firstBuppDone;
 
+    public bool resetBlinkTimeOnBupp;
+
+    [SerializeField]
+    private Vector2 _blinkInterval;
+
+    private float _blinkTimer;
+
+    private float _blinkAtMoment;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -53,11 +62,35 @@ public class AnimatedCharacter : MonoBehaviour
         {
             UpdateBupp();
         }
+
+        _blinkTimer += Time.deltaTime;
+        if (_blinkTimer > _blinkInterval.x)
+        {
+            if (_blinkAtMoment != 0)
+            {
+                if (_blinkTimer > _blinkAtMoment)
+                {
+                    animator.SetTrigger("timeToBlink");
+                    _blinkAtMoment = 0;
+                    _blinkTimer = 0;
+                }
+            }
+            else
+            {
+                _blinkAtMoment = Random.Range(_blinkInterval.x, _blinkInterval.y);
+                //Debug.Log(_blinkAtMoment);
+            }
+        }
+
     }
 
     public void ReceiveReaction(ReactionPackage reactionPackage)
     {
         _reactionPackages.Add(reactionPackage);
+        if (resetBlinkTimeOnBupp)
+        {
+            _blinkTimer = 0;
+        }
     }
 
     private void UnpackReaction()
