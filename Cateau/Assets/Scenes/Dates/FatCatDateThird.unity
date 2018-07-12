@@ -14265,7 +14265,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'shifts around, '
+      constantValue: ' shifts around, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -16432,7 +16432,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'passed the test, '
+      constantValue: ' passed the test, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
