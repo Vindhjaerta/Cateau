@@ -98,7 +98,7 @@ public class SettingsController : MonoBehaviour
         {
             if (GameStateContainer.Instance != null)
             {
-                masterVolumeSlider.value = GameStateContainer.Instance.settings.correctMasterVolume;
+                masterVolumeSlider.value = GameStateContainer.Instance.settings.masterVolume;
             }
         }
 
@@ -106,7 +106,7 @@ public class SettingsController : MonoBehaviour
         {
             if (GameStateContainer.Instance != null)
             {
-                musicVolumeSlider.value = GameStateContainer.Instance.settings.musicVolume;
+                musicVolumeSlider.value = GameStateContainer.Instance.settings.correctMusicVolume;
             }
         }
 
@@ -114,7 +114,7 @@ public class SettingsController : MonoBehaviour
         {
             if (GameStateContainer.Instance != null)
             {
-                ambienceVolumeSlider.value = GameStateContainer.Instance.settings.ambienceVolume;
+                ambienceVolumeSlider.value = GameStateContainer.Instance.settings.correctAmbienceVolume;
             }
         }
 
@@ -122,7 +122,7 @@ public class SettingsController : MonoBehaviour
         {
             if (GameStateContainer.Instance != null)
             {
-                soundEffectsVolumeSlider.value = GameStateContainer.Instance.settings.sfxVolume;
+                soundEffectsVolumeSlider.value = GameStateContainer.Instance.settings.correctSFXVolume;
             }
         }
 
@@ -148,7 +148,7 @@ public class SettingsController : MonoBehaviour
         {
             if (GameStateContainer.Instance != null)
             {
-                GameStateContainer.Instance.settings.correctMasterVolume = masterVolumeSlider.value;
+                GameStateContainer.Instance.settings.masterVolume = masterVolumeSlider.value;
             }
         }
     }
@@ -159,7 +159,7 @@ public class SettingsController : MonoBehaviour
         {
             if(GameStateContainer.Instance != null)
             {
-                GameStateContainer.Instance.settings.musicVolume = musicVolumeSlider.value;
+                GameStateContainer.Instance.settings.correctMusicVolume = musicVolumeSlider.value;
             }
         }
     }
@@ -170,7 +170,7 @@ public class SettingsController : MonoBehaviour
         {
             if (GameStateContainer.Instance != null)
             {
-                GameStateContainer.Instance.settings.ambienceVolume = ambienceVolumeSlider.value;
+                GameStateContainer.Instance.settings.correctAmbienceVolume = ambienceVolumeSlider.value;
             }
         }
     }
@@ -181,7 +181,7 @@ public class SettingsController : MonoBehaviour
         {
             if (GameStateContainer.Instance != null)
             {
-                GameStateContainer.Instance.settings.sfxVolume = soundEffectsVolumeSlider.value;
+                GameStateContainer.Instance.settings.correctSFXVolume = soundEffectsVolumeSlider.value;
             }
         }
     }

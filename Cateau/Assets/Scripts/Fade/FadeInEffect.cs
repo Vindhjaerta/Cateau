@@ -13,7 +13,7 @@ public class FadeInEffect : FadeEffect
     public Texture2D fadeTexture;
     public string soundContainerName;
 
-    public bool fadeInSoundWithFade;
+    public bool fadeInMusicWithFade;
 
     public float soundFadeinTime = 3;
 
@@ -27,9 +27,14 @@ public class FadeInEffect : FadeEffect
         //    MusicStemsManager.Instance.BeginFadeIn(disappearingTime);
         //    fadeSceneTreeObject.sentFadeInMusicWithFade = true;
         //}
-        if (AudioController.Instance != null && fadeInSoundWithFade && !fadeSceneTreeObject.sentFadeInMusicWithFade)
+        if (AudioController.Instance != null && fadeInMusicWithFade && !fadeSceneTreeObject.sentFadeInMusicWithFade)
         {
             AudioController.Instance.SceneFadeInAudio(soundFadeinTime);
+            fadeSceneTreeObject.sentFadeInMusicWithFade = true;
+        }
+        else if (AudioController.Instance != null && !fadeSceneTreeObject.sentFadeInMusicWithFade)
+        {
+            AudioController.Instance.FadeInAudio(soundFadeinTime);
             fadeSceneTreeObject.sentFadeInMusicWithFade = true;
         }
 

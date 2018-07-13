@@ -14,7 +14,7 @@ public class FadeOutEffect : FadeEffect
 
     public string soundContainerName;
 
-    public bool fadeOutSoundWithFade;
+    public bool fadeOutMusicWithFade;
 
     public float soundFadeoutTime = 1f;
 
@@ -25,9 +25,14 @@ public class FadeOutEffect : FadeEffect
         //    MusicStemsManager.Instance.BeginFadeOut(disappearingTime);
         //    fadeSceneTreeObject.sentFadeOutMusicWithFade = true;
         //}
-        if (AudioController.Instance != null && fadeOutSoundWithFade && !fadeSceneTreeObject.sentFadeOutMusicWithFade)
+        if (AudioController.Instance != null && fadeOutMusicWithFade && !fadeSceneTreeObject.sentFadeOutMusicWithFade)
         {
             AudioController.Instance.SceneFadeOutAudio(soundFadeoutTime);
+            fadeSceneTreeObject.sentFadeOutMusicWithFade = true;
+        }
+        else if (AudioController.Instance != null && !fadeSceneTreeObject.sentFadeOutMusicWithFade)
+        {
+            AudioController.Instance.FadeOutAudio(soundFadeoutTime);
             fadeSceneTreeObject.sentFadeOutMusicWithFade = true;
         }
         if (soundContainerName != null)

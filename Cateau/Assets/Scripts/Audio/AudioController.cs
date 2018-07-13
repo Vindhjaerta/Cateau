@@ -10,9 +10,21 @@ public class AudioController : MonoBehaviour
     private float startFadeInTime = 3;
     private float sceneFadeOutTime = 1;    
 
-    private float targetFadeVolym = 0;
-    private bool fading;
-    private bool sceneFadeOut;
+    private float targetFadeMasterVolym = 0;
+
+    private float targetFadeMusicVolym = 0;
+
+    private float targetFadeAmbienceVolym = 0;
+
+    private float targetFadeSFXVolym = 0;
+
+    private bool fadingMusic = false;
+
+    private bool fadingAmbience = false;
+
+    private bool fadingSFX = false;
+
+    private bool sceneFadeOut = false;
     private float fadeTime = 1;
 
 
@@ -61,27 +73,79 @@ public class AudioController : MonoBehaviour
     {
         if (GameStateContainer.Instance != null)
         {
-            if (GameStateContainer.Instance.settings.masterVolume > targetFadeVolym)
+            //Music
+            if (GameStateContainer.Instance.settings.musicVolume >= targetFadeMusicVolym)
             {
-                GameStateContainer.Instance.settings.masterVolume = (GameStateContainer.Instance.settings.masterVolume - Time.deltaTime / fadeTime);
-                if (GameStateContainer.Instance.settings.masterVolume < targetFadeVolym)
+                GameStateContainer.Instance.settings.musicVolume = (GameStateContainer.Instance.settings.musicVolume - Time.deltaTime / fadeTime);
+                if (GameStateContainer.Instance.settings.musicVolume < targetFadeMusicVolym)
                 {
-                    GameStateContainer.Instance.settings.masterVolume = targetFadeVolym;
-                    fading = false;
+                    GameStateContainer.Instance.settings.musicVolume = targetFadeMusicVolym;
+                    fadingMusic = false;
                 }
             }
-            else if (GameStateContainer.Instance.settings.masterVolume < targetFadeVolym)
+            else if (GameStateContainer.Instance.settings.musicVolume <= targetFadeMusicVolym)
             {
-                GameStateContainer.Instance.settings.masterVolume = (GameStateContainer.Instance.settings.masterVolume + Time.deltaTime / fadeTime);
-                if (GameStateContainer.Instance.settings.masterVolume > targetFadeVolym)
+                GameStateContainer.Instance.settings.musicVolume = (GameStateContainer.Instance.settings.musicVolume + Time.deltaTime / fadeTime);
+                if (GameStateContainer.Instance.settings.musicVolume > targetFadeMusicVolym)
                 { 
-                    GameStateContainer.Instance.settings.masterVolume = targetFadeVolym;
-                    fading = false;
+                    GameStateContainer.Instance.settings.musicVolume = targetFadeMusicVolym;
+                    fadingMusic = false;
                 }
             }
-            if (fading == false && sceneFadeOut == false)
+            if (fadingMusic == false && sceneFadeOut == false)
             {
-                targetFadeVolym = GameStateContainer.Instance.settings.correctMasterVolume;
+                targetFadeMusicVolym = GameStateContainer.Instance.settings.correctMusicVolume;
+                GameStateContainer.Instance.settings.musicVolume = GameStateContainer.Instance.settings.correctMusicVolume;
+            }
+
+            //Ambience
+            if (GameStateContainer.Instance.settings.ambienceVolume >= targetFadeAmbienceVolym)
+            {
+                GameStateContainer.Instance.settings.ambienceVolume = (GameStateContainer.Instance.settings.ambienceVolume - Time.deltaTime / fadeTime);
+                if (GameStateContainer.Instance.settings.ambienceVolume < targetFadeAmbienceVolym)
+                {
+                    GameStateContainer.Instance.settings.ambienceVolume = targetFadeAmbienceVolym;
+                    fadingAmbience = false;
+                }
+            }
+            else if (GameStateContainer.Instance.settings.ambienceVolume <= targetFadeAmbienceVolym)
+            {
+                GameStateContainer.Instance.settings.ambienceVolume = (GameStateContainer.Instance.settings.ambienceVolume + Time.deltaTime / fadeTime);
+                if (GameStateContainer.Instance.settings.ambienceVolume > targetFadeAmbienceVolym)
+                {
+                    GameStateContainer.Instance.settings.ambienceVolume = targetFadeAmbienceVolym;
+                    fadingAmbience = false;
+                }
+            }
+            if (fadingAmbience == false && sceneFadeOut == false)
+            {
+                targetFadeAmbienceVolym = GameStateContainer.Instance.settings.correctAmbienceVolume;
+                GameStateContainer.Instance.settings.ambienceVolume = GameStateContainer.Instance.settings.correctAmbienceVolume;
+            }
+
+            //SFX
+            if (GameStateContainer.Instance.settings.sfxVolume >= targetFadeSFXVolym)
+            {
+                GameStateContainer.Instance.settings.sfxVolume = (GameStateContainer.Instance.settings.sfxVolume - Time.deltaTime / fadeTime);
+                if (GameStateContainer.Instance.settings.sfxVolume < targetFadeSFXVolym)
+                {
+                    GameStateContainer.Instance.settings.sfxVolume = targetFadeSFXVolym;
+                    fadingSFX = false;
+                }
+            }
+            else if (GameStateContainer.Instance.settings.sfxVolume <= targetFadeSFXVolym)
+            {
+                GameStateContainer.Instance.settings.sfxVolume = (GameStateContainer.Instance.settings.sfxVolume + Time.deltaTime / fadeTime);
+                if (GameStateContainer.Instance.settings.sfxVolume > targetFadeSFXVolym)
+                {
+                    GameStateContainer.Instance.settings.sfxVolume = targetFadeSFXVolym;
+                    fadingSFX = false;
+                }
+            }
+            if (fadingSFX == false && sceneFadeOut == false)
+            {
+                targetFadeSFXVolym = GameStateContainer.Instance.settings.correctSFXVolume;
+                GameStateContainer.Instance.settings.sfxVolume = GameStateContainer.Instance.settings.correctSFXVolume;
             }
         }
         else
@@ -92,20 +156,43 @@ public class AudioController : MonoBehaviour
 
     public void FadeOutAudio(float fadeTime)
     {
-        targetFadeVolym = 0;
-        fading = true;
-        if (targetFadeVolym >= 0 && targetFadeVolym <= 1)
-        {
-            //this.targetFadeVolym = targetFadeVolym;
-        }
+        sceneFadeOut = true;
+
+        targetFadeAmbienceVolym = 0;
+        fadingAmbience = true;
+
+        targetFadeSFXVolym = 0;
+        fadingSFX = true;
+
         this.fadeTime = fadeTime;
+    }
+
+    public void FadeInAudio(float fadeTime)
+    {
+        sceneFadeOut = false;
+
+        fadingAmbience = true;
+        targetFadeAmbienceVolym = GameStateContainer.Instance.settings.correctAmbienceVolume;
+        GameStateContainer.Instance.settings.ambienceVolume = 0;
+
+        fadingSFX = true;
+        targetFadeSFXVolym = GameStateContainer.Instance.settings.correctSFXVolume;
+        GameStateContainer.Instance.settings.sfxVolume = 0;
     }
 
     public void SceneFadeOutAudio(float fadeTime)
     {
-        targetFadeVolym = 0;
-        fading = true;
         sceneFadeOut = true;
+
+        targetFadeMusicVolym = 0;
+        fadingMusic = true;
+
+        targetFadeAmbienceVolym = 0;
+        fadingAmbience = true;
+
+        targetFadeSFXVolym = 0;
+        fadingSFX = true;
+
         if (fadeTime <= 0)
         {
             this.fadeTime = sceneFadeOutTime;
@@ -120,9 +207,15 @@ public class AudioController : MonoBehaviour
     {
         if (GameStateContainer.Instance != null)
         {
-            fading = true;
-            targetFadeVolym = GameStateContainer.Instance.settings.correctMasterVolume;
-            GameStateContainer.Instance.settings.masterVolume = 0;
+            sceneFadeOut = false;
+
+            fadingMusic = true;
+            targetFadeMusicVolym = GameStateContainer.Instance.settings.correctMusicVolume;
+            GameStateContainer.Instance.settings.musicVolume = 0;
+
+            fadingAmbience = true;
+            targetFadeAmbienceVolym = GameStateContainer.Instance.settings.correctAmbienceVolume;
+            GameStateContainer.Instance.settings.ambienceVolume = 0;
         }
         if (fadeTime <= 0)
         {
