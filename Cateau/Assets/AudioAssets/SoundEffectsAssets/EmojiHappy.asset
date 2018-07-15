@@ -9,10 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987967f36943f41a549970936957f4, type: 3}
-  m_Name: Emoji
+  m_Name: EmojiHappy
   m_EditorClassIdentifier: 
-  soundEffectname: Emoji
-  audioClip: {fileID: 8300000, guid: 2a55662ca68d21e419657ef722b27ba2, type: 3}
+  soundEffectname: EmojiHappy
+  audioClip: {fileID: 8300000, guid: 1569a4539b6de0f40b905fc6e8e5f224, type: 3}
   volume: 0.7
   pitch: 0.9274138
   randomPitch: {x: 0, y: 0}

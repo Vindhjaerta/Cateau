@@ -15,5 +15,5 @@ MonoBehaviour:
   lifeDuration: 1
   fadeDuration: 0.5
   speed: 32
-  soundEffectContainerName: Emoji
+  soundEffectContainerName: EmojiNeutral
   idle: 0.18

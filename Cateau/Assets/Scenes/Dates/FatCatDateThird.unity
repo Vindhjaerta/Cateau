@@ -3908,6 +3908,52 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
+--- !u!1 &372877681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1271465275944466, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 372877682}
+  - component: {fileID: 372877683}
+  m_Layer: 0
+  m_Name: SoundEffectsContainer (EmojiHappy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &372877682
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4693722892417124, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 372877681}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1566864112}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &372877683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114700772238746082, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 372877681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba71926a1487964dad8b677ebd96b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerName: EmojiHappy
+  _soundEffects:
+  - {fileID: 11400000, guid: 4480dfe8e9b859f4faaa7f6843ab5d17, type: 2}
 --- !u!1001 &378286904
 Prefab:
   m_ObjectHideFlags: 0
@@ -4492,6 +4538,52 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 506063879}
   m_Script: {fileID: 11500000, guid: 0b2c687c665ed154cb4c68cd206c6bff, type: 3}
+--- !u!1 &506911388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1271465275944466, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 506911389}
+  - component: {fileID: 506911390}
+  m_Layer: 0
+  m_Name: SoundEffectsContainer (EmojiNeutral)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &506911389
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4693722892417124, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 506911388}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1566864112}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &506911390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114700772238746082, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 506911388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba71926a1487964dad8b677ebd96b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerName: EmojiNeutral
+  _soundEffects:
+  - {fileID: 11400000, guid: 42b1a82e2c30da241a31f06b07ad2686, type: 2}
 --- !u!1 &533203439
 GameObject:
   m_ObjectHideFlags: 0
@@ -11285,6 +11377,52 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 728329787cd12c044a61c0862df26f54, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1427694928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1271465275944466, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1427694929}
+  - component: {fileID: 1427694930}
+  m_Layer: 0
+  m_Name: SoundEffectsContainer (EmojiSad)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1427694929
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4693722892417124, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1427694928}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1566864112}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1427694930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114700772238746082, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1427694928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba71926a1487964dad8b677ebd96b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerName: EmojiSad
+  _soundEffects:
+  - {fileID: 11400000, guid: 517540e30da49834cb2526a98c930c18, type: 2}
 --- !u!1001 &1427757096
 Prefab:
   m_ObjectHideFlags: 0
