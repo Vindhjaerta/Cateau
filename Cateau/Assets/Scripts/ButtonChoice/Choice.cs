@@ -138,12 +138,12 @@ public class Choice : SceneTreeObject
         {
             if (buttons[nodeIndex].conversationButton.nextNode != null)
             {
-                _nextNode = buttons[nodeIndex].conversationButton.nextNode;
+                targetNode = buttons[nodeIndex].conversationButton.nextNode;
             }
             else
             {
                 Debug.LogWarning(gameObject + " " + buttons[nodeIndex].buttonFunction + " number " + nodeIndex + " didn't have an assigned NextNode, the default at the top of the script was used");
-                if (_nextNode == null)
+                if (targetNode == null)
                 {
                     Debug.LogWarning(gameObject + "doesn't even have a default nextNode :(");
                 }
@@ -153,12 +153,12 @@ public class Choice : SceneTreeObject
         {
             if (buttons[nodeIndex].catButton.nextNode != null)
             {
-                _nextNode = buttons[nodeIndex].catButton.nextNode;
+                targetNode = buttons[nodeIndex].catButton.nextNode;
             }
             else
             {
                 Debug.LogWarning(gameObject + " " + buttons[nodeIndex].buttonFunction + " number " + nodeIndex + " didn't have an assigned NextNode, the default at the top of the script was used");
-                if (_nextNode == null)
+                if (targetNode == null)
                 {
                     Debug.LogWarning(gameObject + " doesn't even have a default nextNode :(");
                 }
@@ -170,12 +170,12 @@ public class Choice : SceneTreeObject
             GameStateContainer.Instance.savableStrings.Add(buttons[nodeIndex].stringSaveButton.stringToSave);
             if (buttons[nodeIndex].stringSaveButton.nextNode != null)
             {
-                _nextNode = buttons[nodeIndex].stringSaveButton.nextNode;
+                targetNode = buttons[nodeIndex].stringSaveButton.nextNode;
             }
             else
             {
                 Debug.LogWarning(gameObject + " " + buttons[nodeIndex].buttonFunction + " number " + nodeIndex + " didn't have an assigned NextNode, the default at the top of the script was used");
-                if (_nextNode == null)
+                if (targetNode == null)
                 {
                     Debug.LogWarning(gameObject + " doesn't even have a default nextNode :(");
                 }
@@ -196,7 +196,7 @@ public class Choice : SceneTreeObject
         if (buttons.Length == 0)
         {
             Debug.LogWarning(gameObject + " doesn't contain any choices! Script used the default NextNode on the top of the choiceScript");
-            if (_nextNode == null)
+            if (targetNode == null)
             {
                 Debug.LogWarning(gameObject + "doesn't even have a default nextNode :(");
             }

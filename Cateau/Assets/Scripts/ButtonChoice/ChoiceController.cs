@@ -68,7 +68,7 @@ public class ChoiceController : MonoBehaviour, IButtonChoiceReciever
        }
     }
 
-    private void DisableButtons()
+    public void DisableButtons()
     {
         for (int i = 0; i < _buttons.Count; i++)
         {

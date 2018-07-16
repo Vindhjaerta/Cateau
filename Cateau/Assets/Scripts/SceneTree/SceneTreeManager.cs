@@ -206,6 +206,7 @@ public class SceneTreeManager : MonoBehaviour, ISceneTreeData, IButtonData, IDia
         if (GameController.Instance.buttonsClickable)
         {
             _cC.Clear();
+            _buttonBox.DisableButtons();
             LoadSavePoint();
         }
     }

@@ -21,7 +21,7 @@ public class SavePoint : SceneTreeObject {
             if (GameStateContainer.Instance.useSavepointContinuePath)
             {
                 GameStateContainer.Instance.useSavepointContinuePath = false;
-                _nextNode = nodeForLoadContinue;
+                targetNode = nodeForLoadContinue;
             }
             if (nodeIndex != 0)
             {

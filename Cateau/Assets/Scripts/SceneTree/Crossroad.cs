@@ -77,7 +77,7 @@ public class Crossroad : SceneTreeObject {
                     }
                     if (result)
                     {
-                        _nextNode = catChoices[i].targetNode;
+                        targetNode = catChoices[i].targetNode;
                         break;
                     }
                 }
@@ -106,7 +106,7 @@ public class Crossroad : SceneTreeObject {
                     }
                     if (result)
                     {
-                        _nextNode = catChoices[i].targetNode;
+                        targetNode = catChoices[i].targetNode;
                         break;
                     }
 
@@ -126,7 +126,7 @@ public class Crossroad : SceneTreeObject {
                             {
                                 if (choice.targetNode != null)
                                 {
-                                    _nextNode = choice.targetNode;
+                                    targetNode = choice.targetNode;
                                 }
                                 break;
                             }

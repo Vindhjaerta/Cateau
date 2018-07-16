@@ -24,18 +24,20 @@ public abstract class SceneTreeObject : MonoBehaviour {
     public int savepointIndex;
 
     [SerializeField]
-    protected SceneTreeObject _nextNode;
+    private SceneTreeObject _nextNode;
+
+    protected SceneTreeObject targetNode;
 
     protected SceneTreeData _data;
     public abstract void Continue(int nodeIndex);
 
     protected void Continue()
     {
-        if (_nextNode != null)
+        if (targetNode != null)
         {
-            if (_nextNode != this)
+            if (targetNode != this)
             {
-                _nextNode.ActivateAndWait();
+                targetNode.ActivateAndWait();
             }
         }
         else
@@ -59,6 +61,7 @@ public abstract class SceneTreeObject : MonoBehaviour {
     public void ActivateAndWait()
     {
         _data = new SceneTreeData();
+        targetNode = _nextNode;
         Initialize();
         ExecuteEvents.ExecuteHierarchy<ISceneTreeData>(gameObject, _data, (handler, data) => handler.OnRecieveSceneTreeData((SceneTreeData)data));
     }
