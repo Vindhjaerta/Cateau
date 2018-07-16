@@ -216,6 +216,10 @@ public class AudioController : MonoBehaviour
             fadingAmbience = true;
             targetFadeAmbienceVolym = GameStateContainer.Instance.settings.correctAmbienceVolume;
             GameStateContainer.Instance.settings.ambienceVolume = 0;
+
+            fadingSFX = true;
+            targetFadeSFXVolym = GameStateContainer.Instance.settings.correctSFXVolume;
+            GameStateContainer.Instance.settings.sfxVolume = 0;
         }
         if (fadeTime <= 0)
         {
@@ -225,6 +229,18 @@ public class AudioController : MonoBehaviour
         {
             this.fadeTime = fadeTime;
         }
+    }
+
+    public void TransitionFadeIn(float fadeTime)
+    {
+
+        fadingSFX = true;
+        targetFadeSFXVolym = GameStateContainer.Instance.settings.correctSFXVolume;
+        GameStateContainer.Instance.settings.sfxVolume = 0;
+
+        fadingAmbience = true;
+        targetFadeAmbienceVolym = GameStateContainer.Instance.settings.correctAmbienceVolume;
+        GameStateContainer.Instance.settings.ambienceVolume = 0;
     }
 
     private void OnDisable()

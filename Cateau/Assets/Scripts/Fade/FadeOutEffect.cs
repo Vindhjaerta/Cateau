@@ -41,8 +41,11 @@ public class FadeOutEffect : FadeEffect
             {
                 if (SoundEffectsManager.Instance != null)
                 {
-                    SoundEffectsManager.Instance.PlaySoundFromContainer(soundContainerName);
-                    fadeSceneTreeObject.playedSoundEffect = false;
+                    if (soundContainerName.Length > 0)
+                    {
+                        SoundEffectsManager.Instance.PlaySoundFromContainer(soundContainerName);
+                        fadeSceneTreeObject.playedSoundEffect = false;
+                    }
                 }
                 else
                 {

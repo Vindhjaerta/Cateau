@@ -15,6 +15,8 @@ public class FadeInEffect : FadeEffect
 
     public bool fadeInMusicWithFade;
 
+    public bool transitionFadeIn;
+
     public float soundFadeinTime = 3;
 
     public override void UpdateEffect(FadeSceneTreeObject fadeSceneTreeObject, float deltaTime)
@@ -27,9 +29,14 @@ public class FadeInEffect : FadeEffect
         //    MusicStemsManager.Instance.BeginFadeIn(disappearingTime);
         //    fadeSceneTreeObject.sentFadeInMusicWithFade = true;
         //}
-        if (AudioController.Instance != null && fadeInMusicWithFade && !fadeSceneTreeObject.sentFadeInMusicWithFade)
+        if (AudioController.Instance != null && fadeInMusicWithFade && !fadeSceneTreeObject.sentFadeInMusicWithFade && !transitionFadeIn)
         {
             AudioController.Instance.SceneFadeInAudio(soundFadeinTime);
+            fadeSceneTreeObject.sentFadeInMusicWithFade = true;
+        }
+        else if (AudioController.Instance != null && transitionFadeIn)
+        {
+            AudioController.Instance.TransitionFadeIn(soundFadeinTime);
             fadeSceneTreeObject.sentFadeInMusicWithFade = true;
         }
         else if (AudioController.Instance != null && !fadeSceneTreeObject.sentFadeInMusicWithFade)
@@ -42,10 +49,13 @@ public class FadeInEffect : FadeEffect
         {
             if (fadeSceneTreeObject.playedSoundEffect == true)
             {
-                if (SoundEffectsManager.Instance != null && soundContainerName.Length > 0)
+                if (SoundEffectsManager.Instance != null)
                 {
-                    SoundEffectsManager.Instance.PlaySoundFromContainer(soundContainerName);
-                    fadeSceneTreeObject.playedSoundEffect = false;
+                    if (soundContainerName.Length > 0)
+                    {
+                        SoundEffectsManager.Instance.PlaySoundFromContainer(soundContainerName);
+                        fadeSceneTreeObject.playedSoundEffect = false;
+                    }
                 }
                 else
                 {
