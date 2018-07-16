@@ -46,24 +46,18 @@ public class SettingsController : MonoBehaviour
     //Dropdowns
     public Dropdown resolutionDropdown;
 
-    public Dropdown fontSizeDropdown;
-
     public Dropdown typingSpeedDropDown;
 
 
     //System Slider
-    public Slider brightnessSlider;
 
-    public GameObject systemPanel;
+    //public GameObject systemPanel;
 
-    public GameObject audioPanel;
+    //public GameObject audioPanel;
 
-    public Button systemButton;
+    //public Button systemButton;
 
     public Resolution[] resolutions;
-
-    [SerializeField]
-    private Text conversationText;
 
 	// Use this for initialization
 	void Start ()
@@ -73,26 +67,8 @@ public class SettingsController : MonoBehaviour
         {
             typingSpeedDropDown.value = GameStateContainer.Instance.settings.typingSpeedIndex;
 
-            fontSizeDropdown.value = GameStateContainer.Instance.settings.fontSizeIndex;
-            if (conversationText != null)
-            {
-                conversationText.fontSize = GameStateContainer.Instance.fontSizes[GameStateContainer.Instance.settings.fontSizeIndex].value;
-            }
-            else
-            {
-                Debug.LogWarning("Conversation Text hasn't been set in the inspector. " + gameObject);
-            }
         }
 
-        
-        
-           
-        
-
-        //if(GameStateContainer.Instance != null)
-        //{
-        //    typingSpeedDropDown.value = GameStateContainer.Instance.settings.typingSpeedIndex;
-        //}
 
         if (masterVolumeSlider != null)
         {
@@ -127,19 +103,11 @@ public class SettingsController : MonoBehaviour
         }
 
     }
-	
-	// Update is called once per frame
-	void Update ()
-    {
-	    
-        
-	}
 
-
-    public void HighlightButton()
-    {
-        systemButton.Select();
-    }
+    //public void HighlightButton()
+    //{
+    //    systemButton.Select();
+    //}
 
     //Slider change functions
     public void MasterVolumeChange()
@@ -186,17 +154,6 @@ public class SettingsController : MonoBehaviour
         }
     }
 
-    public void BrightnessChange()
-    {
-        if (brightnessSlider != null)
-        {
-            if (GameStateContainer.Instance != null)
-            {
-                GameStateContainer.Instance.settings.brightness = brightnessSlider.value;
-            }
-        }
-    }
-
 
     //Dropdown change functions
     public void ResolutionChange()
@@ -210,32 +167,6 @@ public class SettingsController : MonoBehaviour
                     GameStateContainer.Instance.settings.resolutionIndex = resolutionDropdown.value;
 
 
-                }
-            }
-
-
-        }
-    }
-
-
-    public void FontSizeChange()
-    {
-        if (fontSizeDropdown != null && GameStateContainer.Instance.fontSizes != null && GameStateContainer.Instance != null)
-        {
-            if (GameStateContainer.Instance.fontSizes.Length > 0)
-            {
-                if (fontSizeDropdown.value < GameStateContainer.Instance.fontSizes.Length)
-                {
-                    GameStateContainer.Instance.settings.fontSizeIndex = fontSizeDropdown.value;
-
-                    if (conversationText != null)
-                    {
-                        conversationText.fontSize = GameStateContainer.Instance.fontSizes[GameStateContainer.Instance.settings.fontSizeIndex].value;
-                    }
-                    else
-                    {
-                        Debug.LogWarning("Conversation Text hasn't been set in the inspector. " + gameObject);
-                    }
                 }
             }
 
@@ -265,26 +196,24 @@ public class SettingsController : MonoBehaviour
         }
     }
 
-   
+    //public void OpenSystemPanel()
+    //{
+    //    if (systemPanel != null && audioPanel != null)
+    //    {
+    //        systemPanel.SetActive(true);
+    //        audioPanel.SetActive(false);
+    //    }
 
-    public void OpenSystemPanel()
-    {
-        if (systemPanel != null && audioPanel != null)
-        {
-            systemPanel.SetActive(true);
-            audioPanel.SetActive(false);
-        }
+    //}
 
-    }
+    //public void OpenAudioPanel()
+    //{
+    //    if (systemPanel != null && audioPanel != null)
+    //    {
+    //        audioPanel.SetActive(true);
+    //        systemPanel.SetActive(false);
+    //    }
 
-    public void OpenAudioPanel()
-    {
-        if (systemPanel != null && audioPanel != null)
-        {
-            audioPanel.SetActive(true);
-            systemPanel.SetActive(false);
-        }
-
-    }
+    //}
 
 }
