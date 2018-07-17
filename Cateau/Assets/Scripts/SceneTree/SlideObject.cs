@@ -20,6 +20,8 @@ public class SlideObject : SceneTreeObject
 
     private bool startUpdate;
 
+    public bool cloudSlide;
+
     public override void Continue(int nodeIndex)
     {
         throw new System.NotImplementedException();
@@ -83,7 +85,7 @@ public class SlideObject : SceneTreeObject
         {
             if (_objectToSlide != null)
             {
-                if (GameController.Instance != null)
+                if (GameController.Instance != null && !cloudSlide)
                 {
                         GameController.Instance.buttonsClickable = false;
                 }

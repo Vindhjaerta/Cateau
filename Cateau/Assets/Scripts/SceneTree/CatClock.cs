@@ -1,10 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CatClock : SceneTreeObject
 {
     private Animator animator;
+    private Image image;
+
+    public GameObject clock;
     public List<RotateRectTransform> objectsToRotateList;
     public override void Continue(int nodeIndex)
     {
@@ -13,7 +17,8 @@ public class CatClock : SceneTreeObject
 
     protected override void Initialize()
     {
-        animator.enabled = true;
+        clock.SetActive(true);
+        image.enabled = true;
         if (objectsToRotateList != null)
         {
             foreach (RotateRectTransform rotateRectTransform in objectsToRotateList)
@@ -27,6 +32,8 @@ public class CatClock : SceneTreeObject
     public void Start()
     {
         animator = GetComponent<Animator>();
-        animator.enabled = false;
+        image = GetComponent<Image>();
+        image.enabled = false;
+        clock.SetActive(false);
     }
 }

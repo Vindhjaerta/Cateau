@@ -25,6 +25,9 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
     private EmojiController emoji;
     private ConversationController _cC;
 
+    private ButtonHolder _bH;
+    private MenuButton menuButton;
+
     public static GameController Instance
     {
         get
@@ -65,6 +68,9 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
 
         _cC = GetComponentInChildren<ConversationController>();
 
+        _bH = GetComponentInChildren<ButtonHolder>();
+
+        menuButton = GetComponentInChildren<MenuButton>();
     }
 
     // Use this for initialization
@@ -325,5 +331,25 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
                 _cC.ResetArrowSprite();
             }
         }
+    }
+
+    public void DisableConversationController()
+    {
+        if (_cC != null)
+            _cC.gameObject.SetActive(false);
+        if (_bH != null)
+            _bH.gameObject.SetActive(false);
+        if (menuButton != null)
+            menuButton.gameObject.SetActive(false);
+    }
+
+    public void EnableConversationController()
+    {
+        if (_cC != null)
+            _cC.gameObject.SetActive(true);
+        if (_bH != null)
+            _bH.gameObject.SetActive(true);
+        if (menuButton != null)
+            menuButton.gameObject.SetActive(true);
     }
 }

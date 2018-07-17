@@ -54,10 +54,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224359415842857840}
-  - component: {fileID: 95939659367229394}
   - component: {fileID: 222392893204096192}
-  - component: {fileID: 114845284250648236}
   - component: {fileID: 114663390991975084}
+  - component: {fileID: 95939659367229394}
+  - component: {fileID: 114845284250648236}
   m_Layer: 0
   m_Name: CatClock
   m_TagString: Untagged
@@ -165,6 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   savepointIndex: 0
   _nextNode: {fileID: 0}
+  clock: {fileID: 1008729991298546}
   objectsToRotateList:
   - {fileID: 114621524094654936}
   - {fileID: 114485455047920246}
@@ -307,7 +308,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -561, y: -66}
+  m_AnchoredPosition: {x: -525, y: -107}
   m_SizeDelta: {x: 778, y: 1347}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224529165594265160
