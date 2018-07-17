@@ -4101,6 +4101,7 @@ MonoBehaviour:
   _objectToSlide: {fileID: 1744150920}
   _endPosition: {fileID: 11400000, guid: 3edd7a7b10e27bc46a60c94f946a66dd, type: 2}
   _slideSpeed: {fileID: 11400000, guid: 298ae130b6d581f49a97480610dbaa31, type: 2}
+  cloudSlide: 0
 --- !u!224 &1831166550
 RectTransform:
   m_ObjectHideFlags: 0

@@ -92,7 +92,7 @@ Animator:
   m_GameObject: {fileID: 1757679687236838}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 06e94b2c2c34ac24d82a4a4a2300c76e, type: 2}
+  m_Controller: {fileID: 9100000, guid: bd5d3a7ba0029af428f3328c64a9f7df, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2288da78e0d71e47b4a5180834b9217, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: -5
+  rotationSpeed: -30
 --- !u!114 &114621524094654936
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2288da78e0d71e47b4a5180834b9217, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: -60
+  rotationSpeed: -360
 --- !u!114 &114663390991975084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -299,8 +299,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1757679687236838}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 43.75}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 224646170827010444}
   m_Father: {fileID: 0}
@@ -308,7 +308,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -525, y: -107}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 778, y: 1347}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224529165594265160
