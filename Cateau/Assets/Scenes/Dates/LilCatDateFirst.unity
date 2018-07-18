@@ -12181,7 +12181,8 @@ MonoBehaviour:
   containerName: Loop
   _audioPriority: 1
   oneShotContainer: 0
-  _ambienceSounds: []
+  _ambienceSounds:
+  - {fileID: 11400000, guid: d09b109752f51694cbab085414e1a919, type: 2}
   clipHasBeenChosen: 0
 --- !u!1 &1251977827
 GameObject:

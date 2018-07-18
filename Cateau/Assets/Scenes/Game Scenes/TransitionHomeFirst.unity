@@ -975,7 +975,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1727046888671216, guid: e8a82b3388a4a4245ba897334fa02c8a, type: 2}
       propertyPath: m_Name
-      value: AmbienceProfile (Outside)
+      value: AmbienceProfile (ToWork)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8a82b3388a4a4245ba897334fa02c8a, type: 2}
@@ -5953,7 +5953,8 @@ MonoBehaviour:
   containerName: Loop
   _audioPriority: 1
   oneShotContainer: 0
-  _ambienceSounds: []
+  _ambienceSounds:
+  - {fileID: 11400000, guid: d09b109752f51694cbab085414e1a919, type: 2}
   clipHasBeenChosen: 0
 --- !u!1 &1788724127
 GameObject:
@@ -6774,7 +6775,7 @@ MonoBehaviour:
   _audioPriority: 1
   oneShotContainer: 0
   _ambienceSounds:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: e9c4654d27090d7448330a34097c3b9f, type: 2}
   clipHasBeenChosen: 0
 --- !u!1 &1990485921
 GameObject:
@@ -6862,6 +6863,7 @@ MonoBehaviour:
   _objectToSlide: {fileID: 1744150920}
   _endPosition: {fileID: 11400000, guid: 3edd7a7b10e27bc46a60c94f946a66dd, type: 2}
   _slideSpeed: {fileID: 11400000, guid: 298ae130b6d581f49a97480610dbaa31, type: 2}
+  cloudSlide: 0
 --- !u!114 &2034321384 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114524330721459570, guid: f30360e6aa6eabc40b26395b40f01452,

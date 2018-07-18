@@ -10821,7 +10821,8 @@ MonoBehaviour:
   containerName: Loop
   _audioPriority: 1
   oneShotContainer: 0
-  _ambienceSounds: []
+  _ambienceSounds:
+  - {fileID: 11400000, guid: d09b109752f51694cbab085414e1a919, type: 2}
   clipHasBeenChosen: 0
 --- !u!1001 &615417839
 Prefab:
@@ -31914,7 +31915,8 @@ MonoBehaviour:
   containerName: Loop
   _audioPriority: 1
   oneShotContainer: 0
-  _ambienceSounds: []
+  _ambienceSounds:
+  - {fileID: 11400000, guid: e9c4654d27090d7448330a34097c3b9f, type: 2}
   clipHasBeenChosen: 0
 --- !u!114 &1796691488 stripped
 MonoBehaviour:

@@ -95,4 +95,9 @@ public class Menu_Navigation : MonoBehaviour {
         }
         Application.Quit();
     }
+
+    public void Credits(string sceneToLoad)
+    {
+        SceneManager.LoadScene(sceneToLoad);
+    }
 }
