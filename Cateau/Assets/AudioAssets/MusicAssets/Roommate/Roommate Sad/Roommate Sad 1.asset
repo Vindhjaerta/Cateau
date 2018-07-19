@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Roommate Sad 1
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 6c01afdb1f8fce34d94f4ee6d0c83f1a, type: 3}
-  volume: 0.3
+  volume: 0.25
   pitch: 1
   randomPitch: {x: 0, y: 0}
   staticPanAudio: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: LilCatStem2
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 6a2f3c6e456e34f4cb13ac437686c914, type: 3}
-  volume: 0.3
+  volume: 0.25
   pitch: 1
   randomPitch: {x: 0, y: 0}
   staticPanAudio: 0

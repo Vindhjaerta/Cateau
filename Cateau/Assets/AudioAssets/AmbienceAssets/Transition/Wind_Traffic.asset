@@ -14,7 +14,7 @@ MonoBehaviour:
   outputAudioMixerGroup: {fileID: 0}
   ambienceSoundname: Wind_Traffic
   audioClip: {fileID: 8300000, guid: 35ba86a3438bc0c4f9e3f36e62b88d46, type: 3}
-  volume: 0.8
+  volume: 1
   pitch: 1
   randomPitch: {x: 0, y: 0}
   readyToPlay: 0

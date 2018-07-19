@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: FatCatStemHappy
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 628f14c97625d64499b1d1cd458133cf, type: 3}
-  volume: 0.3
+  volume: 0.25
   pitch: 1
   randomPitch: {x: 0, y: 0}
   staticPanAudio: 0
