@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffectname: Ledsen kattunge 2
   audioClip: {fileID: 8300000, guid: 964362ede5677ce4da04a228e52ee2ed, type: 3}
-  volume: 1
+  volume: 0.5
   pitch: 1
   randomPitch: {x: 0, y: 0}
   time: 0

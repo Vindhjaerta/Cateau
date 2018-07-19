@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffectname: glad Kattunge 1
   audioClip: {fileID: 8300000, guid: 7b9af5d210182ef48908e2314fde92ed, type: 3}
-  volume: 1
+  volume: 0.5
   pitch: 1
   randomPitch: {x: 0, y: 0}
   time: 0
