@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffectname: neutral Kattunge 2
   audioClip: {fileID: 8300000, guid: 3a07660e62e66414794efc7bbf6e2d59, type: 3}
-  volume: 0.5
+  volume: 1
   pitch: 1
   randomPitch: {x: 0, y: 0}
   time: 0
