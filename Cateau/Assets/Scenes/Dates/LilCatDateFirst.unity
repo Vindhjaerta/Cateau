@@ -6215,9 +6215,9 @@ MonoBehaviour:
   _audioPriority: 2
   oneShotContainer: 1
   _ambienceSounds:
-  - {fileID: 11400000, guid: 7541053aa7760594eaae50fd6f9ca215, type: 2}
-  - {fileID: 11400000, guid: 45799a9ddb4d49a4f8f6e570b3f6ad6e, type: 2}
-  - {fileID: 11400000, guid: 2e4a072de4fe0f84c8b565a7fdba646f, type: 2}
+  - {fileID: 11400000, guid: 266d2d551c29c304bb3f17951b5b4470, type: 2}
+  - {fileID: 11400000, guid: a79d5f4930dc2144ab54dfb188d8bf07, type: 2}
+  - {fileID: 11400000, guid: 59349d5131015d64a82e7dabfa18b7aa, type: 2}
   - {fileID: 11400000, guid: 44e29b0e17329f94e8c2c5c5ed502fab, type: 2}
   clipHasBeenChosen: 0
 --- !u!1001 &528453900
@@ -15918,7 +15918,7 @@ Prefab:
         type: 2}
       propertyPath: _ambienceSounds.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 7541053aa7760594eaae50fd6f9ca215,
+      objectReference: {fileID: 11400000, guid: 266d2d551c29c304bb3f17951b5b4470,
         type: 2}
     - target: {fileID: 114564003517307476, guid: b351208f3a2fd3d40b599812d0870a19,
         type: 2}
@@ -15929,13 +15929,13 @@ Prefab:
         type: 2}
       propertyPath: _ambienceSounds.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 45799a9ddb4d49a4f8f6e570b3f6ad6e,
+      objectReference: {fileID: 11400000, guid: a79d5f4930dc2144ab54dfb188d8bf07,
         type: 2}
     - target: {fileID: 114564003517307476, guid: b351208f3a2fd3d40b599812d0870a19,
         type: 2}
       propertyPath: _ambienceSounds.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: 2e4a072de4fe0f84c8b565a7fdba646f,
+      objectReference: {fileID: 11400000, guid: 59349d5131015d64a82e7dabfa18b7aa,
         type: 2}
     - target: {fileID: 114564003517307476, guid: b351208f3a2fd3d40b599812d0870a19,
         type: 2}
