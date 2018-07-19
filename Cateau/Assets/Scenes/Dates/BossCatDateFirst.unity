@@ -1744,6 +1744,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
     - {fileID: 11400000, guid: d61ce9d5dda70d24baa0c790f3043692, type: 2}
+    - {fileID: 11400000, guid: 340f31b371aa1204ca460919947bb720, type: 2}
   - text:
       useConstant: 1
       constantValue: A perfect throw!

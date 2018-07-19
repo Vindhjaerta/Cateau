@@ -451,7 +451,7 @@ Prefab:
         type: 2}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 980146b93fe128a42bf5aada9aca12ca, type: 3}
+      objectReference: {fileID: 8300000, guid: caa52fca406cc1e44adb1b0ac1bd3f13, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82338202aae5f074baf7bb344728f48e, type: 2}
   m_IsPrefabParent: 0
@@ -809,7 +809,7 @@ Prefab:
         type: 2}
       propertyPath: fadeEffect
       value: 
-      objectReference: {fileID: 11400000, guid: ea678c56b4ecd564c9007d74bfcebeed,
+      objectReference: {fileID: 11400000, guid: 0013715ec5bdb8b4e8d0eabb0b36f956,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7339e77a19f0c9e45a6c63c6177ea893, type: 2}
