@@ -174,7 +174,9 @@ public class SceneTreeManager : MonoBehaviour, ISceneTreeData, IButtonData, IDia
                 ExecuteEvents.ExecuteHierarchy<ISceneTreeData>(transform.parent.gameObject, data, (handler, dataField) => handler.OnRecieveSceneTreeData((SceneTreeData)dataField));
                 data.sender.Continue(0);
                 break;
-
+            default:
+                data.sender.Continue(0);
+                break;
         }
     }
 

@@ -13,7 +13,7 @@ public class Phone : MonoBehaviour {
     {
         for (int i = 0; i < messagesParent.transform.childCount; i++)
         {
-            Destroy(messagesParent.transform.GetChild(i).gameObject);
+            DestroyImmediate(messagesParent.transform.GetChild(i).gameObject);
         }
     }
 

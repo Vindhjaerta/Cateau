@@ -61,6 +61,7 @@ public abstract class SceneTreeObject : MonoBehaviour {
     public void ActivateAndWait()
     {
         _data = new SceneTreeData();
+        _data.sender = this;
         targetNode = _nextNode;
         Initialize();
         ExecuteEvents.ExecuteHierarchy<ISceneTreeData>(gameObject, _data, (handler, data) => handler.OnRecieveSceneTreeData((SceneTreeData)data));
