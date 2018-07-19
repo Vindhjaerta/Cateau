@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb0ad3b0d82ca28438b29053fc3e2299, type: 3}
   m_Name: Running_Water
   m_EditorClassIdentifier: 
+  outputAudioMixerGroup: {fileID: 0}
   ambienceSoundname: amb_loop_Bosscat_RunningWater
   audioClip: {fileID: 8300000, guid: 48898f0e7f0961944b5fcf974dfb1e41, type: 3}
   volume: 0.05
@@ -22,7 +23,7 @@ MonoBehaviour:
   playSoundRandomInterval: {x: 5, y: 10}
   time: 0
   staticPanAudio: 1
-  staticPanAudioSlider: -1
+  staticPanAudioSlider: -0.783
   randomPanAudio: 0
   panDuration: 1
   clipDonePlaying: 36.999786

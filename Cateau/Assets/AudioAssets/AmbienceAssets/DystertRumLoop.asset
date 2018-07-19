@@ -14,7 +14,7 @@ MonoBehaviour:
   outputAudioMixerGroup: {fileID: 0}
   ambienceSoundname: dystert rum
   audioClip: {fileID: 8300000, guid: fac8c095ac67cf941ac08fd3252f4fe2, type: 3}
-  volume: 0.5
+  volume: 0.8
   pitch: 1
   randomPitch: {x: 0, y: 0}
   readyToPlay: 0
