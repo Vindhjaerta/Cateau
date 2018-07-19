@@ -40,7 +40,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   savepointIndex: 0
   _nextNode: {fileID: 0}
-  timeToWait: 10
+  timeToWait: 5
 --- !u!224 &224239615888220430
 RectTransform:
   m_ObjectHideFlags: 1
