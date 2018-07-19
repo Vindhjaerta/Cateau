@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffectname: stenkast
   audioClip: {fileID: 8300000, guid: 1d45f134c1739cb41a026e4173d38620, type: 3}
-  volume: 0.8
+  volume: 1
   pitch: 1
   randomPitch: {x: 0, y: 0}
   time: 0
