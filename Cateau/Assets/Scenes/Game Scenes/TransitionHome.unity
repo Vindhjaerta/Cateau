@@ -7523,7 +7523,8 @@ MonoBehaviour:
   containerName: Loop
   _audioPriority: 1
   oneShotContainer: 0
-  _ambienceSounds: []
+  _ambienceSounds:
+  - {fileID: 11400000, guid: 7ef652044893465499e6ead8de3247af, type: 2}
   clipHasBeenChosen: 0
 --- !u!224 &1950287513 stripped
 RectTransform:

@@ -34210,7 +34210,7 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: ba678de52152673408ebd2091d71f18f, type: 2}
+    - {fileID: 11400000, guid: 9ce1f41e06ee3a54a9eb5412908534ab, type: 2}
 --- !u!224 &1858718553 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
