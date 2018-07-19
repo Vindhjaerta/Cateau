@@ -11,20 +11,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb0ad3b0d82ca28438b29053fc3e2299, type: 3}
   m_Name: amb_oneshot_birds
   m_EditorClassIdentifier: 
+  outputAudioMixerGroup: {fileID: 24300002, guid: 02dfa1ae0f6b342468898abfd37928d3,
+    type: 2}
   ambienceSoundname: amb_oneshot_birds_lilcatdate3
   audioClip: {fileID: 8300000, guid: 0bed2a638cc76f845ad4a5307786cf0a, type: 3}
-  volume: 0.5
+  volume: 1
   pitch: 1
   randomPitch: {x: 0, y: 0}
   readyToPlay: 0
-  randomStartTimer: 0
-  startTimeInterval: {x: 0, y: 15}
+  randomStartTimer: 1
+  startTimeInterval: {x: 0, y: 2}
   playSoundRandomInterval: {x: 5, y: 10}
-  time: 0
+  time: 0.0070199277
   staticPanAudio: 1
   staticPanAudioSlider: 0.4
   randomPanAudio: 0
   panDuration: 1
-  clipDonePlaying: 2.635091
+  clipDonePlaying: 10.435528
   priority: 2
   addToQueue: 1

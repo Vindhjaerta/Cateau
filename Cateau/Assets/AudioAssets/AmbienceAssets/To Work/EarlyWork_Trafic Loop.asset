@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outputAudioMixerGroup: {fileID: 0}
   ambienceSoundname: early work + trafik
-  audioClip: {fileID: 8300000, guid: 3322d0c347312294e817caa29839d000, type: 3}
+  audioClip: {fileID: 8300000, guid: b8498c7a18481ca4093495343fd198bc, type: 3}
   volume: 1
   pitch: 1
   randomPitch: {x: 0, y: 0}

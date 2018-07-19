@@ -34,6 +34,8 @@ public class FadeSceneTreeObject : SceneTreeObject
 
     protected override void Initialize()
     {
+        sentFadeInMusicWithFade = false;
+        sentFadeOutMusicWithFade = false;
         continueToNextNode = false;
         draw = true;
         playedSoundEffect = true;

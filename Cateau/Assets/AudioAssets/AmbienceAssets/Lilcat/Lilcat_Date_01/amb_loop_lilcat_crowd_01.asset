@@ -11,9 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb0ad3b0d82ca28438b29053fc3e2299, type: 3}
   m_Name: amb_loop_lilcat_crowd_01
   m_EditorClassIdentifier: 
+  outputAudioMixerGroup: {fileID: 0}
   ambienceSoundname: amb_loop_lilcat_crowd_01
   audioClip: {fileID: 8300000, guid: e882ef19fa41f6e41aa8fd99c551f162, type: 3}
-  volume: 0.3
+  volume: 0.101
   pitch: 1
   randomPitch: {x: 0, y: 0}
   readyToPlay: 0
@@ -25,6 +26,6 @@ MonoBehaviour:
   staticPanAudioSlider: -0.89
   randomPanAudio: 0
   panDuration: 1
-  clipDonePlaying: 27.657536
+  clipDonePlaying: 13.885745
   priority: 10
   addToQueue: 1
