@@ -15,7 +15,7 @@ MonoBehaviour:
     type: 2}
   ambienceSoundname: amb_loop_lilcat_crowd_01
   audioClip: {fileID: 8300000, guid: e882ef19fa41f6e41aa8fd99c551f162, type: 3}
-  volume: 0.3
+  volume: 0.13
   pitch: 1
   randomPitch: {x: 0, y: 0}
   readyToPlay: 0
@@ -27,6 +27,6 @@ MonoBehaviour:
   staticPanAudioSlider: -0.89
   randomPanAudio: 0
   panDuration: 1
-  clipDonePlaying: 28.169184
+  clipDonePlaying: 2.643596
   priority: 10
   addToQueue: 1

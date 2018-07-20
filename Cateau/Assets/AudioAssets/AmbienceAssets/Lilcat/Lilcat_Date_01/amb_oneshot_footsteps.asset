@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb0ad3b0d82ca28438b29053fc3e2299, type: 3}
   m_Name: amb_oneshot_footsteps
   m_EditorClassIdentifier: 
-  outputAudioMixerGroup: {fileID: 243972129571678214, guid: 02dfa1ae0f6b342468898abfd37928d3,
+  outputAudioMixerGroup: {fileID: 243942143626770996, guid: 9076e0930a550b3468327cb9b47c9aab,
     type: 2}
   ambienceSoundname: 
   audioClip: {fileID: 8300000, guid: aedbfebb61adf144e9f7cc78dbbe4a5b, type: 3}
@@ -22,7 +22,7 @@ MonoBehaviour:
   randomStartTimer: 0
   startTimeInterval: {x: 0, y: 10}
   playSoundRandomInterval: {x: 20, y: 30}
-  time: 15.091994
+  time: 12.761606
   staticPanAudio: 1
   staticPanAudioSlider: 0.524
   randomPanAudio: 0
