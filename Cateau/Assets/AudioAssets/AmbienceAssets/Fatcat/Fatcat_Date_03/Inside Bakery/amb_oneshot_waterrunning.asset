@@ -22,11 +22,11 @@ MonoBehaviour:
   randomStartTimer: 1
   startTimeInterval: {x: 5, y: 10}
   playSoundRandomInterval: {x: 10, y: 15}
-  time: 0.0075425087
+  time: 0.8275553
   staticPanAudio: 0
-  staticPanAudioSlider: 0.7
+  staticPanAudioSlider: 0.9
   randomPanAudio: 0
   panDuration: 1
-  clipDonePlaying: 2.5299635
+  clipDonePlaying: 0
   priority: 2
   addToQueue: 1

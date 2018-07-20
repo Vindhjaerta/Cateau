@@ -1294,7 +1294,7 @@ MonoBehaviour:
   _ambienceSounds:
   - {fileID: 11400000, guid: 3212e5112f72fb546b85b4c9de7fd1a8, type: 2}
   - {fileID: 11400000, guid: 197c1481b9686a749a59f5d1d75ad934, type: 2}
-  - {fileID: 11400000, guid: 7a083980b94eb2d4c8d08a30f39bba20, type: 2}
+  - {fileID: 11400000, guid: 89cd5593049f09d42ac214df28e8b007, type: 2}
   - {fileID: 11400000, guid: b45e46bc7fa91d24c835344432b29cf7, type: 2}
   - {fileID: 11400000, guid: 7c629c3604f383940b5a3a78d5a397db, type: 2}
   - {fileID: 11400000, guid: 85f56c65d482e6c49aa2e53e881c55b8, type: 2}
@@ -4802,7 +4802,7 @@ Prefab:
         type: 2}
       propertyPath: _ambienceSounds.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: 7a083980b94eb2d4c8d08a30f39bba20,
+      objectReference: {fileID: 11400000, guid: 89cd5593049f09d42ac214df28e8b007,
         type: 2}
     - target: {fileID: 114564003517307476, guid: b351208f3a2fd3d40b599812d0870a19,
         type: 2}
@@ -8856,6 +8856,55 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
+--- !u!1 &1044192002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1467864672034428, guid: 9f94c1ce148c80d478ce0fbf990c65c0,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1044192003}
+  - component: {fileID: 1044192004}
+  m_Layer: 0
+  m_Name: AmbienceContainer (Loop Inside_02)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1044192003
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4422283058688368, guid: 9f94c1ce148c80d478ce0fbf990c65c0,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1044192002}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2453.8936, y: -357.3341, z: 39.936737}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1145629287}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1044192004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114826067913710370, guid: 9f94c1ce148c80d478ce0fbf990c65c0,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1044192002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5016ff579bc69c48bd0c715697f0fff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerName: Loop
+  _audioPriority: 1
+  oneShotContainer: 0
+  _ambienceSounds:
+  - {fileID: 11400000, guid: 8b16c2069f1d8cc4eba49f7ba21ac741, type: 2}
+  clipHasBeenChosen: 0
 --- !u!1001 &1054612383
 Prefab:
   m_ObjectHideFlags: 0
@@ -9406,7 +9455,8 @@ MonoBehaviour:
   containerName: Loop
   _audioPriority: 1
   oneShotContainer: 0
-  _ambienceSounds: []
+  _ambienceSounds:
+  - {fileID: 11400000, guid: 0040b8bdebc4d2740ab429937483a280, type: 2}
   clipHasBeenChosen: 0
 --- !u!1 &1112597681
 GameObject:
@@ -9437,7 +9487,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1145629287}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1112597683
 MonoBehaviour:
@@ -9455,7 +9505,11 @@ MonoBehaviour:
   _audioPriority: 1
   oneShotContainer: 1
   _ambienceSounds:
-  - {fileID: 11400000, guid: d356a225a6e22f944b21af25fc9e5b53, type: 2}
+  - {fileID: 11400000, guid: b444116dd84129949bcab70e6b1c772a, type: 2}
+  - {fileID: 11400000, guid: 89cd5593049f09d42ac214df28e8b007, type: 2}
+  - {fileID: 11400000, guid: acf050a26e5c2c94d80e2b7757d29a5f, type: 2}
+  - {fileID: 11400000, guid: 0966f9242161fa642a192cd7742a9aae, type: 2}
+  - {fileID: 11400000, guid: 5bfd15cd9dd92044cb70d6e7f044f82b, type: 2}
   clipHasBeenChosen: 0
 --- !u!1 &1130357797
 GameObject:
@@ -10972,7 +11026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxVolume: 1
-  _maxSimultaneousSounds: 4
+  _maxSimultaneousSounds: 9
   _playingAmbienceList: []
 --- !u!4 &1264766802
 Transform:
@@ -11001,7 +11055,7 @@ Prefab:
     - target: {fileID: 114564003517307476, guid: b351208f3a2fd3d40b599812d0870a19,
         type: 2}
       propertyPath: _ambienceSounds.Array.size
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4979664205823796, guid: b351208f3a2fd3d40b599812d0870a19, type: 2}
       propertyPath: m_LocalPosition.x
@@ -11039,7 +11093,7 @@ Prefab:
         type: 2}
       propertyPath: _ambienceSounds.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: d356a225a6e22f944b21af25fc9e5b53,
+      objectReference: {fileID: 11400000, guid: b444116dd84129949bcab70e6b1c772a,
         type: 2}
     - target: {fileID: 114564003517307476, guid: b351208f3a2fd3d40b599812d0870a19,
         type: 2}
@@ -11050,25 +11104,25 @@ Prefab:
         type: 2}
       propertyPath: _ambienceSounds.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: b8ad6143d957c1f4b89f00850f027300,
+      objectReference: {fileID: 11400000, guid: 89cd5593049f09d42ac214df28e8b007,
         type: 2}
     - target: {fileID: 114564003517307476, guid: b351208f3a2fd3d40b599812d0870a19,
         type: 2}
       propertyPath: _ambienceSounds.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: 8aa271fdcfcd3a14689b53903093c0e9,
+      objectReference: {fileID: 11400000, guid: acf050a26e5c2c94d80e2b7757d29a5f,
         type: 2}
     - target: {fileID: 114564003517307476, guid: b351208f3a2fd3d40b599812d0870a19,
         type: 2}
       propertyPath: _ambienceSounds.Array.data[3]
       value: 
-      objectReference: {fileID: 11400000, guid: 44e29b0e17329f94e8c2c5c5ed502fab,
+      objectReference: {fileID: 11400000, guid: 0966f9242161fa642a192cd7742a9aae,
         type: 2}
     - target: {fileID: 114564003517307476, guid: b351208f3a2fd3d40b599812d0870a19,
         type: 2}
       propertyPath: _ambienceSounds.Array.data[4]
       value: 
-      objectReference: {fileID: 11400000, guid: 2b2fdd884a1daa541911c1e11d054a20,
+      objectReference: {fileID: 11400000, guid: 5bfd15cd9dd92044cb70d6e7f044f82b,
         type: 2}
     - target: {fileID: 1353888312776620, guid: b351208f3a2fd3d40b599812d0870a19, type: 2}
       propertyPath: m_Name

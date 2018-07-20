@@ -15,14 +15,14 @@ MonoBehaviour:
     type: 2}
   ambienceSoundname: 
   audioClip: {fileID: 8300000, guid: 539b4eeb25c7f2448be08e95acf61fe4, type: 3}
-  volume: 0.5
+  volume: 0.28
   pitch: 1
   randomPitch: {x: 0, y: 1}
   readyToPlay: 0
-  randomStartTimer: 0
-  startTimeInterval: {x: 0, y: 10}
-  playSoundRandomInterval: {x: 5, y: 10}
-  time: 4.151805
+  randomStartTimer: 1
+  startTimeInterval: {x: 15, y: 20}
+  playSoundRandomInterval: {x: 20, y: 40}
+  time: 27.227507
   staticPanAudio: 0
   staticPanAudioSlider: 0
   randomPanAudio: 1
