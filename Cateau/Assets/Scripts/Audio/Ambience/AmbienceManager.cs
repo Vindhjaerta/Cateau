@@ -10,7 +10,7 @@ public class AmbienceManager : MonoBehaviour
     public float maxVolume = 1;
 
     [SerializeField]
-    private int _maxSimultaneousSounds = 1;
+    private int _maxSimultaneousSoundsPlaying = 10;
     private int _numberOfCurrentClipsPlaying;
 
     [HideInInspector]
@@ -20,6 +20,9 @@ public class AmbienceManager : MonoBehaviour
     //Remove and use profile istead
     private List<AmbienceContainer> _ambienceContainer = new List<AmbienceContainer>();
 
+
+    private List<AmbienceSound> _loopAmbienceSound = new List<AmbienceSound>();
+    private List<AudioSource> _loopAmbienceSource = new List<AudioSource>();
 
     private List<AmbienceProfile> _ambienceProfile = new List<AmbienceProfile>();
 
@@ -94,9 +97,9 @@ public class AmbienceManager : MonoBehaviour
         }
 
         //Create audioSources
-        for (int i = 0; i < _maxSimultaneousSounds; i++)
+        for (int i = 0; i < _maxSimultaneousSoundsPlaying; i++)
         {
-            if (_audioSources.Count < _maxSimultaneousSounds)
+            if (_audioSources.Count < _maxSimultaneousSoundsPlaying)
             {
                 _audioSources.Add(gameObject.AddComponent<AudioSource>());
             }
@@ -125,6 +128,14 @@ public class AmbienceManager : MonoBehaviour
             for (int i = _playingAmbienceList.Count-1; i >= 0; i--)
             {
                 _playingAmbienceList[i].UpdateSound(Time.deltaTime);
+            }
+        }
+
+        if (_loopAmbienceSound.Count > 0)
+        {
+            for (int i = _loopAmbienceSound.Count - 1; i >= 0; i--)
+            {
+                _loopAmbienceSound[i].UpdateSound(Time.deltaTime);
             }
         }
 
