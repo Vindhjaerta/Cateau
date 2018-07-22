@@ -2872,7 +2872,7 @@ MonoBehaviour:
   _audioPriority: 1
   oneShotContainer: 0
   _ambienceSounds:
-  - {fileID: 11400000, guid: 7ef652044893465499e6ead8de3247af, type: 2}
+  - {fileID: 11400000, guid: c8ad3ad9d75bb0f4ca056dc16ef62ece, type: 2}
   clipHasBeenChosen: 0
 --- !u!1001 &651068509
 Prefab:
@@ -6458,7 +6458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxVolume: 1
-  _maxSimultaneousSounds: 4
+  _maxSimultaneousSoundsPlaying: 10
   _playingAmbienceList: []
 --- !u!4 &1264766802
 Transform:

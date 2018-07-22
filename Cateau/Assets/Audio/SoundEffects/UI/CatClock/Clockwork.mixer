@@ -64,7 +64,9 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 842466a47241c4e4caab4e826af8d7d8
   m_FloatValues:
+    008f3e91c1e635642aad61f6b2adfb41: 0
     89318c82bb77f6940a9a245bd5ba0e79: -2323
+    9d390fe2ccf53594ca52c644e8bb3d6d: 6.2
     8d1e906435867ce48b37931154164927: -853
     e168e126612f2cc459d28f8211fd4948: -3871
     a5a454e6312ae4245a735c5c36f10cec: 0.90800005
@@ -84,6 +86,7 @@ AudioMixerGroupController:
   m_Pitch: 3bf54101a4d3d2448a26c0f8d0d9d294
   m_Effects:
   - {fileID: 244049807615008848}
+  - {fileID: 244766566266116104}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
@@ -101,6 +104,7 @@ AudioMixerGroupController:
   m_Pitch: 621158a8a6b6175499d6c9fa620992c1
   m_Effects:
   - {fileID: 244833094221850094}
+  - {fileID: 244526581186382956}
   - {fileID: 244200406517240412}
   - {fileID: 244580114587965760}
   m_UserColorIndex: 0
@@ -143,6 +147,19 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!244 &244526581186382956
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 899b4ba4294b5484199aa9f880c05eec
+  m_EffectName: Receive
+  m_MixLevel: c60e96310686e4144a05e364f7581df0
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!244 &244580114587965760
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -182,6 +199,19 @@ AudioMixerEffectController:
   - m_ParameterName: LF Reference
     m_GUID: 15807e88ffa62734c9f2ec79006a64ab
   m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244766566266116104
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 91f3cbce9667e0d47b63f8e503762a11
+  m_EffectName: Send
+  m_MixLevel: 008f3e91c1e635642aad61f6b2adfb41
+  m_Parameters: []
+  m_SendTarget: {fileID: 244526581186382956}
   m_EnableWetMix: 0
   m_Bypass: 0
 --- !u!244 &244833094221850094
