@@ -20,9 +20,9 @@ MonoBehaviour:
   randomPitch: {x: 0, y: 0}
   time: 0
   staticPanAudio: 0
-  staticPanAudioSlider: 0
+  staticPanAudioSlider: 0.46
   randomPanAudio: 0
   panDuration: 1
-  clipDonePlaying: 0.14258648
+  clipDonePlaying: 0
   priority: 10
   addToQueue: 1
