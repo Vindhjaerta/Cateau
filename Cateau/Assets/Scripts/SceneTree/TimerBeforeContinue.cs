@@ -12,7 +12,7 @@ public class TimerBeforeContinue : SceneTreeObject
 
     public override void Continue(int nodeIndex)
     {
-        throw new System.NotImplementedException();
+
     }
 
     protected override void Initialize()

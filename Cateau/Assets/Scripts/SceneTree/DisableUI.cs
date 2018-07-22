@@ -7,7 +7,7 @@ public class DisableUI : SceneTreeObject
     public bool enableInsteadOfDisable;
     public override void Continue(int nodeIndex)
     {
-        throw new System.NotImplementedException();
+
     }
 
     protected override void Initialize()

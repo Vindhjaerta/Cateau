@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 [CreateAssetMenu(menuName = "Audio/SoundEffect")]
 public class SoundEffect : ScriptableObject
 {
+    public AudioMixerGroup outputAudioMixerGroup;
     public string soundEffectname;
     public AudioClip audioClip;
     [Range(0f, 1.0f)]
@@ -84,6 +86,16 @@ public class SoundEffect : ScriptableObject
         audioSource.volume = _soundEffectsManager.maxVolume * volume;
         audioSource.Play();
         _soundEffectsManager._playingSoundEffectList.Add(this);
+
+        if (outputAudioMixerGroup != null)
+        {
+            _audioSource.outputAudioMixerGroup = outputAudioMixerGroup;
+        }
+        else
+        {
+            _audioSource.outputAudioMixerGroup = null;
+        }
+
     }
 
     public void UpdateSound(float time)

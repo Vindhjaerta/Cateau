@@ -12,7 +12,7 @@ public class CatClock : SceneTreeObject
     public List<RotateRectTransform> objectsToRotateList;
     public override void Continue(int nodeIndex)
     {
-        throw new System.NotImplementedException();
+
     }
 
     protected override void Initialize()
@@ -26,6 +26,7 @@ public class CatClock : SceneTreeObject
                 rotateRectTransform.StartRotate();
             }
         }
+        animator.SetTrigger("play");
         Continue();
     }
 
@@ -35,5 +36,21 @@ public class CatClock : SceneTreeObject
         image = GetComponent<Image>();
         image.enabled = false;
         clock.SetActive(false);
+    }
+
+    public void SendTick()
+    {
+        if (SoundEffectsManager.Instance != null)
+        {
+            SoundEffectsManager.Instance.PlaySoundFromContainer("Tick");
+        }
+    }
+
+    public void SendTack()
+    {
+        if (SoundEffectsManager.Instance != null)
+        {
+            SoundEffectsManager.Instance.PlaySoundFromContainer("Tack");
+        }
     }
 }
