@@ -2043,7 +2043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   containerName: Tack
   _soundEffects:
-  - {fileID: 11400000, guid: 517540e30da49834cb2526a98c930c18, type: 2}
+  - {fileID: 11400000, guid: db3613fbb9518fe4d8a9cc050303ea8f, type: 2}
 --- !u!1 &268387726
 GameObject:
   m_ObjectHideFlags: 0
@@ -3988,7 +3988,7 @@ MonoBehaviour:
   _audioPriority: 1
   oneShotContainer: 0
   _ambienceSounds:
-  - {fileID: 11400000, guid: 7ef652044893465499e6ead8de3247af, type: 2}
+  - {fileID: 11400000, guid: 6b061381f8b794740b10846aee573c74, type: 2}
   clipHasBeenChosen: 0
 --- !u!224 &632326470 stripped
 RectTransform:
@@ -15825,7 +15825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   containerName: Tick
   _soundEffects:
-  - {fileID: 11400000, guid: 4480dfe8e9b859f4faaa7f6843ab5d17, type: 2}
+  - {fileID: 11400000, guid: e43d803647306e34badd4504b683675a, type: 2}
 --- !u!1 &2084413557 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1184032873210504, guid: f30360e6aa6eabc40b26395b40f01452,
