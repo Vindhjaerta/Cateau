@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: "amb_oneshot_h\xF6gklackat"
   m_EditorClassIdentifier: 
   outputAudioMixerGroup: {fileID: 0}
-  ambienceSoundname: 
-  audioClip: {fileID: 8300000, guid: d83385e6e4e4de74a84b0ac83af75f38, type: 3}
+  ambienceSoundname: "amb_oneshot_h\xF6gklackat"
+  audioClip: {fileID: 8300000, guid: 6c2898ee426903a4fb3ce666998609b4, type: 3}
   volume: 0.5
   pitch: 1
   randomPitch: {x: 0, y: 0}
