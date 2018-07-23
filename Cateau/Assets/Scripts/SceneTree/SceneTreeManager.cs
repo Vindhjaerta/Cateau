@@ -217,8 +217,15 @@ public class SceneTreeManager : MonoBehaviour, ISceneTreeData, IButtonData, IDia
     {
         if (GameController.Instance.buttonsClickable)
         {
-            _cC.Clear();
-            _phone.ClearMessages();
+            if(_cC != null)
+            {
+                _cC.Clear();
+            }
+            if(_phone != null)
+            {
+                _phone.ClearMessages();
+            }
+            
             _buttonBox.DisableButtons();
             LoadSavePoint();
         }

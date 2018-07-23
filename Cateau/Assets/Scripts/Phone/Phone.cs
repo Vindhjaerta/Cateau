@@ -21,7 +21,6 @@ public class Phone : MonoBehaviour {
 
     public void AddMessage(Sprite sprite)
     {
-        Debug.Log("Addmessage");
         GameObject obj = Instantiate(message, messagesParent.transform);
         UnityEngine.UI.Image img = obj.GetComponent<UnityEngine.UI.Image>();
         if(img != null)
@@ -32,16 +31,19 @@ public class Phone : MonoBehaviour {
         if (messagesParent.transform.childCount > maxMessages)
         {
             obj = messagesParent.transform.GetChild(0).gameObject;
+            obj.SetActive(false);
             Destroy(obj);
-            obj = null;
         }
 
         float height = 0;
 
         for (int i = 0; i < messagesParent.transform.childCount; i++)
         {
-            messagesParent.transform.GetChild(i).localPosition = new Vector3(0, 0-height, 0);
-            height += messagesParent.transform.GetChild(i).GetComponent<UnityEngine.UI.Image>().rectTransform.rect.height;
+            if (messagesParent.transform.GetChild(i).gameObject.activeSelf)
+            {
+                messagesParent.transform.GetChild(i).localPosition = new Vector3(0, 0 - height, 0);
+                height += messagesParent.transform.GetChild(i).GetComponent<UnityEngine.UI.Image>().rectTransform.rect.height;
+            }
         }
 
 
