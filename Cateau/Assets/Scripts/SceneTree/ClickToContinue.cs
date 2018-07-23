@@ -18,6 +18,7 @@ public class ClickToContinue : SceneTreeObject
         {
             if (_continue)
             {
+                _continue = false;
                 Continue();
             }
         }
@@ -25,7 +26,7 @@ public class ClickToContinue : SceneTreeObject
 
     public override void Continue(int nodeIndex)
     {
-        throw new System.NotImplementedException();
+
     }
 
     protected override void Initialize()

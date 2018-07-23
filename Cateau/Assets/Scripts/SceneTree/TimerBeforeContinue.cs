@@ -12,7 +12,7 @@ public class TimerBeforeContinue : SceneTreeObject
 
     public override void Continue(int nodeIndex)
     {
-        throw new System.NotImplementedException();
+
     }
 
     protected override void Initialize()
@@ -20,11 +20,6 @@ public class TimerBeforeContinue : SceneTreeObject
         timerTicking = true;
         time = 0;
     }
-
-    // Use this for initialization
-    void Start () {
-		
-	}
 	
 	// Update is called once per frame
 	void Update ()

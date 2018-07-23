@@ -9,7 +9,7 @@ public class ChangeReactionSceneTree : SceneTreeObject
 
     public override void Continue(int nodeIndex)
     {
-
+        Continue();
     }
 
     protected override void Initialize()
@@ -47,7 +47,7 @@ public class ChangeReactionSceneTree : SceneTreeObject
         {
             Debug.LogWarning("CharacterController doesn't exist");
         }
-        Continue();
+
     }
 
 }

@@ -9,7 +9,7 @@ public class TeleportSceneTreeObject : SceneTreeObject
 
     public override void Continue(int nodeIndex)
     {
-
+        Continue();
     }
 
     protected override void Initialize()
@@ -22,7 +22,7 @@ public class TeleportSceneTreeObject : SceneTreeObject
         {
             Debug.LogWarning("The rectTransform of an object to teleport hasn't been set in the inspector: " + gameObject);
         }
-        Continue();
+
     }
 
     private void OnDrawGizmos()

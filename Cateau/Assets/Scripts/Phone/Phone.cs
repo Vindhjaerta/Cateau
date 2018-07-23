@@ -11,14 +11,17 @@ public class Phone : MonoBehaviour {
 
     public void ClearMessages()
     {
-        for (int i = 0; i < messagesParent.transform.childCount; i++)
+        for (int i = messagesParent.transform.childCount - 1; i > -1 ; i--)
         {
-            DestroyImmediate(messagesParent.transform.GetChild(i).gameObject);
+            GameObject obj = messagesParent.transform.GetChild(i).gameObject;
+            Destroy(obj);
+            obj = null;
         }
     }
 
     public void AddMessage(Sprite sprite)
     {
+        Debug.Log("Addmessage");
         GameObject obj = Instantiate(message, messagesParent.transform);
         UnityEngine.UI.Image img = obj.GetComponent<UnityEngine.UI.Image>();
         if(img != null)
@@ -28,7 +31,9 @@ public class Phone : MonoBehaviour {
 
         if (messagesParent.transform.childCount > maxMessages)
         {
-            DestroyImmediate(messagesParent.transform.GetChild(0).gameObject);
+            obj = messagesParent.transform.GetChild(0).gameObject;
+            Destroy(obj);
+            obj = null;
         }
 
         float height = 0;

@@ -24,11 +24,6 @@ public class SlideObject : SceneTreeObject
 
     public override void Continue(int nodeIndex)
     {
-
-    }
-
-    protected override void Initialize()
-    {
         _startSlide = true;
         continueTrue = true;
         startUpdate = true;
@@ -36,6 +31,11 @@ public class SlideObject : SceneTreeObject
         {
             Continue();
         }
+    }
+
+    protected override void Initialize()
+    {
+
     }
 
     // Use this for initialization

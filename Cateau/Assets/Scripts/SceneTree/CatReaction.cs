@@ -16,7 +16,7 @@ public class CatReaction : SceneTreeObject
 
     public override void Continue(int nodeIndex)
     {
-        throw new System.NotImplementedException();
+        Continue();
     }
 
     protected override void Initialize()
@@ -39,6 +39,5 @@ public class CatReaction : SceneTreeObject
 
         ButtonData buttonData = new ButtonData(EButtonChoice.catButton, "", reactValue, affinity, react, relativeReaction, catSoundReaction);
         ExecuteEvents.ExecuteHierarchy<ICatReactionInfoReciever>(gameObject, null, (x, y) => x.RecieveReactionInfo(buttonData));
-        Continue();
     }
 }

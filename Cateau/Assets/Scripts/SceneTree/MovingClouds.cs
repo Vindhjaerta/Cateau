@@ -13,13 +13,13 @@ public class MovingClouds : SceneTreeObject
 
     public override void Continue(int nodeIndex)
     {
-        throw new System.NotImplementedException();
+        Continue();
     }
 
     protected override void Initialize()
     {
         image.enabled = true;
-        Continue();
+
     }
 
     // Use this for initialization

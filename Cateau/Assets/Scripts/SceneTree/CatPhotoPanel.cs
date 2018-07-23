@@ -15,13 +15,13 @@ public class CatPhotoPanel : SceneTreeObject
 
     public override void Continue(int nodeIndex)
     {
-
+        StartCoroutine(Wait());
     }
 
     protected override void Initialize()
     {
         _image.enabled = true;
-        StartCoroutine(Wait());
+
     }
 
     IEnumerator Wait()
@@ -44,8 +44,4 @@ public class CatPhotoPanel : SceneTreeObject
         }
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

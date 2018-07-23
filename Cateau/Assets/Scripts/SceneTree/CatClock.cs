@@ -12,7 +12,7 @@ public class CatClock : SceneTreeObject
     public List<RotateRectTransform> objectsToRotateList;
     public override void Continue(int nodeIndex)
     {
-        throw new System.NotImplementedException();
+        Continue();
     }
 
     protected override void Initialize()
@@ -26,7 +26,7 @@ public class CatClock : SceneTreeObject
                 rotateRectTransform.StartRotate();
             }
         }
-        Continue();
+        
     }
 
     public void Start()

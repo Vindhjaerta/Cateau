@@ -8,7 +8,7 @@ public class SaveCatReactionForCamera : SceneTreeObject
 
     public override void Continue(int nodeIndex)
     {
-
+        Continue();
     }
 
     protected override void Initialize()
@@ -18,6 +18,6 @@ public class SaveCatReactionForCamera : SceneTreeObject
             GameStateContainer.Instance.activePhotos[imageIndex.value] = true;
         }
 
-        Continue();
+
     }
 }

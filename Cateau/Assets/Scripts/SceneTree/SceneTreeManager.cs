@@ -11,6 +11,7 @@ public class SceneTreeManager : MonoBehaviour, ISceneTreeData, IButtonData, IDia
     private ButtonDataList _buttonDataList;
     private ChoiceController _buttonBox;
     private ConversationController _cC;
+    private Phone _phone;
     private InputController _inputController;
     private InputField _inputField;
 
@@ -174,17 +175,26 @@ public class SceneTreeManager : MonoBehaviour, ISceneTreeData, IButtonData, IDia
                 ExecuteEvents.ExecuteHierarchy<ISceneTreeData>(transform.parent.gameObject, data, (handler, dataField) => handler.OnRecieveSceneTreeData((SceneTreeData)dataField));
                 data.sender.Continue(0);
                 break;
+            case ESceneTreeType.SavePoint:
+                data.sender.Continue(1);
+                break;
             default:
                 data.sender.Continue(0);
                 break;
         }
     }
 
-    void Start()
+    private void Awake()
     {
         _buttonBox = GetComponentInChildren<ChoiceController>();
         _cC = GetComponentInChildren<ConversationController>();
+        _phone = GetComponentInChildren<Phone>();
         _inputController = GetComponentInChildren<InputController>();
+    }
+
+    void Start()
+    {
+
         if (_inputController != null) _inputController.DeActivate();
 
         if (GameStateContainer.Instance != null)
@@ -208,6 +218,7 @@ public class SceneTreeManager : MonoBehaviour, ISceneTreeData, IButtonData, IDia
         if (GameController.Instance.buttonsClickable)
         {
             _cC.Clear();
+            _phone.ClearMessages();
             _buttonBox.DisableButtons();
             LoadSavePoint();
         }
@@ -233,7 +244,6 @@ public class SceneTreeManager : MonoBehaviour, ISceneTreeData, IButtonData, IDia
                 {
                     ExecuteEvents.ExecuteHierarchy<ISerializeCat>(gameObject, null, (sender, data) => sender.SerializeCat(false));
                     objectToLoad[index].Continue(0);
-                    //Debug.Log(GameStateContainer.Instance.affinity["BossCatNameTag"]);
                     return true;
                 }
                 else

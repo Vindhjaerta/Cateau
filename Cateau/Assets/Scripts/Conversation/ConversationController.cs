@@ -122,6 +122,7 @@ public class ConversationController : MonoBehaviour
     {
         dialoguePrint = null;
         namePrint = null;
+        _nameText.transform.parent.gameObject.SetActive(false);
         _dialogueText.text = "";
         _nameText.text = "";
     }

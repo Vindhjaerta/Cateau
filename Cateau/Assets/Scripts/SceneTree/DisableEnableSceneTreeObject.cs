@@ -14,7 +14,7 @@ public class DisableEnableSceneTreeObject : SceneTreeObject
 
     public override void Continue(int nodeIndex)
     {
-
+        Continue();
     }
 
     protected override void Initialize()
@@ -34,7 +34,7 @@ public class DisableEnableSceneTreeObject : SceneTreeObject
                 enableSceneTreeObject.gameObject.SetActive(true);
             }
         }
-        Continue();
+
     }
 
     // Use this for initialization

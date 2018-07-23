@@ -34,6 +34,6 @@ public class SavePoint : SceneTreeObject {
 
     protected override void Initialize()
     {
-        Continue(1);
+        //Continue(1);
     }
 }

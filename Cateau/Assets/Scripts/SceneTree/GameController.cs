@@ -59,10 +59,7 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
         cameraOrig = camera.gameObject.transform.position;
 
         phone = GetComponentInChildren<Phone>();
-        if(phone != null)
-        {
-            phone.gameObject.SetActive(false);
-        }
+ 
 
         emoji = GetComponentInChildren<EmojiController>();
 
@@ -81,6 +78,10 @@ public class GameController : MonoBehaviour, ICatReactionInfoReciever,ISwitchSce
             LoadCat();
         }
 
+        if (phone != null)
+        {
+            phone.gameObject.SetActive(false);
+        }
     }
 
     public void OnSceneChange()

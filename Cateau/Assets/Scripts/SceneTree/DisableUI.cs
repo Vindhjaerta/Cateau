@@ -7,7 +7,7 @@ public class DisableUI : SceneTreeObject
     public bool enableInsteadOfDisable;
     public override void Continue(int nodeIndex)
     {
-        throw new System.NotImplementedException();
+        Continue();
     }
 
     protected override void Initialize()
@@ -23,7 +23,7 @@ public class DisableUI : SceneTreeObject
                 GameController.Instance.DisableConversationController();
             }
         }
-        Continue();
+
     }
 
 }
