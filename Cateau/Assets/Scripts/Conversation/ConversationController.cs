@@ -120,6 +120,8 @@ public class ConversationController : MonoBehaviour
 
     public void Clear()
     {
+        ResetArrowSprite();
+        alwaysShowArrow = false;
         dialoguePrint = null;
         namePrint = null;
         _nameText.transform.parent.gameObject.SetActive(false);
