@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb0ad3b0d82ca28438b29053fc3e2299, type: 3}
+  m_Name: Morning alley
+  m_EditorClassIdentifier: 
+  outputAudioMixerGroup: {fileID: 0}
+  ambienceSoundname: 
+  audioClip: {fileID: 8300000, guid: 84e68516118320747826328fed9b8c67, type: 3}
+  volume: 0.5
+  pitch: 1
+  randomPitch: {x: 0, y: 0}
+  readyToPlay: 0
+  randomStartTimer: 0
+  startTimeInterval: {x: 0, y: 50}
+  playSoundRandomInterval: {x: 5, y: 10}
+  time: 0
+  staticPanAudio: 0
+  staticPanAudioSlider: 0
+  randomPanAudio: 0
+  panDuration: 1
+  clipDonePlaying: 3.8614006
+  priority: 10
+  addToQueue: 1
