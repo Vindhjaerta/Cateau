@@ -26,7 +26,7 @@ public class CatClock : SceneTreeObject
                 rotateRectTransform.StartRotate();
             }
         }
-        
+        animator.SetTrigger("play");
     }
 
     public void Start()
@@ -36,4 +36,17 @@ public class CatClock : SceneTreeObject
         image.enabled = false;
         clock.SetActive(false);
     }
+
+    public void SendTick()
+    {
+        if (SoundEffectsManager.Instance != null)
+            SoundEffectsManager.Instance.PlaySoundFromContainer("Tick");
+    }
+
+    public void SendTack()
+    {
+        if (SoundEffectsManager.Instance != null)
+            SoundEffectsManager.Instance.PlaySoundFromContainer("Tack");
+    }
+
 }
