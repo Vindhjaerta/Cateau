@@ -12344,6 +12344,16 @@ Prefab:
       propertyPath: m_AnchoredPosition.x
       value: -2.9500122
       objectReference: {fileID: 0}
+    - target: {fileID: 114304825716241366, guid: ec6085ee96e232045a3f186fba37046b,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114304825716241366, guid: ec6085ee96e232045a3f186fba37046b,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec6085ee96e232045a3f186fba37046b, type: 2}
   m_IsPrefabParent: 0
