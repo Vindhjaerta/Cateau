@@ -9,11 +9,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987967f36943f41a549970936957f4, type: 3}
-  m_Name: Stenkast
+  m_Name: PopDown
   m_EditorClassIdentifier: 
-  soundEffectname: stenkast
-  audioClip: {fileID: 8300000, guid: 1d45f134c1739cb41a026e4173d38620, type: 3}
-  volume: 1
+  outputAudioMixerGroup: {fileID: 0}
+  soundEffectname: PopDown
+  audioClip: {fileID: 8300000, guid: 014a8cc0d8af10545975ef46f3d5d72f, type: 3}
+  volume: 0.3
   pitch: 1
   randomPitch: {x: 0, y: 0}
   time: 0

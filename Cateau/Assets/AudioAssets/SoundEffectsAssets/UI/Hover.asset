@@ -9,12 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987967f36943f41a549970936957f4, type: 3}
-  m_Name: PopUp
+  m_Name: Hover
   m_EditorClassIdentifier: 
-  soundEffectname: PopUp
-  audioClip: {fileID: 8300000, guid: 12859ac1bb91d8947a102fd443e45491, type: 3}
-  volume: 0.3
-  pitch: 1
+  outputAudioMixerGroup: {fileID: 0}
+  soundEffectname: Hover
+  audioClip: {fileID: 8300000, guid: 7a2d2e3e4cc654fbda7999cf659ea1c2, type: 3}
+  volume: 0.4
+  pitch: 0.9274138
   randomPitch: {x: 0, y: 0}
   time: 0
   staticPanAudio: 0
