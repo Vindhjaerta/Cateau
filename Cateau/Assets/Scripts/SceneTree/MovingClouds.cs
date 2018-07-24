@@ -19,11 +19,11 @@ public class MovingClouds : SceneTreeObject
     protected override void Initialize()
     {
         image.enabled = true;
-
     }
 
     // Use this for initialization
-    void Start () {
+    void Start ()
+    {
         image = GetComponent<Image>();
         image.enabled = false;
 	}

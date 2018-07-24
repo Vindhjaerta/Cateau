@@ -15,7 +15,6 @@ public class HideShowImage : SceneTreeObject
     protected override void Initialize()
     {
         image.enabled = true;
-
     }
 
     // Use this for initialization
@@ -24,5 +23,5 @@ public class HideShowImage : SceneTreeObject
         image = GetComponent<Image>();
         image.enabled = false;
 	}
-	
+
 }
