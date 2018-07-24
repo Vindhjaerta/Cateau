@@ -121,6 +121,18 @@ public class Choice : SceneTreeObject
         {
             ExecuteEvents.Execute<IEmoji>(GameController.Instance.gameObject, null, (handler, data) => handler.OnEmoji(buttons[nodeIndex].emojiType));
         }
+        else
+        {
+            if (SoundEffectsManager.Instance != null)
+            {
+                SoundEffectsManager.Instance.PlaySoundFromContainer("Buttons");
+            }
+            else
+            {
+                Debug.Log("SoundeffectsManager wasn't found");
+            }
+        }
+
         if (buttons[nodeIndex].soundContainer != null)
         {
             if (SoundEffectsManager.Instance != null)
