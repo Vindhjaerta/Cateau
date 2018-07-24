@@ -9,12 +9,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987967f36943f41a549970936957f4, type: 3}
-  m_Name: CatFight
+  m_Name: DoorOpen
   m_EditorClassIdentifier: 
   outputAudioMixerGroup: {fileID: 0}
-  soundEffectname: CatFight
-  audioClip: {fileID: 8300000, guid: 8b0034eec57914e42b204e35eb1bc9f9, type: 3}
-  volume: 0.15
+  soundEffectname: DoorOpen
+  audioClip: {fileID: 8300000, guid: 7cfbeff946e3c5542a3c1d1235d9a0ec, type: 3}
+  volume: 0.8
   pitch: 1
   randomPitch: {x: 0, y: 0}
   time: 0
