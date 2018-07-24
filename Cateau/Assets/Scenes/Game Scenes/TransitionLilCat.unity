@@ -929,6 +929,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
     - {fileID: 11400000, guid: c848f833b3bdda04a8eb2667af244e3e, type: 2}
+    - {fileID: 11400000, guid: d88e3b6be7dc0864583f61ddf1d342e9, type: 2}
 --- !u!1001 &66929763
 Prefab:
   m_ObjectHideFlags: 0
@@ -2770,9 +2771,23 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
   - text:
       useConstant: 1
-      constantValue: and inside our door I find Roselle waiting.
+      constantValue: 'and inside our door I find '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
+    effects: []
+  - text:
+      useConstant: 0
+      constantValue: 
+      variable: {fileID: 11400000, guid: 24552b3d7f8f5834bb580d0b0d1d6135, type: 2}
+      GUIpresentationIndex: 2
+    effects:
+    - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
+    - {fileID: 11400000, guid: a3489a3cba2911c49a4a66bf865c7e49, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: ' waiting.'
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects: []
 --- !u!1001 &137001277
 Prefab:
@@ -5856,6 +5871,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: d88e3b6be7dc0864583f61ddf1d342e9, type: 2}
 --- !u!1001 &393775293
 Prefab:
   m_ObjectHideFlags: 0
@@ -6790,6 +6806,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 5398c7722b26f014896d0d96b442e2ee, type: 2}
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
+    - {fileID: 11400000, guid: d88e3b6be7dc0864583f61ddf1d342e9, type: 2}
 --- !u!1001 &439599636
 Prefab:
   m_ObjectHideFlags: 0
@@ -9570,6 +9587,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: cf44a0cfa76f82a45905dbdbbce8d775, type: 2}
     - {fileID: 11400000, guid: 8367a330d2d3b234d8652a296f54506d, type: 2}
+    - {fileID: 11400000, guid: d88e3b6be7dc0864583f61ddf1d342e9, type: 2}
 --- !u!114 &589348659 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114247931951566618, guid: 728329787cd12c044a61c0862df26f54,
@@ -10839,7 +10857,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
-    - {fileID: 11400000, guid: ba678de52152673408ebd2091d71f18f, type: 2}
+    - {fileID: 11400000, guid: 4b9bf3353d41b3c4ba0b161b928d122c, type: 2}
   - text:
       useConstant: 1
       constantValue: "It\u2019s always uncertain how cats will react to each other "
@@ -12159,6 +12177,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
     - {fileID: 11400000, guid: 9cbc2467f0b3b1340b71ba15a19bba93, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 6a3e89b65d29dd846a349b40c4c04f8b, type: 2}
 --- !u!1001 &808151249
 Prefab:
   m_ObjectHideFlags: 0
@@ -13618,6 +13637,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 226c05575f8227943ad62522bfcf5d74, type: 2}
+    - {fileID: 11400000, guid: 6a3e89b65d29dd846a349b40c4c04f8b, type: 2}
 --- !u!1001 &893154550
 Prefab:
   m_ObjectHideFlags: 0
@@ -16378,6 +16398,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
+    - {fileID: 11400000, guid: 6a3e89b65d29dd846a349b40c4c04f8b, type: 2}
 --- !u!1001 &1094832432
 Prefab:
   m_ObjectHideFlags: 0
@@ -16710,7 +16731,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
-    - {fileID: 11400000, guid: ba678de52152673408ebd2091d71f18f, type: 2}
+    - {fileID: 11400000, guid: 9ce1f41e06ee3a54a9eb5412908534ab, type: 2}
   - text:
       useConstant: 1
       constantValue: "let\u2019s take it to my room "
@@ -19313,7 +19334,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: so it will be well-cared-for.
+      constantValue: so it will be well cared for.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
@@ -26043,7 +26064,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
-    - {fileID: 11400000, guid: ba678de52152673408ebd2091d71f18f, type: 2}
+    - {fileID: 11400000, guid: 4b9bf3353d41b3c4ba0b161b928d122c, type: 2}
   - text:
       useConstant: 1
       constantValue: could you do that?
@@ -27927,6 +27948,52 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
+--- !u!1 &1910500537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1271465275944466, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1910500538}
+  - component: {fileID: 1910500539}
+  m_Layer: 0
+  m_Name: SoundEffectsContainer (SmsReceive)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1910500538
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4693722892417124, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1910500537}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1566864112}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1910500539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114700772238746082, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1910500537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba71926a1487964dad8b677ebd96b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerName: SmsReceive
+  _soundEffects:
+  - {fileID: 11400000, guid: c489962a22685484eb583c39ac80d541, type: 2}
 --- !u!1 &1913983044
 GameObject:
   m_ObjectHideFlags: 0
@@ -29165,6 +29232,52 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1982542853}
   m_Script: {fileID: 11500000, guid: 2b25854fca9f6d6439bf790e28746626, type: 3}
+--- !u!1 &1987858899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1271465275944466, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1987858900}
+  - component: {fileID: 1987858901}
+  m_Layer: 0
+  m_Name: SoundEffectsContainer (SmsSend)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1987858900
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4693722892417124, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1987858899}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1566864112}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1987858901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114700772238746082, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1987858899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba71926a1487964dad8b677ebd96b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerName: SmsSend
+  _soundEffects:
+  - {fileID: 11400000, guid: 6be83bba3bc7b5a4d8c95d9b86d6c3f1, type: 2}
 --- !u!1 &1990485921
 GameObject:
   m_ObjectHideFlags: 0
