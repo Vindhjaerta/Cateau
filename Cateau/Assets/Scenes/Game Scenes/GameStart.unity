@@ -4835,7 +4835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxVolume: 1
-  _maxSimultaneousSounds: 4
+  _maxSimultaneousSoundsPlaying: 10
   _playingAmbienceList: []
 --- !u!4 &1264766802
 Transform:
@@ -6917,7 +6917,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'living here alone could maybe be a bit of a drag, '
+      constantValue: 'living here alone could maybe be a bit mundane, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
