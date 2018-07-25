@@ -714,7 +714,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: affinity
-    m_EventTreshold: 60
+    m_EventTreshold: 70
   - m_ConditionMode: 3
     m_ConditionEvent: affinity
     m_EventTreshold: 19
@@ -927,7 +927,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: affinity
-    m_EventTreshold: 59
+    m_EventTreshold: 69
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102734488756799752}
   m_Solo: 0

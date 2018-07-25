@@ -6013,6 +6013,11 @@ Prefab:
       propertyPath: _blinkInterval.y
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114896400528775760, guid: b256365ec52ec69489a400be970a5182,
+        type: 2}
+      propertyPath: setAnimationLayer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b256365ec52ec69489a400be970a5182, type: 2}
   m_IsPrefabParent: 0
@@ -11688,7 +11693,7 @@ Prefab:
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: e8094065049607241be241567dccc099,
+      objectReference: {fileID: 21300000, guid: e6ffe93bb61cd644996e71cca64880f6,
         type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 201ca8b0ececc1f47af80dc3a90594c5, type: 2}
