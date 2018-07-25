@@ -13,6 +13,9 @@ public class ButtonToggleColor : MonoBehaviour
 
     private Image _image;
 
+    private float rotation;
+    public float speed;
+
     private Color _imageBaseColor;
 	// Use this for initialization
 	void Awake ()
@@ -27,7 +30,7 @@ public class ButtonToggleColor : MonoBehaviour
             {
                 if (GameStateContainer.Instance.autoTurnPage)
                 {
-                    ToggleButtonColor();
+                    //ToggleButtonColor();
                 }
             }
             else
@@ -35,6 +38,21 @@ public class ButtonToggleColor : MonoBehaviour
                 Debug.Log("GameStateContainer doesn't exist: " + gameObject);
             }
 
+        }
+    }
+
+    private void Update()
+    {
+
+        rotation += Time.deltaTime * speed;
+        if (rotation > Mathf.PI * 2) rotation = rotation % (Mathf.PI * 2);
+
+        if(GameStateContainer.Instance != null)
+        {
+            if (GameStateContainer.Instance.autoTurnPage)
+            {
+                _image.rectTransform.Rotate(Vector3.forward * Time.deltaTime * -speed);
+            }
         }
     }
 
