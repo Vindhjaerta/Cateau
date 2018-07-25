@@ -4228,7 +4228,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
-      constantValue: before realizing its a cat.
+      constantValue: before realizing it's a cat.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -8029,6 +8029,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 763b1881a58186743ab01a3246d1768f, type: 2}
   - text:
       useConstant: 1
       constantValue: did you?
@@ -8036,6 +8037,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 763b1881a58186743ab01a3246d1768f, type: 2}
   - text:
       useConstant: 1
       constantValue: Thank you for your invaluable contribution!
@@ -10001,7 +10003,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: and continue on my way down along the channel.
+      constantValue: and continue on my way down along the canal.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -10197,8 +10199,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 9fda0b05ac5b29f438007549b86f8c65, type: 2}
   - text:
       useConstant: 1
-      constantValue: turns out the worst thing that could happen is a cat peeved to
-        the highest degree.
+      constantValue: 'turns out the worst thing that could happen '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: is a cat peeved to the highest degree.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
