@@ -1268,6 +1268,55 @@ MonoBehaviour:
   size: 800
   color: {r: 1, g: 0, b: 0, a: 0.122}
   iconName: 
+--- !u!1 &227657211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1467864672034428, guid: 9f94c1ce148c80d478ce0fbf990c65c0,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 227657212}
+  - component: {fileID: 227657213}
+  m_Layer: 0
+  m_Name: AmbienceContainer (Loop Wind)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &227657212
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4422283058688368, guid: 9f94c1ce148c80d478ce0fbf990c65c0,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 227657211}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2453.8936, y: -357.3341, z: 39.936737}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1002258166}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &227657213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114826067913710370, guid: 9f94c1ce148c80d478ce0fbf990c65c0,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 227657211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5016ff579bc69c48bd0c715697f0fff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerName: Loop
+  _audioPriority: 1
+  oneShotContainer: 0
+  _ambienceSounds:
+  - {fileID: 11400000, guid: 7ef652044893465499e6ead8de3247af, type: 2}
+  clipHasBeenChosen: 0
 --- !u!1 &253875906
 GameObject:
   m_ObjectHideFlags: 0
@@ -2641,7 +2690,7 @@ Prefab:
     - target: {fileID: 114844634155235898, guid: 63baa728b4636734cbbd043678a2ba9d,
         type: 2}
       propertyPath: timeToWait
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 63baa728b4636734cbbd043678a2ba9d, type: 2}
@@ -2964,7 +3013,7 @@ MonoBehaviour:
   _audioPriority: 1
   oneShotContainer: 0
   _ambienceSounds:
-  - {fileID: 11400000, guid: c8ad3ad9d75bb0f4ca056dc16ef62ece, type: 2}
+  - {fileID: 11400000, guid: 6b061381f8b794740b10846aee573c74, type: 2}
   clipHasBeenChosen: 0
 --- !u!1001 &651068509
 Prefab:

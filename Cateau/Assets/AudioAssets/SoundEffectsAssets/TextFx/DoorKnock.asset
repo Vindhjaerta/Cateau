@@ -14,7 +14,7 @@ MonoBehaviour:
   outputAudioMixerGroup: {fileID: 0}
   soundEffectname: DoorKnock
   audioClip: {fileID: 8300000, guid: c04de003f57b0e844bfdb7dc266924b1, type: 3}
-  volume: 0.8
+  volume: 1
   pitch: 1
   randomPitch: {x: 0, y: 0}
   time: 0

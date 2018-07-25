@@ -379,7 +379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   savepointIndex: 0
   _nextNode: {fileID: 1419956639}
-  fadeSpeedFloat: 2
+  fadeSpeedFloat: 3
   lowestAlphaValue: 0
   maxAlphaValue: 1
 --- !u!1001 &312982509

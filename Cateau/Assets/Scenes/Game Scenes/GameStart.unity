@@ -289,6 +289,52 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224012277060099172, guid: cfc16196cdc2d4145afcb21e7f39a5f7,
     type: 2}
   m_PrefabInternal: {fileID: 1863914066}
+--- !u!1 &188618092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1271465275944466, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 188618093}
+  - component: {fileID: 188618094}
+  m_Layer: 0
+  m_Name: SoundEffectsContainer (Knock)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &188618093
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4693722892417124, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 188618092}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1566864112}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &188618094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114700772238746082, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 188618092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba71926a1487964dad8b677ebd96b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerName: DoorKnock
+  _soundEffects:
+  - {fileID: 11400000, guid: 89f68f3cc09049b469c430996e8835c8, type: 2}
 --- !u!1001 &226996848
 Prefab:
   m_ObjectHideFlags: 0
@@ -4055,6 +4101,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+    - {fileID: 11400000, guid: cc58596baef8d6444bcea2ca0c7231f4, type: 2}
   - text:
       useConstant: 1
       constantValue: waiting a few seconds before entering.

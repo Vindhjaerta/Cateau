@@ -9185,6 +9185,11 @@ Prefab:
       propertyPath: _nextNode
       value: 
       objectReference: {fileID: 752683865}
+    - target: {fileID: 114844634155235898, guid: 63baa728b4636734cbbd043678a2ba9d,
+        type: 2}
+      propertyPath: timeToWait
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 63baa728b4636734cbbd043678a2ba9d, type: 2}
   m_IsPrefabParent: 0

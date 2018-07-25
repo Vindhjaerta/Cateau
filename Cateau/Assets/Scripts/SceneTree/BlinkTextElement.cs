@@ -45,7 +45,10 @@ public class BlinkTextElement : SceneTreeObject
         if (blinking)
         {
             imageColor = text.color;
-            float alphaDiff = Mathf.Abs(imageColor.a - targetAlpha);
+            imageColor.a = (Mathf.Sin(Time.time * fadeSpeedFloat) + 1.0f) / 2.0f;
+            text.color = imageColor;
+
+            /*float alphaDiff = Mathf.Abs(imageColor.a - targetAlpha);
             if (alphaDiff > 0.0001f)
             {
                 imageColor.a = Mathf.Lerp(imageColor.a, targetAlpha, fadeSpeedFloat * Time.deltaTime);
@@ -65,7 +68,7 @@ public class BlinkTextElement : SceneTreeObject
                         targetAlpha = maxAlphaValue;
                     }
                 }
-            }
+            }*/
         }
     }
 }
