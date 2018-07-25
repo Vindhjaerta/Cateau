@@ -16,6 +16,7 @@ public class BlinkTextElement : SceneTreeObject
     private Text text;
     private float targetAlpha;
     private Color imageColor;
+    private float currLerpTime = 0f;
 
     public override void Continue(int nodeIndex)
     {
@@ -44,14 +45,23 @@ public class BlinkTextElement : SceneTreeObject
     {
         if (blinking)
         {
-            imageColor = text.color;
+            /*imageColor = text.color;
             imageColor.a = (Mathf.Sin(Time.time * fadeSpeedFloat) + 1.0f) / 2.0f;
-            text.color = imageColor;
+            text.color = imageColor;*/
 
-            /*float alphaDiff = Mathf.Abs(imageColor.a - targetAlpha);
+            currLerpTime += Time.deltaTime;
+            if(currLerpTime > fadeSpeedFloat)
+            {
+                currLerpTime = fadeSpeedFloat;
+            }
+
+            float ratio = currLerpTime / fadeSpeedFloat;
+
+            float alphaDiff = Mathf.Abs(imageColor.a - targetAlpha);
             if (alphaDiff > 0.0001f)
             {
-                imageColor.a = Mathf.Lerp(imageColor.a, targetAlpha, fadeSpeedFloat * Time.deltaTime);
+                imageColor.a = Mathf.Lerp(imageColor.a, targetAlpha, ratio * ratio * ratio * (ratio * (6.0f * ratio - 15.0f) + 10.0f));
+                //imageColor.a = Mathf.Lerp(imageColor.a, targetAlpha, fadeSpeedFloat * Time.deltaTime);
                 text.color = imageColor;
 
                 if (targetAlpha == maxAlphaValue)
@@ -59,6 +69,7 @@ public class BlinkTextElement : SceneTreeObject
                     if (alphaDiff < 0.01f)
                     {
                         targetAlpha = lowestAlphaValue;
+                        currLerpTime = 0;
                     }
                 }
                 else if (targetAlpha == lowestAlphaValue)
@@ -66,9 +77,10 @@ public class BlinkTextElement : SceneTreeObject
                     if (alphaDiff < 0.01f)
                     {
                         targetAlpha = maxAlphaValue;
+                        currLerpTime = 0;
                     }
                 }
-            }*/
+            }
         }
     }
 }
