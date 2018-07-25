@@ -451,6 +451,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 11c0942d22a28f548b42ef986987e44b, type: 2}
 --- !u!1 &74100785
 GameObject:
   m_ObjectHideFlags: 0
@@ -2397,6 +2398,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
     - {fileID: 11400000, guid: 6a3e89b65d29dd846a349b40c4c04f8b, type: 2}
+    - {fileID: 11400000, guid: 11c0942d22a28f548b42ef986987e44b, type: 2}
 --- !u!1001 &321837339
 Prefab:
   m_ObjectHideFlags: 0
@@ -3664,6 +3666,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 6a3e89b65d29dd846a349b40c4c04f8b, type: 2}
+    - {fileID: 11400000, guid: 11c0942d22a28f548b42ef986987e44b, type: 2}
 --- !u!1 &512198573
 GameObject:
   m_ObjectHideFlags: 0
@@ -3799,7 +3802,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1558963260}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &585487051
 MonoBehaviour:
@@ -6130,6 +6133,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 372eed936a2e8cf43a14e2c782094195, type: 2}
   - text:
       useConstant: 1
       constantValue: Did it take long to get to that point?
@@ -6139,6 +6143,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 226c05575f8227943ad62522bfcf5d74, type: 2}
     - {fileID: 11400000, guid: 6a3e89b65d29dd846a349b40c4c04f8b, type: 2}
+    - {fileID: 11400000, guid: 11c0942d22a28f548b42ef986987e44b, type: 2}
 --- !u!224 &859358453 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224464564955523042, guid: f30360e6aa6eabc40b26395b40f01452,
@@ -7286,6 +7291,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 11c0942d22a28f548b42ef986987e44b, type: 2}
 --- !u!1 &992010013
 GameObject:
   m_ObjectHideFlags: 0
@@ -8060,6 +8066,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
     - {fileID: 11400000, guid: 6a3e89b65d29dd846a349b40c4c04f8b, type: 2}
+    - {fileID: 11400000, guid: 11c0942d22a28f548b42ef986987e44b, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Don''t throw stuff give it space. '
@@ -8076,6 +8083,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 11c0942d22a28f548b42ef986987e44b, type: 2}
 --- !u!1 &1077872961
 GameObject:
   m_ObjectHideFlags: 0
@@ -8293,6 +8301,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 11c0942d22a28f548b42ef986987e44b, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Be a careful, '
@@ -8316,6 +8325,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 372eed936a2e8cf43a14e2c782094195, type: 2}
 --- !u!1001 &1105733582
 Prefab:
   m_ObjectHideFlags: 0
@@ -9949,7 +9959,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1558963260}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1323846014
 MonoBehaviour:
@@ -10604,6 +10614,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 6a3e89b65d29dd846a349b40c4c04f8b, type: 2}
+    - {fileID: 11400000, guid: 11c0942d22a28f548b42ef986987e44b, type: 2}
   - text:
       useConstant: 1
       constantValue: 'That cat looks like a stray, '
@@ -10621,6 +10632,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 372eed936a2e8cf43a14e2c782094195, type: 2}
   - text:
       useConstant: 1
       constantValue: Tell me!!!
@@ -10630,6 +10642,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 6adfd6833b713084bb4a729448b78537, type: 2}
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 6a3e89b65d29dd846a349b40c4c04f8b, type: 2}
+    - {fileID: 11400000, guid: 11c0942d22a28f548b42ef986987e44b, type: 2}
 --- !u!1001 &1485950835
 Prefab:
   m_ObjectHideFlags: 0
@@ -10921,6 +10934,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
     - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
     - {fileID: 11400000, guid: 6a3e89b65d29dd846a349b40c4c04f8b, type: 2}
+    - {fileID: 11400000, guid: 372eed936a2e8cf43a14e2c782094195, type: 2}
   - text:
       useConstant: 1
       constantValue: Could you see any wounds or such?
@@ -10930,6 +10944,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 226c05575f8227943ad62522bfcf5d74, type: 2}
     - {fileID: 11400000, guid: 6a3e89b65d29dd846a349b40c4c04f8b, type: 2}
+    - {fileID: 11400000, guid: 11c0942d22a28f548b42ef986987e44b, type: 2}
 --- !u!1001 &1506679698
 Prefab:
   m_ObjectHideFlags: 0
@@ -11830,6 +11845,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
     - {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
     - {fileID: 11400000, guid: 6a3e89b65d29dd846a349b40c4c04f8b, type: 2}
+    - {fileID: 11400000, guid: 11c0942d22a28f548b42ef986987e44b, type: 2}
 --- !u!1001 &1566864110
 Prefab:
   m_ObjectHideFlags: 0
@@ -14331,6 +14347,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 372eed936a2e8cf43a14e2c782094195, type: 2}
 --- !u!1 &1913983044
 GameObject:
   m_ObjectHideFlags: 0
@@ -14840,6 +14857,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: efb7740b0ff0aae418bbbafcd8fda63c, type: 2}
+    - {fileID: 11400000, guid: 372eed936a2e8cf43a14e2c782094195, type: 2}
 --- !u!1 &1955411638
 GameObject:
   m_ObjectHideFlags: 0
