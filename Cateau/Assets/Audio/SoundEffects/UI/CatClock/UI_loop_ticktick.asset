@@ -15,7 +15,7 @@ MonoBehaviour:
     type: 2}
   ambienceSoundname: 
   audioClip: {fileID: 8300000, guid: b37df4402edcc80409520278e1c9dd15, type: 3}
-  volume: 0.5
+  volume: 0.3
   pitch: 1
   randomPitch: {x: 0, y: 0}
   readyToPlay: 0
@@ -27,6 +27,6 @@ MonoBehaviour:
   staticPanAudioSlider: 0
   randomPanAudio: 0
   panDuration: 1
-  clipDonePlaying: 0.48415935
+  clipDonePlaying: 3.486959
   priority: 10
   addToQueue: 1
