@@ -15,7 +15,7 @@ MonoBehaviour:
     type: 2}
   soundEffectname: 
   audioClip: {fileID: 8300000, guid: 14afedb6165098140aba8814b946ae46, type: 3}
-  volume: 0.5
+  volume: 0.2
   pitch: 1
   randomPitch: {x: 0, y: 0}
   time: 0
@@ -23,6 +23,6 @@ MonoBehaviour:
   staticPanAudioSlider: -0.46
   randomPanAudio: 0
   panDuration: 1
-  clipDonePlaying: 0.7117388
+  clipDonePlaying: 0
   priority: 10
   addToQueue: 1

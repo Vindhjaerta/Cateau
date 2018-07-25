@@ -18,4 +18,4 @@ MonoBehaviour:
   soundContainerName: 
   fadeInMusicWithFade: 0
   transitionFadeIn: 1
-  soundFadeinTime: 3
+  soundFadeinTime: 2
