@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114864770046335524}
   - component: {fileID: 114102608343549018}
   - component: {fileID: 114812939588465956}
+  - component: {fileID: 114705767637741432}
   m_Layer: 0
   m_Name: Skip Button
   m_TagString: Untagged
@@ -47,6 +48,7 @@ GameObject:
   - component: {fileID: 114070217638774566}
   - component: {fileID: 114755389101982600}
   - component: {fileID: 114666577457431752}
+  - component: {fileID: 114033453680066062}
   m_Layer: 0
   m_Name: Return Button
   m_TagString: Button
@@ -86,9 +88,10 @@ GameObject:
   - component: {fileID: 114866683096942656}
   - component: {fileID: 114585699688780764}
   - component: {fileID: 114901848637876306}
-  - component: {fileID: 114294116655196572}
   - component: {fileID: 114866726378707074}
   - component: {fileID: 114802000340556794}
+  - component: {fileID: 114465831371203412}
+  - component: {fileID: 114994333984490718}
   m_Layer: 0
   m_Name: Autotyping Button
   m_TagString: Button
@@ -96,6 +99,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114033453680066062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1383513075390002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ad20e9d1a1c574891827c9d65cffeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114070217638774566
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -231,20 +245,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &114294116655196572
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1650205392002588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58353560c9a81a34fbf8e6e447ff2a10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggleColor: {r: 0.6838235, g: 0.703936, b: 0.6972318, a: 1}
-  isAutoturnPage: 1
-  speed: 200
 --- !u!114 &114339086834593364
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -272,6 +272,19 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114465831371203412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1650205392002588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6a8172954306047874314352e11a75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotate: 1
+  speed: 200
 --- !u!114 &114573582235892286
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -388,6 +401,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ContainerName: Hover
+--- !u!114 &114705767637741432
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1228640408589714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ad20e9d1a1c574891827c9d65cffeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114735799820331424
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -489,8 +513,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.3529412, g: 0.35686275, b: 0.35686275, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -602,6 +626,17 @@ MonoBehaviour:
   m_FlexibleWidth: 0.2
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &114994333984490718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1650205392002588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ad20e9d1a1c574891827c9d65cffeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!222 &222026136865325332
 CanvasRenderer:
   m_ObjectHideFlags: 1
