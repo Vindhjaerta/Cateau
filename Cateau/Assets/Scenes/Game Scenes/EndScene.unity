@@ -4085,7 +4085,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'and she picks it up. '
+      constantValue: and she picks it up.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
@@ -4539,7 +4539,7 @@ Prefab:
     - target: {fileID: 224017272006448414, guid: 077ce158e16122e498e230b7658ef861,
         type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224017272006448414, guid: 077ce158e16122e498e230b7658ef861,
         type: 2}
@@ -4832,7 +4832,7 @@ Prefab:
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
@@ -5387,7 +5387,7 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -5622,7 +5622,8 @@ MonoBehaviour:
       constantValue: I walk up to her door and knock before entering.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cc58596baef8d6444bcea2ca0c7231f4, type: 2}
 --- !u!1001 &367698998
 Prefab:
   m_ObjectHideFlags: 0
@@ -5913,7 +5914,8 @@ MonoBehaviour:
       constantValue: I knock against her door frame before entering.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cc58596baef8d6444bcea2ca0c7231f4, type: 2}
 --- !u!1001 &374964110
 Prefab:
   m_ObjectHideFlags: 0
@@ -6263,7 +6265,7 @@ Prefab:
     - target: {fileID: 224017272006448414, guid: 077ce158e16122e498e230b7658ef861,
         type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 224017272006448414, guid: 077ce158e16122e498e230b7658ef861,
         type: 2}
@@ -7850,7 +7852,8 @@ MonoBehaviour:
       constantValue: 'I tap the door frame to '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cc58596baef8d6444bcea2ca0c7231f4, type: 2}
   - text:
       useConstant: 1
       constantValue: Ro
@@ -10543,6 +10546,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: cc58596baef8d6444bcea2ca0c7231f4, type: 2}
   - text:
       useConstant: 1
       constantValue: as I knock on the door.
@@ -13737,7 +13741,7 @@ Prefab:
     - target: {fileID: 224017272006448414, guid: 077ce158e16122e498e230b7658ef861,
         type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224017272006448414, guid: 077ce158e16122e498e230b7658ef861,
         type: 2}
@@ -16292,7 +16296,7 @@ Prefab:
     - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
         type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
         type: 2}
@@ -17112,7 +17116,7 @@ Prefab:
     - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
         type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
         type: 2}
@@ -19090,7 +19094,7 @@ Prefab:
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
@@ -19369,7 +19373,7 @@ Prefab:
     - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
         type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 224481203145540718, guid: 201ca8b0ececc1f47af80dc3a90594c5,
         type: 2}
@@ -20130,7 +20134,7 @@ Prefab:
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
@@ -23190,7 +23194,7 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -23414,7 +23418,8 @@ MonoBehaviour:
       constantValue: "\u2019s room and I knock before entering."
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cc58596baef8d6444bcea2ca0c7231f4, type: 2}
 --- !u!1001 &1330840797
 Prefab:
   m_ObjectHideFlags: 0
@@ -31309,7 +31314,8 @@ MonoBehaviour:
       constantValue: and knock on its frame.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cc58596baef8d6444bcea2ca0c7231f4, type: 2}
 --- !u!1001 &1738581286
 Prefab:
   m_ObjectHideFlags: 0
@@ -32709,6 +32715,52 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1803387569}
   m_Script: {fileID: 11500000, guid: 2b25854fca9f6d6439bf790e28746626, type: 3}
+--- !u!1 &1813953014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1271465275944466, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1813953015}
+  - component: {fileID: 1813953016}
+  m_Layer: 0
+  m_Name: SoundEffectsContainer (Knock)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1813953015
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4693722892417124, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1813953014}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1566864112}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1813953016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114700772238746082, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1813953014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba71926a1487964dad8b677ebd96b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerName: DoorKnock
+  _soundEffects:
+  - {fileID: 11400000, guid: 89f68f3cc09049b469c430996e8835c8, type: 2}
 --- !u!1001 &1816150255
 Prefab:
   m_ObjectHideFlags: 0
@@ -33883,7 +33935,7 @@ Prefab:
     - target: {fileID: 224017272006448414, guid: 077ce158e16122e498e230b7658ef861,
         type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 224017272006448414, guid: 077ce158e16122e498e230b7658ef861,
         type: 2}
@@ -35723,7 +35775,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4742609874982210, guid: 50329c0038fad1f48a5a2d98b1fbf576, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114969573595346342, guid: 50329c0038fad1f48a5a2d98b1fbf576,
         type: 2}
@@ -38723,7 +38775,8 @@ MonoBehaviour:
       constantValue: 'I knock and enter '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: cc58596baef8d6444bcea2ca0c7231f4, type: 2}
   - text:
       useConstant: 0
       constantValue: 
