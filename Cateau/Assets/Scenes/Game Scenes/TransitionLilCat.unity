@@ -19323,7 +19323,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'I got it down though. '
+      constantValue: I got it down though.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -28236,7 +28236,7 @@ MonoBehaviour:
   sentences:
   - text:
       useConstant: 1
-      constantValue: 'All good! '
+      constantValue: All good!
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:

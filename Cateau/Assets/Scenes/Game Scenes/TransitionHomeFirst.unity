@@ -2362,7 +2362,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'in a very long time. '
+      constantValue: in a very long time.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:

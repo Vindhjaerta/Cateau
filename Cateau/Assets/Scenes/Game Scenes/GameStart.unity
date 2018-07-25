@@ -2847,7 +2847,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'just wanted to let you know I''ll be leaving for work in a few. '
+      constantValue: just wanted to let you know I'll be leaving for work in a few.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -6987,7 +6987,7 @@ MonoBehaviour:
     effects: []
   - text:
       useConstant: 1
-      constantValue: '... '
+      constantValue: '...'
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -7016,7 +7016,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'who studies veterinary medicine of some sort. '
+      constantValue: who studies veterinary medicine of some sort.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -7030,7 +7030,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'as my job''s working the evening shift at a small newspaper. '
+      constantValue: as my job's working the evening shift at a small newspaper.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
