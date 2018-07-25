@@ -241,6 +241,8 @@ public class AudioController : MonoBehaviour
         fadingAmbience = true;
         targetFadeAmbienceVolym = GameStateContainer.Instance.settings.correctAmbienceVolume;
         GameStateContainer.Instance.settings.ambienceVolume = 0;
+
+        this.fadeTime = fadeTime;
     }
 
     private void OnDisable()

@@ -34,7 +34,7 @@ public class FadeInEffect : FadeEffect
             AudioController.Instance.SceneFadeInAudio(soundFadeinTime);
             fadeSceneTreeObject.sentFadeInMusicWithFade = true;
         }
-        else if (AudioController.Instance != null && transitionFadeIn)
+        else if (AudioController.Instance != null && transitionFadeIn && !fadeSceneTreeObject.sentFadeInMusicWithFade)
         {
             AudioController.Instance.TransitionFadeIn(soundFadeinTime);
             fadeSceneTreeObject.sentFadeInMusicWithFade = true;
