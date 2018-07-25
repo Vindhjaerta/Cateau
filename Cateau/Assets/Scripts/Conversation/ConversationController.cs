@@ -203,11 +203,6 @@ public class ConversationController : MonoBehaviour
         {
             dialoguePrint.Tick(Time.deltaTime);
 
-            if (dialoguePrint.done && autoEndConversation && dialoguePrint.autoPageTurn && dialoguePrint.delayCounter == 0)
-            {
-                EndDialogue();
-            }
-
             if (!dialoguePrint.pageDone && !alwaysShowArrow)
             {
                 _arrowImage.color = new Color(1, 1, 1, 0);
@@ -228,6 +223,11 @@ public class ConversationController : MonoBehaviour
             {
                 Vector3 vec = dialoguePrint.GetEndPosition();
                 _doneArrow.transform.localPosition = new Vector3( vec.x + _currentArrowSize.x + _offset.x, vec.y + (_currentArrowSize.y / 2) + _offset.y, _doneArrow.transform.localPosition.z);
+            }
+
+            if (dialoguePrint.done && autoEndConversation && dialoguePrint.autoPageTurn && dialoguePrint.delayCounter == 0)
+            {
+                EndDialogue();
             }
 
         }
