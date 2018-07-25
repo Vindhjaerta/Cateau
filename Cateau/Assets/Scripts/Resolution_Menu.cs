@@ -7,7 +7,7 @@ public class Resolution_Menu : MonoBehaviour {
 
     public Dropdown resolutionDropdown;
 
-    Resolution[] resolutions;
+    UnityEngine.Resolution[] resolutions;
 
 
 	// Use this for initialization
@@ -45,7 +45,7 @@ public class Resolution_Menu : MonoBehaviour {
     
     public void SetResolution(int resolutionIndex)
     {
-        Resolution resolution = resolutions[resolutionIndex];
+        UnityEngine.Resolution resolution = resolutions[resolutionIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
 
