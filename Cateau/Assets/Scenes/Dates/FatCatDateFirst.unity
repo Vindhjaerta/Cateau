@@ -6052,6 +6052,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 5110cac9ee4fb2a4c841f89d1896c76f, type: 2}
   - text:
       useConstant: 1
       constantValue: and it was over in no time.
@@ -6157,8 +6158,7 @@ MonoBehaviour:
       constantValue: you can never have too much bread.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: 5110cac9ee4fb2a4c841f89d1896c76f, type: 2}
+    effects: []
 --- !u!114 &937487474
 MonoBehaviour:
   m_ObjectHideFlags: 0
