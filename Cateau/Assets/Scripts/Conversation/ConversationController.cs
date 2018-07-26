@@ -107,8 +107,11 @@ public class ConversationController : MonoBehaviour
 
     public void SetArrowSprite(Sprite newSprite, Vector2 offset)
     {
-        _arrowImage.sprite = newSprite;
-        _doneArrow.GetComponent<RectTransform>().sizeDelta = newSprite.rect.size;
+        if (newSprite != null)
+        {
+            _arrowImage.sprite = newSprite;
+            _doneArrow.GetComponent<RectTransform>().sizeDelta = newSprite.rect.size;
+        }
         _offset = offset;
     }
 
