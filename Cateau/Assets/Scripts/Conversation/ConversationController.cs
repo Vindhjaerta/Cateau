@@ -33,10 +33,9 @@ public class ConversationController : MonoBehaviour
     private int _arrowCycleSpeed = 6;
     private float _arrowCycleCounter;
 
-    private Sprite _origArrowSprite;
-    private Vector2 _origArrowSize;
+    //private Sprite _origArrowSprite;
     private Image _arrowImage;
-    private Vector2 _currentArrowSize;
+    private RectTransform _doneArrowRect;
     [System.NonSerialized]
     public bool alwaysShowArrow;
     private Vector2 _offset;
@@ -97,10 +96,8 @@ public class ConversationController : MonoBehaviour
         if(_doneArrow != null)
         {
             _arrowImage = _doneArrow.GetComponent<Image>();
-            _currentArrowSize = _doneArrow.GetComponent<RectTransform>().rect.size;
-            _origArrowSprite = _arrowImage.sprite;
-            _origArrowSize = _currentArrowSize;
-            
+            _doneArrowRect = _doneArrow.GetComponent<RectTransform>();
+            //_origArrowSprite = _arrowImage.sprite;
         }
 
     }
@@ -110,15 +107,30 @@ public class ConversationController : MonoBehaviour
         if (newSprite != null)
         {
             _arrowImage.sprite = newSprite;
-            _doneArrow.GetComponent<RectTransform>().sizeDelta = newSprite.rect.size;
+            _doneArrowRect.sizeDelta = newSprite.rect.size * _canvas.scaleFactor;
+            _offset = offset;
         }
-        _offset = offset;
+        else
+        {
+            ResetArrowSprite();
+        }
+        
     }
 
     public void ResetArrowSprite()
     {
-        _arrowImage.sprite = _origArrowSprite;
-        _doneArrow.GetComponent<RectTransform>().sizeDelta = _origArrowSize;
+        //_arrowImage.sprite = _origArrowSprite;
+        //_doneArrowRect.sizeDelta = _origArrowSprite.rect.size;
+        if (_standardArrow.sprite != null)
+        {
+            _arrowImage.sprite = _standardArrow.sprite;
+            _doneArrowRect.sizeDelta = _standardArrow.sprite.rect.size * _canvas.scaleFactor;
+        }
+        else
+        {
+            _arrowImage.sprite = null;
+            _doneArrowRect.sizeDelta = Vector2.zero;
+        }
         _offset = Vector2.zero;
     }
 
@@ -237,7 +249,8 @@ public class ConversationController : MonoBehaviour
                 if (_dialogueText != null && _canvas != null)
                 {
                     Vector3 vec = UITextOverflow.GetLastPosition(_dialogueText);
-                    _doneArrow.transform.localPosition = new Vector3((vec.x / _canvas.scaleFactor) + (_currentArrowSize.x * 0.5f) / _canvas.scaleFactor + (_offset.x / _canvas.scaleFactor), (vec.y / _canvas.scaleFactor) + (_currentArrowSize.y * 0.5f) / _canvas.scaleFactor + (_offset.y / _canvas.scaleFactor), 0);
+                    _doneArrow.transform.localPosition = new Vector3((vec.x / _canvas.scaleFactor) + (_doneArrowRect.rect.size.x * 0.5f) + (_offset.x / _canvas.scaleFactor), (vec.y / _canvas.scaleFactor) + (_doneArrowRect.rect.size.x * 0.5f) + (_offset.y / _canvas.scaleFactor), 0);
+                    //_doneArrow.transform.localPosition = new Vector3((vec.x / _canvas.scaleFactor) + (_offset.x / _canvas.scaleFactor), (vec.y / _canvas.scaleFactor)  + (_offset.y / _canvas.scaleFactor), 0);
                 }
             }
 
