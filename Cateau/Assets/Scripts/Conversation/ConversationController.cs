@@ -74,6 +74,7 @@ public class ConversationController : MonoBehaviour
             //{
             //    EndDialogue();
             //}
+            //ResetArrowSprite();
         }
         else Debug.LogError("Dialogue not set up properly!");
     }
@@ -133,7 +134,6 @@ public class ConversationController : MonoBehaviour
             _doneArrowRect.sizeDelta = Vector2.zero;
             _offset = Vector2.zero;
         }
-        _offset = Vector2.zero;
     }
 
     public void TurnPage()
