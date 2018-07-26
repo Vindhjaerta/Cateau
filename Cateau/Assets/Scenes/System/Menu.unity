@@ -1298,7 +1298,7 @@ Prefab:
     - target: {fileID: 114212069974154204, guid: aac7270e05c79424980069fc48c432bc,
         type: 2}
       propertyPath: _soundEffects.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4998240416468814, guid: aac7270e05c79424980069fc48c432bc, type: 2}
       propertyPath: m_LocalPosition.x
