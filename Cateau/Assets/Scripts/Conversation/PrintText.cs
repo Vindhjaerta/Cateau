@@ -208,7 +208,7 @@ public class PrintText
 
                                             if (!wrapCheckResult)
                                             {
-                                                if (_autoPageTurn) _delayCounter = _standardAutoPageTurnDelay;
+                                                //if (_autoPageTurn) _delayCounter = _standardAutoPageTurnDelay;
                                                 _delayCounter = _standardAutoPageTurnDelay;
                                                 _pageDone = true;
                                                 _wrapCheck = false;
@@ -237,7 +237,7 @@ public class PrintText
                                         //check overflow
                                         if (UITextOverflow.IsOverflow(_targetText))
                                         {
-                                            if (_autoPageTurn) _delayCounter = _standardAutoPageTurnDelay;
+                                            //if (_autoPageTurn) _delayCounter = _standardAutoPageTurnDelay;
                                             _pageDone = true;
                                             _delayCounter = _standardAutoPageTurnDelay;
                                             break;
@@ -479,7 +479,7 @@ public class PrintText
     {
         get
         {
-            return _standardPrintSpeed;
+            return 1 / _standardPrintSpeed;
         }
         set
         {
@@ -533,15 +533,6 @@ public class PrintText
         // Add functionality for sentence breaks, i.e "!?.:" and so on.
         if (letter == ' ') return true;
         return false;
-    }
-
-    public Vector2 GetEndPosition()
-    {
-        if(_targetText != null)
-        {
-            return UITextOverflow.GetLastPosition(_targetText);
-        }
-        return Vector2.zero;
     }
 
 }
