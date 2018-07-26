@@ -11,5 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f816cc331425d145a439873e04c3f7e, type: 3}
   m_Name: ArrowSmsReset
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 60650143524a83c4eaf9fea1bc859a79, type: 3}
   showWhileTyping: 0
+  offset: {x: 10, y: 0}
