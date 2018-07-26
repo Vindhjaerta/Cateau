@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 0024dbb8181e1774290f5ce52675c5e0, type: 3}
   showWhileTyping: 1
-  offset: {x: 8, y: 11}
+  offset: {x: 10, y: 12}
