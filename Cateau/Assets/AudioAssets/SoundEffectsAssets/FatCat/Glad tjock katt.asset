@@ -11,9 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b987967f36943f41a549970936957f4, type: 3}
   m_Name: Glad tjock katt
   m_EditorClassIdentifier: 
+  outputAudioMixerGroup: {fileID: 0}
   soundEffectname: glad tjockatt 1
   audioClip: {fileID: 8300000, guid: 24902a969ba43b741a61c1f3b349facc, type: 3}
-  volume: 0.5
+  volume: 1
   pitch: 1
   randomPitch: {x: 0, y: 0}
   time: 0

@@ -3022,6 +3022,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
     - {fileID: 11400000, guid: 0539f14007c4a714591c42c29694d84a, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
       constantValue: ' meows.'
@@ -3404,6 +3405,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
     - {fileID: 11400000, guid: 0539f14007c4a714591c42c29694d84a, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
       constantValue: ' meows.'
@@ -3883,6 +3885,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
     - {fileID: 11400000, guid: 0539f14007c4a714591c42c29694d84a, type: 2}
+    - {fileID: 11400000, guid: 524215a936f66904cbcce22f3aacce09, type: 2}
   - text:
       useConstant: 1
       constantValue: ' responds with a pleased sound, '
@@ -6065,8 +6068,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: "Trying to get a good angle on a cat that\u2019s mostly round
-        turns out to be a bit of a challenge however."
+      constantValue: "Trying to get a good angle on a cat that\u2019s mostly round "
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: turns out to be a bit of a challenge however.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -6160,8 +6169,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' constantly tries to turn around and I have to hold the cat
-        in place.'
+      constantValue: ' constantly tries to turn around '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and I have to hold the cat in place.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -6189,12 +6204,18 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: So to minimize the scale of said flop I transition over to regular
-        petting.
+      constantValue: 'So to minimize the scale of said flop '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: I transition over to regular petting.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects: []
 --- !u!1001 &815953469
 Prefab:
   m_ObjectHideFlags: 0
@@ -8654,10 +8675,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'apologize for not having much time to chat before taking my
-        leave, '
+      constantValue: 'apologize for not having much time to chat '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'before taking my leave, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
@@ -10362,6 +10389,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
     - {fileID: 11400000, guid: 0539f14007c4a714591c42c29694d84a, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
       constantValue: ' half yawns, '
@@ -10803,7 +10831,8 @@ MonoBehaviour:
       constantValue: 'Opening the bag of treats results in a meow as '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 0
       constantValue: 
@@ -15227,6 +15256,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
     - {fileID: 11400000, guid: dba929413c7b20e40aebedc0da921a22, type: 2}
+    - {fileID: 11400000, guid: 524215a936f66904cbcce22f3aacce09, type: 2}
   - text:
       useConstant: 1
       constantValue: ' clearly approves, '
