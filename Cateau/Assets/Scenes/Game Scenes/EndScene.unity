@@ -7644,7 +7644,6 @@ MonoBehaviour:
   oneShotContainer: 1
   _ambienceSounds:
   - {fileID: 11400000, guid: 32e7f43c07be5ef458b2270ec99c7f8e, type: 2}
-  - {fileID: 11400000, guid: 2460ae1b62e3d6d41b7f3fa30f4258b5, type: 2}
   clipHasBeenChosen: 0
 --- !u!1001 &456474625
 Prefab:
@@ -22704,7 +22703,7 @@ Prefab:
     - target: {fileID: 114564003517307476, guid: b351208f3a2fd3d40b599812d0870a19,
         type: 2}
       propertyPath: _ambienceSounds.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4979664205823796, guid: b351208f3a2fd3d40b599812d0870a19, type: 2}
       propertyPath: m_LocalPosition.x
@@ -22753,7 +22752,7 @@ Prefab:
         type: 2}
       propertyPath: _ambienceSounds.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 996476fb72d75b247b68baba297b78eb,
+      objectReference: {fileID: 11400000, guid: 2460ae1b62e3d6d41b7f3fa30f4258b5,
         type: 2}
     - target: {fileID: 114564003517307476, guid: b351208f3a2fd3d40b599812d0870a19,
         type: 2}

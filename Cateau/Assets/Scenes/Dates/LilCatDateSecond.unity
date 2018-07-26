@@ -945,6 +945,55 @@ MonoBehaviour:
   containerName: EmojiSad
   _soundEffects:
   - {fileID: 11400000, guid: 517540e30da49834cb2526a98c930c18, type: 2}
+--- !u!1 &152652503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1467864672034428, guid: 9f94c1ce148c80d478ce0fbf990c65c0,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 152652504}
+  - component: {fileID: 152652505}
+  m_Layer: 0
+  m_Name: AmbienceContainer (Loop) (OutSide) vind
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &152652504
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4422283058688368, guid: 9f94c1ce148c80d478ce0fbf990c65c0,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 152652503}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1226.9467, y: -178.66705, z: 19.96837}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1345953323}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &152652505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114826067913710370, guid: 9f94c1ce148c80d478ce0fbf990c65c0,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 152652503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5016ff579bc69c48bd0c715697f0fff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerName: Loop
+  _audioPriority: 1
+  oneShotContainer: 0
+  _ambienceSounds:
+  - {fileID: 11400000, guid: 825e50f2fc31c6d4c87155221d26e9ae, type: 2}
+  clipHasBeenChosen: 0
 --- !u!1001 &159396907
 Prefab:
   m_ObjectHideFlags: 0
@@ -1724,7 +1773,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1345953323}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &376910365
 MonoBehaviour:
@@ -3455,7 +3504,7 @@ Prefab:
         type: 2}
       propertyPath: fadeEffect
       value: 
-      objectReference: {fileID: 11400000, guid: ea678c56b4ecd564c9007d74bfcebeed,
+      objectReference: {fileID: 11400000, guid: 0013715ec5bdb8b4e8d0eabb0b36f956,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7339e77a19f0c9e45a6c63c6177ea893, type: 2}
@@ -6622,13 +6671,13 @@ Prefab:
         type: 2}
       propertyPath: _ambienceSounds.Array.data[4]
       value: 
-      objectReference: {fileID: 11400000, guid: b8ad6143d957c1f4b89f00850f027300,
+      objectReference: {fileID: 11400000, guid: 36488ac1d5f89a54c8a9ae18b3b8e3e0,
         type: 2}
     - target: {fileID: 114564003517307476, guid: b351208f3a2fd3d40b599812d0870a19,
         type: 2}
       propertyPath: _ambienceSounds.Array.data[5]
       value: 
-      objectReference: {fileID: 11400000, guid: b8ad6143d957c1f4b89f00850f027300,
+      objectReference: {fileID: 11400000, guid: 9c51d6d95476ae942b0b5613d4620c37,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b351208f3a2fd3d40b599812d0870a19, type: 2}
@@ -7324,7 +7373,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4116515988871874, guid: e8a82b3388a4a4245ba897334fa02c8a, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1727046888671216, guid: e8a82b3388a4a4245ba897334fa02c8a, type: 2}
       propertyPath: m_Name
@@ -8644,55 +8693,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1784241087
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1467864672034428, guid: 9f94c1ce148c80d478ce0fbf990c65c0,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1784241088}
-  - component: {fileID: 1784241089}
-  m_Layer: 0
-  m_Name: AmbienceContainer (Loop) (OutSide)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1784241088
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4422283058688368, guid: 9f94c1ce148c80d478ce0fbf990c65c0,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1784241087}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1226.9467, y: -178.66705, z: 19.96837}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1345953323}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1784241089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114826067913710370, guid: 9f94c1ce148c80d478ce0fbf990c65c0,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1784241087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5016ff579bc69c48bd0c715697f0fff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  containerName: Loop
-  _audioPriority: 1
-  oneShotContainer: 0
-  _ambienceSounds:
-  - {fileID: 11400000, guid: 519dc3660687f55418f3aa2590b31fcb, type: 2}
-  clipHasBeenChosen: 0
 --- !u!114 &1796691488 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114251971618591436, guid: f30360e6aa6eabc40b26395b40f01452,

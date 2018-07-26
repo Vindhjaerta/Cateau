@@ -101,7 +101,7 @@ public class GameStateContainer : SingletonScriptableObject<GameStateContainer>
         savepointIndex = 0;
         useSavepointContinuePath = false;
 
-}
+    }
 
     public void ClearGallery()
     {

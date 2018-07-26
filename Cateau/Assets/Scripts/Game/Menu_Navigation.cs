@@ -58,7 +58,12 @@ public class Menu_Navigation : MonoBehaviour {
             Destroy(MusicManager.Instance.gameObject);
         }
 
-        if(GameStateContainer.Instance != null)
+        if (GameStateContainer.Instance != null)
+        {
+            GameStateContainer.Instance.SaveGameState();
+        }
+
+        if (GameStateContainer.Instance != null)
         {
             GameStateContainer.Instance.Initialize();
             GameStateContainer.Instance.scene = sceneToLoad;
@@ -98,6 +103,10 @@ public class Menu_Navigation : MonoBehaviour {
 
     public void Credits(string sceneToLoad)
     {
+        if (GameStateContainer.Instance != null)
+        {
+            GameStateContainer.Instance.SaveGameState();
+        }
         SceneManager.LoadScene(sceneToLoad);
     }
 }
