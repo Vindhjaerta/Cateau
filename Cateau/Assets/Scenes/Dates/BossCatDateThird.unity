@@ -1858,6 +1858,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: d01ac3ee47a750c4697a075965008171, type: 2}
   - text:
       useConstant: 1
       constantValue: 'and dangle them above '
@@ -1960,6 +1961,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 966b80852dacb9a49bad5ff86dae8283, type: 2}
+    - {fileID: 11400000, guid: d205fa23eb6e8f24fb8da98c7345f002, type: 2}
   - text:
       useConstant: 1
       constantValue: ' reaches out a lazy paw '
@@ -2050,6 +2052,52 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
+--- !u!1 &365046042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1271465275944466, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 365046043}
+  - component: {fileID: 365046044}
+  m_Layer: 0
+  m_Name: SoundEffectsContainer (KeysPlay)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &365046043
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4693722892417124, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 365046042}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1566864112}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &365046044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114700772238746082, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 365046042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba71926a1487964dad8b677ebd96b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerName: KeysPlay
+  _soundEffects:
+  - {fileID: 11400000, guid: d92e4f45e9e4fff4fae389193d3f7036, type: 2}
 --- !u!1 &404203449 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
@@ -5215,6 +5263,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: d01ac3ee47a750c4697a075965008171, type: 2}
   - text:
       useConstant: 1
       constantValue: 'and is poking at something casually, '
@@ -5286,6 +5335,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: d205fa23eb6e8f24fb8da98c7345f002, type: 2}
   - text:
       useConstant: 1
       constantValue: 'before the cat pokes the keys '
@@ -5394,6 +5444,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: d205fa23eb6e8f24fb8da98c7345f002, type: 2}
   - text:
       useConstant: 1
       constantValue: 'It sounds again '
@@ -5423,6 +5474,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
     - {fileID: 11400000, guid: 36a1d1a94faeabf4884ecfdb1f8889b6, type: 2}
+    - {fileID: 11400000, guid: 1395728456cbd674b92ca0286c06c9f5, type: 2}
   - text:
       useConstant: 1
       constantValue: Wait
@@ -8543,6 +8595,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: d01ac3ee47a750c4697a075965008171, type: 2}
   - text:
       useConstant: 1
       constantValue: 'and I turn around just to catch '
@@ -8571,6 +8624,7 @@ MonoBehaviour:
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 36a1d1a94faeabf4884ecfdb1f8889b6, type: 2}
+    - {fileID: 11400000, guid: 1395728456cbd674b92ca0286c06c9f5, type: 2}
 --- !u!1001 &1376355647
 Prefab:
   m_ObjectHideFlags: 0
@@ -9826,7 +9880,8 @@ MonoBehaviour:
       constantValue: I watch as a paw close in on the bundle.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: d205fa23eb6e8f24fb8da98c7345f002, type: 2}
 --- !u!114 &1680142291 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114860806786171556, guid: 12f1e8587bc6a5d49b922be53165d295,
@@ -10114,6 +10169,52 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1777566096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1271465275944466, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1777566097}
+  - component: {fileID: 1777566098}
+  m_Layer: 0
+  m_Name: SoundEffectsContainer (KeysPlay2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1777566097
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4693722892417124, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1777566096}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1566864112}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1777566098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114700772238746082, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1777566096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba71926a1487964dad8b677ebd96b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerName: KeysPlay2
+  _soundEffects:
+  - {fileID: 11400000, guid: 1948151ce19765443aea61d78d26e0a8, type: 2}
 --- !u!1 &1778909468
 GameObject:
   m_ObjectHideFlags: 0
@@ -11087,6 +11188,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: 36a1d1a94faeabf4884ecfdb1f8889b6, type: 2}
+    - {fileID: 11400000, guid: 1395728456cbd674b92ca0286c06c9f5, type: 2}
   - text:
       useConstant: 1
       constantValue: and I hear the splash echo in my head.
@@ -11876,3 +11978,49 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 2101050334}
   m_Script: {fileID: 11500000, guid: fa70f2f0a42e742479e7ff77f5d1fc7c, type: 3}
+--- !u!1 &2125709802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1271465275944466, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2125709803}
+  - component: {fileID: 2125709804}
+  m_Layer: 0
+  m_Name: SoundEffectsContainer (KeysWater)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2125709803
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4693722892417124, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2125709802}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1566864112}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2125709804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114700772238746082, guid: 309a50d4d3986f54aa356fca40a90795,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2125709802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba71926a1487964dad8b677ebd96b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerName: KeysWater
+  _soundEffects:
+  - {fileID: 11400000, guid: 663ad8facd1abd747a08c4d94e5e8433, type: 2}
