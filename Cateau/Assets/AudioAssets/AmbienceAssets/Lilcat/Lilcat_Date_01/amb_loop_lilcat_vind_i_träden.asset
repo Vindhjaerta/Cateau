@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outputAudioMixerGroup: {fileID: 0}
   ambienceSoundname: "amb_loop_lilcat_vind_i_tr\xE4den"
-  audioClip: {fileID: 8300000, guid: 0bcc8b328a1d8684caa2706d2b2130ae, type: 3}
-  volume: 1
+  audioClip: {fileID: 8300000, guid: 927694ec1bab9704c8d1217ed969a4cb, type: 3}
+  volume: 0.427
   pitch: 1
   randomPitch: {x: 0, y: 0}
   readyToPlay: 0
@@ -26,6 +26,6 @@ MonoBehaviour:
   staticPanAudioSlider: 0
   randomPanAudio: 0
   panDuration: 1
-  clipDonePlaying: 10.936561
+  clipDonePlaying: 16.235928
   priority: 10
   addToQueue: 1

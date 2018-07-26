@@ -14,18 +14,18 @@ MonoBehaviour:
   outputAudioMixerGroup: {fileID: 0}
   ambienceSoundname: amb_lilcat_driveby 1
   audioClip: {fileID: 8300000, guid: 1199d4e7e52560b47b29a19624928011, type: 3}
-  volume: 0.5
+  volume: 1
   pitch: 1
   randomPitch: {x: 0, y: 0}
   readyToPlay: 0
   randomStartTimer: 0
   startTimeInterval: {x: 0, y: 50}
   playSoundRandomInterval: {x: 5, y: 10}
-  time: 0.01691526
+  time: 0.016566515
   staticPanAudio: 0
   staticPanAudioSlider: 0
   randomPanAudio: 0
   panDuration: 1
-  clipDonePlaying: 7.1405787
+  clipDonePlaying: 7.77003
   priority: 2
   addToQueue: 1
