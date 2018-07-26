@@ -148,8 +148,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I sneak closer with my hands at the ready before quickly grabbing
-        the kitten.
+      constantValue: 'I sneak closer with my hands at the ready '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: before quickly grabbing the kitten.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -291,8 +297,15 @@ MonoBehaviour:
     - {fileID: 11400000, guid: eea1875ee6bc9b44a830c21c95ee226d, type: 2}
   - text:
       useConstant: 1
-      constantValue: I stay and look at it for a moment before leaving some treats
-        on the ground as a peace offering and leave.
+      constantValue: 'I stay and look at it for a moment '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: before leaving some treats on the ground as a peace offering
+        and leave.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -1532,7 +1545,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: and hope that that will force the kitten to realize that I'm
+      constantValue: and hope that this will force the kitten to realize that I'm
         not dangerous.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
@@ -1540,10 +1553,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: The street seems to be fairly clean so I sit down and shuffle
-        closer.
+      constantValue: 'The street seems to be fairly clean '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: so I sit down and shuffle closer.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -2622,6 +2641,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
     - {fileID: 11400000, guid: 67f51728f6194da46914e8a25f37e5b6, type: 2}
+    - {fileID: 11400000, guid: f47101d8fc3019b48a419be7945864e2, type: 2}
   - text:
       useConstant: 1
       constantValue: and I place it against my chest to calm it down.
@@ -3236,8 +3256,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2e14d6dd9cfd5594b808fdfa9bf9077e, type: 2}
   - text:
       useConstant: 1
-      constantValue: ' takes the first treat and I can clearly hear it snap as it
-        bites into it.'
+      constantValue: ' takes the first treat '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and I can clearly hear it snap as it bites into it.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -3285,6 +3311,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
     - {fileID: 11400000, guid: 67f51728f6194da46914e8a25f37e5b6, type: 2}
+    - {fileID: 11400000, guid: f47101d8fc3019b48a419be7945864e2, type: 2}
   - text:
       useConstant: 1
       constantValue: I quickly press it against my chest to stabilize it.
@@ -4302,10 +4329,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I crouch down and toss a treat carefully so it lands next to
-        the kitten.
+      constantValue: 'I crouch down and toss a treat carefully '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: so it lands next to the kitten.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
@@ -4414,14 +4447,14 @@ MonoBehaviour:
   - text:
       useConstant: 1
       constantValue: ' becomes aware of that and grows more careful approaching the
-        treats '
+        treats, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: and backs away when it has grabbed it.
+      constantValue: backing away when it has grabbed it.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -5658,7 +5691,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: ', '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
@@ -8439,7 +8472,7 @@ MonoBehaviour:
       useConstant: 1
       constantValue: ' meows '
       variable: {fileID: 0}
-      GUIpresentationIndex: 1
+      GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
