@@ -100,6 +100,7 @@ public class SoundEffect : ScriptableObject
 
     public void UpdateSound(float time)
     {
+        _audioSource.volume = _soundEffectsManager.maxVolume * volume;
         clipDonePlaying += Time.deltaTime;
         if (randomPanAudio)
         {
