@@ -6157,7 +6157,8 @@ MonoBehaviour:
       constantValue: you can never have too much bread.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 5110cac9ee4fb2a4c841f89d1896c76f, type: 2}
 --- !u!114 &937487474
 MonoBehaviour:
   m_ObjectHideFlags: 0
