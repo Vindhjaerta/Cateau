@@ -40,6 +40,8 @@ public class ConversationController : MonoBehaviour
     [System.NonSerialized]
     public bool alwaysShowArrow;
     private Vector2 _offset;
+    [SerializeField]
+    private CE_AlterTypingArrow _standardArrow;
     private Canvas _canvas;
 
     public void InitiateDialogue(Sentence name, List<Sentence> sentences)
@@ -86,6 +88,8 @@ public class ConversationController : MonoBehaviour
             _canvas = GameController.Instance.gameObject.GetComponentInChildren<Canvas>();
             
         }
+        if(_standardArrow != null)
+            SetArrowSprite(_standardArrow.sprite, _standardArrow.offset);
     }
 
     private void Awake()

@@ -355,7 +355,7 @@ MonoBehaviour:
   autoPageTurn: 0
   autoEndConversation: 1
   _arrowCycleSpeed: 6
-  alwaysShowArrow: 1
+  _standardArrow: {fileID: 11400000, guid: 49586f48eb3bc044f92b418518c6736e, type: 2}
 --- !u!114 &114724862978900946
 MonoBehaviour:
   m_ObjectHideFlags: 1
