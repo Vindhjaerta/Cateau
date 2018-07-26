@@ -82,6 +82,9 @@ public class ConversationController : MonoBehaviour
         if(GameStateContainer.Instance != null)
         {
             autoPageTurn = GameStateContainer.Instance.autoTurnPage;
+
+            _canvas = GameController.Instance.gameObject.GetComponentInChildren<Canvas>();
+            
         }
     }
 
@@ -95,10 +98,7 @@ public class ConversationController : MonoBehaviour
             _origArrowSize = _currentArrowSize;
             
         }
-        if(GameController.Instance != null)
-        {
-            _canvas = GameController.Instance.gameObject.GetComponentInChildren<Canvas>();
-        }
+
     }
 
     public void SetArrowSprite(Sprite newSprite, Vector2 offset)
