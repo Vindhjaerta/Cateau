@@ -108,7 +108,7 @@ public class ConversationController : MonoBehaviour
         if (newSprite != null)
         {
             _arrowImage.sprite = newSprite;
-            _doneArrowRect.sizeDelta = newSprite.rect.size * _canvas.scaleFactor;
+            _doneArrowRect.sizeDelta = newSprite.rect.size;
             _offset = offset;
         }
         else
@@ -125,7 +125,7 @@ public class ConversationController : MonoBehaviour
         if (_standardArrow.sprite != null)
         {
             _arrowImage.sprite = _standardArrow.sprite;
-            _doneArrowRect.sizeDelta = _standardArrow.sprite.rect.size * _canvas.scaleFactor;
+            _doneArrowRect.sizeDelta = _standardArrow.sprite.rect.size;
             _offset = _standardArrow.offset;
         }
         else
