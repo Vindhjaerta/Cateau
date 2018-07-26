@@ -125,11 +125,13 @@ public class ConversationController : MonoBehaviour
         {
             _arrowImage.sprite = _standardArrow.sprite;
             _doneArrowRect.sizeDelta = _standardArrow.sprite.rect.size * _canvas.scaleFactor;
+            _offset = _standardArrow.offset;
         }
         else
         {
             _arrowImage.sprite = null;
             _doneArrowRect.sizeDelta = Vector2.zero;
+            _offset = Vector2.zero;
         }
         _offset = Vector2.zero;
     }
