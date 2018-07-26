@@ -5645,8 +5645,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: "It\u2019d probably be easier have to get a bigger cardboard
-        box to place next to the cat's and let her move in."
+      constantValue: "It\u2019d probably been easier to get a bigger cardboard box
+        to place next to the cat's and let her move in."
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -10888,14 +10888,20 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'With what I can only interpret as a disappointed look it turns
-        away and returns to its cardboard home, '
+      constantValue: 'With what I can only interpret as a disappointed look '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 4c11515070b342b4ca849b3cb16fa5fb, type: 2}
+    - {fileID: 11400000, guid: f47101d8fc3019b48a419be7945864e2, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'it turns away and returns to its cardboard home, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
-    - {fileID: 11400000, guid: 4c11515070b342b4ca849b3cb16fa5fb, type: 2}
-    - {fileID: 11400000, guid: f47101d8fc3019b48a419be7945864e2, type: 2}
   - text:
       useConstant: 1
       constantValue: turning into a ball on the blanket.
@@ -12315,8 +12321,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: gently poking it in the middle of the paw and watch as the cat
-        squeezes it.
+      constantValue: 'gently poking it in the middle of the paw '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and watch as the cat squeezes it.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -12457,22 +12469,28 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'I doubt I can back away without making it follow '
+      constantValue: 'I doubt I can back away without making it follow, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: since it very persistently wants cuddles.
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: 'And I doubt more sincerely still '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'since it very persistently wants cuddles, '
-      variable: {fileID: 0}
-      GUIpresentationIndex: 1
-    effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
-  - text:
-      useConstant: 1
-      constantValue: and I doubt more sincerely still that hostage rescue will come
-        and help me out.
+      constantValue: that hostage rescue will come and help me out.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
