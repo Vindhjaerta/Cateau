@@ -5367,7 +5367,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'quiet as a whisper. '
+      constantValue: quiet as a whisper.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -5473,7 +5473,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
-      constantValue: Are you quite finished?.
+      constantValue: Are you quite finished?
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -8477,8 +8477,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I think to myself as my feet patter against the rounded stones
-        of the old towpath.
+      constantValue: 'I think to myself '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: as my feet patter against the rounded stones of the old towpath.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
