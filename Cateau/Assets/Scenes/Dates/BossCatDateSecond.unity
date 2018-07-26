@@ -1130,7 +1130,8 @@ MonoBehaviour:
       constantValue: and I silently walk over to check the source of the racket.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
-    effects: []
+    effects:
+    - {fileID: 11400000, guid: 9fda0b05ac5b29f438007549b86f8c65, type: 2}
 --- !u!1001 &116828748
 Prefab:
   m_ObjectHideFlags: 0
