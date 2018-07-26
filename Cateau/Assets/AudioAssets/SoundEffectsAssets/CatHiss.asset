@@ -14,7 +14,7 @@ MonoBehaviour:
   outputAudioMixerGroup: {fileID: 0}
   soundEffectname: CatSad2
   audioClip: {fileID: 8300000, guid: 27cf43318e7896740b0624257b6dba62, type: 3}
-  volume: 0.5
+  volume: 0.3
   pitch: 1
   randomPitch: {x: 0, y: 0}
   time: 0
@@ -22,6 +22,6 @@ MonoBehaviour:
   staticPanAudioSlider: 0
   randomPanAudio: 0
   panDuration: 1
-  clipDonePlaying: 1.6745702
+  clipDonePlaying: 0
   priority: 10
   addToQueue: 1
