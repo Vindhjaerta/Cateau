@@ -23,8 +23,10 @@ public class SwitchScene : SceneTreeObject {
         {
             Destroy(MusicManager.Instance.gameObject);
         }
-        //save data
-        //switch scene
+        if (GameStateContainer.Instance != null)
+        {
+            GameStateContainer.Instance.SaveGameState();
+        }
         ExecuteEvents.ExecuteHierarchy<ISwitchScene>(gameObject, null, (handler, data) => handler.OnSceneChange());
         if(GameStateContainer.Instance != null)
         {
