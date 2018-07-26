@@ -5552,6 +5552,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: 63e9c2d9a3fface418db3a61f7559264, type: 2}
     - {fileID: 11400000, guid: 5208f550825491e4aa61c695eeb06f5a, type: 2}
+    - {fileID: 11400000, guid: a4ca13ea421ae4649844192f216d3233, type: 2}
   - text:
       useConstant: 1
       constantValue: ' looks at me again '
@@ -9931,8 +9932,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
-      constantValue: but when I try to withdraw I notice that its stuck to me with
-        a claw.
+      constantValue: 'but when I try to withdraw '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: I notice that its stuck to me with a claw.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -16662,6 +16669,7 @@ MonoBehaviour:
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 1182b8a6a62b68d4cb4abe7518c70340, type: 2}
   - text:
       useConstant: 1
       constantValue: 'I place my hands around '
@@ -17722,7 +17730,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'Not that far a distance really '
+      constantValue: 'Not that far of a distance really '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:

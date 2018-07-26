@@ -2107,6 +2107,7 @@ MonoBehaviour:
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
     - {fileID: 11400000, guid: 67f51728f6194da46914e8a25f37e5b6, type: 2}
+    - {fileID: 11400000, guid: f47101d8fc3019b48a419be7945864e2, type: 2}
   - text:
       useConstant: 1
       constantValue: "this dauntless and bold charge breaks the kitten\u2019s morale, "
@@ -2127,28 +2128,28 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'so I move the twig away, '
+      constantValue: so I move the twig away.
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: "and while I don\u2019t manage to get the kitten to play, "
+      constantValue: "While I don\u2019t manage to get the kitten to play, "
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
       constantValue: 'it settles back down again, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
       constantValue: watching the movements.
@@ -2172,8 +2173,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: while at the same time extracting my phone from my pocket and
-        taking a picture.
+      constantValue: 'while at the same time extracting my phone from my pocket '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: and taking a picture.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -3420,7 +3427,14 @@ MonoBehaviour:
   - text:
       useConstant: 1
       constantValue: "but just as I\u2019m about to give it a reassuring pat on the
-        head it bolts off behind the safety of the tree trunk. "
+        head "
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: it bolts off behind the safety of the tree trunk.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -7060,8 +7074,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 67f51728f6194da46914e8a25f37e5b6, type: 2}
   - text:
       useConstant: 1
-      constantValue: trying to make enticing motions with it to get the attention
-        of the kitten and excite i to play.
+      constantValue: 'trying to make enticing motions with it '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: to get the attention of the kitten and excite it to play.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -7440,8 +7460,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
-      constantValue: but it doesn't appear to be terrified or even particularly bothered
-        by me either.
+      constantValue: 'but it doesn''t appear to be terrified '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 1
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: or even particularly bothered by me either.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
@@ -10012,13 +10038,13 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: nervous bundle.
+      constantValue: nervous bundle
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
   - text:
       useConstant: 1
-      constantValue: ..
+      constantValue: '...'
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
@@ -14014,7 +14040,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
-      constantValue: but how I should go about it is still a question that needs answering.
+      constantValue: 'but how I should go about it '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: is still a question that needs answering.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects: []
@@ -19207,17 +19240,24 @@ MonoBehaviour:
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
       constantValue: 'the cat by the canal, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: "my night shift at work and about the other cat by the caf\xE9."
+      constantValue: 'my night shift at work '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "and about the other cat by the caf\xE9."
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:

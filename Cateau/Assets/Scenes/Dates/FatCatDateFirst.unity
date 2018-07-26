@@ -12413,14 +12413,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
-      constantValue: it flops to the ground in a grand display of fat grace,
+      constantValue: 'it flops to the ground in a grand display of fat grace, '
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: 'strolling over to me to stroke its body against my legs. '
+      constantValue: strolling over to me to stroke its body against my legs.
       variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
