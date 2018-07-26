@@ -330,7 +330,12 @@ public class PrintText
                         else
                         #region Break
                         {
-                            if (_autoPageTurn) _delayCounter = _standardAutoPageTurnDelay;
+                            if (_autoPageTurn && _delayCounter == 0)
+                            {
+                                _delayCounter = _standardAutoPageTurnDelay;
+                            }
+
+
                             // No sentences, break
                             _pageDone = true;
                             _done = true;
