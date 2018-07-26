@@ -251,7 +251,7 @@ public class ConversationController : MonoBehaviour
                 if (_dialogueText != null && _canvas != null)
                 {
                     Vector3 vec = UITextOverflow.GetLastPosition(_dialogueText);
-                    _doneArrow.transform.localPosition = new Vector3((vec.x / _canvas.scaleFactor) + (_doneArrowRect.rect.size.x * 0.5f) + (_offset.x * _canvas.scaleFactor), (vec.y / _canvas.scaleFactor) + (_doneArrowRect.rect.size.x * 0.5f) + (_offset.y * _canvas.scaleFactor), 0);
+                    _doneArrow.transform.localPosition = new Vector3((vec.x / _canvas.scaleFactor) + (_doneArrowRect.rect.size.x * 0.5f) + (_offset.x ), (vec.y / _canvas.scaleFactor) + (_doneArrowRect.rect.size.x * 0.5f) + (_offset.y ), 0);
                     //_doneArrow.transform.localPosition = new Vector3((vec.x / _canvas.scaleFactor) + (_offset.x / _canvas.scaleFactor), (vec.y / _canvas.scaleFactor)  + (_offset.y / _canvas.scaleFactor), 0);
                 }
             }
