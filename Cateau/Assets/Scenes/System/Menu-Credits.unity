@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 148036113}
   - component: {fileID: 148036112}
+  - component: {fileID: 148036115}
   m_Layer: 0
   m_Name: Navigator
   m_TagString: Untagged
@@ -154,6 +155,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &148036115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 148036111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beb6c7ae79b61734b8b222a0b1d40d83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameStateContainer: {fileID: 11400000, guid: 35bf580bb29d6d84588fe254416dbee7, type: 2}
 --- !u!1 &490053030
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,6 +353,7 @@ GameObject:
   - component: {fileID: 1843305948}
   - component: {fileID: 1843305949}
   - component: {fileID: 1843305950}
+  - component: {fileID: 1843305951}
   m_Layer: 0
   m_Name: VideoClip
   m_TagString: Untagged
@@ -499,6 +513,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &1843305951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1843305946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c010d377bad30748b23211b12535aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1930765630
 GameObject:
   m_ObjectHideFlags: 0
