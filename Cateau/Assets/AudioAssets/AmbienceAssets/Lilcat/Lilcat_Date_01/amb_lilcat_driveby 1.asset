@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outputAudioMixerGroup: {fileID: 0}
   ambienceSoundname: amb_lilcat_driveby 1
-  audioClip: {fileID: 8300000, guid: 1199d4e7e52560b47b29a19624928011, type: 3}
+  audioClip: {fileID: 8300000, guid: 6d6ac9b42aba1f14bb1a0246981ee27c, type: 3}
   volume: 1
   pitch: 1
   randomPitch: {x: 0, y: 0}
