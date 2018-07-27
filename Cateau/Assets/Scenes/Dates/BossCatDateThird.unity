@@ -4353,7 +4353,7 @@ Prefab:
         type: 2}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1913983049}
+      objectReference: {fileID: 0}
     - target: {fileID: 114414797752841618, guid: a137ad9901d250740b734a6bc3907c62,
         type: 2}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -4377,12 +4377,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4024266872773776, guid: a137ad9901d250740b734a6bc3907c62,
     type: 2}
   m_PrefabInternal: {fileID: 729246459}
---- !u!114 &729246462 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114414797752841618, guid: a137ad9901d250740b734a6bc3907c62,
-    type: 2}
-  m_PrefabInternal: {fileID: 729246459}
-  m_Script: {fileID: 853051423, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &730211538 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1485967646408634, guid: f30360e6aa6eabc40b26395b40f01452,
@@ -10916,7 +10910,6 @@ GameObject:
   - component: {fileID: 1913983048}
   - component: {fileID: 1913983047}
   - component: {fileID: 1913983046}
-  - component: {fileID: 1913983049}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -11004,18 +10997,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &1913983049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1913983044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad05a1472c5db4a498466de72dce150a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resolutionDropdown: {fileID: 729246462}
 --- !u!1001 &1943753380
 Prefab:
   m_ObjectHideFlags: 0

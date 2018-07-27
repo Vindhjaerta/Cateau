@@ -17,19 +17,6 @@ public class SettingsController : MonoBehaviour
         }
     }
 
-
-    private void Awake()
-    {
-        if (_instance != null)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            _instance = this;
-        }
-    }
-
     //Audio Sliders
     public Slider masterVolumeSlider;
 
@@ -38,9 +25,6 @@ public class SettingsController : MonoBehaviour
     public Slider ambienceVolumeSlider;
 
     public Slider soundEffectsVolumeSlider;
-
-
-
 
 
     //Dropdowns
@@ -57,10 +41,27 @@ public class SettingsController : MonoBehaviour
 
     //public Button systemButton;
 
-    public Resolution[] resolutions;
+    private ConversationController _cC;
 
-	// Use this for initialization
-	void Start ()
+    private void Awake()
+    {
+        if (_instance != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            _instance = this;
+        }
+
+        if (GameController.Instance != null)
+        {
+            _cC = GameController.Instance.gameObject.GetComponentInChildren<ConversationController>();
+
+        }
+    }
+    // Use this for initialization
+    void Start ()
     {
 
         if (GameStateContainer.Instance != null)
@@ -156,23 +157,23 @@ public class SettingsController : MonoBehaviour
 
 
     //Dropdown change functions
-    public void ResolutionChange()
-    {
-        if (resolutionDropdown != null && resolutions != null && GameStateContainer.Instance != null)
-        {
-            if (resolutions.Length > 0)
-            {
-                if (resolutionDropdown.value < resolutions.Length)
-                {
-                    GameStateContainer.Instance.settings.resolutionIndex = resolutionDropdown.value;
+    //public void ResolutionChange()
+    //{
+    //    if (resolutionDropdown != null && resolutions != null && GameStateContainer.Instance != null)
+    //    {
+    //        if (resolutions.Length > 0)
+    //        {
+    //            if (resolutionDropdown.value < resolutions.Length)
+    //            {
+    //                GameStateContainer.Instance.settings.resolutionIndex = resolutionDropdown.value;
 
 
-                }
-            }
+    //            }
+    //        }
 
 
-        }
-    }
+    //    }
+    //}
 
 
     public void TypingSpeedChange()
@@ -184,10 +185,9 @@ public class SettingsController : MonoBehaviour
                 if(typingSpeedDropDown.value < GameStateContainer.Instance.typingSpeeds.Length)
                 {
                     GameStateContainer.Instance.settings.typingSpeedIndex = typingSpeedDropDown.value;
-                    ConversationController cC = FindObjectOfType<ConversationController>();
-                    if(cC != null)
+                    if(_cC != null)
                     {
-                        cC.dialoguePrint.standardPrintSpeed = GameStateContainer.Instance.typingSpeeds[GameStateContainer.Instance.settings.typingSpeedIndex];
+                        _cC.dialoguePrint.standardPrintSpeed = GameStateContainer.Instance.typingSpeeds[GameStateContainer.Instance.settings.typingSpeedIndex];
                     }
                 }
             }

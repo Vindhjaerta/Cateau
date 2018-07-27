@@ -669,26 +669,6 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1869216080}
-    - target: {fileID: 114880229170159234, guid: a137ad9901d250740b734a6bc3907c62,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CloseSettingsPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 114414797752841618, guid: a137ad9901d250740b734a6bc3907c62,
-        type: 2}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1913983049}
-    - target: {fileID: 114414797752841618, guid: a137ad9901d250740b734a6bc3907c62,
-        type: 2}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetResolution
-      objectReference: {fileID: 0}
-    - target: {fileID: 114414797752841618, guid: a137ad9901d250740b734a6bc3907c62,
-        type: 2}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a137ad9901d250740b734a6bc3907c62, type: 2}
   m_IsPrefabParent: 0
@@ -1052,7 +1032,7 @@ MonoBehaviour:
   - text:
       useConstant: 1
       constantValue: 'Oh '
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
@@ -1067,56 +1047,56 @@ MonoBehaviour:
   - text:
       useConstant: 1
       constantValue: "\u2019d love this if she were here."
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
       constantValue: 'She always used to chase after cats, '
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
       constantValue: 'patiently gain their trust '
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
       constantValue: and befriend them like some kind of cat whisperer.
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Whenever successful, '
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
       constantValue: 'which was almost always, '
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
       constantValue: "she\u2019d memorialize the occasion by having a picture taken, "
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
       constantValue: like a big game hunter of old posing with her quarry.
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
@@ -1130,7 +1110,7 @@ MonoBehaviour:
   - text:
       useConstant: 1
       constantValue: maybe a picture of my own would remind her of the good old days?
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
@@ -1144,28 +1124,28 @@ MonoBehaviour:
   - text:
       useConstant: 1
       constantValue: and I study the cat in question.
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
       constantValue: "It\u2019s just sitting there, "
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
       constantValue: 'gazing over the water as if saying '
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Yep, '
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: fc690108e5134e344a7cc7020656e95a, type: 2}
@@ -1173,7 +1153,7 @@ MonoBehaviour:
   - text:
       useConstant: 1
       constantValue: I rule this place.
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
@@ -1181,63 +1161,63 @@ MonoBehaviour:
   - text:
       useConstant: 1
       constantValue: 'Which, '
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
       constantValue: 'in fairness, '
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
       constantValue: 'it probably did '
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
   - text:
       useConstant: 1
       constantValue: by the looks of things.
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
       constantValue: 'Looking at the time, '
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
       constantValue: I notice that I have plenty of it.
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
       constantValue: I could at least try to get her a picture.
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
       constantValue: 'What could possibly go wrong after all, '
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 1
     effects:
     - {fileID: 11400000, guid: 29aa48c7f4f63d746b9c8fda027dd8bd, type: 2}
   - text:
       useConstant: 1
       constantValue: but how should I approach?
-      variable: {fileID: 11400000, guid: 036c6c9dca55ac64c9363e0ecc9686e5, type: 2}
+      variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
 --- !u!1001 &137172334
@@ -6631,7 +6611,7 @@ Prefab:
     - target: {fileID: 224958100134425324, guid: 3bd026ad44c69fc4bacdc3a1b91be486,
         type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 224958100134425324, guid: 3bd026ad44c69fc4bacdc3a1b91be486,
         type: 2}
@@ -7661,7 +7641,7 @@ Prefab:
     - target: {fileID: 224511914608037446, guid: e5a6756d06f803c4e80ac8b98bfb1bc4,
         type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 224511914608037446, guid: e5a6756d06f803c4e80ac8b98bfb1bc4,
         type: 2}
@@ -8830,12 +8810,6 @@ MonoBehaviour:
   containerName: Warning
   _soundEffects:
   - {fileID: 11400000, guid: 912764ad528e2f447ac6da5c7ca60878, type: 2}
---- !u!114 &1154985774 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114414797752841618, guid: a137ad9901d250740b734a6bc3907c62,
-    type: 2}
-  m_PrefabInternal: {fileID: 76570855}
-  m_Script: {fileID: 853051423, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1001 &1163879581
 Prefab:
   m_ObjectHideFlags: 0
@@ -12220,7 +12194,7 @@ Prefab:
     - target: {fileID: 224130767490351390, guid: ca9b884af8951784181bb2cb39be7ca6,
         type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 224130767490351390, guid: ca9b884af8951784181bb2cb39be7ca6,
         type: 2}
@@ -14088,7 +14062,7 @@ Prefab:
     - target: {fileID: 224464564955523042, guid: f30360e6aa6eabc40b26395b40f01452,
         type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 224464564955523042, guid: f30360e6aa6eabc40b26395b40f01452,
         type: 2}
@@ -14372,7 +14346,6 @@ GameObject:
   - component: {fileID: 1913983048}
   - component: {fileID: 1913983047}
   - component: {fileID: 1913983046}
-  - component: {fileID: 1913983049}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -14460,18 +14433,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &1913983049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1913983044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad05a1472c5db4a498466de72dce150a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resolutionDropdown: {fileID: 1154985774}
 --- !u!1001 &1917440744
 Prefab:
   m_ObjectHideFlags: 0

@@ -17,16 +17,16 @@ MonoBehaviour:
     variable: {fileID: 0}
     GUIpresentationIndex: 0
   scene: BossCatDateThird
-  savepointIndex: 2
+  savepointIndex: 0
   settings:
-    musicVolume: 0.027124774
-    sfxVolume: 0.4448463
-    ambienceVolume: 1
+    musicVolume: 0.9042576
+    correctMusicVolume: 0.9042576
+    sfxVolume: 0.87203014
+    correctSFXVolume: 0.87203014
+    ambienceVolume: 0.88277256
+    correctAmbienceVolume: 0.88277256
     masterVolume: 1
-    resolutionIndex: 0
-    fontSizeIndex: 1
-    typingSpeedIndex: 2
-    brightness: 0
+    typingSpeedIndex: 0
   activePhotos: 000000000000000000
   savableStrings: []
   typingSpeeds:

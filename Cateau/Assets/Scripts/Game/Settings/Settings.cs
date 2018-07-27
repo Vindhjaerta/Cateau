@@ -32,13 +32,6 @@ public class SettingsContainer
     //public float correctMasterVolume = 0.5f;
 
     //System
-    public int resolutionIndex;
-    public int fontSizeIndex;
     public int typingSpeedIndex;
-
-    [Range(0, 1)]
-    public float brightness;
-
-
 
 }

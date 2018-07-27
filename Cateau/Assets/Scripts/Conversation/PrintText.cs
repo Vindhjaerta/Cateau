@@ -483,8 +483,10 @@ public class PrintText
         }
         set
         {
-            if (value <= 0) _standardPrintSpeed = 0;
-            else _standardPrintSpeed = 1 / value;
+            if (value <= 0)
+                _standardPrintSpeed = 0;
+            else
+                _standardPrintSpeed = 1 / value;
         }
     }
 
