@@ -5,7 +5,7 @@ using System.Collections.Generic;
 [CreateAssetMenu(fileName ="Game State",menuName ="System/Game State")]
 public class GameStateContainer : SingletonScriptableObject<GameStateContainer>
 {
-    private const string FILE_NAME = "save.bin";
+    private const string FILE_NAME = "save.dat";
 
     [SerializeField]
     private StringReference _filename;
@@ -116,7 +116,7 @@ public class GameStateContainer : SingletonScriptableObject<GameStateContainer>
         string filename = _filename;
         if (filename == "") filename = FILE_NAME;
         List<object> data = new List<object>();
-        data = Serializer.LoadFromDisc(filename);
+        data = Serializer.LoadFromDisc(Application.persistentDataPath + filename);
         if (data != null)
         {
             int version = 0;
@@ -218,7 +218,7 @@ public class GameStateContainer : SingletonScriptableObject<GameStateContainer>
         data.Add(isCatHomeKey);
         data.Add(isCatHomeValue);
 
-        bool result = Serializer.SaveToDisc(filename, data);
+        bool result = Serializer.SaveToDisc(Application.persistentDataPath + filename, data);
         if (!result)
         {
             Debug.LogError("could not save");

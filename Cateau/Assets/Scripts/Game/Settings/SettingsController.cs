@@ -28,7 +28,7 @@ public class SettingsController : MonoBehaviour
 
 
     //Dropdowns
-    public Dropdown resolutionDropdown;
+    //public Dropdown resolutionDropdown;
 
     public Dropdown typingSpeedDropDown;
 
