@@ -19,6 +19,8 @@ public class ConversationController : MonoBehaviour
     private GameObject _doneArrow;
     [SerializeField]
     private FloatReference _standardAutoPageTurnDelay;
+    [SerializeField]
+    private int _fontSize = 44;
 
     public bool clearDialogueWhenFinished;
     public bool wordWrap;
@@ -98,6 +100,8 @@ public class ConversationController : MonoBehaviour
         {
             _arrowImage = _doneArrow.GetComponent<Image>();
             _doneArrowRect = _doneArrow.GetComponent<RectTransform>();
+            _dialogueText.fontSize = _fontSize;
+            _nameText.fontSize = _fontSize;
             //_origArrowSprite = _arrowImage.sprite;
         }
 

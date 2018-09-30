@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 114973164754719730}
   - component: {fileID: 114304825716241366}
   - component: {fileID: 114563235760793428}
+  - component: {fileID: 114214954021376228}
   m_Layer: 5
   m_Name: Button 3
   m_TagString: Untagged
@@ -59,6 +60,7 @@ GameObject:
   - component: {fileID: 114035104290956062}
   - component: {fileID: 114919209339751894}
   - component: {fileID: 114473380271402482}
+  - component: {fileID: 114647649234531678}
   m_Layer: 5
   m_Name: Button 1
   m_TagString: Untagged
@@ -78,6 +80,7 @@ GameObject:
   - component: {fileID: 114762609820265662}
   - component: {fileID: 114945324571917488}
   - component: {fileID: 114190019704915890}
+  - component: {fileID: 114132823331498364}
   m_Layer: 5
   m_Name: Button 2
   m_TagString: Untagged
@@ -211,6 +214,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: I choose the cat!
+--- !u!114 &114132823331498364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1733469916856374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87da7d02246e7d140bd8b03b1443c3eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToWait: 1
 --- !u!114 &114190019704915890
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -222,6 +237,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87257031ac945334dad775c33991c1b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114214954021376228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1267272770204610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87da7d02246e7d140bd8b03b1443c3eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToWait: 1
 --- !u!114 &114304825716241366
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -340,6 +367,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87257031ac945334dad775c33991c1b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114647649234531678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1332723927691556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87da7d02246e7d140bd8b03b1443c3eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToWait: 1
 --- !u!114 &114694827220304074
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -643,7 +682,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260, y: 440}
+  m_AnchoredPosition: {x: 0, y: 440}
   m_SizeDelta: {x: 800, y: 209}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224455371680734388
@@ -662,7 +701,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 800, y: 209}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224554264068311476
@@ -717,6 +756,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260, y: 250}
+  m_AnchoredPosition: {x: 0, y: 250}
   m_SizeDelta: {x: 800, y: 209}
   m_Pivot: {x: 0.5, y: 0.5}

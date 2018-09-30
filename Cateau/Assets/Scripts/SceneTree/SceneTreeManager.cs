@@ -14,6 +14,7 @@ public class SceneTreeManager : MonoBehaviour, ISceneTreeData, IButtonData, IDia
     private Phone _phone;
     private InputController _inputController;
     private InputField _inputField;
+    private ButtonHolder _buttonHolder;
 
     private string _targetCharacterTagForInput;
 
@@ -22,6 +23,8 @@ public class SceneTreeManager : MonoBehaviour, ISceneTreeData, IButtonData, IDia
         if(_cC != null)
         {
             _cC.Clear();
+            _cC.gameObject.SetActive(true);
+            _buttonHolder.gameObject.SetActive(true);
         }
         if (_buttonDataList.listOfButtonData[index].buttonFunction == EButtonChoice.catButton)
         {
@@ -103,6 +106,8 @@ public class SceneTreeManager : MonoBehaviour, ISceneTreeData, IButtonData, IDia
                         if(_buttonBox.caption != null)
                         {
                             _cC.InitiateDialogue(_buttonBox.caption, null);
+                            _cC.gameObject.SetActive(false);
+                            _buttonHolder.gameObject.SetActive(false);
                         }
                     }
                 }
@@ -190,6 +195,7 @@ public class SceneTreeManager : MonoBehaviour, ISceneTreeData, IButtonData, IDia
         _cC = GetComponentInChildren<ConversationController>();
         _phone = GetComponentInChildren<Phone>();
         _inputController = GetComponentInChildren<InputController>();
+        _buttonHolder = GetComponentInChildren<ButtonHolder>();
     }
 
     void Start()
