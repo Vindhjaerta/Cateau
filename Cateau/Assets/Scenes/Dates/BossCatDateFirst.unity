@@ -4547,7 +4547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.63235295, g: 0.923935, b: 1, a: 0.392}
+  m_Color: {r: 0.63235295, g: 0.923935, b: 1, a: 0.78431374}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5240,40 +5240,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4368569828342786, guid: ec6085ee96e232045a3f186fba37046b, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114304825716241366, guid: ec6085ee96e232045a3f186fba37046b,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1566864111}
-    - target: {fileID: 1332723927691556, guid: ec6085ee96e232045a3f186fba37046b, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1733469916856374, guid: ec6085ee96e232045a3f186fba37046b, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267272770204610, guid: ec6085ee96e232045a3f186fba37046b, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224030871487665442, guid: ec6085ee96e232045a3f186fba37046b,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: -2.9500122
-      objectReference: {fileID: 0}
-    - target: {fileID: 114304825716241366, guid: ec6085ee96e232045a3f186fba37046b,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114304825716241366, guid: ec6085ee96e232045a3f186fba37046b,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec6085ee96e232045a3f186fba37046b, type: 2}
   m_IsPrefabParent: 0
@@ -7391,7 +7364,7 @@ Prefab:
     - target: {fileID: 224012277060099172, guid: cfc16196cdc2d4145afcb21e7f39a5f7,
         type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224012277060099172, guid: cfc16196cdc2d4145afcb21e7f39a5f7,
         type: 2}
@@ -11392,6 +11365,21 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 224779446102652430, guid: 1c66da8f6b17be2438e98e0e81f952f7,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114893430450541786, guid: 1c66da8f6b17be2438e98e0e81f952f7,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 114893430450541786, guid: 1c66da8f6b17be2438e98e0e81f952f7,
+        type: 2}
+      propertyPath: m_FontData.m_MaxSize
+      value: 46
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1c66da8f6b17be2438e98e0e81f952f7, type: 2}
   m_IsPrefabParent: 0
@@ -13194,10 +13182,10 @@ RectTransform:
   m_Children:
   - {fileID: 88092854}
   - {fileID: 1531841188}
-  - {fileID: 815953470}
   - {fileID: 1985743523}
   - {fileID: 589226110}
   - {fileID: 159396909}
+  - {fileID: 815953470}
   - {fileID: 746862118}
   - {fileID: 1869216076}
   - {fileID: 76570857}
@@ -14645,7 +14633,7 @@ Prefab:
     - target: {fileID: 224961526943409000, guid: 1f862953962f4c44587346af8778d939,
         type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 224961526943409000, guid: 1f862953962f4c44587346af8778d939,
         type: 2}
@@ -15359,7 +15347,7 @@ RectTransform:
   m_Children:
   - {fileID: 105325674}
   m_Father: {fileID: 1768510116}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
