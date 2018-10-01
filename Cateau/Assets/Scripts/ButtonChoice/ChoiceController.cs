@@ -33,7 +33,7 @@ public class ChoiceController : MonoBehaviour, IButtonChoiceReciever
     {
         for (int i = 0; i < _buttons.Count; i++)
         {
-            _buttonsPos.Add(_buttons[i].transform.position);
+            _buttonsPos.Add(_buttons[i].transform.localPosition);
         }
     }
 
@@ -80,12 +80,12 @@ public class ChoiceController : MonoBehaviour, IButtonChoiceReciever
     {
         if (nameListLength == 2)
         {
-             _buttons[0].transform.position = new Vector3(_buttons[0].transform.position.x, _buttons[0].transform.position.y - 150.0f, _buttons[0].transform.position.z);
-             _buttons[1].transform.position = new Vector3(_buttons[1].transform.position.x, _buttons[1].transform.position.y - 150.0f, _buttons[1].transform.position.z);
+             _buttons[0].transform.localPosition = new Vector3(_buttons[0].transform.localPosition.x, _buttons[0].transform.localPosition.y - 150.0f, _buttons[0].transform.localPosition.z);
+             _buttons[1].transform.localPosition = new Vector3(_buttons[1].transform.localPosition.x, _buttons[1].transform.localPosition.y - 150.0f, _buttons[1].transform.localPosition.z);
         }
         else if (nameListLength == 1)
         {
-            _buttons[0].transform.position = new Vector3(_buttons[0].transform.position.x, _buttons[0].transform.position.y - 200.0f, _buttons[0].transform.position.z);
+            _buttons[0].transform.localPosition = new Vector3(_buttons[0].transform.localPosition.x, _buttons[0].transform.localPosition.y - 200.0f, _buttons[0].transform.localPosition.z);
         }
 
        for (int i = 0; i < nameListLength; i++)
@@ -99,7 +99,7 @@ public class ChoiceController : MonoBehaviour, IButtonChoiceReciever
         for (int i = 0; i < _buttons.Count; i++)
         {
             _buttons[i].SetActive(false);
-            _buttons[i].transform.position = _buttonsPos[i];
+            _buttons[i].transform.localPosition = _buttonsPos[i];
         }
         _doneEmptying = true;
     }
