@@ -21,6 +21,22 @@ public class ChoiceController : MonoBehaviour, IButtonChoiceReciever
     private int _previewButtons;
 
     private bool _doneEmptying = true;
+
+    private List<Vector3> _buttonsPos = new List<Vector3>();
+
+    void Awake()
+    {
+        SaveButtonPositions();
+    }
+
+    private void SaveButtonPositions()
+    {
+        for (int i = 0; i < _buttons.Count; i++)
+        {
+            _buttonsPos.Add(_buttons[i].transform.position);
+        }
+    }
+
     public void ReceiveButtonInfo(List<string> nameList)
     {
         StartCoroutine(enumerator(nameList));
@@ -62,6 +78,16 @@ public class ChoiceController : MonoBehaviour, IButtonChoiceReciever
 
     private void EnableButtons(int nameListLength)
     {
+        if (nameListLength == 2)
+        {
+             _buttons[0].transform.position = new Vector3(_buttons[0].transform.position.x, _buttons[0].transform.position.y - 150.0f, _buttons[0].transform.position.z);
+             _buttons[1].transform.position = new Vector3(_buttons[1].transform.position.x, _buttons[1].transform.position.y - 150.0f, _buttons[1].transform.position.z);
+        }
+        else if (nameListLength == 1)
+        {
+            _buttons[0].transform.position = new Vector3(_buttons[0].transform.position.x, _buttons[0].transform.position.y - 200.0f, _buttons[0].transform.position.z);
+        }
+
        for (int i = 0; i < nameListLength; i++)
        {
             _buttons[i].SetActive(true);
@@ -73,6 +99,7 @@ public class ChoiceController : MonoBehaviour, IButtonChoiceReciever
         for (int i = 0; i < _buttons.Count; i++)
         {
             _buttons[i].SetActive(false);
+            _buttons[i].transform.position = _buttonsPos[i];
         }
         _doneEmptying = true;
     }
