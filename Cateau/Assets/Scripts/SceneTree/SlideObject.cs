@@ -91,7 +91,7 @@ public class SlideObject : SceneTreeObject
                 }
                 if (_slideSpeed != null)
                 {
-                    _objectToSlide.position = Vector3.Lerp(_objectToSlide.position, transform.position, _slideSpeed.value * Time.deltaTime);
+                    _objectToSlide.localPosition = Vector3.Lerp(_objectToSlide.localPosition, transform.localPosition, _slideSpeed.value * Time.deltaTime);
                 }
                 else
                 {
