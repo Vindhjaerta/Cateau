@@ -232,6 +232,76 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224976614605689834, guid: 78df90fa03a6b12409e67954282c1612,
     type: 2}
   m_PrefabInternal: {fileID: 88092853}
+--- !u!1 &96392660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 96392661}
+  - component: {fileID: 96392662}
+  m_Layer: 0
+  m_Name: ConversationPlayerSecond
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &96392661
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 96392660}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2044072531}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &96392662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 96392660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af2ddefca2a30ae4688ba22bbeea28c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savepointIndex: 0
+  _nextNode: {fileID: 333152316}
+  characterNameTag:
+    useConstant: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: 637c1f1f1ea41e84187fc2d84f7a59a9, type: 2}
+    GUIpresentationIndex: 2
+  nameEffects:
+  - {fileID: 11400000, guid: 65d8959857e4d654c84919c965bf23b1, type: 2}
+  sentences:
+  - text:
+      useConstant: 1
+      constantValue: 'All right then, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: see you!
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects: []
 --- !u!1001 &127833352
 Prefab:
   m_ObjectHideFlags: 0
@@ -671,7 +741,7 @@ Prefab:
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
         type: 2}
@@ -1009,7 +1079,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2044072531}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1061,7 +1131,7 @@ Prefab:
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
@@ -1415,7 +1485,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2044072531}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3647,7 +3717,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2044072531}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5769,7 +5839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savepointIndex: 0
-  _nextNode: {fileID: 333152316}
+  _nextNode: {fileID: 1844533865}
   characterNameTag:
     useConstant: 0
     constantValue: 
@@ -5794,14 +5864,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
   - text:
       useConstant: 1
-      constantValue: I'll pass by the bakers too.
+      constantValue: 'I''ll pass by the bakers too, '
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects:
-    - {fileID: 11400000, guid: 1ac00c9ae9268254298ee81593f9378f, type: 2}
+    - {fileID: 11400000, guid: 31bd7f545ef662645b30a15221a81ea3, type: 2}
   - text:
       useConstant: 1
-      constantValue: Bye.
+      constantValue: is there anything you'd like?
       variable: {fileID: 0}
       GUIpresentationIndex: 0
     effects: []
@@ -5869,7 +5939,7 @@ Prefab:
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 224684278782212902, guid: 7339e77a19f0c9e45a6c63c6177ea893,
         type: 2}
@@ -7434,6 +7504,77 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ddff59ad9e2d90146954bcd271a0c3d0, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1844533863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1863479300398634, guid: 4253a99f4a917364fb752127de91d0f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1844533864}
+  - component: {fileID: 1844533865}
+  m_Layer: 0
+  m_Name: ConversationRoselleSecond
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1844533864
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 224979256933963148, guid: 4253a99f4a917364fb752127de91d0f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1844533863}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2044072531}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1844533865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1844533863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af2ddefca2a30ae4688ba22bbeea28c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savepointIndex: 0
+  _nextNode: {fileID: 96392662}
+  characterNameTag:
+    useConstant: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: 24552b3d7f8f5834bb580d0b0d1d6135, type: 2}
+    GUIpresentationIndex: 2
+  nameEffects:
+  - {fileID: 11400000, guid: a3489a3cba2911c49a4a66bf865c7e49, type: 2}
+  sentences:
+  - text:
+      useConstant: 1
+      constantValue: 'No, '
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects:
+    - {fileID: 11400000, guid: e6f6d8751b8db044a88d8ac374089d79, type: 2}
+    - {fileID: 11400000, guid: 4e398894fa0a05046bf5701fdd6f4824, type: 2}
+  - text:
+      useConstant: 1
+      constantValue: "I\u2019m good."
+      variable: {fileID: 0}
+      GUIpresentationIndex: 0
+    effects: []
 --- !u!1001 &1863914066
 Prefab:
   m_ObjectHideFlags: 0
@@ -8241,7 +8382,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2044072531}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8571,6 +8712,8 @@ RectTransform:
   - {fileID: 1567105339}
   - {fileID: 336872871}
   - {fileID: 1446836953}
+  - {fileID: 1844533864}
+  - {fileID: 96392661}
   - {fileID: 333152317}
   - {fileID: 1448344920}
   - {fileID: 473511076}
