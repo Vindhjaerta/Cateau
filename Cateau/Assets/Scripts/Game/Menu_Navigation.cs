@@ -47,6 +47,11 @@ public class Menu_Navigation : MonoBehaviour {
 
                 SceneManager.LoadScene(GameStateContainer.Instance.scene);
             }
+            else
+            {
+                sceneToLoad = "Tutorial";
+                SceneManager.LoadScene(sceneToLoad);
+            }
         }
 
     }

@@ -382,8 +382,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
-  m_MinWidth: 130
-  m_MinHeight: 130
+  m_MinWidth: 150
+  m_MinHeight: 150
   m_PreferredWidth: 74
   m_PreferredHeight: 74
   m_FlexibleWidth: 0.2
@@ -486,8 +486,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
-  m_MinWidth: 130
-  m_MinHeight: 130
+  m_MinWidth: 150
+  m_MinHeight: 150
   m_PreferredWidth: 74
   m_PreferredHeight: 74
   m_FlexibleWidth: 0.2
@@ -619,8 +619,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
-  m_MinWidth: 130
-  m_MinHeight: 130
+  m_MinWidth: 150
+  m_MinHeight: 150
   m_PreferredWidth: 74
   m_PreferredHeight: 74
   m_FlexibleWidth: 0.2
@@ -674,7 +674,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 50, y: -490}
-  m_SizeDelta: {x: 0, y: 151.3}
+  m_SizeDelta: {x: 0, y: 165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224132520837387308
 RectTransform:
