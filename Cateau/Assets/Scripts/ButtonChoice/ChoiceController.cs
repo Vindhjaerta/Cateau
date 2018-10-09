@@ -24,11 +24,25 @@ public class ChoiceController : MonoBehaviour, IButtonChoiceReciever
 
     private List<Vector3> _buttonsPos = new List<Vector3>();
 
+    private List<Button> _buttonComponent = new List<Button>();
+
     void Awake()
     {
+        GetButtonComponent();
+
         SaveButtonPositions();
     }
 
+    //Get button component for each button
+    private void GetButtonComponent()
+    {
+        for (int i = 0; i < _buttons.Count; i++)
+        {
+            _buttonComponent.Add(_buttons[i].GetComponent<Button>());
+        }
+    }
+
+    //Save original position of each button
     private void SaveButtonPositions()
     {
         for (int i = 0; i < _buttons.Count; i++)
@@ -98,6 +112,7 @@ public class ChoiceController : MonoBehaviour, IButtonChoiceReciever
     {
         for (int i = 0; i < _buttons.Count; i++)
         {
+            _buttonComponent[i].interactable = false;
             _buttons[i].SetActive(false);
             _buttons[i].transform.localPosition = _buttonsPos[i];
         }
@@ -120,7 +135,6 @@ public class ChoiceController : MonoBehaviour, IButtonChoiceReciever
         _buttons[0].gameObject.SetActive(false);
         //gameObject.SetActive(false);
     }
-
 
     void OnDrawGizmos()
     {

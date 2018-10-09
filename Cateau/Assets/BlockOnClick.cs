@@ -29,7 +29,6 @@ public class BlockOnClick : MonoBehaviour
 
     private void OnEnable()
     {
-        _button.interactable = false;
         time = 0;
     }
 }
